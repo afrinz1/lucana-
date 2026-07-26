@@ -1,0 +1,276 @@
+[
+  {
+    "id": 31,
+    "slug": "expedition-modular-tackle-backpack",
+    "name": "Expedition Modular Tackle Backpack",
+    "brand": "Lucana",
+    "category": "bags",
+    "sub_category": "Tackle Backpacks",
+    "description": "Carry everything for multi-day expeditions. Built with waterproof 1200D ballistic nylon, the Lucana Expedition backpack contains a hard-shelled sunglasses compartment, rod holding straps, and a modular lower vault that fits four 3700-sized tackle boxes.",
+    "price": 129.99,
+    "discount_price": 109.99,
+    "stock": 15,
+    "sku": "BG-EX-31",
+    "images": [
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&q=80&w=800"
+    ],
+    "specifications": [
+      {
+        "title": "Material",
+        "value": "1200D Ballistic Polyurethane Coated Nylon"
+      },
+      {
+        "title": "Compartments",
+        "value": "5 main vaults + 8 accessory pockets"
+      },
+      {
+        "title": "Dimensions",
+        "value": "48 x 38 x 22 cm"
+      },
+      {
+        "title": "Water Resistant",
+        "value": "IPX5 Rainproof (includes storm cover)"
+      },
+      {
+        "title": "Weight",
+        "value": "1.6 kg / 3.5 lbs"
+      }
+    ],
+    "features": [
+      "Lower vault includes structural divider matching four large modular tackle bins",
+      "Integrated side sleeves with velcro straps clamp up to two rods during hiking",
+      "Ergonomic padded mesh shoulder harnesses distribute heavy weights evenly",
+      "Hardened crushproof top compartment protects delicate spectacles and reels"
+    ],
+    "line_capacity": {
+      "nylon": [],
+      "braid": []
+    },
+    "tags": [
+      "Bags",
+      "Tactical",
+      "Backpack",
+      "Lucana",
+      "Waterproof"
+    ],
+    "status": "active"
+  },
+  {
+    "id": 32,
+    "slug": "tackle-utility-sling-bag",
+    "name": "Tackle Utility Sling Bag",
+    "brand": "Phantom Tackle",
+    "category": "bags",
+    "sub_category": "Sling Bags",
+    "description": "An ergonomic single-shoulder tackle sling designed for active shore-walkers. Swing the bag forward to access your lures and rigs without taking it off. Built from water-repellent tear-resistant ripstop.",
+    "price": 59.99,
+    "discount_price": 49.99,
+    "stock": 25,
+    "sku": "BG-TS-32",
+    "images": [
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&q=80&w=800"
+    ],
+    "specifications": [
+      {
+        "title": "Material",
+        "value": "840D Hex-Ripstop Polyester"
+      },
+      {
+        "title": "Compartments",
+        "value": "2 major compartments + pliers sleeve"
+      },
+      {
+        "title": "Dimensions",
+        "value": "35 x 24 x 14 cm"
+      },
+      {
+        "title": "Water Resistant",
+        "value": "Water repellent coating"
+      },
+      {
+        "title": "Weight",
+        "value": "0.7 kg / 1.5 lbs"
+      }
+    ],
+    "features": [
+      "Ambidextrous cross-body strap allows quick rotational swinging",
+      "Lower fold-down front pocket acts as a mobile work table during lure changes",
+      "Exterior sheath holds fishing pliers and retractors ready for instant access"
+    ],
+    "line_capacity": {
+      "nylon": [],
+      "braid": []
+    },
+    "tags": [
+      "Bags",
+      "Sling",
+      "Stream-Walking",
+      "Lightweight"
+    ],
+    "status": "active"
+  },
+  {
+    "id": 33,
+    "slug": "shoreline-messenger-waterproof-case",
+    "name": "Shoreline Messenger Waterproof Case",
+    "brand": "Ocean Master",
+    "category": "bags",
+    "sub_category": "Sling Bags",
+    "description": "A fully waterproof, roll-top messenger dry bag designed for kayak and surf casting. Welded seams ensure no salt spray can find its way to your tackle or keys, even if dropped in the waves.",
+    "price": 89.99,
+    "discount_price": 79.99,
+    "stock": 12,
+    "sku": "BG-SM-33",
+    "images": [
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&q=80&w=800"
+    ],
+    "specifications": [
+      {
+        "title": "Material",
+        "value": "500D Heavy Duty TPU Tarpaulin"
+      },
+      {
+        "title": "Compartments",
+        "value": "1 main dry compartment + 1 mesh pocket"
+      },
+      {
+        "title": "Dimensions",
+        "value": "40 x 30 x 15 cm"
+      },
+      {
+        "title": "Water Resistant",
+        "value": "IPX6 Waterproof (Floats in water)"
+      },
+      {
+        "title": "Weight",
+        "value": "0.95 kg / 2.1 lbs"
+      }
+    ],
+    "features": [
+      "100% waterproof heat-welded seams survive submersions",
+      "Roll-top closure with quick-release side buckles locks moisture out",
+      "High-visibility reflective piping keeps kayak anglers visible at night"
+    ],
+    "line_capacity": {
+      "nylon": [],
+      "braid": []
+    },
+    "tags": [
+      "Bags",
+      "Drybag",
+      "TPU",
+      "Waterproof",
+      "Kayak"
+    ],
+    "status": "active"
+  },
+  {
+    "id": 34,
+    "slug": "pro-organizer-waist-pack",
+    "name": "Pro Organizer Waist Pack",
+    "brand": "Falcon",
+    "category": "bags",
+    "sub_category": "Utility Boxes",
+    "description": "A waist-worn fanny pack designed for stream-waders. Includes integrated fly patch foams, mesh beverage holders, and heavy webbing lines to clip indicators and line clippers.",
+    "price": 44.99,
+    "discount_price": 39.99,
+    "stock": 30,
+    "sku": "BG-PO-34",
+    "images": [
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&q=80&w=800"
+    ],
+    "specifications": [
+      {
+        "title": "Material",
+        "value": "600D Tear-resistant Polyester"
+      },
+      {
+        "title": "Compartments",
+        "value": "1 main box slot + 4 gear dividers"
+      },
+      {
+        "title": "Dimensions",
+        "value": "28 x 18 x 12 cm"
+      },
+      {
+        "title": "Water Resistant",
+        "value": "Light splashproof"
+      },
+      {
+        "title": "Weight",
+        "value": "0.45 kg / 1.0 lbs"
+      }
+    ],
+    "features": [
+      "Breathable 3D padded waist belt ensures comfortable wear on warm summer days",
+      "Removable ripple-foam fly board for quick hook switching",
+      "Double water bottle side pockets for longer stream treks"
+    ],
+    "line_capacity": {
+      "nylon": [],
+      "braid": []
+    },
+    "tags": [
+      "Bags",
+      "Waistpack",
+      "Wading",
+      "Fly-Fishing"
+    ],
+    "status": "active"
+  },
+  {
+    "id": 35,
+    "slug": "waterproof-gear-duffel-90l",
+    "name": "Waterproof Gear Duffel 90L",
+    "brand": "Titan Pro",
+    "category": "bags",
+    "sub_category": "Gear Duffels",
+    "description": "A massive 90-liter waterproof storage duffel built to haul your rods, clothing, boots, and tackle boxes for overseas fishing journeys. It features durable backpack-convertible straps and lockable zippers.",
+    "price": 149.99,
+    "discount_price": 129.99,
+    "stock": 10,
+    "sku": "BG-WGD-35",
+    "images": [
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&q=80&w=800"
+    ],
+    "specifications": [
+      {
+        "title": "Material",
+        "value": "1000D TPU laminated polyester"
+      },
+      {
+        "title": "Compartments",
+        "value": "1 huge main cavity + 2 zipper side vaults"
+      },
+      {
+        "title": "Dimensions",
+        "value": "75 x 42 x 35 cm"
+      },
+      {
+        "title": "Water Resistant",
+        "value": "IPX6 Fully dust/splash proof"
+      },
+      {
+        "title": "Weight",
+        "value": "1.9 kg / 4.2 lbs"
+      }
+    ],
+    "features": [
+      "90L extreme capacity holds composite multi-piece rod tubes up to 72cm length",
+      "Removable ergonomic backpack straps provide versatile portage modes",
+      "Reinforced heavy webbing grab handles on all four sides"
+    ],
+    "line_capacity": {
+      "nylon": [],
+      "braid": []
+    },
+    "tags": [
+      "Bags",
+      "Duffel",
+      "90L",
+      "Heavy-Duty",
+      "Travel"
+    ],
+    "status": "active"
+  }
+]

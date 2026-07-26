@@ -1,0 +1,272 @@
+[
+  {
+    "id": 26,
+    "slug": "deep-diver-minnow-hard-lure",
+    "name": "Deep Diver Minnow Hard Lure",
+    "brand": "Lucana",
+    "category": "lures",
+    "sub_category": "Hardbaits",
+    "description": "An exquisite 12cm hard bait featuring internal rattling tungsten chambers. Under rapid recovery, its elongated diving lip drags it down to 6 meters, mimicking a wounded baitfish with energetic side-to-side kicking.",
+    "price": 14.99,
+    "discount_price": 12.99,
+    "stock": 60,
+    "sku": "LR-DDM-26",
+    "images": [
+      "https://images.unsplash.com/photo-1511556532299-8f662fc26c06?auto=format&fit=crop&q=80&w=800"
+    ],
+    "specifications": [
+      {
+        "title": "Weight",
+        "value": "18 g / 0.63 oz"
+      },
+      {
+        "title": "Length",
+        "value": "120 mm / 4.7 in"
+      },
+      {
+        "title": "Depth",
+        "value": "4.5m - 6.0m (15ft - 20ft)"
+      },
+      {
+        "title": "Type",
+        "value": "Deep-Diving Crank / Minnow"
+      },
+      {
+        "title": "Color",
+        "value": "Redhead Laser Silver"
+      }
+    ],
+    "features": [
+      "Internal tungsten bearings transfer weight to the tail for laser-flat casting",
+      "Emit low-frequency rattle waves to alert deep predator fish",
+      "Fitted with double saltwater-grade razor-sharp treble hooks"
+    ],
+    "line_capacity": {
+      "nylon": [],
+      "braid": []
+    },
+    "tags": [
+      "Lures",
+      "Deep-Diver",
+      "Minnow",
+      "Lucana"
+    ],
+    "status": "active"
+  },
+  {
+    "id": 27,
+    "slug": "popper-pro-topwater-lure",
+    "name": "Popper Pro Topwater Lure",
+    "brand": "Predator",
+    "category": "lures",
+    "sub_category": "Topwater Lures",
+    "description": "The ultimate topwater thrill maker. The Popper Pro features an extreme concave front cup that throws massive water sprays and makes deep chugging bubble sounds that tempt gamefish to smash the surface.",
+    "price": 16.99,
+    "discount_price": 13.99,
+    "stock": 45,
+    "sku": "LR-PP-27",
+    "images": [
+      "https://images.unsplash.com/photo-1511556532299-8f662fc26c06?auto=format&fit=crop&q=80&w=800"
+    ],
+    "specifications": [
+      {
+        "title": "Weight",
+        "value": "24 g / 0.85 oz"
+      },
+      {
+        "title": "Length",
+        "value": "100 mm / 3.9 in"
+      },
+      {
+        "title": "Depth",
+        "value": "Surface (Topwater)"
+      },
+      {
+        "title": "Type",
+        "value": "Chugger / Popper"
+      },
+      {
+        "title": "Color",
+        "value": "Blue Sardine Holo"
+      }
+    ],
+    "features": [
+      "Deeply dished mouth creates dramatic splash action and cavitation bubbles",
+      "Perfectly tail-weighted configuration sits at a 45-degree angle when static",
+      "Heavy duty 3D holographic eyes act as strike trigger points"
+    ],
+    "line_capacity": {
+      "nylon": [],
+      "braid": []
+    },
+    "tags": [
+      "Lures",
+      "Topwater",
+      "Popper",
+      "Surface-Strike"
+    ],
+    "status": "active"
+  },
+  {
+    "id": 28,
+    "slug": "spinner-bait-deluxe-bass-lure",
+    "name": "Spinner Bait Deluxe Bass Lure",
+    "brand": "Falcon",
+    "category": "lures",
+    "sub_category": "Spinnerbaits",
+    "description": "Constructed with dual gold-finished willow blades, a hand-tied silicone skirt, and an ultra-stiff wire frame, this spinner bait generates massive underwater vibrations to lure big largemouth bass.",
+    "price": 8.99,
+    "discount_price": 6.99,
+    "stock": 90,
+    "sku": "LR-SBD-28",
+    "images": [
+      "https://images.unsplash.com/photo-1511556532299-8f662fc26c06?auto=format&fit=crop&q=80&w=800"
+    ],
+    "specifications": [
+      {
+        "title": "Weight",
+        "value": "14 g / 0.5 oz"
+      },
+      {
+        "title": "Length",
+        "value": "140 mm / 5.5 in"
+      },
+      {
+        "title": "Depth",
+        "value": "0.5m - 2.5m"
+      },
+      {
+        "title": "Type",
+        "value": "Double Willow Spinnerbait"
+      },
+      {
+        "title": "Color",
+        "value": "Chartreuse White"
+      }
+    ],
+    "features": [
+      "Dual willow blades deliver high flash and low water resistance for deep pulling",
+      "Indestructible piano-grade spring wire frame handles multiple catches",
+      "Weedless layout snakes through underwater branches easily"
+    ],
+    "line_capacity": {
+      "nylon": [],
+      "braid": []
+    },
+    "tags": [
+      "Lures",
+      "Spinnerbait",
+      "Bass",
+      "Flashy"
+    ],
+    "status": "active"
+  },
+  {
+    "id": 29,
+    "slug": "soft-shad-pack-paddle-tails",
+    "name": "Soft Shad Pack Paddle Tails",
+    "brand": "Phantom Tackle",
+    "category": "lures",
+    "sub_category": "Softbaits",
+    "description": "Infused with organic salt and shrimp scent extract, these soft paddle-tails wobble back and forth on the slowest retrievals. Pack includes 6 premium scent-sealed swimbaits.",
+    "price": 11.99,
+    "discount_price": 9.99,
+    "stock": 110,
+    "sku": "LR-SS-29",
+    "images": [
+      "https://images.unsplash.com/photo-1511556532299-8f662fc26c06?auto=format&fit=crop&q=80&w=800"
+    ],
+    "specifications": [
+      {
+        "title": "Weight",
+        "value": "8 g each"
+      },
+      {
+        "title": "Length",
+        "value": "90 mm / 3.5 in"
+      },
+      {
+        "title": "Depth",
+        "value": "Adjustable (depends on jighead)"
+      },
+      {
+        "title": "Type",
+        "value": "Soft Swimbait / Paddletail"
+      },
+      {
+        "title": "Color",
+        "value": "Pearl Flake Ghost"
+      }
+    ],
+    "features": [
+      "Scent-infused rubber keeps fish holding on up to three times longer",
+      "Deep slot along back hides hook points for a truly weedless layout",
+      "Dynamic paddle tail beats vigorously at all speeds"
+    ],
+    "line_capacity": {
+      "nylon": [],
+      "braid": []
+    },
+    "tags": [
+      "Lures",
+      "Softbait",
+      "Swimbait",
+      "Scented"
+    ],
+    "status": "active"
+  },
+  {
+    "id": 30,
+    "slug": "jerkbait-elite-suspending-lure",
+    "name": "Jerkbait Elite Suspending Lure",
+    "brand": "Phantom Tackle",
+    "category": "lures",
+    "sub_category": "Hardbaits",
+    "description": "An incredible suspender hardbait. When you pause your reel, this jerkbait halts exactly in place, hovering horizontally like a real fish catching its breath. Highly effective in cold-water bass seasons.",
+    "price": 18.99,
+    "discount_price": 15.99,
+    "stock": 50,
+    "sku": "LR-JE-30",
+    "images": [
+      "https://images.unsplash.com/photo-1511556532299-8f662fc26c06?auto=format&fit=crop&q=80&w=800"
+    ],
+    "specifications": [
+      {
+        "title": "Weight",
+        "value": "15 g / 0.53 oz"
+      },
+      {
+        "title": "Length",
+        "value": "115 mm / 4.5 in"
+      },
+      {
+        "title": "Depth",
+        "value": "1.2m - 1.8m (4ft - 6ft)"
+      },
+      {
+        "title": "Type",
+        "value": "Suspending Jerkbait"
+      },
+      {
+        "title": "Color",
+        "value": "Silver Shiner"
+      }
+    ],
+    "features": [
+      "Neutrally buoyant formulation keeps the bait suspended mid-water on pauses",
+      "Responds to snaps of the rod tip with erratic 90-degree darting actions",
+      "3D gills and laser-etched scales provide high realistic styling"
+    ],
+    "line_capacity": {
+      "nylon": [],
+      "braid": []
+    },
+    "tags": [
+      "Lures",
+      "Jerkbait",
+      "Freshwater",
+      "Suspending"
+    ],
+    "status": "active"
+  }
+]

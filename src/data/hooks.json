@@ -1,0 +1,256 @@
+[
+  {
+    "id": 21,
+    "slug": "venom-treble-3x-hooks",
+    "name": "Venom Treble 3X Hooks",
+    "brand": "Lucana",
+    "category": "hooks",
+    "sub_category": "Treble Hooks",
+    "description": "Chemically sharpened high-carbon steel treble hooks. Featuring 3X strong wire and an in-turned point design, these hooks are engineered to resist opening up under extreme pressure when fighting trophy fish.",
+    "price": 9.99,
+    "discount_price": 7.99,
+    "stock": 100,
+    "sku": "HK-VT-21",
+    "images": [
+      "https://images.unsplash.com/photo-1529230117010-b6c036132f88?auto=format&fit=crop&q=80&w=800"
+    ],
+    "specifications": [
+      {
+        "title": "Size",
+        "value": "#2 / #4 / #6 available"
+      },
+      {
+        "title": "Material",
+        "value": "High-Carbon Forged Steel"
+      },
+      {
+        "title": "Finish",
+        "value": "Coastal Black Nickel"
+      },
+      {
+        "title": "Pack Quantity",
+        "value": "10 Pcs"
+      },
+      {
+        "title": "Wire Strength",
+        "value": "3X Strong"
+      }
+    ],
+    "features": [
+      "Chemically sharpened points provide lightning-fast skin penetration",
+      "Nickel plating delivers 300 hours of saltwater resistance without rusting",
+      "Slightly in-turned hook points remain locked during massive headshakes"
+    ],
+    "line_capacity": {
+      "nylon": [],
+      "braid": []
+    },
+    "tags": [
+      "Hooks",
+      "Treble",
+      "Saltwater-Safe",
+      "Lucana"
+    ],
+    "status": "active"
+  },
+  {
+    "id": 22,
+    "slug": "octopus-pro-bait-hooks",
+    "name": "Octopus Pro Bait Hooks",
+    "brand": "Predator",
+    "category": "hooks",
+    "sub_category": "Circle Hooks",
+    "description": "Crafted with a offset beak-point and forged shaft. The Octopus Pro is the world standard bait hook for live or cut-bait presentations, providing maximum hold in the mouth corner.",
+    "price": 6.99,
+    "discount_price": 5.49,
+    "stock": 150,
+    "sku": "HK-OP-22",
+    "images": [
+      "https://images.unsplash.com/photo-1529230117010-b6c036132f88?auto=format&fit=crop&q=80&w=800"
+    ],
+    "specifications": [
+      {
+        "title": "Size",
+        "value": "2/0 / 4/0 / 6/0 options"
+      },
+      {
+        "title": "Material",
+        "value": "Forged Carbon Steel"
+      },
+      {
+        "title": "Finish",
+        "value": "Bright Red Anodized"
+      },
+      {
+        "title": "Pack Quantity",
+        "value": "25 Pcs"
+      }
+    ],
+    "features": [
+      "Tapered up-eye allows easy snelling to heavy fluorocarbon lines",
+      "Forged shank flatting process increases wire bending threshold by 30%",
+      "Bright red finish stimulates feeding action in bottom reef structures"
+    ],
+    "line_capacity": {
+      "nylon": [],
+      "braid": []
+    },
+    "tags": [
+      "Hooks",
+      "Bait",
+      "Octopus",
+      "Snell-Ready"
+    ],
+    "status": "active"
+  },
+  {
+    "id": 23,
+    "slug": "circle-master-inline-hooks",
+    "name": "Circle Master Inline Hooks",
+    "brand": "Ocean Master",
+    "category": "hooks",
+    "sub_category": "Circle Hooks",
+    "description": "Designed for catch-and-release conservationists. The Circle Master hooks are non-offset inline circle hooks. They slide to the corner of the fish's lip, completely eliminating gut-hooking risks.",
+    "price": 8.99,
+    "discount_price": 7.49,
+    "stock": 120,
+    "sku": "HK-CM-23",
+    "images": [
+      "https://images.unsplash.com/photo-1529230117010-b6c036132f88?auto=format&fit=crop&q=80&w=800"
+    ],
+    "specifications": [
+      {
+        "title": "Size",
+        "value": "8/0 Big Game"
+      },
+      {
+        "title": "Material",
+        "value": "Stainless steel alloy"
+      },
+      {
+        "title": "Finish",
+        "value": "Tin plating"
+      },
+      {
+        "title": "Pack Quantity",
+        "value": "12 Pcs"
+      }
+    ],
+    "features": [
+      "Fully inline non-offset meets strict marine catch-and-release policies",
+      "Tin finish resists harsh ocean conditions for years of reusable storage",
+      "Extra wide gap accommodates large whole squid baits"
+    ],
+    "line_capacity": {
+      "nylon": [],
+      "braid": []
+    },
+    "tags": [
+      "Hooks",
+      "Circle",
+      "Conservation",
+      "Big Game"
+    ],
+    "status": "active"
+  },
+  {
+    "id": 24,
+    "slug": "j-hook-classic-worm-hook",
+    "name": "J-Hook Classic Worm Hook",
+    "brand": "Falcon",
+    "category": "hooks",
+    "sub_category": "J-Hooks",
+    "description": "A classic offset shank round bend J-hook designed for rigging soft plastic worms. Excellent for Texas and Carolina rigging in dense freshwater weed beds.",
+    "price": 5.99,
+    "discount_price": 4.99,
+    "stock": 200,
+    "sku": "HK-JC-24",
+    "images": [
+      "https://images.unsplash.com/photo-1529230117010-b6c036132f88?auto=format&fit=crop&q=80&w=800"
+    ],
+    "specifications": [
+      {
+        "title": "Size",
+        "value": "#1 / 1/0 / 3/0"
+      },
+      {
+        "title": "Material",
+        "value": "Medium-Carbon Steel"
+      },
+      {
+        "title": "Finish",
+        "value": "Bronze"
+      },
+      {
+        "title": "Pack Quantity",
+        "value": "30 Pcs"
+      }
+    ],
+    "features": [
+      "90-degree offset shoulder locks soft plastic heads in position without sliding",
+      "Round bend maximizes plastic clearance for a solid hookset",
+      "Highly affordable pack sizing for amateur bass anglers"
+    ],
+    "line_capacity": {
+      "nylon": [],
+      "braid": []
+    },
+    "tags": [
+      "Hooks",
+      "Worm",
+      "Bass",
+      "Offset-Shoulder"
+    ],
+    "status": "active"
+  },
+  {
+    "id": 25,
+    "slug": "wide-gap-premium-swimbait-hook",
+    "name": "Wide Gap Premium Swimbait Hook",
+    "brand": "Phantom Tackle",
+    "category": "hooks",
+    "sub_category": "Worm Hooks",
+    "description": "An extra-wide gap (EWG) hook with a screw-lock bait keeper and integrated belly weight. Specifically crafted for weedless paddletail swimbait rigging.",
+    "price": 10.99,
+    "discount_price": 8.99,
+    "stock": 80,
+    "sku": "HK-WG-25",
+    "images": [
+      "https://images.unsplash.com/photo-1529230117010-b6c036132f88?auto=format&fit=crop&q=80&w=800"
+    ],
+    "specifications": [
+      {
+        "title": "Size",
+        "value": "4/0 with 1/8oz weight"
+      },
+      {
+        "title": "Material",
+        "value": "High Carbon Spring Wire"
+      },
+      {
+        "title": "Finish",
+        "value": "Black Chrome"
+      },
+      {
+        "title": "Pack Quantity",
+        "value": "5 Pcs"
+      }
+    ],
+    "features": [
+      "Belly weight acts as a keel to keep swimbait running upright without rolling",
+      "Spring centering pin keeper holds soft plastics securely for multiple strikes",
+      "Super-wide gap clears thick-bodied swimbaits comfortably during hooksets"
+    ],
+    "line_capacity": {
+      "nylon": [],
+      "braid": []
+    },
+    "tags": [
+      "Hooks",
+      "EWG",
+      "Weighted",
+      "Swimbait"
+    ],
+    "status": "active"
+  }
+]

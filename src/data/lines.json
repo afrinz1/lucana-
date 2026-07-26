@@ -1,0 +1,272 @@
+[
+  {
+    "id": 16,
+    "slug": "invisiline-monofilament-fishing-line",
+    "name": "Invisiline Monofilament Fishing Line",
+    "brand": "Lucana",
+    "category": "lines",
+    "sub_category": "Monofilament Lines",
+    "description": "Engineered with advanced copolymer structures, Lucana Invisiline matches the refractive index of water, becoming completely invisible under the surface. It provides excellent knot security and shock-absorbing stretch.",
+    "price": 19.99,
+    "discount_price": 16.99,
+    "stock": 50,
+    "sku": "LN-IM-16",
+    "images": [
+      "https://images.unsplash.com/photo-1499244015905-ae7485a80702?auto=format&fit=crop&q=80&w=800"
+    ],
+    "specifications": [
+      {
+        "title": "Length",
+        "value": "300 yds (274m)"
+      },
+      {
+        "title": "Diameter",
+        "value": "0.28 mm"
+      },
+      {
+        "title": "Breaking Strength",
+        "value": "12 lbs (5.4 kg)"
+      },
+      {
+        "title": "Material",
+        "value": "Advanced Nylon Copolymer"
+      },
+      {
+        "title": "Color",
+        "value": "Clear / Translucent"
+      }
+    ],
+    "features": [
+      "A refractive index close to water renders the line nearly invisible to cautious fish",
+      "Superb knot strength and easy tying properties",
+      "Controlled structural elasticity provides a shock buffer for heavy strikes"
+    ],
+    "line_capacity": {
+      "nylon": [],
+      "braid": []
+    },
+    "tags": [
+      "Lines",
+      "Monofilament",
+      "Invisible",
+      "Lucana"
+    ],
+    "status": "active"
+  },
+  {
+    "id": 17,
+    "slug": "stealth-braid-8x-fishing-line",
+    "name": "Stealth Braid 8X Fishing Line",
+    "brand": "Phantom Tackle",
+    "category": "lines",
+    "sub_category": "Braided Lines",
+    "description": "Woven with eight strands of high-grade Japanese UHMWPE fibers, the Stealth Braid 8X has a perfectly round, ultra-smooth profile. It glides through guides silently and has virtually zero stretch for instant hooksets.",
+    "price": 34.99,
+    "discount_price": 29.99,
+    "stock": 40,
+    "sku": "LN-SB-17",
+    "images": [
+      "https://images.unsplash.com/photo-1499244015905-ae7485a80702?auto=format&fit=crop&q=80&w=800"
+    ],
+    "specifications": [
+      {
+        "title": "Length",
+        "value": "300 yds (274m)"
+      },
+      {
+        "title": "Diameter",
+        "value": "0.23 mm"
+      },
+      {
+        "title": "Breaking Strength",
+        "value": "30 lbs (13.6 kg)"
+      },
+      {
+        "title": "Material",
+        "value": "8-Strand UHMWPE Dyneema"
+      },
+      {
+        "title": "Color",
+        "value": "Moss Green"
+      }
+    ],
+    "features": [
+      "8-strand weave creates a perfectly round cross-section that casts further",
+      "High abrasion resistance makes it perfect for heavy wood and rock cover",
+      "Zero stretch delivers phenomenal sensitivity and immediate hook penetration"
+    ],
+    "line_capacity": {
+      "nylon": [],
+      "braid": []
+    },
+    "tags": [
+      "Lines",
+      "Braided",
+      "Moss Green",
+      "Ultra-Sensitive"
+    ],
+    "status": "active"
+  },
+  {
+    "id": 18,
+    "slug": "ocean-pro-fluorocarbon-line",
+    "name": "Ocean Pro Fluorocarbon Line",
+    "brand": "Ocean Master",
+    "category": "lines",
+    "sub_category": "Fluorocarbon Lines",
+    "description": "Our premium fluorocarbon leader material is 100% PVDF. Formulated for ultimate abrasion resistance, it sinks faster than standard nylon and is practically indestructible against sharp reef rocks and fish teeth.",
+    "price": 29.99,
+    "discount_price": 24.99,
+    "stock": 35,
+    "sku": "LN-OP-18",
+    "images": [
+      "https://images.unsplash.com/photo-1499244015905-ae7485a80702?auto=format&fit=crop&q=80&w=800"
+    ],
+    "specifications": [
+      {
+        "title": "Length",
+        "value": "100 yds (91m)"
+      },
+      {
+        "title": "Diameter",
+        "value": "0.45 mm"
+      },
+      {
+        "title": "Breaking Strength",
+        "value": "40 lbs (18.1 kg)"
+      },
+      {
+        "title": "Material",
+        "value": "100% PVDF Fluorocarbon"
+      },
+      {
+        "title": "Color",
+        "value": "Invisible Clear"
+      }
+    ],
+    "features": [
+      "High-density formulation sinks five times faster than standard monofilament",
+      "Incredible surface hardness withstands razor-sharp teeth and barnacles",
+      "Comes on a compact, tangle-free dispenser spool"
+    ],
+    "line_capacity": {
+      "nylon": [],
+      "braid": []
+    },
+    "tags": [
+      "Lines",
+      "Leader",
+      "Fluorocarbon",
+      "Abrasion-Resistant"
+    ],
+    "status": "active"
+  },
+  {
+    "id": 19,
+    "slug": "phantom-braid-ultra-thin-line",
+    "name": "Phantom Braid Ultra-Thin Line",
+    "brand": "Phantom Tackle",
+    "category": "lines",
+    "sub_category": "Braided Lines",
+    "description": "An incredibly thin, multi-carrier braid tailored for micro-finesse casting. With a diameter equivalent to 1lb nylon, it enables extreme throwing distance with 1/32oz jigheads while retaining a 10lb breaking limit.",
+    "price": 32.99,
+    "discount_price": 27.99,
+    "stock": 25,
+    "sku": "LN-PBU-19",
+    "images": [
+      "https://images.unsplash.com/photo-1499244015905-ae7485a80702?auto=format&fit=crop&q=80&w=800"
+    ],
+    "specifications": [
+      {
+        "title": "Length",
+        "value": "150 yds (137m)"
+      },
+      {
+        "title": "Diameter",
+        "value": "0.08 mm"
+      },
+      {
+        "title": "Breaking Strength",
+        "value": "10 lbs (4.5 kg)"
+      },
+      {
+        "title": "Material",
+        "value": "Micro UHMWPE weave"
+      },
+      {
+        "title": "Color",
+        "value": "High-Vis Chartreuse"
+      }
+    ],
+    "features": [
+      "Microscopic 0.08mm profile minimizes surface friction for legendary casting distances",
+      "High-vis chartreuse color allows effortless line monitoring for soft stream ticks",
+      "Highly coated surface reduces wind-knot nesting"
+    ],
+    "line_capacity": {
+      "nylon": [],
+      "braid": []
+    },
+    "tags": [
+      "Lines",
+      "Braided",
+      "Finesse",
+      "Ultra-Thin"
+    ],
+    "status": "active"
+  },
+  {
+    "id": 20,
+    "slug": "tournament-braid-blue-water-line",
+    "name": "Tournament Braid Blue Water Line",
+    "brand": "Titan Pro",
+    "category": "lines",
+    "sub_category": "Braided Lines",
+    "description": "A heavy-duty high-visibility blue braided line crafted for massive offshore trolling and jigging reels. Colored with UV-resistant pigments to prevent fading in intense marine environments.",
+    "price": 59.99,
+    "discount_price": 49.99,
+    "stock": 20,
+    "sku": "LN-TB-20",
+    "images": [
+      "https://images.unsplash.com/photo-1499244015905-ae7485a80702?auto=format&fit=crop&q=80&w=800"
+    ],
+    "specifications": [
+      {
+        "title": "Length",
+        "value": "500 yds (457m)"
+      },
+      {
+        "title": "Diameter",
+        "value": "0.48 mm"
+      },
+      {
+        "title": "Breaking Strength",
+        "value": "80 lbs (36.2 kg)"
+      },
+      {
+        "title": "Material",
+        "value": "9-Strand Premium Spectra"
+      },
+      {
+        "title": "Color",
+        "value": "Blue Water Marine"
+      }
+    ],
+    "features": [
+      "9-strand weave adds an extra stabilizing core strand for zero collapsing flat",
+      "UV guard treatment maintains fiber integrity under hours of salt sun",
+      "Color-metered every 100 yards to accurately gauge lure depth distance"
+    ],
+    "line_capacity": {
+      "nylon": [],
+      "braid": []
+    },
+    "tags": [
+      "Lines",
+      "Offshore",
+      "Spectra",
+      "Trolling"
+    ],
+    "status": "active"
+  }
+]

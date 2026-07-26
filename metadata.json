@@ -1,0 +1,6 @@
+{
+  "name": "Lucana",
+  "description": "A premium, modern e-commerce platform for high-performance fishing tackle, including reels, rods, lines, hooks, lures, and bags.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

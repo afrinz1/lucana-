@@ -1,0 +1,38 @@
+[
+  {
+    "id": "lucana",
+    "name": "Lucana",
+    "description": "Our premium proprietary brand, engineering elite tournament-grade fishing gear without compromise.",
+    "logo": "L"
+  },
+  {
+    "id": "predator",
+    "name": "Predator",
+    "description": "Heavy-duty offshore saltwater gear built to conquer apex ocean game fish.",
+    "logo": "P"
+  },
+  {
+    "id": "phantom",
+    "name": "Phantom Tackle",
+    "description": "Lightweight, hyper-stealth freshwater and estuarine gear using aerospace-grade carbon.",
+    "logo": "PH"
+  },
+  {
+    "id": "ocean-master",
+    "name": "Ocean Master",
+    "description": "Corrosion-resistant saltwater casting reels and rods engineered for extreme environments.",
+    "logo": "OM"
+  },
+  {
+    "id": "titan",
+    "name": "Titan Pro",
+    "description": "Ultra-rugged, high-capacity trolling gear for deep-sea sportfishing.",
+    "logo": "T"
+  },
+  {
+    "id": "falcon",
+    "name": "Falcon",
+    "description": "Sleek, fast-action freshwater casting rods and high-speed baitcasting reels.",
+    "logo": "F"
+  }
+]

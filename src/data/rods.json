@@ -1,0 +1,338 @@
+[
+  {
+    "id": 11,
+    "slug": "apex-predator-spinning-rod",
+    "name": "Apex Predator Spinning Rod",
+    "brand": "Lucana",
+    "category": "rods",
+    "sub_category": "Spinning Rods",
+    "description": "The Lucana Apex Predator is built on our 40-ton Toray carbon fiber blank. Designed for maximum casting distance and sensory response, it allows you to feel the faintest nibbles and possesses the backbone to pull lunkers out of dense cover.",
+    "price": 199.99,
+    "discount_price": 179.99,
+    "stock": 15,
+    "sku": "RD-APX-11",
+    "images": [
+      "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1508962914676-134849a727f0?auto=format&fit=crop&q=80&w=800"
+    ],
+    "specifications": [
+      {
+        "title": "Length",
+        "value": "7'0\" (2.13m)"
+      },
+      {
+        "title": "Power",
+        "value": "Medium-Heavy"
+      },
+      {
+        "title": "Action",
+        "value": "Fast"
+      },
+      {
+        "title": "Sections",
+        "value": "2-Piece"
+      },
+      {
+        "title": "Material",
+        "value": "40-Ton Toray Carbon Blank"
+      },
+      {
+        "title": "Weight",
+        "value": "125 g / 4.4 oz"
+      },
+      {
+        "title": "Line Rating",
+        "value": "10 - 20 lbs"
+      },
+      {
+        "title": "Lure Rating",
+        "value": "1/4 - 1 oz"
+      }
+    ],
+    "features": [
+      "Built with Japanese Toray 40-Ton high modulus carbon blank",
+      "Fuji Alconite tangle-free guides in stainless steel frames",
+      "Premium split AAA-grade Portuguese cork handles",
+      "Lucana custom lightweight skeleton reel seat"
+    ],
+    "line_capacity": {
+      "nylon": [],
+      "braid": []
+    },
+    "tags": [
+      "Rods",
+      "Spinning",
+      "Carbon",
+      "Fuji Guides"
+    ],
+    "status": "active"
+  },
+  {
+    "id": 12,
+    "slug": "carbon-strike-baitcasting-rod",
+    "name": "Carbon Strike Baitcasting Rod",
+    "brand": "Phantom Tackle",
+    "category": "rods",
+    "sub_category": "Casting Rods",
+    "description": "Tailored for heavy bass jigging and frog pitching. The Carbon Strike Casting Rod features a stiff backbone with a fast, sensitive tip. Its micro-guide system lines the line perfectly along the blank for maximum casting accuracy.",
+    "price": 169.99,
+    "discount_price": 149.99,
+    "stock": 20,
+    "sku": "RD-CS-12",
+    "images": [
+      "https://images.unsplash.com/photo-1508962914676-134849a727f0?auto=format&fit=crop&q=80&w=800"
+    ],
+    "specifications": [
+      {
+        "title": "Length",
+        "value": "7'3\" (2.21m)"
+      },
+      {
+        "title": "Power",
+        "value": "Heavy"
+      },
+      {
+        "title": "Action",
+        "value": "Extra-Fast"
+      },
+      {
+        "title": "Sections",
+        "value": "1-Piece"
+      },
+      {
+        "title": "Material",
+        "value": "30-Ton Graphite Carbon Matrix"
+      },
+      {
+        "title": "Weight",
+        "value": "135 g / 4.7 oz"
+      },
+      {
+        "title": "Line Rating",
+        "value": "12 - 25 lbs"
+      },
+      {
+        "title": "Lure Rating",
+        "value": "3/8 - 1.5 oz"
+      }
+    ],
+    "features": [
+      "1-piece solid layout ensures uninterrupted parabolic load distribution",
+      "Premium micro-guides allow 15% farther line travel and zero slap",
+      "Nonslip tactical EVA handles resist slime and odor",
+      "Reel locking trigger seat customized for baitcasting setups"
+    ],
+    "line_capacity": {
+      "nylon": [],
+      "braid": []
+    },
+    "tags": [
+      "Rods",
+      "Casting",
+      "Baitcast",
+      "Bass"
+    ],
+    "status": "active"
+  },
+  {
+    "id": 13,
+    "slug": "blue-ocean-offshore-casting-rod",
+    "name": "Blue Ocean Offshore Casting Rod",
+    "brand": "Ocean Master",
+    "category": "rods",
+    "sub_category": "Casting Rods",
+    "description": "Constructed to battle massive ocean sportfish. The Blue Ocean casting rod boasts heavy composite construction mixing fiberglass and carbon. It is virtually unbreakable and features heavy-duty roller-tip and guide wheels.",
+    "price": 249.99,
+    "discount_price": 229.99,
+    "stock": 8,
+    "sku": "RD-BO-13",
+    "images": [
+      "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&q=80&w=800"
+    ],
+    "specifications": [
+      {
+        "title": "Length",
+        "value": "6'6\" (1.98m)"
+      },
+      {
+        "title": "Power",
+        "value": "Extra-Heavy"
+      },
+      {
+        "title": "Action",
+        "value": "Moderate"
+      },
+      {
+        "title": "Sections",
+        "value": "1-Piece"
+      },
+      {
+        "title": "Material",
+        "value": "Carbon-Fiberglass Hybrid"
+      },
+      {
+        "title": "Weight",
+        "value": "390 g / 13.7 oz"
+      },
+      {
+        "title": "Line Rating",
+        "value": "30 - 80 lbs"
+      },
+      {
+        "title": "Lure Rating",
+        "value": "2 - 8 oz"
+      }
+    ],
+    "features": [
+      "Composite glass-carbon architecture delivers massive lifting torque",
+      "Heavy Duty PacBay roller guides survive crushing deep-water fights",
+      "Anodized aluminum gimbal butt for fighting-chair slots",
+      "Comfortable long EVA grip handles for double-hand pulling"
+    ],
+    "line_capacity": {
+      "nylon": [],
+      "braid": []
+    },
+    "tags": [
+      "Rods",
+      "Offshore",
+      "Saltwater",
+      "Roller-Guides"
+    ],
+    "status": "active"
+  },
+  {
+    "id": 14,
+    "slug": "phantom-spin-finesse-rod",
+    "name": "Phantom Spin Finesse Rod",
+    "brand": "Phantom Tackle",
+    "category": "rods",
+    "sub_category": "Spinning Rods",
+    "description": "An ultra-light sensitive spinning rod for mountain stream trout and crappie fishing. Built using a solid carbon tip, this rod acts like an antenna transmitting any gentle brush on your lure straight to your hand.",
+    "price": 149.99,
+    "discount_price": 129.99,
+    "stock": 14,
+    "sku": "RD-PS-14",
+    "images": [
+      "https://images.unsplash.com/photo-1508962914676-134849a727f0?auto=format&fit=crop&q=80&w=800"
+    ],
+    "specifications": [
+      {
+        "title": "Length",
+        "value": "6'0\" (1.83m)"
+      },
+      {
+        "title": "Power",
+        "value": "Ultra-Light"
+      },
+      {
+        "title": "Action",
+        "value": "Fast"
+      },
+      {
+        "title": "Sections",
+        "value": "2-Piece"
+      },
+      {
+        "title": "Material",
+        "value": "24-Ton Carbon with Solid Carbon Tip"
+      },
+      {
+        "title": "Weight",
+        "value": "82 g / 2.9 oz"
+      },
+      {
+        "title": "Line Rating",
+        "value": "2 - 6 lbs"
+      },
+      {
+        "title": "Lure Rating",
+        "value": "1/32 - 3/16 oz"
+      }
+    ],
+    "features": [
+      "Ultra lightweight 82g layout perfect for fatigue-free all-day throwing",
+      "Solid carbon tipped front yields extreme bend flexibility without breaking",
+      "Fuji O-Ring micro-guides matched for thin braided or nylon line",
+      "Exquisite natural burl maple wood reel insert detailing"
+    ],
+    "line_capacity": {
+      "nylon": [],
+      "braid": []
+    },
+    "tags": [
+      "Rods",
+      "Finesse",
+      "Ultra-Light",
+      "Trout"
+    ],
+    "status": "active"
+  },
+  {
+    "id": 15,
+    "slug": "titan-trolling-sport-rod",
+    "name": "Titan Trolling Sport Rod",
+    "brand": "Titan Pro",
+    "category": "rods",
+    "sub_category": "Trolling Rods",
+    "description": "Specifically designed to handle the heavy strain of high-speed trolling. Built using solid glass cores wrapped with carbon reinforcing tape, it features robust double-foot guides and a premium aluminum locking reel seat.",
+    "price": 229.99,
+    "discount_price": 199.99,
+    "stock": 10,
+    "sku": "RD-TT-15",
+    "images": [
+      "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&q=80&w=800"
+    ],
+    "specifications": [
+      {
+        "title": "Length",
+        "value": "6'0\" (1.83m)"
+      },
+      {
+        "title": "Power",
+        "value": "Heavy-Duty"
+      },
+      {
+        "title": "Action",
+        "value": "Moderate-Fast"
+      },
+      {
+        "title": "Sections",
+        "value": "2-Piece (Butt Joint)"
+      },
+      {
+        "title": "Material",
+        "value": "Solid Fiberglass E-Glass Blank"
+      },
+      {
+        "title": "Weight",
+        "value": "450 g / 15.8 oz"
+      },
+      {
+        "title": "Line Rating",
+        "value": "50 - 100 lbs"
+      },
+      {
+        "title": "Lure Rating",
+        "value": "Trolling Baits and Teasers"
+      }
+    ],
+    "features": [
+      "Indestructible solid E-glass blank construction absorbs massive initial strikes",
+      "Heavy duty double-foot stainless guides with silicon carbide (SiC) inserts",
+      "Heavy anodized marine aluminum reel clamp mounts",
+      "Nonslip rubberized shrink-tube grip wraps"
+    ],
+    "line_capacity": {
+      "nylon": [],
+      "braid": []
+    },
+    "tags": [
+      "Rods",
+      "Trolling",
+      "Heavy-Duty",
+      "Deep Sea"
+    ],
+    "status": "active"
+  }
+]

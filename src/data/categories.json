@@ -1,0 +1,50 @@
+[
+  {
+    "id": "reels",
+    "name": "Fishing Reels",
+    "slug": "reels",
+    "description": "High-performance spinning, baitcasting, and trolling reels engineered with precision bearing systems and powerful drag controls.",
+    "image": "https://images.unsplash.com/photo-1611095780122-f0b14e0b0213?auto=format&fit=crop&q=80&w=800",
+    "subcategories": ["Spinning Reels", "Baitcasting Reels", "Trolling Reels"]
+  },
+  {
+    "id": "rods",
+    "name": "Fishing Rods",
+    "slug": "rods",
+    "description": "Lightweight, sensitive, and powerful carbon-fiber and graphite rods optimized for casting accuracy and fighting power.",
+    "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&q=80&w=800",
+    "subcategories": ["Spinning Rods", "Casting Rods", "Fly Rods", "Surf Rods"]
+  },
+  {
+    "id": "lines",
+    "name": "Fishing Lines",
+    "slug": "lines",
+    "description": "Ultra-strong braided lines, invisible fluorocarbons, and versatile monofilaments engineered for maximum knot strength and zero stretch.",
+    "image": "https://images.unsplash.com/photo-1499244015905-ae7485a80702?auto=format&fit=crop&q=80&w=800",
+    "subcategories": ["Braided Lines", "Fluorocarbon Lines", "Monofilament Lines"]
+  },
+  {
+    "id": "hooks",
+    "name": "Fishing Hooks",
+    "slug": "hooks",
+    "description": "Ultra-sharp, chemically sharpened premium carbon-steel hooks for secure sets and structural integrity under massive loads.",
+    "image": "https://images.unsplash.com/photo-1529230117010-b6c036132f88?auto=format&fit=crop&q=80&w=800",
+    "subcategories": ["Treble Hooks", "Circle Hooks", "J-Hooks", "Worm Hooks"]
+  },
+  {
+    "id": "lures",
+    "name": "Fishing Lures",
+    "slug": "lures",
+    "description": "Aesthetic, hydrodynamic hardbaits, lifelike softbaits, topwater poppers, and deep-diving minnows designed to trigger aggressive strikes.",
+    "image": "https://images.unsplash.com/photo-1511556532299-8f662fc26c06?auto=format&fit=crop&q=80&w=800",
+    "subcategories": ["Hardbaits", "Softbaits", "Topwater Lures", "Spinnerbaits"]
+  },
+  {
+    "id": "bags",
+    "name": "Fishing Bags & Gear",
+    "slug": "bags",
+    "description": "Heavy-duty, waterproof tactical backpacks, utility sling bags, and modular storage cases to organize your entire collection of tackle.",
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&q=80&w=800",
+    "subcategories": ["Tackle Backpacks", "Sling Bags", "Utility Boxes", "Gear Duffels"]
+  }
+]
