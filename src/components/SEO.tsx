@@ -7,20 +7,32 @@ interface SEOProps {
   keywords?: string;
   type?: string;
   ogImage?: string;
+  /** Crawler directives. Use 'noindex, nofollow' for pages like 404s. */
+  robots?: 'index, follow' | 'noindex, nofollow';
+  /** JSON-LD structured data blocks (Product, BreadcrumbList, etc.) to inject per page. */
+  structuredData?: Record<string, unknown>[];
 }
+
+const SITE_NAME = 'Lucana';
+const SITE_URL = 'https://lucanatackle.com';
 
 export const SEO: React.FC<SEOProps> = ({
   title,
   description,
   keywords,
   type = 'website',
-  ogImage
+  ogImage,
+  robots = 'index, follow',
+  structuredData,
 }) => {
   const { pathname } = useLocation();
 
+  // Stable key so the effect only re-runs when the schema content actually changes
+  const structuredDataKey = JSON.stringify(structuredData || []);
+
   useEffect(() => {
     // 1. Update document title
-    const fullTitle = title.includes('Lucana') ? title : `${title} | Lucana`;
+    const fullTitle = title.includes(SITE_NAME) ? title : `${title} | ${SITE_NAME}`;
     document.title = fullTitle;
 
     // Helper function to update or create meta tag
@@ -64,8 +76,8 @@ export const SEO: React.FC<SEOProps> = ({
     // 5. Set Content Type
     setMetaTag('property', 'og:type', type);
 
-    // 6. Set OG URL
-    const canonicalUrl = `https://lucanatackle.com${pathname}`;
+    // 6. Set OG URL + canonical
+    const canonicalUrl = `${SITE_URL}${pathname}`;
     setMetaTag('property', 'og:url', canonicalUrl);
     setCanonicalLink(canonicalUrl);
 
@@ -74,7 +86,25 @@ export const SEO: React.FC<SEOProps> = ({
       setMetaTag('property', 'og:image', ogImage);
       setMetaTag('name', 'twitter:image', ogImage);
     }
-  }, [title, description, keywords, type, ogImage, pathname]);
+
+    // 8. Site-level Open Graph & Twitter metadata
+    setMetaTag('property', 'og:site_name', SITE_NAME);
+    setMetaTag('property', 'og:locale', 'en_US');
+    setMetaTag('name', 'twitter:card', 'summary_large_image');
+
+    // 9. Crawler directives (noindex for 404, thank-you, etc.)
+    setMetaTag('name', 'robots', robots);
+
+    // 10. JSON-LD structured data (remove any stale blocks from previous page first)
+    document.querySelectorAll('script[id^="jsonld-"]').forEach(script => script.remove());
+    (structuredData || []).forEach((schema, index) => {
+      const script = document.createElement('script');
+      script.type = 'application/ld+json';
+      script.id = `jsonld-${index}`;
+      script.textContent = JSON.stringify(schema);
+      document.head.appendChild(script);
+    });
+  }, [title, description, keywords, type, ogImage, robots, structuredDataKey, pathname]);
 
   return null; // This component works entirely via side-effects
 };

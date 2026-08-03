@@ -11,6 +11,7 @@ import { ProductDetailPage } from './pages/ProductDetailPage';
 import { CategoryPage } from './pages/CategoryPage';
 import { CheckoutPage } from './pages/CheckoutPage';
 import { AboutPage } from './pages/AboutPage';
+import { NotFoundPage } from './pages/NotFoundPage';
 
 // Scroll Restoration helper component
 const ScrollToTop: React.FC = () => {
@@ -127,8 +128,8 @@ export default function App() {
               <Route path="/category/:categorySlug" element={<CategoryPage />} />
               <Route path="/checkout" element={<CheckoutPage />} />
               <Route path="/about" element={<AboutPage />} />
-              {/* Fallback to home */}
-              <Route path="*" element={<HomePage />} />
+              {/* Unknown routes get a proper 404 page instead of silently loading home */}
+              <Route path="*" element={<NotFoundPage />} />
             </Routes>
           </div>
 

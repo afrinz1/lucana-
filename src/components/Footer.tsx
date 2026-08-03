@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../assets/images/logo.png';
+import { categories } from '../utils/productUtils';
 
 export const Footer: React.FC = () => {
   return (
@@ -18,13 +19,20 @@ export const Footer: React.FC = () => {
             </p>
           </div>
 
-          {/* Links Row */}
+          {/* Links Row — real internal routes only (no dead anchors) */}
           <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-[11px] text-gray-600 font-bold uppercase tracking-wider">
             <Link to="/shop" className="hover:text-black transition-colors duration-150">Shop</Link>
+            <Link to="/checkout" className="hover:text-black transition-colors duration-150">Checkout</Link>
             <Link to="/about" className="hover:text-black transition-colors duration-150">About</Link>
-            <a href="#shipping" className="hover:text-black transition-colors duration-150">Shipping</a>
-            <a href="#returns" className="hover:text-black transition-colors duration-150">Returns</a>
-            <a href="#privacy" className="hover:text-black transition-colors duration-150">Privacy</a>
+            {categories.map(cat => (
+              <Link
+                key={cat.id}
+                to={`/category/${cat.id}`}
+                className="hover:text-black transition-colors duration-150"
+              >
+                {cat.name}
+              </Link>
+            ))}
           </div>
         </div>
 

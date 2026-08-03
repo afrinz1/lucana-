@@ -89,6 +89,44 @@ export const ProductDetailPage: React.FC = () => {
     setSelectedSpecs(prev => ({ ...prev, [title]: value }));
   };
 
+  // JSON-LD structured data: Product + BreadcrumbList for rich search results
+  const productSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    name: product.name,
+    image: activeImage || getMainImage(product),
+    description: product.description,
+    sku: product.sku,
+    brand: { '@type': 'Brand', name: product.brand || 'Lucana' },
+    category: product.category,
+    offers: {
+      '@type': 'Offer',
+      url: `https://lucanatackle.com/product/${product.slug}`,
+      priceCurrency: 'USD',
+      price: getActivePrice(product).toFixed(2),
+      availability: isOutOfStock(product)
+        ? 'https://schema.org/OutOfStock'
+        : 'https://schema.org/InStock',
+      itemCondition: 'https://schema.org/NewCondition',
+    },
+  };
+
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://lucanatackle.com/' },
+      { '@type': 'ListItem', position: 2, name: 'Shop', item: 'https://lucanatackle.com/shop' },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: product.category,
+        item: `https://lucanatackle.com/category/${product.category}`,
+      },
+      { '@type': 'ListItem', position: 4, name: product.name },
+    ],
+  };
+
   return (
     <div id="product-detail-page" className="bg-[#FAF9F9] min-h-screen pt-24 pb-20">
       <SEO 
@@ -96,6 +134,7 @@ export const ProductDetailPage: React.FC = () => {
         description={product.description}
         keywords={`${product.name}, ${product.category}, ${product.brand || 'lucana'}, saltwater fishing`}
         ogImage={activeImage || (product.images && product.images[0])}
+        structuredData={[productSchema, breadcrumbSchema]}
       />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         

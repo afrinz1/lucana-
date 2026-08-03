@@ -23,11 +23,13 @@ const productsData = [
 export const products: Product[] = productsData as Product[];
 export const categories: Category[] = categoriesData as Category[];
 export const brands: Brand[] = brandsData as Brand[];
+type FeaturedReference = string | { type?: 'slug' | 'category' | 'brand' | 'tag'; value: string; limit?: number };
+
 export const featured = featuredData as {
   hero: Array<{ title: string; subtitle: string; image: string; slug: string; tag: string }>;
-  best_sellers: string[];
-  new_arrivals: string[];
-  featured: string[];
+  best_sellers: FeaturedReference[];
+  new_arrivals: FeaturedReference[];
+  featured: FeaturedReference[];
 };
 
 // ---------------------------------------------------------------------------
@@ -122,11 +124,63 @@ export function getProductsByCategory(categorySlug: string): Product[] {
 }
 
 /**
+ * Cover image for a category — the first product image in that category
+ * (i.e. the 1st image from each section), falling back to the category's
+ * own image when the section has no active products.
+ */
+export function getCategoryCoverImage(category: Category): string {
+  const [firstProduct] = getProductsByCategory(category.slug);
+  return firstProduct ? getMainImage(firstProduct) : category.image;
+}
+
+function resolveFeaturedReference(reference: FeaturedReference, fallbackLimit = 4): Product[] {
+  if (typeof reference === 'string') {
+    const product = getProductBySlug(reference);
+    return product ? [product] : [];
+  }
+
+  const limit = reference.limit ?? fallbackLimit;
+  const value = reference.value?.toLowerCase() || '';
+  const kind = reference.type || 'slug';
+
+  if (!value) {
+    return [];
+  }
+
+  if (kind === 'category') {
+    return products.filter(p => (p.category || '').toLowerCase() === value && p.status === 'active').slice(0, limit);
+  }
+
+  if (kind === 'brand') {
+    return products.filter(p => (p.brand || '').toLowerCase() === value && p.status === 'active').slice(0, limit);
+  }
+
+  if (kind === 'tag') {
+    return products.filter(p => (p.tags || []).some(tag => (tag || '').toLowerCase() === value) && p.status === 'active').slice(0, limit);
+  }
+
+  const product = getProductBySlug(reference.value);
+  return product ? [product] : [];
+}
+
+/**
  * Get featured products collections based on featured.json lists.
  */
 export function getFeaturedProducts(collectionType: 'best_sellers' | 'new_arrivals' | 'featured'): Product[] {
-  const slugs = featured[collectionType] || [];
-  return products.filter(p => slugs.includes(p.slug) && p.status === 'active');
+  const references = featured[collectionType] || [];
+  const matchedProducts: Product[] = [];
+  const seenSlugs = new Set<string>();
+
+  references.forEach(reference => {
+    resolveFeaturedReference(reference).forEach(product => {
+      if (!seenSlugs.has(product.slug)) {
+        seenSlugs.add(product.slug);
+        matchedProducts.push(product);
+      }
+    });
+  });
+
+  return matchedProducts;
 }
 
 /**

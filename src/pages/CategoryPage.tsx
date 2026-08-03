@@ -50,12 +50,29 @@ export const CategoryPage: React.FC = () => {
     );
   }
 
+  // Defined after the categoryMeta null check so it is safe to dereference
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://lucanatackle.com/' },
+      { '@type': 'ListItem', position: 2, name: 'Shop', item: 'https://lucanatackle.com/shop' },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: categoryMeta.name,
+        item: `https://lucanatackle.com/category/${categoryMeta.slug}`,
+      },
+    ],
+  };
+
   return (
     <div id="category-page" className="bg-[#FAF9F9] min-h-screen pt-[73px] pb-20">
       <SEO 
         title={`${categoryMeta.name} | High-Performance Fishing Tackle`}
         description={categoryMeta.description || `Browse our selection of premium ${categoryMeta.name} and tournament rigging equipment.`}
         ogImage={categoryMeta.image}
+        structuredData={[breadcrumbSchema]}
       />
       
       {/* 1. Immersive Category Header Banner */}

@@ -1,8 +1,8 @@
 import React from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { ArrowRight, ArrowUpRight } from 'lucide-react';
 import { motion, useScroll, useTransform } from 'motion/react';
-import { getFeaturedProducts, categories } from '../utils/productUtils';
+import { getFeaturedProducts, getCategoryCoverImage, categories } from '../utils/productUtils';
 import { ProductCard } from '../components/ProductCard';
 import { SEO } from '../components/SEO';
 import heroVideo from "../assets/hero/hero.webm";
@@ -10,8 +10,6 @@ import heroVideo from "../assets/hero/hero.webm";
 const MARQUEE_WORDS = ['hook', 'lines', 'lures', 'reels', 'rods', 'lucana'];
 
 export const HomePage: React.FC = () => {
-  const navigate = useNavigate();
-
   const newArrivals = getFeaturedProducts('new_arrivals');
 
   // Parallax Scroll Effects
@@ -189,8 +187,13 @@ export const HomePage: React.FC = () => {
           className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-6"
         >
           {categories.map(cat => (
-            <motion.div
+            <Link
               key={cat.id}
+              to={`/category/${cat.id}`}
+              className="block h-full"
+              aria-label={`Explore ${cat.name}`}
+            >
+            <motion.div
               id={`cat-card-${cat.id}`}
               variants={{
                 hidden: { opacity: 0, y: 30 },
@@ -198,12 +201,11 @@ export const HomePage: React.FC = () => {
               }}
               whileHover={{ y: -8, scale: 1.01 }}
               className="group relative h-64 sm:h-85 rounded-2xl overflow-hidden bg-gray-100 border border-gray-200/60 shadow-sm transition-shadow duration-300 hover:shadow-xl cursor-pointer"
-              onClick={() => navigate(`/category/${cat.id}`)}
             >
               {/* Backing Cover with deep gradient for clean contrast */}
               <div className="absolute inset-0 bg-gradient-to-t from-gray-950/95 via-gray-950/40 to-transparent z-10" />
               <img
-                src={cat.image}
+                src={getCategoryCoverImage(cat)}
                 alt={cat.name}
                 className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 referrerPolicy="no-referrer"
@@ -231,6 +233,7 @@ export const HomePage: React.FC = () => {
                 </div>
               </div>
             </motion.div>
+            </Link>
           ))}
         </motion.div>
       </section>

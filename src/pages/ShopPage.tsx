@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import { useSearchParams } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router-dom';
 import { Search, Grid, List, SlidersHorizontal, RotateCcw, ChevronLeft, ChevronRight } from 'lucide-react';
 import { useShop } from '../context/ShopContext';
 import { products, categories, filterProducts, sortProducts, getPriceBounds } from '../utils/productUtils';
@@ -119,7 +119,7 @@ export const ShopPage: React.FC = () => {
         <div className="bg-white rounded-2xl p-6 sm:p-8 border border-gray-100 shadow-sm mb-10 flex flex-col md:flex-row md:items-center justify-between gap-6">
           <div>
             <div className="text-xs text-gray-400 font-bold uppercase tracking-wider space-x-1.5 flex items-center">
-              <span>Home</span>
+              <Link to="/" className="hover:text-gray-900 transition-colors">Home</Link>
               <span>/</span>
               <span className="text-gray-950">Shop Gear</span>
             </div>

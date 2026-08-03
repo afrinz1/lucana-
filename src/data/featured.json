@@ -1,10 +1,15 @@
 {
   "hero": [
     {
-      "title": "Unleash the Apex Predator Within",
-      "subtitle": "Introducing the Lucana Predator 300 Reel — tournament-ready saltwater performance with a crushing 30kg carbon drag.",
-      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&q=80&w=1200",
-      "slug": "predator-300-saltwater-spinning-reel",
+      "title": "Built for Every Cast",
+      "subtitle": "Introducing the Predator 200 All-Rounder Reel — a versatile spinning reel designed for smooth casting in freshwater and light saltwater.",
+      "image": [
+              "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1784650690/20260704_112336.jpg_nkcxog.jpg",
+              "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1784650691/20260704_112248.jpg_yf87ga.jpg",
+              "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1784650689/20260704_112325_2.jpg_jkbju4.jpg",
+              "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1784650691/20260704_112548.jpg_hhtskb.jpg"
+              ],
+      "slug": "predator-200-all-rounder-reel",
       "tag": "NEW RELEASE"
     },
     {
@@ -16,21 +21,13 @@
     }
   ],
   "best_sellers": [
-    "predator-300-saltwater-spinning-reel",
-    "phantom-x-freshwater-baitcasting-reel",
-    "stealth-braid-8x-fishing-line",
-    "apex-predator-spinning-rod"
+    { "type": "category", "value": "reels", "limit": 4 },
+    { "type": "brand", "value": "predator", "limit": 2 }
   ],
   "new_arrivals": [
-    "titan-pro-heavy-duty-trolling-reel",
-    "venom-treble-3x-hooks",
-    "deep-diver-minnow-hard-lure",
-    "expedition-modular-tackle-backpack"
+    { "type": "category", "value": "reels", "limit": 4 }
   ],
   "featured": [
-    "predator-200-all-rounder-reel",
-    "falcon-150-speed-casting-reel",
-    "ocean-master-surf-casting-reel",
-    "invisiline-monofilament-fishing-line"
+    { "type": "brand", "value": "lucana", "limit": 4 }
   ]
 }
