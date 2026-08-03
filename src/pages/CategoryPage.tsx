@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { ChevronRight, ArrowLeft, SlidersHorizontal, Anchor } from 'lucide-react';
-import { getProductsByCategory, categories } from '../utils/productUtils';
+import { ChevronRight, SlidersHorizontal, Anchor } from 'lucide-react';
+import { filterProducts, getProductsByCategory, categories } from '../utils/productUtils';
 import { ProductCard } from '../components/ProductCard';
 import { SEO } from '../components/SEO';
 
@@ -24,13 +24,13 @@ export const CategoryPage: React.FC = () => {
   // Reset Sub Category when categorySlug changes
   useEffect(() => {
     setSelectedSubCategory('all');
-    window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [categorySlug]);
 
   // Filtered List based on Sub-category selection
   const filteredProducts = useMemo(() => {
-    if (selectedSubCategory === 'all') return categoryProducts;
-    return categoryProducts.filter(p => (p.sub_category || '').toLowerCase() === selectedSubCategory.toLowerCase());
+    return filterProducts(categoryProducts, {
+      sub_category: selectedSubCategory === 'all' ? undefined : selectedSubCategory,
+    });
   }, [categoryProducts, selectedSubCategory]);
 
   if (!categoryMeta) {

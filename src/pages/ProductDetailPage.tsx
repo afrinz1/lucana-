@@ -1,14 +1,32 @@
 import React, { useState, useEffect } from 'react';
-import { useParams, Link, useNavigate } from 'react-router-dom';
-import { Star, ShieldAlert, ShoppingBag, ArrowLeft, ArrowRight, ShieldCheck, Heart, Share2 } from 'lucide-react';
+import { useParams, Link } from 'react-router-dom';
+import { Star, ShoppingBag, Heart } from 'lucide-react';
 import { useShop } from '../context/ShopContext';
-import { getProductBySlug, getRelatedProducts } from '../utils/productUtils';
+import { Specification } from '../types';
+import {
+  getActivePrice,
+  getBasePrice,
+  getMainImage,
+  getProductBySlug,
+  getRelatedProducts,
+  getReviewsCount,
+  getSavings,
+  getSimulatedRating,
+  hasDiscount,
+  isOutOfStock,
+  formatPrice,
+} from '../utils/productUtils';
 import { ProductCard } from '../components/ProductCard';
 import { SEO } from '../components/SEO';
 
+const CONFIGURABLE_SPEC_KEYWORDS = ['hand', 'size', 'strength', 'length'];
+
+/** Specs that can be configured on the product page (e.g. Hand / Size / Strength). */
+const isConfigurableSpec = (spec?: Specification): spec is Specification =>
+  !!spec && !!spec.title && CONFIGURABLE_SPEC_KEYWORDS.some(k => spec.title.toLowerCase().includes(k));
+
 export const ProductDetailPage: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
-  const navigate = useNavigate();
   const { addToCart } = useShop();
 
   const product = slug ? getProductBySlug(slug) : undefined;
@@ -23,8 +41,7 @@ export const ProductDetailPage: React.FC = () => {
   // Synchronize first image and reset states when slug changes
   useEffect(() => {
     if (product) {
-      const firstImage = (product.images && product.images.length > 0 && product.images[0]) || "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&q=80&w=800";
-      setActiveImage(firstImage);
+      setActiveImage(getMainImage(product));
       setQuantity(1);
       
       // Auto-populate default specifications selection (e.g. Hand Retrieve or Size)
@@ -36,7 +53,6 @@ export const ProductDetailPage: React.FC = () => {
       }
       setSelectedSpecs(defaults);
     }
-    window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [product]);
 
   if (!product) {
@@ -56,16 +72,14 @@ export const ProductDetailPage: React.FC = () => {
     );
   }
 
-  const price = typeof product.price === 'number' ? product.price : 0;
-  const discountPrice = typeof product.discount_price === 'number' ? product.discount_price : 0;
-  const activePrice = discountPrice || price;
-  const hasDiscount = discountPrice > 0 && discountPrice < price;
-  const isOutOfStock = typeof product.stock === 'number' ? product.stock <= 0 : false;
+  const basePrice = getBasePrice(product);
+  const activePrice = getActivePrice(product);
+  const discounted = hasDiscount(product);
+  const outOfStock = isOutOfStock(product);
   const related = getRelatedProducts(product, 4);
-
-  // Simulated ratings
-  const rating = (4.5 + (product.id % 6) * 0.1).toFixed(1);
-  const reviewsCount = 12 + (product.id * 7) % 43;
+  const rating = getSimulatedRating(product);
+  const reviewsCount = getReviewsCount(product);
+  const configurableSpecs = (product.specifications || []).filter(isConfigurableSpec);
 
   const handleAddToCart = () => {
     addToCart(product, quantity, selectedSpecs);
@@ -110,9 +124,9 @@ export const ProductDetailPage: React.FC = () => {
                 referrerPolicy="no-referrer"
               />
               
-              {hasDiscount && (
+              {discounted && (
                 <span className="absolute top-4 left-4 bg-[#C62828] text-white text-[10px] font-extrabold px-3 py-1.5 rounded-full uppercase tracking-wider">
-                  SAVE ${(price - discountPrice).toFixed(0)}
+                  SAVE ${getSavings(product).toFixed(0)}
                 </span>
               )}
             </div>
@@ -173,11 +187,11 @@ export const ProductDetailPage: React.FC = () => {
                 <span className="text-xs text-gray-400 font-bold uppercase">Tackle Price</span>
                 <div className="flex items-baseline space-x-2.5">
                   <span className="text-2xl sm:text-3xl font-extrabold text-gray-950">
-                    ${activePrice.toFixed(2)}
+                    {formatPrice(activePrice)}
                   </span>
-                  {hasDiscount && (
+                  {discounted && (
                     <span className="text-base text-gray-400 line-through">
-                      ${price.toFixed(2)}
+                      {formatPrice(basePrice)}
                     </span>
                   )}
                 </div>
@@ -186,7 +200,7 @@ export const ProductDetailPage: React.FC = () => {
               {/* Stock Status Box */}
               <div className="text-right">
                 <span className="text-xs text-gray-400 font-bold uppercase block mb-1">In Stock Status</span>
-                {isOutOfStock ? (
+                {outOfStock ? (
                   <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-red-50 text-red-600">
                     Sold Out
                   </span>
@@ -208,15 +222,13 @@ export const ProductDetailPage: React.FC = () => {
             </p>
 
             {/* Custom specification choices */}
-            {(product.specifications || []).some(s => s && s.title && (s.title.toLowerCase().includes('hand') || s.title.toLowerCase().includes('size') || s.title.toLowerCase().includes('strength'))) && (
+            {configurableSpecs.length > 0 && (
               <div className="space-y-3 pt-2">
                 <h4 className="text-xs font-bold text-gray-800 uppercase tracking-widest">
                   Configure Options:
                 </h4>
                 <div className="flex flex-wrap gap-2">
-                  {(product.specifications || [])
-                    .filter(s => s && s.title && (s.title.toLowerCase().includes('hand') || s.title.toLowerCase().includes('size') || s.title.toLowerCase().includes('strength') || s.title.toLowerCase().includes('length')))
-                    .map(spec => (
+                  {configurableSpecs.map(spec => (
                       <div key={spec.title} className="flex flex-col space-y-1">
                         <span className="text-[10px] text-gray-400 uppercase font-bold">{spec.title}</span>
                         <div className="flex gap-2">
@@ -242,7 +254,7 @@ export const ProductDetailPage: React.FC = () => {
               <div className="flex flex-col sm:flex-row gap-3.5">
                 
                 {/* Quantity Box */}
-                {!isOutOfStock && (
+                {!outOfStock && (
                   <div className="flex items-center border border-gray-200 rounded-xl bg-gray-50/50 p-1 self-start sm:self-auto">
                     <button
                       onClick={() => setQuantity(prev => Math.max(1, prev - 1))}
@@ -263,14 +275,14 @@ export const ProductDetailPage: React.FC = () => {
                 {/* Primary CTA Add button */}
                 <button
                   id="pdp-add-to-cart-btn"
-                  disabled={isOutOfStock}
+                  disabled={outOfStock}
                   onClick={handleAddToCart}
                   className={`flex-1 py-4 bg-gray-950 hover:bg-[#C62828] text-white text-xs font-bold rounded-xl shadow-lg transition-all duration-200 flex items-center justify-center space-x-2.5 ${
-                    isOutOfStock ? 'bg-gray-200 cursor-not-allowed hover:bg-gray-200 text-gray-400' : ''
+                    outOfStock ? 'bg-gray-200 cursor-not-allowed hover:bg-gray-200 text-gray-400' : ''
                   }`}
                 >
                   <ShoppingBag className="w-4 h-4" />
-                  <span>{isOutOfStock ? 'TACKLE OUT OF STOCK' : 'ADD TO FISHING BAG'}</span>
+                  <span>{outOfStock ? 'TACKLE OUT OF STOCK' : 'ADD TO FISHING BAG'}</span>
                 </button>
               </div>
 

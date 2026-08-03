@@ -1,20 +1,18 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { ArrowRight, Compass, Anchor, Sparkles, Shield, ChevronLeft, ChevronRight, ArrowUpRight, Star, Trophy, Target, Activity, Calendar } from 'lucide-react';
-import { motion, AnimatePresence, useScroll, useTransform } from 'motion/react';
-import { useShop } from '../context/ShopContext';
-import { getFeaturedProducts, categories, featured } from '../utils/productUtils';
+import { ArrowRight, ArrowUpRight } from 'lucide-react';
+import { motion, useScroll, useTransform } from 'motion/react';
+import { getFeaturedProducts, categories } from '../utils/productUtils';
 import { ProductCard } from '../components/ProductCard';
 import { SEO } from '../components/SEO';
 import heroVideo from "../assets/hero/hero.webm";
 
+const MARQUEE_WORDS = ['hook', 'lines', 'lures', 'reels', 'rods', 'lucana'];
+
 export const HomePage: React.FC = () => {
-  const { setSearchQuery } = useShop();
   const navigate = useNavigate();
 
-  const bestSellers = getFeaturedProducts('best_sellers');
   const newArrivals = getFeaturedProducts('new_arrivals');
-  const featuredTackle = getFeaturedProducts('featured');
 
   // Parallax Scroll Effects
   const { scrollY } = useScroll();
@@ -39,17 +37,6 @@ export const HomePage: React.FC = () => {
         }}
         className="relative w-full flex flex-col justify-center overflow-hidden bg-gradient-to-br from-[#0F0F10] via-[#18181B] to-[#27272A] text-white py-12 md:py-16 lg:py-20 border-b border-white/10"
       >
-        <style dangerouslySetInnerHTML={{__html: `
-          :root {
-            --navbar-height: 72px;
-          }
-          @media (min-width: 768px) {
-            :root {
-              --navbar-height: 80px;
-            }
-          }
-        `}} />
-        
         {/* Subtle Radial Gradient Overlay for Luxury Lighting */}
         <div className="absolute inset-0 bg-radial-at-t from-white/5 via-transparent to-black/40 pointer-events-none" />
         
@@ -113,9 +100,8 @@ export const HomePage: React.FC = () => {
               transition={{ duration: 0.8, ease: 'easeOut', delay: 0.2 }}
               className="font-sans font-medium text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-[1.1] tracking-tight text-white"
             >
-              Engineered casting <br className="hidden sm:block" />
-              systems without <br className="hidden sm:block" />
-              limits
+              Find the Right Gear <br className="hidden sm:block" />
+              for Every Cast
             </motion.h1>
           </div>
 
@@ -127,7 +113,7 @@ export const HomePage: React.FC = () => {
               transition={{ duration: 0.8, delay: 0.3 }}
               className="text-xs sm:text-sm text-white/75 leading-relaxed font-normal"
             >
-              Lucana helps tournament anglers turn high-performance carbon setups into seamless field achievements—no compromises required. Share insights, not excuses.
+              Explore Premium Fishing Tackle, premium rods, reels, lures, lines, and tackle designed for every fishing adventure.
             </motion.p>
 
             <motion.div
@@ -154,36 +140,11 @@ export const HomePage: React.FC = () => {
 
       {/* Minimal Continuous Sideways Scrolling Marquee */}
       <div className="w-full bg-white py-2 overflow-hidden border-y border-gray-100/60 relative z-20">
-        <style dangerouslySetInnerHTML={{__html: `
-          @keyframes marquee-scroll {
-            0% { transform: translateX(0); }
-            100% { transform: translateX(-33.3333%); }
-          }
-          .animate-marquee-continuous {
-            animation: marquee-scroll 48s linear infinite;
-          }
-        `}} />
         <div className="flex w-max overflow-hidden select-none">
           <div className="animate-marquee-continuous flex whitespace-nowrap gap-8 py-0.5 shrink-0">
             {/* 3 identical copies to guarantee absolute continuity and support any screen width cleanly */}
-            {Array(3).fill(["hook", "lines", "lures", "reels", "rods", "lucana"]).flat().map((text, idx) => (
+            {Array(3).fill(MARQUEE_WORDS).flat().map((text, idx) => (
               <span key={idx} className="flex items-center space-x-8 shrink-0">
-                <span className="text-gray-400/80 uppercase tracking-[0.3em] font-sans font-bold text-[9px] sm:text-[10px] hover:text-[#C62828] transition-colors duration-200">
-                  {text}
-                </span>
-                <span className="w-1 h-1 bg-[#C62828]/60 rounded-full shrink-0"></span>
-              </span>
-            ))}
-            {Array(3).fill(["hook", "lines", "lures", "reels", "rods", "lucana"]).flat().map((text, idx) => (
-              <span key={`dup1-${idx}`} className="flex items-center space-x-8 shrink-0">
-                <span className="text-gray-400/80 uppercase tracking-[0.3em] font-sans font-bold text-[9px] sm:text-[10px] hover:text-[#C62828] transition-colors duration-200">
-                  {text}
-                </span>
-                <span className="w-1 h-1 bg-[#C62828]/60 rounded-full shrink-0"></span>
-              </span>
-            ))}
-            {Array(3).fill(["hook", "lines", "lures", "reels", "rods", "lucana"]).flat().map((text, idx) => (
-              <span key={`dup2-${idx}`} className="flex items-center space-x-8 shrink-0">
                 <span className="text-gray-400/80 uppercase tracking-[0.3em] font-sans font-bold text-[9px] sm:text-[10px] hover:text-[#C62828] transition-colors duration-200">
                   {text}
                 </span>

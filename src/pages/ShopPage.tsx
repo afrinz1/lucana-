@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import { Search, Grid, List, SlidersHorizontal, RotateCcw, ChevronLeft, ChevronRight, Check } from 'lucide-react';
+import { Search, Grid, List, SlidersHorizontal, RotateCcw, ChevronLeft, ChevronRight } from 'lucide-react';
 import { useShop } from '../context/ShopContext';
-import { products, categories, brands, filterProducts, sortProducts, getPriceBounds } from '../utils/productUtils';
+import { products, categories, filterProducts, sortProducts, getPriceBounds } from '../utils/productUtils';
 import { ProductCard } from '../components/ProductCard';
 import { SEO } from '../components/SEO';
 
@@ -20,6 +20,15 @@ export const ShopPage: React.FC = () => {
   // Price Range Bounds State
   const bounds = useMemo(() => getPriceBounds(products), []);
   const [priceRange, setPriceRange] = useState<[number, number]>(bounds);
+
+  // Category product counts (computed once for the sidebar)
+  const categoryCounts = useMemo(() => {
+    const counts: Record<string, number> = {};
+    for (const p of products) {
+      if (p.category) counts[p.category] = (counts[p.category] || 0) + 1;
+    }
+    return counts;
+  }, []);
 
   // Pagination
   const [currentPage, setCurrentPage] = useState(1);
@@ -44,18 +53,6 @@ export const ShopPage: React.FC = () => {
       params.delete('category');
     } else {
       params.set('category', catId);
-    }
-    setSearchParams(params);
-  };
-
-  const handleBrandSelect = (brandId: string) => {
-    setSelectedBrand(brandId);
-    setCurrentPage(1);
-    const params = new URLSearchParams(searchParams);
-    if (brandId === 'all') {
-      params.delete('brand');
-    } else {
-      params.set('brand', brandId);
     }
     setSearchParams(params);
   };
@@ -193,7 +190,7 @@ export const ShopPage: React.FC = () => {
                   <span className="font-mono text-[10px] text-gray-400">{products.length}</span>
                 </button>
                 {categories.map(cat => {
-                  const count = products.filter(p => p.category === cat.id).length;
+                  const count = categoryCounts[cat.id] || 0;
                   return (
                     <button
                       key={cat.id}

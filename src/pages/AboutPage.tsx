@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'motion/react';
-import { Compass, Hammer, Shield, Anchor, ArrowRight, ArrowUpRight } from 'lucide-react';
+import { Anchor, ArrowRight, ArrowUpRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { SEO } from '../components/SEO';
 

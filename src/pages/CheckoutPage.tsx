@@ -4,6 +4,9 @@ import { ShoppingBag, CheckCircle2, ChevronRight, ArrowLeft, Copy, Check, Shield
 import { useShop } from '../context/ShopContext';
 import { OrderDetails } from '../types';
 import { SEO } from '../components/SEO';
+import { WhatsAppIcon } from '../components/WhatsAppIcon';
+import { formatPrice, getActivePrice, getMainImage, getShippingCost } from '../utils/productUtils';
+import { generateOrderMessage, getWhatsAppUrl } from '../utils/whatsapp';
 
 export const CheckoutPage: React.FC = () => {
   const { cart, cartSubtotal, clearCart, checkoutSuccess, setCheckoutSuccess } = useShop();
@@ -32,58 +35,8 @@ export const CheckoutPage: React.FC = () => {
     setFormData(prev => ({ ...prev, [name]: value }));
   };
 
-  const activeShipping = cartSubtotal >= 150 ? 0 : 12.50;
+  const activeShipping = getShippingCost(cartSubtotal);
   const grandTotal = cartSubtotal + activeShipping;
-
-  const generateWhatsAppMessageText = (id: string, details: OrderDetails) => {
-    let message = `🎣 *LUCANA TACKLE ORDER* 🎣\n`;
-    message += `---------------------------\n`;
-    message += `Order ID: *${id}*\n\n`;
-    
-    message += `👤 *Customer Details:*\n`;
-    message += `- Name: ${details.fullName}\n`;
-    message += `- Email: ${details.email || 'N/A'}\n`;
-    message += `- Phone: ${details.phone || 'N/A'}\n\n`;
-    
-    message += `📍 *Shipping Address:*\n`;
-    message += `- Address: ${details.address}\n`;
-    message += `- City: ${details.city}\n`;
-    message += `- Zip Code: ${details.zipCode}\n`;
-    message += `- Country: ${details.country}\n`;
-    if (details.deliveryNotes) {
-      message += `\n📝 *Delivery Notes:*\n- ${details.deliveryNotes}\n`;
-    }
-    
-    message += `\n🛒 *Items Ordered:*\n`;
-    cart.forEach(item => {
-      const prodPrice = typeof item.product.price === 'number' ? item.product.price : 0;
-      const prodDiscountPrice = typeof item.product.discount_price === 'number' ? item.product.discount_price : 0;
-      const price = prodDiscountPrice || prodPrice;
-      message += `- *${item.quantity}x ${item.product.name}*\n`;
-      message += `  Brand: ${item.product.brand}\n`;
-      if (item.selectedSpecs && Object.keys(item.selectedSpecs).length > 0) {
-        const specsStr = Object.entries(item.selectedSpecs)
-          .map(([k, v]) => `${k}: ${v}`)
-          .join(', ');
-        message += `  Specs: [${specsStr}]\n`;
-      }
-      message += `  Price: $${price.toFixed(2)} each ($${(price * item.quantity).toFixed(2)})\n`;
-    });
-    
-    message += `\n---------------------------\n`;
-    message += `*Subtotal:* $${cartSubtotal.toFixed(2)}\n`;
-    message += `*Shipping:* ${activeShipping === 0 ? 'FREE EXPRESS' : `$${activeShipping.toFixed(2)}`}\n`;
-    message += `*Grand Total:* *$${grandTotal.toFixed(2)}*\n\n`;
-    message += `Please confirm my order and send payment details. Thank you!`;
-    
-    return message;
-  };
-
-  const getWhatsAppUrl = (msg: string) => {
-    const basePhone = ((import.meta as any).env.VITE_WHATSAPP_PHONE || "+1234567890") as string;
-    const cleanPhone = basePhone.replace(/\D/g, '');
-    return `https://wa.me/${cleanPhone}?text=${encodeURIComponent(msg)}`;
-  };
 
   // Handle checkout form submit
   const handleCheckoutSubmit = (e: React.FormEvent) => {
@@ -92,7 +45,13 @@ export const CheckoutPage: React.FC = () => {
 
     // Generate standard order identifier
     const generatedId = `LUC-${Math.floor(100000 + Math.random() * 900000)}`;
-    const fullMsg = generateWhatsAppMessageText(generatedId, formData);
+    const fullMsg = generateOrderMessage({
+      orderId: generatedId,
+      details: formData,
+      cart,
+      subtotal: cartSubtotal,
+      shipping: activeShipping,
+    });
     
     setOrderId(generatedId);
     setWhatsappMessage(fullMsg);
@@ -156,9 +115,7 @@ export const CheckoutPage: React.FC = () => {
               rel="noopener noreferrer"
               className="flex-1 py-4 bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold rounded-xl shadow-lg transition-colors flex items-center justify-center space-x-2 uppercase cursor-pointer"
             >
-              <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24">
-                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.455L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.37 9.864-9.799.002-2.63-1.023-5.101-2.885-6.965C16.588 1.978 14.113.953 11.5.953c-5.44 0-9.865 4.371-9.87 9.799-.001 1.802.486 3.561 1.412 5.114l-.955 3.49 3.562-.945zm11.367-7.403c-.315-.158-1.86-.92-2.149-1.025-.289-.105-.5-.158-.71.158-.21.315-.813 1.025-.997 1.235-.183.21-.367.236-.682.079-.315-.158-1.33-.49-2.532-1.562-.936-.836-1.568-1.869-1.751-2.185-.184-.315-.02-.486.138-.643.143-.141.315-.368.473-.551.158-.184.21-.316.315-.527.105-.21.053-.395-.026-.553-.079-.158-.71-1.71-.973-2.34-.256-.617-.517-.533-.71-.543-.183-.009-.394-.01-.604-.01-.21 0-.552.079-.841.395-.29.315-1.104 1.079-1.104 2.63 0 1.553 1.13 3.053 1.288 3.264.158.21 2.224 3.397 5.388 4.761.752.325 1.34.52 1.8.663.756.24 1.444.207 1.988.125.606-.092 1.86-.761 2.122-1.458.263-.697.263-1.293.184-1.42-.079-.127-.29-.21-.605-.368z"/>
-              </svg>
+              <WhatsAppIcon className="w-5 h-5 fill-current" />
               <span>Send via WhatsApp</span>
             </a>
             
@@ -253,9 +210,7 @@ export const CheckoutPage: React.FC = () => {
             <div>
               <div className="flex items-center space-x-3">
                 <div className="w-10 h-10 rounded-full bg-emerald-50 text-emerald-600 flex items-center justify-center">
-                  <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24">
-                    <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.455L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.37 9.864-9.799.002-2.63-1.023-5.101-2.885-6.965C16.588 1.978 14.113.953 11.5.953c-5.44 0-9.865 4.371-9.87 9.799-.001 1.802.486 3.561 1.412 5.114l-.955 3.49 3.562-.945zm11.367-7.403c-.315-.158-1.86-.92-2.149-1.025-.289-.105-.5-.158-.71.158-.21.315-.813 1.025-.997 1.235-.183.21-.367.236-.682.079-.315-.158-1.33-.49-2.532-1.562-.936-.836-1.568-1.869-1.751-2.185-.184-.315-.02-.486.138-.643.143-.141.315-.368.473-.551.158-.184.21-.316.315-.527.105-.21.053-.395-.026-.553-.079-.158-.71-1.71-.973-2.34-.256-.617-.517-.533-.71-.543-.183-.009-.394-.01-.604-.01-.21 0-.552.079-.841.395-.29.315-1.104 1.079-1.104 2.63 0 1.553 1.13 3.053 1.288 3.264.158.21 2.224 3.397 5.388 4.761.752.325 1.34.52 1.8.663.756.24 1.444.207 1.988.125.606-.092 1.86-.761 2.122-1.458.263-.697.263-1.293.184-1.42-.079-.127-.29-.21-.605-.368z"/>
-                  </svg>
+                  <WhatsAppIcon className="w-5 h-5 fill-current" />
                 </div>
                 <div>
                   <h2 className="font-sans font-extrabold text-xl sm:text-2xl text-gray-950 leading-tight">
@@ -422,10 +377,8 @@ export const CheckoutPage: React.FC = () => {
                   <span>PREPARING FOR WHATSAPP...</span>
                 ) : (
                   <>
-                    <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24">
-                      <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.455L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.37 9.864-9.799.002-2.63-1.023-5.101-2.885-6.965C16.588 1.978 14.113.953 11.5.953c-5.44 0-9.865 4.371-9.87 9.799-.001 1.802.486 3.561 1.412 5.114l-.955 3.49 3.562-.945zm11.367-7.403c-.315-.158-1.86-.92-2.149-1.025-.289-.105-.5-.158-.71.158-.21.315-.813 1.025-.997 1.235-.183.21-.367.236-.682.079-.315-.158-1.33-.49-2.532-1.562-.936-.836-1.568-1.869-1.751-2.185-.184-.315-.02-.486.138-.643.143-.141.315-.368.473-.551.158-.184.21-.316.315-.527.105-.21.053-.395-.026-.553-.079-.158-.71-1.71-.973-2.34-.256-.617-.517-.533-.71-.543-.183-.009-.394-.01-.604-.01-.21 0-.552.079-.841.395-.29.315-1.104 1.079-1.104 2.63 0 1.553 1.13 3.053 1.288 3.264.158.21 2.224 3.397 5.388 4.761.752.325 1.34.52 1.8.663.756.24 1.444.207 1.988.125.606-.092 1.86-.761 2.122-1.458.263-.697.263-1.293.184-1.42-.079-.127-.29-.21-.605-.368z"/>
-                    </svg>
-                    <span>SEND ORDER VIA WHATSAPP (${grandTotal.toFixed(2)})</span>
+                    <WhatsAppIcon className="w-4 h-4 fill-current" />
+                    <span>SEND ORDER VIA WHATSAPP ({formatPrice(grandTotal)})</span>
                   </>
                 )}
               </button>
@@ -439,10 +392,8 @@ export const CheckoutPage: React.FC = () => {
             {/* Items scroll area */}
             <div className="divide-y divide-gray-100 overflow-y-auto max-h-[300px] pr-2">
               {cart.map(item => {
-                const prodPrice = typeof item.product.price === 'number' ? item.product.price : 0;
-                const prodDiscountPrice = typeof item.product.discount_price === 'number' ? item.product.discount_price : 0;
-                const price = prodDiscountPrice || prodPrice;
-                const itemImage = (item.product.images && item.product.images.length > 0 && item.product.images[0]) || "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&q=80&w=800";
+                const price = getActivePrice(item.product);
+                const itemImage = getMainImage(item.product);
                 return (
                   <div key={item.product.id} className="py-3 flex items-center justify-between gap-4">
                     <div className="flex items-center space-x-3">
@@ -457,7 +408,7 @@ export const CheckoutPage: React.FC = () => {
                       </div>
                     </div>
                     <span className="text-xs font-extrabold text-gray-900 shrink-0">
-                      ${(price * item.quantity).toFixed(2)}
+                      {formatPrice(price * item.quantity)}
                     </span>
                   </div>
                 );
@@ -468,17 +419,17 @@ export const CheckoutPage: React.FC = () => {
             <div className="border-t border-gray-100 pt-4 space-y-2.5 text-xs text-gray-500 font-semibold">
               <div className="flex justify-between">
                 <span>Items Subtotal</span>
-                <span className="text-gray-950 font-bold">${cartSubtotal.toFixed(2)}</span>
+                <span className="text-gray-950 font-bold">{formatPrice(cartSubtotal)}</span>
               </div>
               <div className="flex justify-between">
                 <span>Express Packing & Air Shipping</span>
                 <span className="text-gray-950 font-bold">
-                  {activeShipping === 0 ? 'FREE' : `$${activeShipping.toFixed(2)}`}
+                  {activeShipping === 0 ? 'FREE' : formatPrice(activeShipping)}
                 </span>
               </div>
               <div className="flex justify-between text-sm text-gray-950 font-extrabold pt-2.5 border-t border-gray-100">
                 <span>Total Order Value</span>
-                <span>${grandTotal.toFixed(2)}</span>
+                <span>{formatPrice(grandTotal)}</span>
               </div>
             </div>
 

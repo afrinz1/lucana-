@@ -83,3 +83,27 @@ input, button, select, textarea {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+/* Global layout tokens (previously injected inline by HomePage) */
+:root {
+  --navbar-height: 72px;
+}
+@media (min-width: 768px) {
+  :root {
+    --navbar-height: 80px;
+  }
+}
+
+/* Continuous sideways marquee (HomePage) */
+@keyframes marquee-scroll-continuous {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-33.3333%);
+  }
+}
+
+.animate-marquee-continuous {
+  animation: marquee-scroll-continuous 48s linear infinite;
+}

@@ -1,5 +1,6 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import { Product, CartItem } from '../types';
+import { getActivePrice } from '../utils/productUtils';
 
 interface ShopContextProps {
   cart: CartItem[];
@@ -21,8 +22,13 @@ const ShopContext = createContext<ShopContextProps | undefined>(undefined);
 
 export const ShopProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [cart, setCart] = useState<CartItem[]>(() => {
-    const saved = localStorage.getItem('lucana_cart');
-    return saved ? JSON.parse(saved) : [];
+    try {
+      const saved = localStorage.getItem('lucana_cart');
+      return saved ? (JSON.parse(saved) as CartItem[]) : [];
+    } catch {
+      // Ignore corrupted cart data and start fresh
+      return [];
+    }
   });
   const [isCartOpen, setCartOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
@@ -69,10 +75,7 @@ export const ShopProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
   const cartCount = cart.reduce((total, item) => total + item.quantity, 0);
 
-  const cartSubtotal = cart.reduce((total, item) => {
-    const price = item.product.discount_price || item.product.price;
-    return total + price * item.quantity;
-  }, 0);
+  const cartSubtotal = cart.reduce((total, item) => total + getActivePrice(item.product) * item.quantity, 0);
 
   return (
     <ShopContext.Provider

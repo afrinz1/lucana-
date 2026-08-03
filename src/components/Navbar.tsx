@@ -4,6 +4,7 @@ import { ShoppingBag, Search, Menu, X, ArrowRight, ChevronDown } from 'lucide-re
 import { motion, AnimatePresence } from 'motion/react';
 import { useShop } from '../context/ShopContext';
 import { categories } from '../utils/productUtils';
+import logo from '../assets/images/logo.png';
 
 export const Navbar: React.FC = () => {
   const { cartCount, setCartOpen, searchQuery, setSearchQuery } = useShop();
@@ -220,14 +221,17 @@ export const Navbar: React.FC = () => {
             <Link
               id="brand-logo"
               to="/"
-              className="group flex items-center space-x-1 font-sans font-extrabold text-xl sm:text-2xl tracking-[0.2em] sm:tracking-[0.25em] text-gray-950 uppercase shrink-0"
+              className="group flex items-center shrink-0"
               onClick={() => {
                 setSearchQuery('');
                 setLocalSearch('');
               }}
             >
-              <span className="pl-1">LUCANA</span>
-              <span className="w-1.5 h-1.5 bg-[#C62828] rounded-full group-hover:scale-150 transition-transform duration-300 ease-out"></span>
+              <img
+                src={logo}
+                alt="Lucana logo"
+                className="h-8 w-auto sm:h-9 md:h-10 object-contain"
+              />
             </Link>
           </div>
 
@@ -375,15 +379,18 @@ export const Navbar: React.FC = () => {
                 <div className="p-6 border-b border-gray-100 flex items-center justify-between">
                   <Link
                     to="/"
-                    className="flex items-center space-x-1 font-sans font-extrabold text-lg tracking-[0.2em] text-gray-950 uppercase"
+                    className="flex items-center"
                     onClick={() => {
                       setIsMenuOpen(false);
                       setSearchQuery('');
                       setLocalSearch('');
                     }}
                   >
-                    <span>LUCANA</span>
-                    <span className="w-1.5 h-1.5 bg-[#C62828] rounded-full"></span>
+                    <img
+                      src={logo}
+                      alt="Lucana logo"
+                      className="h-7 w-auto object-contain"
+                    />
                   </Link>
                   <button
                     onClick={() => setIsMenuOpen(false)}

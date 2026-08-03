@@ -3,6 +3,17 @@ import { Link } from 'react-router-dom';
 import { ShoppingCart, Star, ArrowRight } from 'lucide-react';
 import { Product } from '../types';
 import { useShop } from '../context/ShopContext';
+import {
+  formatPrice,
+  getActivePrice,
+  getBasePrice,
+  getMainImage,
+  getReviewsCount,
+  getSavings,
+  getSimulatedRating,
+  hasDiscount,
+  isOutOfStock,
+} from '../utils/productUtils';
 
 interface ProductCardProps {
   product: Product;
@@ -12,16 +23,13 @@ interface ProductCardProps {
 export const ProductCard: React.FC<ProductCardProps> = ({ product, viewMode = 'grid' }) => {
   const { addToCart } = useShop();
 
-  const price = typeof product.price === 'number' ? product.price : 0;
-  const discountPrice = typeof product.discount_price === 'number' ? product.discount_price : 0;
-  const activePrice = discountPrice || price;
-  const hasDiscount = discountPrice > 0 && discountPrice < price;
-  const isOutOfStock = typeof product.stock === 'number' ? product.stock <= 0 : false;
-  const mainImage = (product.images && product.images.length > 0 && product.images[0]) || "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&q=80&w=800";
-
-  // Simulate rating
-  const rating = (4.5 + (product.id % 6) * 0.1).toFixed(1);
-  const reviewsCount = 12 + (product.id * 7) % 43;
+  const basePrice = getBasePrice(product);
+  const activePrice = getActivePrice(product);
+  const discounted = hasDiscount(product);
+  const outOfStock = isOutOfStock(product);
+  const mainImage = getMainImage(product);
+  const rating = getSimulatedRating(product);
+  const reviewsCount = getReviewsCount(product);
 
   if (viewMode === 'list') {
     return (
@@ -39,12 +47,12 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, viewMode = 'g
               referrerPolicy="no-referrer"
             />
           </Link>
-          {hasDiscount && (
+          {discounted && (
             <span className="absolute top-3 left-3 bg-[#C62828] text-white text-[10px] font-extrabold px-2.5 py-1 rounded-none uppercase tracking-wider">
-              Save ${(price - discountPrice).toFixed(0)}
+              Save ${getSavings(product).toFixed(0)}
             </span>
           )}
-          {isOutOfStock && (
+          {outOfStock && (
             <span className="absolute inset-0 bg-white/80 flex items-center justify-center text-sm font-bold text-gray-500 uppercase tracking-wider">
               Out of Stock
             </span>
@@ -89,9 +97,9 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, viewMode = 'g
           <div className="flex items-center justify-between mt-6 pt-4 border-t border-gray-50">
             {/* Price */}
             <div className="flex items-baseline space-x-2">
-              <span className="text-xl font-extrabold text-gray-900">${activePrice.toFixed(2)}</span>
-              {hasDiscount && (
-                <span className="text-sm text-gray-400 line-through">${price.toFixed(2)}</span>
+              <span className="text-xl font-extrabold text-gray-900">{formatPrice(activePrice)}</span>
+              {discounted && (
+                <span className="text-sm text-gray-400 line-through">{formatPrice(basePrice)}</span>
               )}
             </div>
 
@@ -106,10 +114,10 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, viewMode = 'g
               </Link>
               <button
                 id={`add-btn-list-${product.id}`}
-                disabled={isOutOfStock}
+                disabled={outOfStock}
                 onClick={() => addToCart(product)}
                 className={`p-2 bg-gray-900 text-white rounded-none hover:bg-[#C62828] transition-colors duration-200 ${
-                  isOutOfStock ? 'opacity-50 cursor-not-allowed bg-gray-300 hover:bg-gray-300' : ''
+                  outOfStock ? 'opacity-50 cursor-not-allowed bg-gray-300 hover:bg-gray-300' : ''
                 }`}
                 title="Add to Cart"
               >
@@ -140,7 +148,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, viewMode = 'g
         </Link>
         
         {/* Floating Badges */}
-        {hasDiscount && (
+        {discounted && (
           <span className="absolute top-3 left-3 bg-[#C62828] text-white text-[9px] font-extrabold px-2.5 py-1 rounded-none uppercase tracking-widest">
             Sale
           </span>
@@ -152,7 +160,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, viewMode = 'g
           </span>
         )}
 
-        {isOutOfStock && (
+        {outOfStock && (
           <span className="absolute inset-0 bg-white/80 flex items-center justify-center text-sm font-bold text-gray-500 uppercase tracking-widest">
             Out of Stock
           </span>
@@ -162,10 +170,10 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, viewMode = 'g
         <div className="absolute bottom-3 left-3 right-3 translate-y-12 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300 hidden sm:block">
           <button
             id={`add-btn-grid-hover-${product.id}`}
-            disabled={isOutOfStock}
+            disabled={outOfStock}
             onClick={() => addToCart(product)}
             className={`w-full py-2.5 bg-gray-900 hover:bg-[#C62828] text-white text-xs font-bold rounded-none shadow-md transition-colors duration-200 flex items-center justify-center space-x-2 ${
-              isOutOfStock ? 'opacity-50 cursor-not-allowed bg-gray-300 hover:bg-gray-300' : ''
+              outOfStock ? 'opacity-50 cursor-not-allowed bg-gray-300 hover:bg-gray-300' : ''
             }`}
           >
             <ShoppingCart className="w-3.5 h-3.5" />
@@ -208,19 +216,19 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, viewMode = 'g
         <div className="flex items-center justify-between mt-4 pt-3 border-t border-gray-50">
           {/* Price */}
           <div className="flex items-baseline space-x-1.5">
-            <span className="text-sm sm:text-base font-extrabold text-gray-950">${activePrice.toFixed(2)}</span>
-            {hasDiscount && (
-              <span className="text-xs text-gray-400 line-through">${price.toFixed(2)}</span>
+            <span className="text-sm sm:text-base font-extrabold text-gray-950">{formatPrice(activePrice)}</span>
+            {discounted && (
+              <span className="text-xs text-gray-400 line-through">{formatPrice(basePrice)}</span>
             )}
           </div>
 
           {/* Mobile direct add-to-cart button */}
           <button
             id={`add-btn-grid-mobile-${product.id}`}
-            disabled={isOutOfStock}
+            disabled={outOfStock}
             onClick={() => addToCart(product)}
             className={`p-2 bg-gray-100 hover:bg-[#C62828] hover:text-white rounded-none text-gray-700 transition-all duration-200 sm:hidden ${
-              isOutOfStock ? 'opacity-50 cursor-not-allowed text-gray-300 hover:bg-gray-100' : ''
+              outOfStock ? 'opacity-50 cursor-not-allowed text-gray-300 hover:bg-gray-100' : ''
             }`}
             aria-label="Add to cart"
           >
