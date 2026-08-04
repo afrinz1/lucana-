@@ -12,12 +12,16 @@ import {
   getReviewsCount,
   getSavings,
   getSimulatedRating,
+  getBrandSlugForProduct,
   hasDiscount,
   isOutOfStock,
   formatPrice,
+  categories,
 } from '../utils/productUtils';
 import { ProductCard } from '../components/ProductCard';
+import { Breadcrumbs } from '../components/Breadcrumbs';
 import { SEO } from '../components/SEO';
+import { SITE_URL } from '../utils/siteConfig';
 
 const CONFIGURABLE_SPEC_KEYWORDS = ['hand', 'size', 'strength', 'length'];
 
@@ -80,6 +84,8 @@ export const ProductDetailPage: React.FC = () => {
   const rating = getSimulatedRating(product);
   const reviewsCount = getReviewsCount(product);
   const configurableSpecs = (product.specifications || []).filter(isConfigurableSpec);
+  const categoryName = categories.find(c => c.id === product.category)?.name || product.category;
+  const brandSlug = getBrandSlugForProduct(product);
 
   const handleAddToCart = () => {
     addToCart(product, quantity, selectedSpecs);
@@ -89,19 +95,20 @@ export const ProductDetailPage: React.FC = () => {
     setSelectedSpecs(prev => ({ ...prev, [title]: value }));
   };
 
-  // JSON-LD structured data: Product + BreadcrumbList for rich search results
+  // JSON-LD structured data: Product schema for rich search results
   const productSchema = {
     '@context': 'https://schema.org',
     '@type': 'Product',
     name: product.name,
-    image: activeImage || getMainImage(product),
+    image: product.images && product.images.length > 0 ? product.images : [getMainImage(product)],
     description: product.description,
     sku: product.sku,
+    url: `${SITE_URL}/product/${product.slug}`,
     brand: { '@type': 'Brand', name: product.brand || 'Lucana' },
     category: product.category,
     offers: {
       '@type': 'Offer',
-      url: `https://lucanatackle.com/product/${product.slug}`,
+      url: `${SITE_URL}/product/${product.slug}`,
       priceCurrency: 'USD',
       price: getActivePrice(product).toFixed(2),
       availability: isOutOfStock(product)
@@ -111,22 +118,6 @@ export const ProductDetailPage: React.FC = () => {
     },
   };
 
-  const breadcrumbSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'BreadcrumbList',
-    itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://lucanatackle.com/' },
-      { '@type': 'ListItem', position: 2, name: 'Shop', item: 'https://lucanatackle.com/shop' },
-      {
-        '@type': 'ListItem',
-        position: 3,
-        name: product.category,
-        item: `https://lucanatackle.com/category/${product.category}`,
-      },
-      { '@type': 'ListItem', position: 4, name: product.name },
-    ],
-  };
-
   return (
     <div id="product-detail-page" className="bg-[#FAF9F9] min-h-screen pt-24 pb-20">
       <SEO 
@@ -134,20 +125,20 @@ export const ProductDetailPage: React.FC = () => {
         description={product.description}
         keywords={`${product.name}, ${product.category}, ${product.brand || 'lucana'}, saltwater fishing`}
         ogImage={activeImage || (product.images && product.images[0])}
-        structuredData={[productSchema, breadcrumbSchema]}
+        structuredData={[productSchema]}
       />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Breadcrumb Navigation */}
-        <div className="py-4 text-xs text-gray-400 font-bold uppercase tracking-wider flex items-center space-x-1.5">
-          <Link to="/" className="hover:text-gray-900 transition-colors">Home</Link>
-          <span>/</span>
-          <Link to="/shop" className="hover:text-gray-900 transition-colors">Shop</Link>
-          <span>/</span>
-          <Link to={`/category/${product.category}`} className="hover:text-gray-900 transition-colors">{product.category}</Link>
-          <span>/</span>
-          <span className="text-gray-950 font-extrabold line-clamp-1">{product.name}</span>
-        </div>
+        <Breadcrumbs
+          className="py-4"
+          items={[
+            { name: 'Home', to: '/' },
+            { name: 'Shop', to: '/shop' },
+            { name: categoryName, to: `/category/${product.category}` },
+            { name: product.name },
+          ]}
+        />
 
         {/* Product Visual & Buy Panel Row */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 mt-4 bg-white rounded-3xl p-6 sm:p-10 border border-gray-100 shadow-sm">
@@ -180,7 +171,13 @@ export const ProductDetailPage: React.FC = () => {
                     activeImage === img ? 'border-gray-900 scale-95 shadow-sm' : 'border-transparent hover:border-gray-200'
                   }`}
                 >
-                  <img src={img} alt={`Thumbnail ${i + 1}`} className="w-full h-full object-cover" referrerPolicy="no-referrer" />
+                  <img
+                    src={img}
+                    alt={`${product.name} — product image ${i + 1}`}
+                    loading="lazy"
+                    className="w-full h-full object-cover"
+                    referrerPolicy="no-referrer"
+                  />
                 </button>
               ))}
             </div>
@@ -193,10 +190,18 @@ export const ProductDetailPage: React.FC = () => {
             <div className="space-y-3">
               <div className="flex flex-wrap gap-2 items-center text-xs text-gray-400 font-bold uppercase">
                 <span className="text-[#C62828] hover:underline">
-                  <Link to={`/category/${product.category}`}>{product.category}</Link>
+                  <Link to={`/category/${product.category}`}>{categoryName}</Link>
                 </span>
                 <span>&bull;</span>
-                <span className="text-gray-500">{product.brand} Partner Series</span>
+                <span className="text-gray-500">
+                  {brandSlug ? (
+                    <Link to={`/brand/${brandSlug}`} className="hover:text-gray-900 hover:underline transition-colors">
+                      {product.brand} Partner Series
+                    </Link>
+                  ) : (
+                    <span>{product.brand} Partner Series</span>
+                  )}
+                </span>
               </div>
               
               <h1 className="font-sans font-extrabold text-2xl sm:text-3xl lg:text-4xl text-gray-900 leading-tight">
@@ -464,8 +469,11 @@ export const ProductDetailPage: React.FC = () => {
               <h2 className="font-sans font-extrabold text-xl sm:text-2xl text-gray-950">
                 Related Rigging Options
               </h2>
-              <Link to="/shop" className="text-xs font-bold text-[#C62828] hover:underline uppercase tracking-wider">
-                Browse all category
+              <Link
+                to={`/category/${product.category}`}
+                className="text-xs font-bold text-[#C62828] hover:underline uppercase tracking-wider"
+              >
+                Browse all {categoryName.toLowerCase()}
               </Link>
             </div>
 

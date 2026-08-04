@@ -9,6 +9,7 @@ import { HomePage } from './pages/HomePage';
 import { ShopPage } from './pages/ShopPage';
 import { ProductDetailPage } from './pages/ProductDetailPage';
 import { CategoryPage } from './pages/CategoryPage';
+import { BrandPage } from './pages/BrandPage';
 import { CheckoutPage } from './pages/CheckoutPage';
 import { AboutPage } from './pages/AboutPage';
 import { NotFoundPage } from './pages/NotFoundPage';
@@ -126,6 +127,7 @@ export default function App() {
               <Route path="/shop" element={<ShopPage />} />
               <Route path="/product/:slug" element={<ProductDetailPage />} />
               <Route path="/category/:categorySlug" element={<CategoryPage />} />
+              <Route path="/brand/:brandSlug" element={<BrandPage />} />
               <Route path="/checkout" element={<CheckoutPage />} />
               <Route path="/about" element={<AboutPage />} />
               {/* Unknown routes get a proper 404 page instead of silently loading home */}

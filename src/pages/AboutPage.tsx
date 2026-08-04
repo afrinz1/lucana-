@@ -3,15 +3,59 @@ import { motion } from 'motion/react';
 import { Anchor, ArrowRight, ArrowUpRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { SEO } from '../components/SEO';
+import { Breadcrumbs } from '../components/Breadcrumbs';
+
+const FAQ_ITEMS = [
+  {
+    question: 'How long does Lucana shipping take?',
+    answer:
+      'Orders are packed and shipped within 1 business day. Express air shipping takes 2-3 business days, and free express shipping is automatically applied on orders over $150.',
+  },
+  {
+    question: 'Are Lucana reels and rods safe for saltwater use?',
+    answer:
+      'Yes. Our reels feature fully sealed IPX6/IPX7 drag washers, drive gearing and pinions that protect bearings from saltwater intrusion and corrosion.',
+  },
+  {
+    question: 'What warranty do Lucana products carry?',
+    answer:
+      'Every Lucana reel, rod and blank is covered by a full 3-year warranty against material failure, with Master Technician hand calibration on all high-capacity reels.',
+  },
+  {
+    question: 'How do I place an order with Lucana?',
+    answer:
+      'Add your tackle to the fishing bag and check out via WhatsApp. We format your order into a message, confirm payment details in chat, and ship within 24 hours.',
+  },
+];
 
 export const AboutPage: React.FC = () => {
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: FAQ_ITEMS.map(item => ({
+      '@type': 'Question',
+      name: item.question,
+      acceptedAnswer: { '@type': 'Answer', text: item.answer },
+    })),
+  };
+
   return (
     <div id="about-page" className="min-h-screen bg-[#FAF9F9] pt-24 pb-16 overflow-hidden">
       <SEO 
         title="Our Heritage & Vision | Lucana Tackle Co."
         description="Learn about the origin of Lucana. From a boutique saltwater machining workshop to an elite brand engineering 40-Ton carbon rods and CNC micro-tolerance reels."
         keywords="about lucana, fishing brand, premium fishing tackle heritage, precision manufacturing"
+        structuredData={[faqSchema]}
       />
+
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-2">
+        <Breadcrumbs
+          items={[
+            { name: 'Home', to: '/' },
+            { name: 'About Lucana' },
+          ]}
+        />
+      </div>
 
       {/* Embedded CSS for custom self-contained keyframe animations (Scrolling Marquee & Rotating Starburst) */}
       <style>{`
@@ -306,9 +350,9 @@ export const AboutPage: React.FC = () => {
                 01
               </div>
               <div className="space-y-1">
-                <h4 className="font-sans font-extrabold text-sm sm:text-base text-gray-950 uppercase tracking-tight group-hover:text-[#C62828] transition-colors">
+                <h3 className="font-sans font-extrabold text-sm sm:text-base text-gray-950 uppercase tracking-tight group-hover:text-[#C62828] transition-colors">
                   Computational Stress Mapping
-                </h4>
+                </h3>
                 <p className="text-xs text-gray-400 max-w-xl font-normal leading-relaxed">
                   Tokyo design facility stress-maps composite materials, modeling raw elasticity arrays to guarantee zero-shatter under extreme deep-sea pelagic load peaks.
                 </p>
@@ -333,9 +377,9 @@ export const AboutPage: React.FC = () => {
                 02
               </div>
               <div className="space-y-1">
-                <h4 className="font-sans font-extrabold text-sm sm:text-base text-gray-950 uppercase tracking-tight group-hover:text-[#C62828] transition-colors">
+                <h3 className="font-sans font-extrabold text-sm sm:text-base text-gray-950 uppercase tracking-tight group-hover:text-[#C62828] transition-colors">
                   Master Technician Hand Calibration
-                </h4>
+                </h3>
                 <p className="text-xs text-gray-400 max-w-xl font-normal leading-relaxed">
                   Every high-capacity Lucana reel is assembled, hand-lubricated with high-viscosity marine grease, and load tested for instant anti-reverse accuracy.
                 </p>
@@ -360,9 +404,9 @@ export const AboutPage: React.FC = () => {
                 03
               </div>
               <div className="space-y-1">
-                <h4 className="font-sans font-extrabold text-sm sm:text-base text-gray-950 uppercase tracking-tight group-hover:text-[#C62828] transition-colors">
+                <h3 className="font-sans font-extrabold text-sm sm:text-base text-gray-950 uppercase tracking-tight group-hover:text-[#C62828] transition-colors">
                   Marine Salt Shield Guard
-                </h4>
+                </h3>
                 <p className="text-xs text-gray-400 max-w-xl font-normal leading-relaxed">
                   Multi-barrier anti-corrosion oxide treatment and internal gasket defense arrays shield bearings and drives from destructive salt oxidation.
                 </p>
@@ -387,9 +431,9 @@ export const AboutPage: React.FC = () => {
                 04
               </div>
               <div className="space-y-1">
-                <h4 className="font-sans font-extrabold text-sm sm:text-base text-gray-950 uppercase tracking-tight group-hover:text-[#C62828] transition-colors">
+                <h3 className="font-sans font-extrabold text-sm sm:text-base text-gray-950 uppercase tracking-tight group-hover:text-[#C62828] transition-colors">
                   Prestige Field Guarantee
-                </h4>
+                </h3>
                 <p className="text-xs text-gray-400 max-w-xl font-normal leading-relaxed">
                   Our products are tested on heavy-haul saltwater runs. We back every design blank and structural body with a full 3-year warranty limit.
                 </p>
@@ -401,6 +445,36 @@ export const AboutPage: React.FC = () => {
             </div>
           </motion.div>
 
+        </div>
+      </section>
+
+      {/* 5b. FAQ Section (visible content backing the FAQPage schema) */}
+      <section className="py-16 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center max-w-2xl mx-auto mb-12 space-y-4">
+          <h2 className="font-sans font-black text-3xl sm:text-4xl text-gray-950 uppercase tracking-tight">
+            Frequently Asked Questions
+          </h2>
+          <p className="text-xs text-gray-400 uppercase tracking-wider font-bold">
+            SHIPPING, WARRANTY & ORDERS
+          </p>
+        </div>
+        <div className="space-y-4">
+          {FAQ_ITEMS.map(item => (
+            <details
+              key={item.question}
+              className="group bg-white border border-gray-200/80 rounded-xl p-6 sm:p-8 open:border-gray-900 transition-colors duration-300"
+            >
+              <summary className="flex items-center justify-between gap-4 cursor-pointer list-none">
+                <h3 className="font-sans font-extrabold text-sm sm:text-base text-gray-950 uppercase tracking-tight group-open:text-[#C62828] transition-colors">
+                  {item.question}
+                </h3>
+                <span className="text-[#C62828] font-black text-lg shrink-0 group-open:rotate-45 transition-transform duration-200">+</span>
+              </summary>
+              <p className="text-xs sm:text-sm text-gray-500 leading-relaxed font-normal mt-4 max-w-2xl">
+                {item.answer}
+              </p>
+            </details>
+          ))}
         </div>
       </section>
 

@@ -4,6 +4,7 @@ import { Search, Grid, List, SlidersHorizontal, RotateCcw, ChevronLeft, ChevronR
 import { useShop } from '../context/ShopContext';
 import { products, categories, filterProducts, sortProducts, getPriceBounds } from '../utils/productUtils';
 import { ProductCard } from '../components/ProductCard';
+import { Breadcrumbs } from '../components/Breadcrumbs';
 import { SEO } from '../components/SEO';
 
 export const ShopPage: React.FC = () => {
@@ -34,14 +35,15 @@ export const ShopPage: React.FC = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 8;
 
-  // Sync category & brand state from searchParams if they change
+  // Single source of truth: URL params drive the filter state (and reset pagination)
   useEffect(() => {
     const catParam = searchParams.get('category');
-    if (catParam) setSelectedCategory(catParam);
+    setSelectedCategory(catParam || 'all');
     const brandParam = searchParams.get('brand');
-    if (brandParam) setSelectedBrand(brandParam);
+    setSelectedBrand(brandParam || 'all');
     const searchParam = searchParams.get('search');
     if (searchParam !== null) setSearchQuery(searchParam);
+    setCurrentPage(1);
   }, [searchParams, setSearchQuery]);
 
   // Update query params when categories or brands are selected
@@ -118,11 +120,13 @@ export const ShopPage: React.FC = () => {
         {/* Header Breadcrumb & Search Banner */}
         <div className="bg-white rounded-2xl p-6 sm:p-8 border border-gray-100 shadow-sm mb-10 flex flex-col md:flex-row md:items-center justify-between gap-6">
           <div>
-            <div className="text-xs text-gray-400 font-bold uppercase tracking-wider space-x-1.5 flex items-center">
-              <Link to="/" className="hover:text-gray-900 transition-colors">Home</Link>
-              <span>/</span>
-              <span className="text-gray-950">Shop Gear</span>
-            </div>
+            <Breadcrumbs
+              items={[
+                { name: 'Home', to: '/' },
+                { name: 'Shop Gear' },
+              ]}
+              className="mb-3"
+            />
             <h1 className="font-sans font-extrabold text-2xl sm:text-3xl text-gray-950 mt-2">
               Explore Lucana Tackle
             </h1>
@@ -176,34 +180,35 @@ export const ShopPage: React.FC = () => {
               </button>
             </div>
 
-            {/* Categories */}
+            {/* Categories — real links for crawlable internal linking */}
             <div className="space-y-3.5">
               <h4 className="font-bold text-gray-900 text-xs tracking-wider uppercase">Category</h4>
               <div className="space-y-1.5 text-sm text-gray-600">
-                <button
-                  onClick={() => handleCategorySelect('all')}
+                <Link
+                  to="/shop"
                   className={`w-full flex items-center justify-between text-left px-3 py-2 rounded-lg text-xs font-bold transition-all ${
                     selectedCategory === 'all' ? 'bg-gray-900 text-white shadow-sm' : 'hover:bg-gray-50'
                   }`}
                 >
                   <span>All Categories</span>
                   <span className="font-mono text-[10px] text-gray-400">{products.length}</span>
-                </button>
+                </Link>
                 {categories.map(cat => {
                   const count = categoryCounts[cat.id] || 0;
+                  const active = selectedCategory === cat.id;
                   return (
-                    <button
+                    <Link
                       key={cat.id}
-                      onClick={() => handleCategorySelect(cat.id)}
+                      to={`/shop?category=${cat.id}`}
                       className={`w-full flex items-center justify-between text-left px-3 py-2 rounded-lg text-xs font-semibold transition-all ${
-                        selectedCategory === cat.id ? 'bg-gray-900 text-white shadow-sm' : 'hover:bg-gray-[#FAF9F9]'
+                        active ? 'bg-gray-900 text-white shadow-sm' : 'hover:bg-gray-50'
                       }`}
                     >
                       <span>{cat.name}</span>
-                      <span className={`font-mono text-[10px] ${selectedCategory === cat.id ? 'text-gray-300' : 'text-gray-400'}`}>
+                      <span className={`font-mono text-[10px] ${active ? 'text-gray-300' : 'text-gray-400'}`}>
                         {count}
                       </span>
-                    </button>
+                    </Link>
                   );
                 })}
               </div>

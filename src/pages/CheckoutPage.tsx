@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { ShoppingBag, CheckCircle2, ChevronRight, ArrowLeft, Copy, Check, ShieldCheck } from 'lucide-react';
+import { ShoppingBag, CheckCircle2, ArrowLeft, Copy, Check, ShieldCheck } from 'lucide-react';
 import { useShop } from '../context/ShopContext';
 import { OrderDetails } from '../types';
 import { SEO } from '../components/SEO';
+import { Breadcrumbs } from '../components/Breadcrumbs';
 import { WhatsAppIcon } from '../components/WhatsAppIcon';
 import { formatPrice, getActivePrice, getMainImage, getShippingCost } from '../utils/productUtils';
 import { generateOrderMessage, getWhatsAppUrl } from '../utils/whatsapp';
@@ -188,17 +189,19 @@ export const CheckoutPage: React.FC = () => {
       <SEO 
         title="Secure Checkout | Lucana"
         description="Review your premium fishing tackle bag and proceed to fast, direct WhatsApp checkout with the Lucana logistics desk."
+        robots="noindex, nofollow"
       />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Header Breadcrumbs */}
-        <div className="py-4 text-xs text-gray-400 font-bold uppercase tracking-wider flex items-center space-x-1.5">
-          <Link to="/" className="hover:text-gray-900 transition-colors">Home</Link>
-          <ChevronRight className="w-3.5 h-3.5" />
-          <Link to="/shop" className="hover:text-gray-900 transition-colors">Shop</Link>
-          <ChevronRight className="w-3.5 h-3.5" />
-          <span className="text-gray-950 font-extrabold">WhatsApp Checkout</span>
-        </div>
+        <Breadcrumbs
+          className="py-4"
+          items={[
+            { name: 'Home', to: '/' },
+            { name: 'Shop', to: '/shop' },
+            { name: 'WhatsApp Checkout' },
+          ]}
+        />
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 mt-4 items-start">
           

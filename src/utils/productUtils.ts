@@ -124,6 +124,50 @@ export function getProductsByCategory(categorySlug: string): Product[] {
 }
 
 /**
+ * Find a brand by its slug (the brand's id, e.g. "ocean-master").
+ * Falls back to a brand derived from the product catalog so that every
+ * product brand maps to a real (never 404ing) brand page.
+ */
+export function getBrandBySlug(brandSlug: string): Brand | undefined {
+  const match = brands.find(b => b.id.toLowerCase() === brandSlug.toLowerCase());
+  if (match) return match;
+
+  const normalizedSlug = brandSlug.toLowerCase();
+  const productBrand = products.find(p => {
+    if (!p.brand) return false;
+    const slug = p.brand.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+    return slug === normalizedSlug;
+  });
+  if (!productBrand) return undefined;
+
+  return {
+    id: normalizedSlug,
+    name: productBrand.brand,
+    description: `Explore the ${productBrand.brand} collection — premium fishing tackle available at Lucana.`,
+    logo: productBrand.brand.charAt(0),
+  };
+}
+
+/**
+ * All active products belonging to a brand (matched by normalized name).
+ */
+export function getProductsByBrand(brand: Brand): Product[] {
+  const name = brand.name.toLowerCase();
+  return products.filter(p => (p.brand || '').toLowerCase() === name && p.status === 'active');
+}
+
+/**
+ * Brand-page slug for a product (falls back to a slugified brand name).
+ */
+export function getBrandSlugForProduct(product: Pick<Product, 'brand'>): string | undefined {
+  if (!product.brand) return undefined;
+  const normalized = product.brand.toLowerCase();
+  const brand = brands.find(b => b.name.toLowerCase() === normalized);
+  if (brand) return brand.id;
+  return normalized.replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+}
+
+/**
  * Cover image for a category — the first product image in that category
  * (i.e. the 1st image from each section), falling back to the category's
  * own image when the section has no active products.

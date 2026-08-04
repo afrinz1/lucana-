@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
+import { SITE_NAME, SITE_URL, DEFAULT_OG_IMAGE } from '../utils/siteConfig';
 
 interface SEOProps {
   title: string;
@@ -12,9 +13,6 @@ interface SEOProps {
   /** JSON-LD structured data blocks (Product, BreadcrumbList, etc.) to inject per page. */
   structuredData?: Record<string, unknown>[];
 }
-
-const SITE_NAME = 'Lucana';
-const SITE_URL = 'https://lucanatackle.com';
 
 export const SEO: React.FC<SEOProps> = ({
   title,
@@ -46,6 +44,11 @@ export const SEO: React.FC<SEOProps> = ({
       element.setAttribute('content', content);
     };
 
+    // Helper to remove a meta tag (prevents stale values leaking between pages)
+    const removeMetaTag = (attrName: string, attrVal: string) => {
+      document.querySelectorAll(`meta[${attrName}="${attrVal}"]`).forEach(el => el.remove());
+    };
+
     // Helper to update canonical link
     const setCanonicalLink = (url: string) => {
       let link: HTMLLinkElement | null = document.querySelector('link[rel="canonical"]');
@@ -68,31 +71,33 @@ export const SEO: React.FC<SEOProps> = ({
     setMetaTag('property', 'og:title', fullTitle);
     setMetaTag('name', 'twitter:title', fullTitle);
 
-    // 4. Set keywords if specified
+    // 4. Keywords: always sync — remove stale ones from the previous page
     if (keywords) {
       setMetaTag('name', 'keywords', keywords);
+    } else {
+      removeMetaTag('name', 'keywords');
     }
 
     // 5. Set Content Type
     setMetaTag('property', 'og:type', type);
 
-    // 6. Set OG URL + canonical
+    // 6. Set OG URL + canonical (pathname only — query params stay uncanonicalized)
     const canonicalUrl = `${SITE_URL}${pathname}`;
     setMetaTag('property', 'og:url', canonicalUrl);
+    setMetaTag('name', 'twitter:url', canonicalUrl);
     setCanonicalLink(canonicalUrl);
 
-    // 7. Set Images
-    if (ogImage) {
-      setMetaTag('property', 'og:image', ogImage);
-      setMetaTag('name', 'twitter:image', ogImage);
-    }
+    // 7. Images: always sync — remove stale OG/Twitter images when none provided
+    const image = ogImage || DEFAULT_OG_IMAGE;
+    setMetaTag('property', 'og:image', image);
+    setMetaTag('name', 'twitter:image', image);
 
     // 8. Site-level Open Graph & Twitter metadata
     setMetaTag('property', 'og:site_name', SITE_NAME);
     setMetaTag('property', 'og:locale', 'en_US');
     setMetaTag('name', 'twitter:card', 'summary_large_image');
 
-    // 9. Crawler directives (noindex for 404, thank-you, etc.)
+    // 9. Crawler directives (noindex for 404, checkout, thank-you, etc.)
     setMetaTag('name', 'robots', robots);
 
     // 10. JSON-LD structured data (remove any stale blocks from previous page first)

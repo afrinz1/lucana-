@@ -42,7 +42,8 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, viewMode = 'g
           <Link to={`/product/${product.slug}`} className="block w-full h-full">
             <img
               src={mainImage}
-              alt={product.name}
+              alt={`${product.name} — ${product.brand || 'Lucana'} fishing tackle`}
+              loading="lazy"
               className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
               referrerPolicy="no-referrer"
             />
@@ -141,7 +142,8 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, viewMode = 'g
         <Link to={`/product/${product.slug}`} className="block w-full h-full">
           <img
             src={mainImage}
-            alt={product.name}
+            alt={`${product.name} — ${product.brand || 'Lucana'} fishing tackle`}
+            loading="lazy"
             className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
             referrerPolicy="no-referrer"
           />

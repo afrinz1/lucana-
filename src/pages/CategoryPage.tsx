@@ -1,9 +1,11 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { ChevronRight, SlidersHorizontal, Anchor } from 'lucide-react';
+import { SlidersHorizontal, Anchor, ArrowRight } from 'lucide-react';
 import { filterProducts, getProductsByCategory, categories } from '../utils/productUtils';
 import { ProductCard } from '../components/ProductCard';
+import { Breadcrumbs } from '../components/Breadcrumbs';
 import { SEO } from '../components/SEO';
+import { SITE_URL } from '../utils/siteConfig';
 
 export const CategoryPage: React.FC = () => {
   const { categorySlug } = useParams<{ categorySlug: string }>();
@@ -51,19 +53,17 @@ export const CategoryPage: React.FC = () => {
   }
 
   // Defined after the categoryMeta null check so it is safe to dereference
-  const breadcrumbSchema = {
+  const itemListSchema = {
     '@context': 'https://schema.org',
-    '@type': 'BreadcrumbList',
-    itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://lucanatackle.com/' },
-      { '@type': 'ListItem', position: 2, name: 'Shop', item: 'https://lucanatackle.com/shop' },
-      {
-        '@type': 'ListItem',
-        position: 3,
-        name: categoryMeta.name,
-        item: `https://lucanatackle.com/category/${categoryMeta.slug}`,
-      },
-    ],
+    '@type': 'ItemList',
+    name: `${categoryMeta.name} — Lucana Tackle`, 
+    numberOfItems: filteredProducts.length,
+    itemListElement: filteredProducts.map((p, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      url: `${SITE_URL}/product/${p.slug}`,
+      name: p.name,
+    })),
   };
 
   return (
@@ -72,7 +72,7 @@ export const CategoryPage: React.FC = () => {
         title={`${categoryMeta.name} | High-Performance Fishing Tackle`}
         description={categoryMeta.description || `Browse our selection of premium ${categoryMeta.name} and tournament rigging equipment.`}
         ogImage={categoryMeta.image}
-        structuredData={[breadcrumbSchema]}
+        structuredData={[itemListSchema]}
       />
       
       {/* 1. Immersive Category Header Banner */}
@@ -92,13 +92,14 @@ export const CategoryPage: React.FC = () => {
             <div className="max-w-xl md:max-w-2xl space-y-4">
               
               {/* Breadcrumb row */}
-              <div className="text-[10px] sm:text-xs text-gray-300 font-bold uppercase tracking-wider space-x-1.5 flex items-center">
-                <Link to="/" className="hover:text-white transition-colors">Home</Link>
-                <ChevronRight className="w-3.5 h-3.5" />
-                <Link to="/shop" className="hover:text-white transition-colors">Shop</Link>
-                <ChevronRight className="w-3.5 h-3.5" />
-                <span className="text-white font-extrabold">{categoryMeta.name}</span>
-              </div>
+              <Breadcrumbs
+                light
+                items={[
+                  { name: 'Home', to: '/' },
+                  { name: 'Shop', to: '/shop' },
+                  { name: categoryMeta.name },
+                ]}
+              />
 
               <h1 className="font-sans font-extrabold text-3xl sm:text-4xl md:text-5xl text-white tracking-tight leading-tight uppercase">
                 {categoryMeta.name}
@@ -195,7 +196,66 @@ export const CategoryPage: React.FC = () => {
           </div>
         )}
 
+        {/* Cross-category contextual links — distribute authority + aid discovery */}
+        {PAIRING_LINKS[categoryMeta.id] && PAIRING_LINKS[categoryMeta.id].length > 0 && (
+          <section id="category-pairings" className="pt-4">
+            <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-6 sm:p-8">
+              <h3 className="font-sans font-bold text-gray-900 text-sm sm:text-base uppercase tracking-wider">
+                Complete Your Rig
+              </h3>
+              <p className="text-xs text-gray-400 mt-1 font-medium">
+                Pair your {categoryMeta.name.toLowerCase()} with complementary Lucana gear.
+              </p>
+              <div className="flex flex-wrap gap-2.5 mt-4">
+                {PAIRING_LINKS[categoryMeta.id].map(pair => (
+                  <Link
+                    key={pair.slug}
+                    to={`/category/${pair.slug}`}
+                    className="inline-flex items-center space-x-1.5 px-4 py-2.5 rounded-lg border border-gray-200 text-xs font-bold text-gray-700 hover:bg-gray-900 hover:text-white hover:border-gray-900 transition-all duration-200"
+                  >
+                    <span>Shop {pair.name}</span>
+                    <ArrowRight className="w-3.5 h-3.5" />
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+
       </main>
     </div>
   );
+};
+
+/** Contextual cross-category links shown on each category page. */
+const PAIRING_LINKS: Record<string, { name: string; slug: string }[]> = {
+  reels: [
+    { name: 'Fishing Lines', slug: 'lines' },
+    { name: 'Fishing Rods', slug: 'rods' },
+    { name: 'Fishing Lures', slug: 'lures' },
+  ],
+  rods: [
+    { name: 'Fishing Reels', slug: 'reels' },
+    { name: 'Fishing Lines', slug: 'lines' },
+    { name: 'Fishing Lures', slug: 'lures' },
+  ],
+  lines: [
+    { name: 'Fishing Hooks', slug: 'hooks' },
+    { name: 'Fishing Reels', slug: 'reels' },
+    { name: 'Fishing Lures', slug: 'lures' },
+  ],
+  hooks: [
+    { name: 'Fishing Lines', slug: 'lines' },
+    { name: 'Fishing Lures', slug: 'lures' },
+  ],
+  lures: [
+    { name: 'Fishing Rods', slug: 'rods' },
+    { name: 'Fishing Hooks', slug: 'hooks' },
+    { name: 'Fishing Lines', slug: 'lines' },
+  ],
+  bags: [
+    { name: 'Fishing Reels', slug: 'reels' },
+    { name: 'Fishing Rods', slug: 'rods' },
+    { name: 'Fishing Lures', slug: 'lures' },
+  ],
 };

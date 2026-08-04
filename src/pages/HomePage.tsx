@@ -7,7 +7,15 @@ import { ProductCard } from '../components/ProductCard';
 import { SEO } from '../components/SEO';
 import heroVideo from "../assets/hero/hero.webm";
 
-const MARQUEE_WORDS = ['hook', 'lines', 'lures', 'reels', 'rods', 'lucana'];
+/** Marquee words mapped to internal routes — turning decorative text into crawlable links. */
+const MARQUEE_WORDS: { text: string; to: string }[] = [
+  { text: 'hook', to: '/category/hooks' },
+  { text: 'lines', to: '/category/lines' },
+  { text: 'lures', to: '/category/lures' },
+  { text: 'reels', to: '/category/reels' },
+  { text: 'rods', to: '/category/rods' },
+  { text: 'lucana', to: '/about' },
+];
 
 export const HomePage: React.FC = () => {
   const newArrivals = getFeaturedProducts('new_arrivals');
@@ -79,8 +87,8 @@ export const HomePage: React.FC = () => {
               </span>
               <div className="relative w-12 h-7 rounded-lg overflow-hidden bg-gray-950 shrink-0 border border-white/20">
                 <img 
-                  src="/src/assets/images/lucana_hero_model_1783764022045.jpg" 
-                  alt="Lab video preview" 
+                  src="https://images.unsplash.com/photo-1611095780122-f0b14e0b0213?auto=format&fit=crop&q=80&w=200" 
+                  alt="Lucana reel close-up — casting lab preview" 
                   className="w-full h-full object-cover opacity-85 group-hover:scale-110 transition-transform duration-300"
                 />
                 <div className="absolute inset-0 flex items-center justify-center bg-black/20">
@@ -141,11 +149,14 @@ export const HomePage: React.FC = () => {
         <div className="flex w-max overflow-hidden select-none">
           <div className="animate-marquee-continuous flex whitespace-nowrap gap-8 py-0.5 shrink-0">
             {/* 3 identical copies to guarantee absolute continuity and support any screen width cleanly */}
-            {Array(3).fill(MARQUEE_WORDS).flat().map((text, idx) => (
+            {Array(3).fill(MARQUEE_WORDS).flat().map((word, idx) => (
               <span key={idx} className="flex items-center space-x-8 shrink-0">
-                <span className="text-gray-400/80 uppercase tracking-[0.3em] font-sans font-bold text-[9px] sm:text-[10px] hover:text-[#C62828] transition-colors duration-200">
-                  {text}
-                </span>
+                <Link
+                  to={word.to}
+                  className="text-gray-400/80 uppercase tracking-[0.3em] font-sans font-bold text-[9px] sm:text-[10px] hover:text-[#C62828] transition-colors duration-200"
+                >
+                  {word.text}
+                </Link>
                 <span className="w-1 h-1 bg-[#C62828]/60 rounded-full shrink-0"></span>
               </span>
             ))}
@@ -206,7 +217,8 @@ export const HomePage: React.FC = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-gray-950/95 via-gray-950/40 to-transparent z-10" />
               <img
                 src={getCategoryCoverImage(cat)}
-                alt={cat.name}
+                alt={`${cat.name} — Lucana fishing tackle collection`}
+                loading="lazy"
                 className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 referrerPolicy="no-referrer"
               />
@@ -296,9 +308,9 @@ export const HomePage: React.FC = () => {
                 </div>
                 <div className="space-y-3">
                   <span className="text-[9px] font-mono font-bold text-gray-400 tracking-wider block">01 / TECHNOLOGY</span>
-                  <h4 className="font-sans font-black text-base text-gray-950 tracking-tight uppercase group-hover:text-[#C62828] transition-colors duration-300">
+                  <h3 className="font-sans font-black text-base text-gray-950 tracking-tight uppercase group-hover:text-[#C62828] transition-colors duration-300">
                     Japanese Carbon Blanks
-                  </h4>
+                  </h3>
                   <p className="text-xs sm:text-sm text-gray-500 leading-relaxed font-normal">
                     Rods manufactured exclusively with 40-ton Toray carbon fiber sheets wrapped at cross-helical pitches for superior sensitivity.
                   </p>
@@ -324,9 +336,9 @@ export const HomePage: React.FC = () => {
                 </div>
                 <div className="space-y-3">
                   <span className="text-[9px] font-mono font-bold text-gray-400 tracking-wider block">02 / PROTECTION</span>
-                  <h4 className="font-sans font-black text-base text-gray-950 tracking-tight uppercase group-hover:text-[#C62828] transition-colors duration-300">
+                  <h3 className="font-sans font-black text-base text-gray-950 tracking-tight uppercase group-hover:text-[#C62828] transition-colors duration-300">
                     IPX6 / IPX7 Sealing
-                  </h4>
+                  </h3>
                   <p className="text-xs sm:text-sm text-gray-500 leading-relaxed font-normal">
                     Fully sealed drag washers, drive gearing, and pinions protect your reels from harsh saltwater intrusion and corrosion.
                   </p>
@@ -354,9 +366,9 @@ export const HomePage: React.FC = () => {
                 </div>
                 <div className="space-y-3">
                   <span className="text-[9px] font-mono font-bold text-gray-400 tracking-wider block">03 / PERFORMANCE</span>
-                  <h4 className="font-sans font-black text-base text-gray-950 tracking-tight uppercase group-hover:text-[#C62828] transition-colors duration-300">
+                  <h3 className="font-sans font-black text-base text-gray-950 tracking-tight uppercase group-hover:text-[#C62828] transition-colors duration-300">
                     Tournament Caliber
-                  </h4>
+                  </h3>
                   <p className="text-xs sm:text-sm text-gray-500 leading-relaxed font-normal">
                     Tolerances dialed down to 0.005mm in all CNC gear teeth meshes ensure lifetime smoothness and minimal gear chatter.
                   </p>
@@ -379,9 +391,9 @@ export const HomePage: React.FC = () => {
                 </div>
                 <div className="space-y-3">
                   <span className="text-[9px] font-mono font-bold text-gray-400 tracking-wider block">04 / GUARANTEE</span>
-                  <h4 className="font-sans font-black text-base text-gray-950 tracking-tight uppercase group-hover:text-[#C62828] transition-colors duration-300">
+                  <h3 className="font-sans font-black text-base text-gray-950 tracking-tight uppercase group-hover:text-[#C62828] transition-colors duration-300">
                     3-Year Warranty
-                  </h4>
+                  </h3>
                   <p className="text-xs sm:text-sm text-gray-500 leading-relaxed font-normal">
                     Lucana stands behind its craftsmanship. We offer a full 3-year warranty covering material failure on all reels.
                   </p>

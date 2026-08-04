@@ -1,4 +1,11 @@
+# Lucana robots.txt
+# Generated from scripts/generate-sitemap.mjs — keep the domain in sync with
+# src/utils/siteConfig.ts.
+
 User-agent: *
 Allow: /
 
-Sitemap: https://lucana-three.vercel.app/sitemap.xml
+# Transactional funnel — excluded from search results via noindex.
+Disallow: /checkout
+
+Sitemap: https://lucanatackle.com/sitemap.xml
