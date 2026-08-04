@@ -10,7 +10,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dataDir = path.join(root, 'src', 'data');
 const outDir = path.join(root, 'public');
 
-const BASE_URL = 'https://lucanatackle.com';
+const BASE_URL = 'https://lucana-three.vercel.app';
 const LAST_MOD = new Date().toISOString().slice(0, 10);
 
 // Product category files (each is a JSON array of products)
