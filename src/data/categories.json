@@ -3,9 +3,9 @@
     "id": "reels",
     "name": "Fishing Reels",
     "slug": "reels",
-    "description": "High-performance spinning, baitcasting, and trolling reels engineered with precision bearing systems and powerful drag controls.",
+    "description": "High-performance spinning and baitcasting reels engineered with precision bearing systems and powerful drag controls.",
     "image": "https://images.unsplash.com/photo-1611095780122-f0b14e0b0213?auto=format&fit=crop&q=80&w=800",
-    "subcategories": ["Spinning Reels", "Baitcasting Reels", "Trolling Reels"]
+    "subcategories": ["Spin Cast", "Spinning Reels", "Baitcasting Reels"]
   },
   {
     "id": "rods",

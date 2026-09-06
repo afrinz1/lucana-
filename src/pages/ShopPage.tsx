@@ -232,8 +232,8 @@ export const ShopPage: React.FC = () => {
                   className="w-full accent-gray-900 h-1 bg-gray-100 rounded-lg cursor-pointer"
                 />
                 <div className="flex items-center justify-between text-xs font-bold text-gray-600">
-                  <span>Min: ${priceRange[0]}</span>
-                  <span>Max: ${priceRange[1]}</span>
+                  <span>Min: ₹{priceRange[0]}</span>
+                  <span>Max: ₹{priceRange[1]}</span>
                 </div>
               </div>
 
@@ -243,25 +243,25 @@ export const ShopPage: React.FC = () => {
                   onClick={() => applyPriceBracket(0, 30)}
                   className="text-[10px] font-bold border border-gray-200 hover:border-gray-900 rounded px-2.5 py-1.5 bg-gray-50/50 transition-all uppercase"
                 >
-                  Under $30
+                  Under ₹30
                 </button>
                 <button
                   onClick={() => applyPriceBracket(30, 100)}
                   className="text-[10px] font-bold border border-gray-200 hover:border-gray-900 rounded px-2.5 py-1.5 bg-gray-50/50 transition-all uppercase"
                 >
-                  $30 to $100
+                  ₹30 to ₹100
                 </button>
                 <button
                   onClick={() => applyPriceBracket(100, 250)}
                   className="text-[10px] font-bold border border-gray-200 hover:border-gray-900 rounded px-2.5 py-1.5 bg-gray-50/50 transition-all uppercase"
                 >
-                  $100 to $250
+                  ₹100 to ₹250
                 </button>
                 <button
                   onClick={() => applyPriceBracket(250, bounds[1])}
                   className="text-[10px] font-bold border border-gray-200 hover:border-gray-900 rounded px-2.5 py-1.5 bg-gray-50/50 transition-all uppercase"
                 >
-                  Over $250
+                  Over ₹250
                 </button>
               </div>
             </div>
@@ -392,7 +392,7 @@ export const ShopPage: React.FC = () => {
                         className="w-full accent-gray-900 h-1 bg-gray-100 rounded-lg"
                       />
                       <div className="flex justify-between text-xs font-bold text-gray-600">
-                        <span>Max Price: ${priceRange[1]}</span>
+                        <span>Max Price: ₹{priceRange[1]}</span>
                       </div>
                     </div>
                   </div>

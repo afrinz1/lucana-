@@ -9,7 +9,7 @@ const FAQ_ITEMS = [
   {
     question: 'How long does Lucana shipping take?',
     answer:
-      'Orders are packed and shipped within 1 business day. Express air shipping takes 2-3 business days, and free express shipping is automatically applied on orders over $150.',
+      'Orders are packed and shipped within 1 business day. Express air shipping takes 2-3 business days, and free express shipping is automatically applied on orders over ₹150.',
   },
   {
     question: 'Are Lucana reels and rods safe for saltwater use?',

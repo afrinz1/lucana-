@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { Star, ShoppingBag, Heart } from 'lucide-react';
+import { Star, ShoppingBag, Heart, ZoomIn, ZoomOut, RotateCcw, X } from 'lucide-react';
 import { useShop } from '../context/ShopContext';
 import { Specification } from '../types';
 import {
@@ -40,6 +40,8 @@ export const ProductDetailPage: React.FC = () => {
   const [quantity, setQuantity] = useState<number>(1);
   const [selectedSpecs, setSelectedSpecs] = useState<Record<string, string>>({});
   const [isWishlisted, setIsWishlisted] = useState(false);
+  const [isZoomOpen, setIsZoomOpen] = useState(false);
+  const [imageZoom, setImageZoom] = useState(1);
   const [activeTab, setActiveTab] = useState<'features' | 'specifications' | 'capacity'>('features');
 
   // Synchronize first image and reset states when slug changes
@@ -47,6 +49,8 @@ export const ProductDetailPage: React.FC = () => {
     if (product) {
       setActiveImage(getMainImage(product));
       setQuantity(1);
+      setIsZoomOpen(false);
+      setImageZoom(1);
       
       // Auto-populate default specifications selection (e.g. Hand Retrieve or Size)
       const defaults: Record<string, string> = {};
@@ -109,7 +113,7 @@ export const ProductDetailPage: React.FC = () => {
     offers: {
       '@type': 'Offer',
       url: `${SITE_URL}/product/${product.slug}`,
-      priceCurrency: 'USD',
+      priceCurrency: 'INR',
       price: getActivePrice(product).toFixed(2),
       availability: isOutOfStock(product)
         ? 'https://schema.org/OutOfStock'
@@ -150,16 +154,93 @@ export const ProductDetailPage: React.FC = () => {
               <img
                 src={activeImage}
                 alt={product.name}
-                className="w-full h-full object-cover object-center"
+                className="w-full h-full object-cover object-center cursor-zoom-in"
                 referrerPolicy="no-referrer"
+                onClick={() => {
+                  setImageZoom(1);
+                  setIsZoomOpen(true);
+                }}
               />
+
+              <button
+                type="button"
+                onClick={() => {
+                  setImageZoom(1);
+                  setIsZoomOpen(true);
+                }}
+                aria-label={`Zoom in on ${product.name}`}
+                className="absolute bottom-4 right-4 w-10 h-10 rounded-full bg-white/90 text-gray-900 shadow-md flex items-center justify-center hover:bg-white hover:scale-105 transition-all"
+              >
+                <ZoomIn className="w-4 h-4" />
+              </button>
               
               {discounted && (
                 <span className="absolute top-4 left-4 bg-[#C62828] text-white text-[10px] font-extrabold px-3 py-1.5 rounded-full uppercase tracking-wider">
-                  SAVE ${getSavings(product).toFixed(0)}
+                  SAVE ₹{getSavings(product).toFixed(0)}
                 </span>
               )}
             </div>
+
+            {isZoomOpen && (
+              <div
+                className="fixed inset-0 z-100 bg-gray-950/90 p-4 sm:p-8 flex items-center justify-center"
+                role="dialog"
+                aria-modal="true"
+                aria-label={`${product.name} enlarged image`}
+                onClick={() => setIsZoomOpen(false)}
+                onWheel={event => {
+                  event.preventDefault();
+                  setImageZoom(current => Math.min(3, Math.max(1, current + (event.deltaY < 0 ? 0.25 : -0.25))));
+                }}
+              >
+                <div
+                  className="absolute top-4 left-4 sm:top-8 sm:left-8 flex items-center gap-2 rounded-full bg-white/95 p-1 shadow-lg"
+                  onClick={event => event.stopPropagation()}
+                >
+                  <button
+                    type="button"
+                    onClick={() => setImageZoom(current => Math.min(3, current + 0.25))}
+                    aria-label="Zoom in"
+                    className="w-10 h-10 rounded-full text-gray-900 flex items-center justify-center hover:bg-gray-100 transition-colors"
+                  >
+                    <ZoomIn className="w-4 h-4" />
+                  </button>
+                  <span className="min-w-12 text-center text-xs font-bold text-gray-700">{Math.round(imageZoom * 100)}%</span>
+                  <button
+                    type="button"
+                    onClick={() => setImageZoom(current => Math.max(1, current - 0.25))}
+                    aria-label="Zoom out"
+                    className="w-10 h-10 rounded-full text-gray-900 flex items-center justify-center hover:bg-gray-100 transition-colors"
+                  >
+                    <ZoomOut className="w-4 h-4" />
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => setImageZoom(1)}
+                    aria-label="Reset image zoom"
+                    className="w-10 h-10 rounded-full text-gray-900 flex items-center justify-center hover:bg-gray-100 transition-colors"
+                  >
+                    <RotateCcw className="w-4 h-4" />
+                  </button>
+                </div>
+                <button
+                  type="button"
+                  onClick={() => setIsZoomOpen(false)}
+                  aria-label="Close enlarged image"
+                  className="absolute top-4 right-4 sm:top-8 sm:right-8 w-11 h-11 rounded-full bg-white text-gray-900 flex items-center justify-center shadow-lg hover:bg-gray-100 transition-colors"
+                >
+                  <X className="w-5 h-5" />
+                </button>
+                <img
+                  src={activeImage}
+                  alt={`${product.name} enlarged`}
+                  className="max-w-[90vw] max-h-[85vh] object-contain rounded-xl shadow-2xl transition-transform duration-200"
+                  style={{ transform: `scale(${imageZoom})` }}
+                  referrerPolicy="no-referrer"
+                  onClick={event => event.stopPropagation()}
+                />
+              </div>
+            )}
 
             {/* Alternating Thumbnail selector */}
             <div className="flex gap-3 overflow-x-auto pb-1">

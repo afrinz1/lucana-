@@ -1,3 +1,4 @@
+
 [
   {
     "id": 1,
@@ -5,17 +6,17 @@
     "name": "Predator 200 All-Rounder Reel",
     "brand": "Predator",
     "category": "reels",
-    "sub_category": "Spinning Reels",
-    "description": "The Predator 200 is the ultimate all-rounder spinning reel designed for anglers who transition between heavy freshwater and light saltwater environments. Built with a carbon-infused rigid frame and 9+1 stainless steel ball bearings, it delivers buttery-smooth casting and retrieval.",
+    "sub_category": "baitcasting reels",
+    "description": "The Predator 200 is a versatile spinning reel designed for seamless transitions between heavy freshwater and light saltwater environments. Built with a rigid, lightweight carbon-infused frame and 9+1 stainless steel bearings, it delivers exceptionally smooth casting and retrieval.",
     "price": 149.99,
     "discount_price": 129.99,
     "stock": 24,
     "sku": "RL-PR200-01",
     "images": [
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1784650690/20260704_112336.jpg_nkcxog.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1784650691/20260704_112248.jpg_yf87ga.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1784650689/20260704_112325_2.jpg_jkbju4.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1784650691/20260704_112548.jpg_hhtskb.jpg"
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/a_180/v1788696936/Predator_200_uvtn2q.png",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1784650690/20260704_112336.jpg_nkcxog.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1784650691/20260704_112248.jpg_yf87ga.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1784650689/20260704_112325_2.jpg_jkbju4.jpg"
     ],
     "specifications": [
       {
@@ -70,2498 +71,2479 @@
     ],
     "status": "active"
   },
-
-
-{
-  "id": 2,
-  "slug": "lucana-ar250-reel",
-  "name": "AR250",
-  "brand": "Lucana",
-  "category": "reels",
-  "sub_category": "",
-  "description": "Lucana AR250 fishing reel with a gear ratio of 4.5:1 and line capacity (lbs/M) of 8-125, 10-110, 12-90.",
-  "price": null,
-  "discount_price": null,
-  "stock": null,
-  "sku": null,
-  "images": [
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071671/20260722_161957_l6pium.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071672/20260722_162037_ct9mzn.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071671/20260722_162023_pzji8k.jpg"
-  ],
-  "specifications": [
-    {
-      "title": "Size",
-      "value": "AR250"
-    },
-    {
-      "title": "Gear Ratio",
-      "value": "4.5:1"
-    }
-  ],
-  "features": [],
-  "line_capacity": {
-    "nylon": [
-      "8-125",
-      "10-110",
-      "12-90"
+  {
+    "id": 2,
+    "slug": "lucana-ar250-reel",
+    "name": "AR250",
+    "brand": "Lucana",
+    "category": "reels",
+    "sub_category": "Spin Cast",
+    "description": "The Lucana AR250 is an easy-to-use spin-cast fishing reel designed for casual anglers and beginners. With a balanced 4.5:1 gear ratio, it offers a hassle-free and reliable fishing experience.",
+    "price": null,
+    "discount_price": null,
+    "stock": null,
+    "sku": null,
+    "images": [
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1788696927/AR250_kc7e7c.png",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071671/20260722_161957_l6pium.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071672/20260722_162037_ct9mzn.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071671/20260722_162023_pzji8k.jpg"
     ],
-    "braid": null
+    "specifications": [
+      {
+        "title": "Size",
+        "value": "AR250"
+      },
+      {
+        "title": "Gear Ratio",
+        "value": "4.5:1"
+      }
+    ],
+    "features": [],
+    "line_capacity": {
+      "nylon": [
+        "8-125",
+        "10-110",
+        "12-90"
+      ],
+      "braid": null
+    },
+    "tags": [
+      "AR250",
+      "Lucana"
+    ],
+    "status": "active"
   },
-  "tags": [
-    "AR250",
-    "Lucana"
-  ],
-  "status": "active"
-},
-
-{
-  "id": 3,
-  "slug": "auba-14-high-performance-reel",
-  "name": "AUBA 14",
-  "brand": null,
-  "category": "reels",
-  "sub_category": "baitcasting reel",
-  "description": "AUBA 14 High Performance Baitcasting Reel with 6+1 stainless steel ball bearings, carbon body and side plates, aluminium spool, carbon handle with EVA knobs, magnetic brake system, instant anti-reverse, aluminium main gear and gear shaft, brass pinion gear, carbon star drag, gear ratio 7.2:1, max drag 6kgs, and weight 172g. Available in Orange and White.",
-  "price": null,
-  "discount_price": null,
-  "stock": null,
-  "sku": null,
-  "images": [
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071728/20260722_163947_qfu8gz.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071730/20260722_163952_nevxjz.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071691/20260722_164000_t6nskr.jpg"
-  ],
-  "specifications": [
-    {
-      "title": "Bearings",
-      "value": "6+1 Stainless Steel Ball Bearing"
-    },
-    {
-      "title": "Ball Bearings",
-      "value": "6"
-    },
-    {
-      "title": "Roller Bearings",
-      "value": "1"
-    },
-    {
-      "title": "Spool",
-      "value": "Aluminium"
-    },
-    {
-      "title": "Body",
-      "value": "Carbon Body and Side Plates"
-    },
-    {
-      "title": "Handle",
-      "value": "Carbon Handle With EVA Knobs"
-    },
-    {
-      "title": "Brake System",
-      "value": "Magnetic Brake System"
-    },
-    {
-      "title": "Anti-Reverse",
-      "value": "Instant Anti-Reverse"
-    },
-    {
-      "title": "Main Gear and Gear Shaft",
-      "value": "Aluminium"
-    },
-    {
-      "title": "Pinion Gear",
-      "value": "Brass"
-    },
-    {
-      "title": "Star Drag",
-      "value": "Carbon"
-    },
-    {
-      "title": "Gear Ratio",
-      "value": "7.2:1"
-    },
-    {
-      "title": "Max Drag",
-      "value": "6kgs"
-    },
-    {
-      "title": "Weight",
-      "value": "172g"
-    },
-    {
-      "title": "Line Retrieve",
-      "value": "71cm"
-    }
-  ],
-  "features": [
-    "6+1 Stainless Steel Ball Bearing",
-    "Aluminium Spool",
-    "Carbon Body and Side Plates",
-    "Carbon Handle With EVA Knobs",
-    "Magnetic Brake System",
-    "Instant Anti-Reverse",
-    "Aluminium Main Gear and Gear Shaft",
-    "Brass Pinion Gear",
-    "Carbon Star Drag"
-  ],
-  "line_capacity": {
-    "nylon": [
-      "0.205-330",
-      "0.235-220",
-      "0.285-140"
+  {
+    "id": 3,
+    "slug": "auba-14-high-performance-reel",
+    "name": "AUBA 14",
+    "brand": null,
+    "category": "reels",
+    "sub_category": "baitcasting reels",
+    "description": "The AUBA 14 is a lightweight, high-performance baitcasting reel engineered for speed and precision. Featuring a fast 7.2:1 gear ratio, a responsive magnetic brake system, and stylish color options, it is built for effortless casting and retrieval.",
+    "price": null,
+    "discount_price": null,
+    "stock": null,
+    "sku": null,
+    "images": [
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/a_180/v1788696927/AUBA_14_kuemqi.png",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071728/20260722_163947_qfu8gz.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071730/20260722_163952_nevxjz.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071691/20260722_164000_t6nskr.jpg"
     ],
-    "braid": null
+    "specifications": [
+      {
+        "title": "Bearings",
+        "value": "6+1 Stainless Steel Ball Bearing"
+      },
+      {
+        "title": "Ball Bearings",
+        "value": "6"
+      },
+      {
+        "title": "Roller Bearings",
+        "value": "1"
+      },
+      {
+        "title": "Spool",
+        "value": "Aluminium"
+      },
+      {
+        "title": "Body",
+        "value": "Carbon Body and Side Plates"
+      },
+      {
+        "title": "Handle",
+        "value": "Carbon Handle With EVA Knobs"
+      },
+      {
+        "title": "Brake System",
+        "value": "Magnetic Brake System"
+      },
+      {
+        "title": "Anti-Reverse",
+        "value": "Instant Anti-Reverse"
+      },
+      {
+        "title": "Main Gear and Gear Shaft",
+        "value": "Aluminium"
+      },
+      {
+        "title": "Pinion Gear",
+        "value": "Brass"
+      },
+      {
+        "title": "Star Drag",
+        "value": "Carbon"
+      },
+      {
+        "title": "Gear Ratio",
+        "value": "7.2:1"
+      },
+      {
+        "title": "Max Drag",
+        "value": "6kgs"
+      },
+      {
+        "title": "Weight",
+        "value": "172g"
+      },
+      {
+        "title": "Line Retrieve",
+        "value": "71cm"
+      }
+    ],
+    "features": [
+      "6+1 Stainless Steel Ball Bearing",
+      "Aluminium Spool",
+      "Carbon Body and Side Plates",
+      "Carbon Handle With EVA Knobs",
+      "Magnetic Brake System",
+      "Instant Anti-Reverse",
+      "Aluminium Main Gear and Gear Shaft",
+      "Brass Pinion Gear",
+      "Carbon Star Drag"
+    ],
+    "line_capacity": {
+      "nylon": [
+        "0.205-330",
+        "0.235-220",
+        "0.285-140"
+      ],
+      "braid": null
+    },
+    "tags": [
+      "AUBA 14",
+      "High Performance Reel",
+      "Orange",
+      "White"
+    ],
+    "status": "active"
   },
-  "tags": [
-    "AUBA 14",
-    "High Performance Reel",
-    "Orange",
-    "White"
-  ],
-  "status": "active"
-},
-
-{
-  "id": 4,
-  "slug": "lucana-battle-shore-bs8000",
-  "name": "BATTLE SHORE BS8000",
-  "brand": "Lucana",
-  "category": "reels",
-  "sub_category": "spinning reel",
-  "description": "Lucana Battle Shore BS8000 spinning reel with 11+1 stainless steel sealed ball bearings, CNC machined aluminium spool, aluminium body and rotor, micro adjusting carbon drag system, stainless steel main shaft, machine cut brass alloy drive gear, machine cut brass pinion gear, CNC aluminium screw handle with big aluminium knob, instant anti-reverse, gear ratio 4.9:1 and max drag 20Kgs. Available in sizes BS6000, BS8000 and BS10000.",
-  "price": null,
-  "discount_price": null,
-  "stock": null,
-  "sku": null,
-  "images": [
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071737/20260722_164411_ff1itd.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071747/20260722_164417_arwe4k.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071692/20260722_164426_fzxd6z.jpg"
-  ],
-  "specifications": [
-    {
-      "title": "Size",
-      "value": "8000"
-    },
-    {
-      "title": "Bearings",
-      "value": "11+1 Stainless Steel Sealed Ball Bearing"
-    },
-    {
-      "title": "Ball Bearings",
-      "value": "11+1"
-    },
-    {
-      "title": "Spool",
-      "value": "CNC Machined Aluminium Spool"
-    },
-    {
-      "title": "Body and Rotor",
-      "value": "Aluminium"
-    },
-    {
-      "title": "Drag System",
-      "value": "Micro Adjusting Carbon Drag System"
-    },
-    {
-      "title": "Main Shaft",
-      "value": "Stainless Steel"
-    },
-    {
-      "title": "Drive Gear",
-      "value": "Machine Cut Brass Alloy"
-    },
-    {
-      "title": "Pinion Gear",
-      "value": "Machine Cut Brass"
-    },
-    {
-      "title": "Handle",
-      "value": "CNC Aluminium Screw Handle With Big Aluminium Knob"
-    },
-    {
-      "title": "Anti-Reverse",
-      "value": "Instant Anti-Reverse"
-    },
-    {
-      "title": "Gear Ratio",
-      "value": "4.9:1"
-    },
-    {
-      "title": "Max Drag",
-      "value": "20Kgs"
-    },
-    {
-      "title": "Available Sizes",
-      "value": "BS6000, BS8000, BS10000"
-    }
-  ],
-  "features": [
-    "11+1 Stainless Steel Sealed Ball Bearing",
-    "CNC Machined Aluminium Spool",
-    "Aluminium Body and Rotor",
-    "Micro Adjusting Carbon Drag System",
-    "Stainless Steel Main Shaft",
-    "Machine Cut Brass Alloy Drive Gear",
-    "Machine Cut Brass Pinion Gear",
-    "CNC AluminiumScrew Handle With Big Aluminium Knob",
-    "Instant Anti-Reverse"
-  ],
-  "line_capacity": {
-    "nylon": [
-      "5-310",
-      "6-290",
-      "8-220"
+  {
+    "id": 5,
+    "slug": "lucana-battle-shore",
+    "name": "BATTLE SHORE",
+    "brand": "Lucana",
+    "category": "reels",
+    "sub_category": "Baitcasting Reels",
+    "description": "The Lucana Battle Shore baitcasting reel combines striking gold-anodized accents with extreme saltwater durability. Built with a rigid, corrosion-proof aluminum frame and a robust 12.5kg carbon drag, it provides the torque and control needed for chasing saltwater game.",
+    "price": null,
+    "discount_price": null,
+    "stock": null,
+    "sku": null,
+    "images": [
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/a_180/v1788696926/BATTLE_SHORE_wagcxe.png",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071743/20260722_165754_cpdowm.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071735/20260722_165800_b4ym8j.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071732/20260722_165804_w9qlnd.jpg"
     ],
-    "braid": [
-      "4-260",
-      "5-220",
-      "6-180"
-    ]
+    "specifications": [
+      {
+        "title": "Gear Ratio",
+        "value": "6.3:1"
+      },
+      {
+        "title": "Bearings",
+        "value": "10 Stainless Ball Bearings + 1 Roller Bearing"
+      },
+      {
+        "title": "Ball Bearings",
+        "value": "10"
+      },
+      {
+        "title": "Roller Bearings",
+        "value": "1"
+      },
+      {
+        "title": "Drag System",
+        "value": "5-Group Carbon Washer Drag System"
+      },
+      {
+        "title": "Frame",
+        "value": "Compact One Piece Corrosion-Proof Aluminum Frame"
+      },
+      {
+        "title": "Sideplate",
+        "value": "Anodized Golden Detail Finish with ADC Material Sideplate"
+      },
+      {
+        "title": "Spool",
+        "value": "Double Anodized T6-CNC Alu Alloy Drilled Spool"
+      },
+      {
+        "title": "Gears",
+        "value": "Brass Alloy Mean Gear + Pioneer Gear"
+      },
+      {
+        "title": "Star Drag",
+        "value": "Tough Star Drag"
+      },
+      {
+        "title": "Brake System",
+        "value": "0-12 Section Adjustive Magnetic Brake System"
+      },
+      {
+        "title": "Handle Knob",
+        "value": "E.V.A"
+      },
+      {
+        "title": "Saltwater Resistant",
+        "value": "Yes"
+      },
+      {
+        "title": "Max Drag",
+        "value": "12.5KG"
+      },
+      {
+        "title": "Weight",
+        "value": "260g"
+      },
+      {
+        "title": "Line Retrieve",
+        "value": "62cm"
+      }
+    ],
+    "features": [
+      "10 Stainless Ball Bearings + 1 Roller Bearing",
+      "5-Group Carbon Washer Drag System",
+      "Compact One Piece Corrosion-Proof Aluminum Frame",
+      "Anodized Golden Detail Finish with ADC Material Sideplate",
+      "Double Anodized T6-CNC Alu Alloy Drilled Spool",
+      "Brass Alloy Mean Gear + Pioneer Gear",
+      "Tough Star Drag",
+      "0-12 Section Adjustive Magnetic Brake System",
+      "Handle Knob in E.V.A",
+      "Saltwater Resistant"
+    ],
+    "line_capacity": {
+      "nylon": [
+        "0.285-250",
+        "0.330-190",
+        "0.370-150"
+      ],
+      "braid": [
+        "0.285-210",
+        "0.330-160",
+        "0.370-130"
+      ]
+    },
+    "tags": [
+      "BATTLE SHORE",
+      "Lucana"
+    ],
+    "status": "active"
   },
-  "tags": [
-    "BATTLE SHORE",
-    "BS8000",
-    "Lucana"
-  ],
-  "status": "active"
-},
-
-
-{
-  "id": 5,
-  "slug": "lucana-battle-shore",
-  "name": "BATTLE SHORE",
-  "brand": "Lucana",
-  "category": "reels",
-  "sub_category": "baitcasting reel",
-  "description": "Lucana Battle Shore baitcasting reel with 10 stainless ball bearings + 1 roller bearing, 5-group carbon washer drag system, compact one piece corrosion-proof aluminum frame, anodized golden detail finish with ADC material sideplate, double anodized T6-CNC alu alloy drilled spool, brass alloy mean gear + pioneer gear, tough star drag, 0-12 section adjustive magnetic brake system, EVA handle knob, saltwater resistant, gear ratio 6.3:1, max drag 12.5kg, weight 260g and line retrieve 62cm.",
-  "price": null,
-  "discount_price": null,
-  "stock": null,
-  "sku": null,
-  "images": [
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071743/20260722_165754_cpdowm.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071735/20260722_165800_b4ym8j.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071732/20260722_165804_w9qlnd.jpg"
-  ],
-  "specifications": [
-    {
-      "title": "Gear Ratio",
-      "value": "6.3:1"
-    },
-    {
-      "title": "Bearings",
-      "value": "10 Stainless Ball Bearings + 1 Roller Bearing"
-    },
-    {
-      "title": "Ball Bearings",
-      "value": "10"
-    },
-    {
-      "title": "Roller Bearings",
-      "value": "1"
-    },
-    {
-      "title": "Drag System",
-      "value": "5-Group Carbon Washer Drag System"
-    },
-    {
-      "title": "Frame",
-      "value": "Compact One Piece Corrosion-Proof Aluminum Frame"
-    },
-    {
-      "title": "Sideplate",
-      "value": "Anodized Golden Detail Finish with ADC Material Sideplate"
-    },
-    {
-      "title": "Spool",
-      "value": "Double Anodized T6-CNC Alu Alloy Drilled Spool"
-    },
-    {
-      "title": "Gears",
-      "value": "Brass Alloy Mean Gear + Pioneer Gear"
-    },
-    {
-      "title": "Star Drag",
-      "value": "Tough Star Drag"
-    },
-    {
-      "title": "Brake System",
-      "value": "0-12 Section Adjustive Magnetic Brake System"
-    },
-    {
-      "title": "Handle Knob",
-      "value": "E.V.A"
-    },
-    {
-      "title": "Saltwater Resistant",
-      "value": "Yes"
-    },
-    {
-      "title": "Max Drag",
-      "value": "12.5KG"
-    },
-    {
-      "title": "Weight",
-      "value": "260g"
-    },
-    {
-      "title": "Line Retrieve",
-      "value": "62cm"
-    }
-  ],
-  "features": [
-    "10 Stainless Ball Bearings + 1 Roller Bearing",
-    "5-Group Carbon Washer Drag System",
-    "Compact One Piece Corrosion-Proof Aluminum Frame",
-    "Anodized Golden Detail Finish with ADC Material Sideplate",
-    "Double Anodized T6-CNC Alu Alloy Drilled Spool",
-    "Brass Alloy Mean Gear + Pioneer Gear",
-    "Tough Star Drag",
-    "0-12 Section Adjustive Magnetic Brake System",
-    "Handle Knob in E.V.A",
-    "Saltwater Resistant"
-  ],
-  "line_capacity": {
-    "nylon": [
-      "0.285-250",
-      "0.330-190",
-      "0.370-150"
+  {
+    "id": 6,
+    "slug": "blacktail-bt1000",
+    "name": "BLACKTAIL BT1000",
+    "brand": null,
+    "category": "reels",
+    "sub_category": "Spinning Reels",
+    "description": "The BLACKTAIL BT1000 is a compact spinning reel made from high-intensity graphite for smooth, light-tackle fishing. With an anti-twist line roller and a computer-balanced rotor, it delivers consistent, vibration-free retrieves.",
+    "price": null,
+    "discount_price": null,
+    "stock": null,
+    "sku": null,
+    "images": [
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1788697911/Blacktail_BT5000_jcmzqv.png",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071753/20260722_162347_yho0kk.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071754/20260722_162356_opf6ms.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071689/20260722_162420_yokdpe.jpg"
     ],
-    "braid": [
-      "0.285-210",
-      "0.330-160",
-      "0.370-130"
-    ]
+    "specifications": [
+      {
+        "title": "Size",
+        "value": "1000"
+      },
+      {
+        "title": "Bearings",
+        "value": "5+1 Ball bearings"
+      },
+      {
+        "title": "Gear Ratio",
+        "value": "5.2:1"
+      },
+      {
+        "title": "Drive Gear",
+        "value": "Super strong drive gear"
+      },
+      {
+        "title": "Body Material",
+        "value": "High intensity graphite material"
+      },
+      {
+        "title": "Rotor",
+        "value": "Computer balanced rotor"
+      },
+      {
+        "title": "Clutch",
+        "value": "One way clutch ball bearing"
+      },
+      {
+        "title": "Line Roller",
+        "value": "Anti-Twist line roller with thick bailwire"
+      },
+      {
+        "title": "Handle",
+        "value": "Aluminium CNC machined power handle"
+      },
+      {
+        "title": "Spool",
+        "value": "Aluminium machined cut spool"
+      },
+      {
+        "title": "Knob",
+        "value": "Soft EVA knob"
+      },
+      {
+        "title": "Drag Power",
+        "value": "9 Kgs"
+      }
+    ],
+    "features": [
+      "5+1 Ball bearings",
+      "Super strong drive gear",
+      "High intensity graphite material",
+      "Computer balanced rotor",
+      "One way clutch ball bearing",
+      "Anti-Twist line roller with thick bailwire",
+      "Aluminium CNC machined power handle",
+      "Aluminium machined cut spool",
+      "Soft EVA knob"
+    ],
+    "line_capacity": {
+      "nylon": [
+        "0.20-240",
+        "0.25-190",
+        "0.30-130"
+      ],
+      "braid": null
+    },
+    "tags": [
+      "BLACKTAIL",
+      "BT1000"
+    ],
+    "status": "active"
   },
-  "tags": [
-    "BATTLE SHORE",
-    "Lucana"
-  ],
-  "status": "active"
-},
-
-
-{
-  "id": 6,
-  "slug": "blacktail-bt1000",
-  "name": "BLACKTAIL BT1000",
-  "brand": null,
-  "category": "reels",
-  "sub_category": "spinning reel",
-  "description": "BLACKTAIL BT1000 spinning reel with 5+1 ball bearings, gear ratio 5.2:1, super strong drive gear, high intensity graphite material, computer balanced rotor, one way clutch ball bearing, anti-twist line roller with thick bailwire, aluminium CNC machined power handle, aluminium machined cut spool, soft EVA knob, and 9 Kgs drag power.",
-  "price": null,
-  "discount_price": null,
-  "stock": null,
-  "sku": null,
-  "images": [
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071753/20260722_162347_yho0kk.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071754/20260722_162356_opf6ms.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071689/20260722_162420_yokdpe.jpg"
-  ],
-  "specifications": [
-    {
-      "title": "Size",
-      "value": "1000"
-    },
-    {
-      "title": "Bearings",
-      "value": "5+1 Ball bearings"
-    },
-    {
-      "title": "Gear Ratio",
-      "value": "5.2:1"
-    },
-    {
-      "title": "Drive Gear",
-      "value": "Super strong drive gear"
-    },
-    {
-      "title": "Body Material",
-      "value": "High intensity graphite material"
-    },
-    {
-      "title": "Rotor",
-      "value": "Computer balanced rotor"
-    },
-    {
-      "title": "Clutch",
-      "value": "One way clutch ball bearing"
-    },
-    {
-      "title": "Line Roller",
-      "value": "Anti-Twist line roller with thick bailwire"
-    },
-    {
-      "title": "Handle",
-      "value": "Aluminium CNC machined power handle"
-    },
-    {
-      "title": "Spool",
-      "value": "Aluminium machined cut spool"
-    },
-    {
-      "title": "Knob",
-      "value": "Soft EVA knob"
-    },
-    {
-      "title": "Drag Power",
-      "value": "9 Kgs"
-    }
-  ],
-  "features": [
-    "5+1 Ball bearings",
-    "Super strong drive gear",
-    "High intensity graphite material",
-    "Computer balanced rotor",
-    "One way clutch ball bearing",
-    "Anti-Twist line roller with thick bailwire",
-    "Aluminium CNC machined power handle",
-    "Aluminium machined cut spool",
-    "Soft EVA knob"
-  ],
-  "line_capacity": {
-    "nylon": [
-      "0.20-240",
-      "0.25-190",
-      "0.30-130"
+  {
+    "id": 7,
+    "slug": "blanco-b330",
+    "name": "BLANCO B330",
+    "brand": null,
+    "category": "reels",
+    "sub_category": "Spin Cast",
+    "description": "The BLANCO B330 is an easy-to-use spin-cast reel designed for casual fishing and beginners. Built with a lightweight aluminum front shell and double-pin stainless steel rotor, it makes casting smooth and tangle-free.",
+    "price": null,
+    "discount_price": null,
+    "stock": null,
+    "sku": null,
+    "images": [
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1788698024/BLANCO_B330_hkde4e.png",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071690/20260722_161304_nwkwdh.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071693/20260722_161318_qasmkf.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071692/20260722_161332_ijtmm5.jpg"
     ],
-    "braid": null
+    "specifications": [
+      {
+        "title": "Bearings",
+        "value": "2+1 Ball bearings"
+      },
+      {
+        "title": "Front Shell",
+        "value": "Aluminum"
+      },
+      {
+        "title": "Rotor",
+        "value": "Stainless rotor with double line pin"
+      },
+      {
+        "title": "Gear Ratio",
+        "value": "3.9:1"
+      },
+      {
+        "title": "Handle",
+        "value": "Aluminum handle with soft knob"
+      },
+      {
+        "title": "Pinion Gear",
+        "value": "Brass"
+      }
+    ],
+    "features": [
+      "2+1 Ball bearings",
+      "Aluminum front shell",
+      "Stainless rotor with double line pin",
+      "Aluminum handle with soft knob",
+      "Brass pinion gear"
+    ],
+    "line_capacity": {
+      "nylon": [
+        "0.2-200",
+        "0.25-140",
+        "0.3-100"
+      ],
+      "braid": null
+    },
+    "tags": [
+      "BLANCO",
+      "B330"
+    ],
+    "status": "active"
   },
-  "tags": [
-    "BLACKTAIL",
-    "BT1000"
-  ],
-  "status": "active"
-},
-
-{
-  "id": 7,
-  "slug": "blanco-b330",
-  "name": "BLANCO B330",
-  "brand": null,
-  "category": "reels",
-  "sub_category": "spinning reel",
-  "description": "BLANCO B330 spinning reel with 2+1 ball bearings, aluminum front shell, stainless rotor with double line pin, gear ratio 3.9:1, aluminum handle with soft knob, and brass pinion gear.",
-  "price": null,
-  "discount_price": null,
-  "stock": null,
-  "sku": null,
-  "images": [
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071690/20260722_161304_nwkwdh.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071693/20260722_161318_qasmkf.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071692/20260722_161332_ijtmm5.jpg"
-  ],
-  "specifications": [
-    {
-      "title": "Bearings",
-      "value": "2+1 Ball bearings"
-    },
-    {
-      "title": "Front Shell",
-      "value": "Aluminum"
-    },
-    {
-      "title": "Rotor",
-      "value": "Stainless rotor with double line pin"
-    },
-    {
-      "title": "Gear Ratio",
-      "value": "3.9:1"
-    },
-    {
-      "title": "Handle",
-      "value": "Aluminum handle with soft knob"
-    },
-    {
-      "title": "Pinion Gear",
-      "value": "Brass"
-    }
-  ],
-  "features": [
-    "2+1 Ball bearings",
-    "Aluminum front shell",
-    "Stainless rotor with double line pin",
-    "Aluminum handle with soft knob",
-    "Brass pinion gear"
-  ],
-  "line_capacity": {
-    "nylon": [
-      "0.2-200",
-      "0.25-140",
-      "0.3-100"
+  {
+    "id": 8,
+    "slug": "lucana-fantasy-4000-high-performance-reel",
+    "name": "Fantasy 4000",
+    "brand": "Lucana",
+    "category": "reels",
+    "sub_category": "Spinning Reels",
+    "description": "The Lucana Fantasy 4000 is a lightweight, high-speed spinning reel crafted with a carbon body and rotor for fatigue-free fishing. Equipped with 5+1 sealed bearings and a micro-adjusting 10kg carbon drag, it provides excellent responsiveness and fish-stopping power.",
+    "price": null,
+    "discount_price": null,
+    "stock": null,
+    "sku": null,
+    "images": [
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1788698246/Fantasy_4000_ajel0h.png",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071751/20260722_165911_b8lx9s.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071741/20260722_165916_qqjgwk.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071728/20260722_165920_nr3tnd.jpg"
     ],
-    "braid": null
+    "specifications": [
+      {
+        "title": "Bearings",
+        "value": "5+1 Stainless Steel Sealed Ball Bearing"
+      },
+      {
+        "title": "Spool",
+        "value": "CNC Machined Aluminium Spool"
+      },
+      {
+        "title": "Body",
+        "value": "Carbon Body and Carbon Rotor"
+      },
+      {
+        "title": "Drag System",
+        "value": "Micro Adjusting Carbon Drag System"
+      },
+      {
+        "title": "Drive Gear",
+        "value": "Machined Cut Zinc Alloy Drive Gear"
+      },
+      {
+        "title": "Pinion Gear",
+        "value": "Machined Cut Brass Pinion Gear"
+      },
+      {
+        "title": "Handle",
+        "value": "Aluminum CNC Die Casting handle with Soft Knob"
+      },
+      {
+        "title": "Anti-Reverse",
+        "value": "Instant Anti-Reverse"
+      },
+      {
+        "title": "Line Capacity (mm-M)",
+        "value": "0.25-200 0.30-145 0.35-105"
+      },
+      {
+        "title": "Gear Ratio",
+        "value": "6.2:1"
+      },
+      {
+        "title": "Max Drag",
+        "value": "10Kgs"
+      }
+    ],
+    "features": [
+      "5+1 Stainless Steel Sealed Ball Bearing",
+      "CNC Machined Aluminium Spool",
+      "Carbon Body and Carbon Rotor",
+      "Micro Adjusting Carbon Drag System",
+      "Machined Cut Zinc Alloy Drive Gear",
+      "Machined Cut Brass Pinion Gear",
+      "Aluminum CNC Die Casting handle with Soft Knob",
+      "Instant Anti-Reverse",
+      "1 Way Clutch Bearing"
+    ],
+    "line_capacity": {
+      "nylon": [
+        "0.25-200",
+        "0.30-145",
+        "0.35-105"
+      ],
+      "braid": null
+    },
+    "tags": [
+      "Fantasy 4000",
+      "Lucana",
+      "High Performance Reel"
+    ],
+    "status": "active"
   },
-  "tags": [
-    "BLANCO",
-    "B330"
-  ],
-  "status": "active"
-},
-
-
-{
-  "id": 8,
-  "slug": "lucana-fantasy-4000-high-performance-reel",
-  "name": "Fantasy 4000",
-  "brand": "Lucana",
-  "category": "reels",
-  "sub_category": "spinning reels",
-  "description": "Lucana Fantasy 4000 High Performance Reel featuring 5+1 stainless steel sealed ball bearings, CNC machined aluminium spool, carbon body and carbon rotor, micro adjusting carbon drag system, machined cut zinc alloy drive gear, machined cut brass pinion gear, aluminum CNC die casting handle with soft knob, and instant anti-reverse. Gear ratio 6.2:1 with max drag of 10Kgs.",
-  "price": null,
-  "discount_price": null,
-  "stock": null,
-  "sku": null,
-  "images": [
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071751/20260722_165911_b8lx9s.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071741/20260722_165916_qqjgwk.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071728/20260722_165920_nr3tnd.jpg"
-  ],
-  "specifications": [
-    {
-      "title": "Bearings",
-      "value": "5+1 Stainless Steel Sealed Ball Bearing"
-    },
-    {
-      "title": "Spool",
-      "value": "CNC Machined Aluminium Spool"
-    },
-    {
-      "title": "Body",
-      "value": "Carbon Body and Carbon Rotor"
-    },
-    {
-      "title": "Drag System",
-      "value": "Micro Adjusting Carbon Drag System"
-    },
-    {
-      "title": "Drive Gear",
-      "value": "Machined Cut Zinc Alloy Drive Gear"
-    },
-    {
-      "title": "Pinion Gear",
-      "value": "Machined Cut Brass Pinion Gear"
-    },
-    {
-      "title": "Handle",
-      "value": "Aluminum CNC Die Casting handle with Soft Knob"
-    },
-    {
-      "title": "Anti-Reverse",
-      "value": "Instant Anti-Reverse"
-    },
-    {
-      "title": "Line Capacity (mm-M)",
-      "value": "0.25-200 0.30-145 0.35-105"
-    },
-    {
-      "title": "Gear Ratio",
-      "value": "6.2:1"
-    },
-    {
-      "title": "Max Drag",
-      "value": "10Kgs"
-    }
-  ],
-  "features": [
-    "5+1 Stainless Steel Sealed Ball Bearing",
-    "CNC Machined Aluminium Spool",
-    "Carbon Body and Carbon Rotor",
-    "Micro Adjusting Carbon Drag System",
-    "Machined Cut Zinc Alloy Drive Gear",
-    "Machined Cut Brass Pinion Gear",
-    "Aluminum CNC Die Casting handle with Soft Knob",
-    "Instant Anti-Reverse",
-    "1 Way Clutch Bearing"
-  ],
-  "line_capacity": {
-    "nylon": [
-      "0.25-200",
-      "0.30-145",
-      "0.35-105"
+  {
+    "id": 9,
+    "slug": "flicker-baitcasting-reel",
+    "name": "Flicker",
+    "brand": null,
+    "category": "reels",
+    "sub_category": "baitcasting reels",
+    "description": "The Flicker is a lightweight, responsive baitcasting reel perfect for precision lure casting. Featuring a fast 7.3:1 gear ratio, an adjustable 10-piece magnetic brake system, and a satisfying click-drag sound, it offers exceptional casting control.",
+    "price": null,
+    "discount_price": null,
+    "stock": null,
+    "sku": null,
+    "images": [
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/a_180/v1788698439/flicker_skd0ln.png",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071689/20260722_161720_svrhgt.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071693/20260722_161731_yifvvx.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071686/20260722_161742_vm4jzo.jpg"
     ],
-    "braid": null
+    "specifications": [
+      {
+        "title": "Bearings",
+        "value": "7+1 Stainless Steel Ball Bearing"
+      },
+      {
+        "title": "Body",
+        "value": "Graphite Body"
+      },
+      {
+        "title": "Spool",
+        "value": "Aluminium Spool"
+      },
+      {
+        "title": "Handle",
+        "value": "Aluminium Handle with EVA Knob"
+      },
+      {
+        "title": "Magnetic Break System",
+        "value": "10PCS Magnetic Break System"
+      },
+      {
+        "title": "Brake System",
+        "value": "Carbon Brake System"
+      },
+      {
+        "title": "Gear Ratio",
+        "value": "7.3:1"
+      },
+      {
+        "title": "Max Drag",
+        "value": "10KGS"
+      },
+      {
+        "title": "Line Capacity (MM/M)",
+        "value": "0.26-150, 0.30-130"
+      },
+      {
+        "title": "Click Drag Sound",
+        "value": "Yes"
+      },
+      {
+        "title": "Weight",
+        "value": "200G"
+      }
+    ],
+    "features": [
+      "7+1 Stainless Steel Ball Bearing",
+      "Graphite Body",
+      "Aluminium Spool",
+      "Aluminium Handle with EVA Knob",
+      "10PCS Magnetic Break System",
+      "Carbon Brake System",
+      "Click Drag Sound"
+    ],
+    "line_capacity": {
+      "nylon": [
+        "0.26-150",
+        "0.30-130"
+      ],
+      "braid": null
+    },
+    "tags": [
+      "Flicker"
+    ],
+    "status": "active"
   },
-  "tags": [
-    "Fantasy 4000",
-    "Lucana",
-    "High Performance Reel"
-  ],
-  "status": "active"
-},
-
-{
-  "id": 9,
-  "slug": "flicker-baitcasting-reel",
-  "name": "Flicker",
-  "brand": null,
-  "category": "reels",
-  "sub_category": "baitcasting reels",
-  "description": "Flicker baitcasting reel featuring 7+1 stainless steel ball bearings, graphite body, aluminium spool, aluminium handle with EVA knob, 10pcs magnetic break system, carbon brake system, click drag sound, gear ratio 7.3:1, max drag 10Kgs, and weight 200G.",
-  "price": null,
-  "discount_price": null,
-  "stock": null,
-  "sku": null,
-  "images": [
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071689/20260722_161720_svrhgt.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071693/20260722_161731_yifvvx.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071686/20260722_161742_vm4jzo.jpg"
+  {
+    "id": 10,
+    "slug": "lucana-fox-6000-spinning-reel",
+    "name": "FOX 6000",
+    "brand": "Lucana",
+    "category": "reels",
+    "sub_category": "Spinning Reels",
+    "description": "The Lucana FOX 6000 is a heavy-duty spinning reel built around a high-tensile graphite body and a robust power drive gear. Designed for fighting larger fish, it features a smooth micro-adjusting drag and a comfortable aluminum power handle.",
+    "price": null,
+    "discount_price": null,
+    "stock": null,
+    "sku": null,
+    "images": [
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1788696946/FOX_6000_hyjat0.png",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071741/20260722_165315_mspzxx.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071751/20260722_165323_tec2j3.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071727/20260722_165332_e0vgrk.jpg"
     ],
-  "specifications": [
-    {
-      "title": "Bearings",
-      "value": "7+1 Stainless Steel Ball Bearing"
-    },
-    {
-      "title": "Body",
-      "value": "Graphite Body"
-    },
-    {
-      "title": "Spool",
-      "value": "Aluminium Spool"
-    },
-    {
-      "title": "Handle",
-      "value": "Aluminium Handle with EVA Knob"
-    },
-    {
-      "title": "Magnetic Break System",
-      "value": "10PCS Magnetic Break System"
-    },
-    {
-      "title": "Brake System",
-      "value": "Carbon Brake System"
-    },
-    {
-      "title": "Gear Ratio",
-      "value": "7.3:1"
-    },
-    {
-      "title": "Max Drag",
-      "value": "10KGS"
-    },
-    {
-      "title": "Line Capacity (MM/M)",
-      "value": "0.26-150, 0.30-130"
-    },
-    {
-      "title": "Click Drag Sound",
-      "value": "Yes"
-    },
-    {
-      "title": "Weight",
-      "value": "200G"
-    }
-  ],
-  "features": [
-    "7+1 Stainless Steel Ball Bearing",
-    "Graphite Body",
-    "Aluminium Spool",
-    "Aluminium Handle with EVA Knob",
-    "10PCS Magnetic Break System",
-    "Carbon Brake System",
-    "Click Drag Sound"
-  ],
-  "line_capacity": {
-    "nylon": [
-      "0.26-150",
-      "0.30-130"
+    "specifications": [
+      {
+        "title": "Bearings",
+        "value": "3+1 Precision Stainless Steel Ball Bearings"
+      },
+      {
+        "title": "Spool",
+        "value": "Two Tone Aluminium Spool"
+      },
+      {
+        "title": "Body",
+        "value": "High Tensile Strength Graphite Body"
+      },
+      {
+        "title": "Handle",
+        "value": "Aluminium Power Handle"
+      },
+      {
+        "title": "Drag System",
+        "value": "Micro Adjusting Smooth Drag System"
+      },
+      {
+        "title": "Drive Gear",
+        "value": "Power Drive Gear Equipped For High Strength"
+      },
+      {
+        "title": "Anti-Reverse",
+        "value": "Instant Anti-Reverse"
+      },
+      {
+        "title": "Gear Ratio",
+        "value": "4.5:1"
+      },
+      {
+        "title": "Line Capacity (mm/m)",
+        "value": "0.35-220, 0.40-165, 0.45-135"
+      },
+      {
+        "title": "Line Capacity (lbs/yds)",
+        "value": "12-241, 15-180, 18-148"
+      }
     ],
-    "braid": null
+    "features": [
+      "3+1 Precision Stainless Steel Ball Bearings",
+      "Two Tone Aluminium Spool",
+      "High Tensile Strength Graphite Body",
+      "Aluminium Power Handle",
+      "Micro Adjusting Smooth Drag System",
+      "Power Drive Gear Equipped For High Strength",
+      "Instant Anti-Reverse",
+      "Air Thick Bail",
+      "1 Way Clutch"
+    ],
+    "line_capacity": {
+      "nylon": [
+        "0.35-220",
+        "0.40-165",
+        "0.45-135"
+      ],
+      "braid": null
+    },
+    "tags": [
+      "FOX 6000",
+      "Lucana"
+    ],
+    "status": "active"
   },
-  "tags": [
-    "Flicker"
-  ],
-  "status": "active"
-},
-
-
-{
-  "id": 10,
-  "slug": "lucana-fox-6000-spinning-reel",
-  "name": "FOX 6000",
-  "brand": "Lucana",
-  "category": "reels",
-  "sub_category": "spinning reels",
-  "description": "Lucana FOX 6000 spinning reel featuring 3+1 precision stainless steel ball bearings, two tone aluminium spool, high tensile strength graphite body, aluminium power handle, micro adjusting smooth drag system, power drive gear equipped for high strength, instant anti-reverse, and gear ratio 4.5:1.",
-  "price": null,
-  "discount_price": null,
-  "stock": null,
-  "sku": null,
-  "images": [
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071741/20260722_165315_mspzxx.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071751/20260722_165323_tec2j3.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071727/20260722_165332_e0vgrk.jpg"
-  ],
-  "specifications": [
-    {
-      "title": "Bearings",
-      "value": "3+1 Precision Stainless Steel Ball Bearings"
-    },
-    {
-      "title": "Spool",
-      "value": "Two Tone Aluminium Spool"
-    },
-    {
-      "title": "Body",
-      "value": "High Tensile Strength Graphite Body"
-    },
-    {
-      "title": "Handle",
-      "value": "Aluminium Power Handle"
-    },
-    {
-      "title": "Drag System",
-      "value": "Micro Adjusting Smooth Drag System"
-    },
-    {
-      "title": "Drive Gear",
-      "value": "Power Drive Gear Equipped For High Strength"
-    },
-    {
-      "title": "Anti-Reverse",
-      "value": "Instant Anti-Reverse"
-    },
-    {
-      "title": "Gear Ratio",
-      "value": "4.5:1"
-    },
-    {
-      "title": "Line Capacity (mm/m)",
-      "value": "0.35-220, 0.40-165, 0.45-135"
-    },
-    {
-      "title": "Line Capacity (lbs/yds)",
-      "value": "12-241, 15-180, 18-148"
-    }
-  ],
-  "features": [
-    "3+1 Precision Stainless Steel Ball Bearings",
-    "Two Tone Aluminium Spool",
-    "High Tensile Strength Graphite Body",
-    "Aluminium Power Handle",
-    "Micro Adjusting Smooth Drag System",
-    "Power Drive Gear Equipped For High Strength",
-    "Instant Anti-Reverse",
-    "Air Thick Bail",
-    "1 Way Clutch"
-  ],
-  "line_capacity": {
-    "nylon": [
-      "0.35-220",
-      "0.40-165",
-      "0.45-135"
+  {
+    "id": 11,
+    "slug": "lucana-glitter-spinning-reel",
+    "name": "Glitter",
+    "brand": "Lucana",
+    "category": "reels",
+    "sub_category": "Spinning Reels",
+    "description": "The Lucana Glitter is an ultra-slim, lightweight spinning reel designed for finesse fishing and effortless casting. It features a vibration-free balanced rotor, 5+1 steel bearings, and an interchangeable aluminum handle for smooth, agile handling.",
+    "price": null,
+    "discount_price": null,
+    "stock": null,
+    "sku": null,
+    "images": [
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1788700912/Glitter_tbmqj9.png",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071748/20260722_170931_ee2unb.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071760/20260722_170938_f1lzsd.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071692/20260722_170944_plelys.jpg"
     ],
-    "braid": null
-  },
-  "tags": [
-    "FOX 6000",
-    "Lucana"
-  ],
-  "status": "active"
-},
-
-
-{
-  "id": 11,
-  "slug": "lucana-glitter-spinning-reel",
-  "name": "Glitter",
-  "brand": "Lucana",
-  "category": "reels",
-  "sub_category": "spinning reels",
-  "description": "Lucana Glitter spinning reel featuring a super thin body, 5+1 steel ball bearings, one way roller bearing, excellent casting and line lay, balanced rotor without vibration, and aluminium handle left/right interchangeable. Gear ratio 5.2:1 with line capacities of 0.18mm-180M and 0.20mm-150M.",
-  "price": null,
-  "discount_price": null,
-  "stock": null,
-  "sku": null,
-  "images": [
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071748/20260722_170931_ee2unb.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071760/20260722_170938_f1lzsd.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071692/20260722_170944_plelys.jpg"
-  ],
-  "specifications": [
-    {
-      "title": "Ball Bearings",
-      "value": "5+1BB"
-    },
-    {
-      "title": "Gear Ratio",
-      "value": "5.2:1"
-    },
-    {
-      "title": "Capacities",
-      "value": "0.18mm-180M, 0.20mm-150M"
-    }
-  ],
-  "features": [
-    "Super Thin Body",
-    "5+1 Steel Ball Bearing",
-    "One Way Roller Bearing",
-    "Excellent Casting and Line Lay",
-    "Balanced Rotor Without Vibration",
-    "Aluminium Handle Left/Right Interchangeable"
-  ],
-  "line_capacity": {
-    "nylon": [
-      "0.18-180",
-      "0.20-150"
+    "specifications": [
+      {
+        "title": "Ball Bearings",
+        "value": "5+1BB"
+      },
+      {
+        "title": "Gear Ratio",
+        "value": "5.2:1"
+      },
+      {
+        "title": "Capacities",
+        "value": "0.18mm-180M, 0.20mm-150M"
+      }
     ],
-    "braid": null
-  },
-  "tags": [
-    "Glitter",
-    "Lucana"
-  ],
-  "status": "active"
-},
-
-
-{
-  "id": 12,
-  "slug": "lucana-golden-eagle-high-performance-reel",
-  "name": "Golden Eagle",
-  "brand": "Lucana",
-  "category": "reels",
-  "sub_category": "baitcasting reels",
-  "description": "Lucana Golden Eagle High Performance Reel featuring 7+1 stainless steel ball bearings (includes 2 Japanese NMB ball bearings), 2pcs carbon drag washer, deep aluminium spool, graphite body and graphite side plates, aluminium handle with EVA knobs, magnetic brake system, instant anti-reverse, brass main gear and gear shaft, brass pinion gear, and graphite star drag. Gear ratio 8.1:1 with max drag of 8kgs and weight 202g.",
-  "price": null,
-  "discount_price": null,
-  "stock": null,
-  "sku": null,
-  "images": [
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071753/20260722_171432_yfauli.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071747/20260722_171438_pxdvgf.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071689/20260722_171444_d5jvab.jpg"
-  ],
-  "specifications": [
-    {
-      "title": "Bearings",
-      "value": "7+1 Stainless Steel Ball Bearing (Includes 2 Japanese NMB Ball Bearing)"
-    },
-    {
-      "title": "Drag Washer",
-      "value": "2Pcs Carbon Drag Washer"
-    },
-    {
-      "title": "Spool",
-      "value": "Deep Aluminium Spool"
-    },
-    {
-      "title": "Body",
-      "value": "Graphite body and Graphite Side Plates"
-    },
-    {
-      "title": "Handle",
-      "value": "Aluminium Handle With EVA Knobs"
-    },
-    {
-      "title": "Brake System",
-      "value": "Magnetic Brake System"
-    },
-    {
-      "title": "Anti-Reverse",
-      "value": "Instant Anti-Reverse"
-    },
-    {
-      "title": "Main Gear",
-      "value": "Brass Main Gear and Gear Shaft"
-    },
-    {
-      "title": "Pinion Gear",
-      "value": "Brass Pinion Gear"
-    },
-    {
-      "title": "Star Drag",
-      "value": "Graphite Star Drag"
-    },
-    {
-      "title": "Gear Ratio",
-      "value": "8.1:1"
-    },
-    {
-      "title": "Max Drag",
-      "value": "8kgs"
-    },
-    {
-      "title": "Weight",
-      "value": "202g"
-    },
-    {
-      "title": "Line Retrieve",
-      "value": "72cm"
-    },
-    {
-      "title": "Ball/Roller Bearings",
-      "value": "Ball 7 Roller 1"
-    },
-    {
-      "title": "Line Capacity (mm-M)",
-      "value": "0.15-140"
-    }
-  ],
-  "features": [
-    "7+1 Stainless Steel Ball Bearing (Includes 2 Japanese NMB Ball Bearing)",
-    "2Pcs Carbon Drag Washer",
-    "Deep Aluminium Spool",
-    "Graphite body and Graphite Side Plates",
-    "Aluminium Handle With EVA Knobs",
-    "Magnetic Brake System",
-    "Instant Anti-Reverse",
-    "Brass Main Gear and Gear Shaft",
-    "Brass Pinion Gear",
-    "Graphite Star Drag"
-  ],
-  "line_capacity": {
-    "nylon": [
-      "0.15-140"
+    "features": [
+      "Super Thin Body",
+      "5+1 Steel Ball Bearing",
+      "One Way Roller Bearing",
+      "Excellent Casting and Line Lay",
+      "Balanced Rotor Without Vibration",
+      "Aluminium Handle Left/Right Interchangeable"
     ],
-    "braid": null
-  },
-  "tags": [
-    "Golden Eagle",
-    "Lucana",
-    "High Performance Reel",
-    "Pink"
-  ],
-  "status": "active"
-},
-
-
-{
-  "id": 13,
-  "slug": "lucana-jasper-j330-spinning-reel",
-  "name": "Jasper J330",
-  "brand": "Lucana",
-  "category": "reels",
-  "sub_category": "spinning reels",
-  "description": "Lucana Jasper J330 spinning reel featuring 2+1 ball bearings, stainless front shell, stainless rotor with double line pin, aluminum handle with soft knob, and zinc pinion gear. Gear ratio 3.9:1.",
-  "price": null,
-  "discount_price": null,
-  "stock": null,
-  "sku": null,
-  "images": [
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071745/20260722_165426_vp5ybo.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071751/20260722_165435_zzcivp.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071692/20260722_165447_jxg4ak.jpg"
-  ],
-  "specifications": [
-    {
-      "title": "Ball Bearings",
-      "value": "2+1 Ball bearings"
+    "line_capacity": {
+      "nylon": [
+        "0.18-180",
+        "0.20-150"
+      ],
+      "braid": null
     },
-    {
-      "title": "Front Shell",
-      "value": "Stainless front shell"
-    },
-    {
-      "title": "Rotor",
-      "value": "Stainless rotor with double line pin"
-    },
-    {
-      "title": "Gear Ratio",
-      "value": "3.9:1"
-    },
-    {
-      "title": "Handle",
-      "value": "Aluminum handle with soft knob"
-    },
-    {
-      "title": "Pinion Gear",
-      "value": "Zinc pinion gear"
-    },
-    {
-      "title": "Line Capacity (mm-m)",
-      "value": "0.2-200, 0.25-140, 0.3-100"
-    }
-  ],
-  "features": [
-    "2+1 Ball bearings",
-    "Stainless front shell",
-    "Stainless rotor with double line pin",
-    "Aluminum handle with soft knob",
-    "Zinc pinion gear"
-  ],
-  "line_capacity": {
-    "nylon": [
-      "0.2-200",
-      "0.25-140",
-      "0.3-100"
+    "tags": [
+      "Glitter",
+      "Lucana"
     ],
-    "braid": null
+    "status": "active"
   },
-  "tags": [
-    "Jasper J330",
-    "Lucana"
-  ],
-  "status": "active"
-},
-
-
-{
-  "id": 14,
-  "slug": "komodo-k150-baitcasting-reel",
-  "name": "Komodo K150",
-  "brand": null,
-  "category": "reels",
-  "sub_category": "baitcasting reels",
-  "description": "Komodo K150 baitcasting reel featuring 5+1 stainless steel ball bearings, graphite body, aluminium spool, aluminium handle with EVA knob, 10pcs magnetic break system, 4pcs Korean made washers, click drag sound, gear ratio 7.3:1, max drag 8kgs, and weight 210g. Available in R and L handle versions.",
-  "price": null,
-  "discount_price": null,
-  "stock": null,
-  "sku": "K150",
-  "images": [
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071760/20260722_163159_mp4lya.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071734/20260722_163208_ep7dw6.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071730/20260722_163219_tivehy.jpg"
-  ],
-  "specifications": [
-    {
-      "title": "Bearings",
-      "value": "5+1 Stainless Steel Ball Bearing"
-    },
-    {
-      "title": "Body",
-      "value": "Graphite Body"
-    },
-    {
-      "title": "Spool",
-      "value": "Aluminium Spool"
-    },
-    {
-      "title": "Handle",
-      "value": "Aluminium Handle with EVA Knob"
-    },
-    {
-      "title": "Magnetic Break System",
-      "value": "10PCS Magnetic Break System"
-    },
-    {
-      "title": "Washers",
-      "value": "4PCS Korean Made Washers"
-    },
-    {
-      "title": "Gear Ratio",
-      "value": "7.3:1"
-    },
-    {
-      "title": "Max Drag",
-      "value": "8KGS"
-    },
-    {
-      "title": "Line Capacity (MM/M)",
-      "value": "0.25-190, 0.30-140"
-    },
-    {
-      "title": "Click Drag Sound",
-      "value": "Yes"
-    },
-    {
-      "title": "Weight",
-      "value": "210G"
-    },
-    {
-      "title": "Model",
-      "value": "K150 R / K150 L"
-    }
-  ],
-  "features": [
-    "5+1 Stainless Steel Ball Bearing",
-    "Graphite Body",
-    "Aluminium Spool",
-    "Aluminium Handle with EVA Knob",
-    "10PCS Magnetic Break System",
-    "4PCS Korean Made Washers",
-    "Click Drag Sound"
-  ],
-  "line_capacity": {
-    "nylon": [
-      "0.25-190",
-      "0.30-140"
+  {
+    "id": 12,
+    "slug": "lucana-golden-eagle-high-performance-reel",
+    "name": "Golden Eagle",
+    "brand": "Lucana",
+    "category": "reels",
+    "sub_category": "baitcasting reels",
+    "description": "The Lucana Golden Eagle is an exceptionally fast baitcasting reel boasting a rapid 8.1:1 gear ratio. Equipped with premium Japanese NMB ball bearings, a smooth carbon drag, and a striking pink finish, it is designed for ultra-smooth casting and lightning-fast line retrieval.",
+    "price": null,
+    "discount_price": null,
+    "stock": null,
+    "sku": null,
+    "images": [
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/a_180/v1788696930/Golden_Eagle_vasfsq.png",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071753/20260722_171432_yfauli.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071747/20260722_171438_pxdvgf.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071689/20260722_171444_d5jvab.jpg"
     ],
-    "braid": null
-  },
-  "tags": [
-    "Komodo",
-    "K150"
-  ],
-  "status": "active"
-},
-
-
-{
-  "id": 15,
-  "slug": "lucana-komodo-k3000-spinning-reel",
-  "name": "Komodo K3000",
-  "brand": "Lucana",
-  "category": "reels",
-  "sub_category": "spinning reels",
-  "description": "Lucana Komodo K3000 spinning reel featuring 8+1 stainless steel sealed ball bearings, CNC machined aluminium spool, graphite body and rotor, micro adjusting carbon drag system, stainless steel main shaft, machine cut zinc alloy drive gear, machine cut brass pinion gear, CNC aluminium screw handle with big knob, instant anti-reverse, air thick bail, gear ratio 5.2:1, and max drag 15Kgs.",
-  "price": null,
-  "discount_price": null,
-  "stock": null,
-  "sku": "K3000",
-  "images": [
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071764/20260722_171320_ywrjth.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071740/20260722_171328_spiovi.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071697/20260722_171334_tp5yiu.jpg"
-  ],
-  "specifications": [
-    {
-      "title": "Bearings",
-      "value": "8+1 Stainless Steel Sealed Ball Bearing"
-    },
-    {
-      "title": "Spool",
-      "value": "CNC Machined Aluminium Spool"
-    },
-    {
-      "title": "Body",
-      "value": "Graphite Body and Rotor"
-    },
-    {
-      "title": "Drag System",
-      "value": "Micro Adjusting Carbon Drag System"
-    },
-    {
-      "title": "Main Shaft",
-      "value": "Stainless Steel Main Shaft"
-    },
-    {
-      "title": "Drive Gear",
-      "value": "Machine Cut Zinc Alloy Drive Gear"
-    },
-    {
-      "title": "Pinion Gear",
-      "value": "Machine Cut Brass Pinion Gear"
-    },
-    {
-      "title": "Handle",
-      "value": "CNC Aluminium Screw Handle With Big Knob"
-    },
-    {
-      "title": "Anti-Reverse",
-      "value": "Instant Anti-Reverse"
-    },
-    {
-      "title": "Gear Ratio",
-      "value": "5.2:1"
-    },
-    {
-      "title": "Line Capacity (mm-M)",
-      "value": "0.28-185, 0.30-160, 0.35-130"
-    },
-    {
-      "title": "Max Drag",
-      "value": "15Kgs"
-    }
-  ],
-  "features": [
-    "8+1 Stainless Steel Sealed Ball Bearing",
-    "CNC Machined Aluminium Spool",
-    "Graphite Body and Rotor",
-    "Micro Adjusting Carbon Drag System",
-    "Stainless Steel Main Shaft",
-    "Machine Cut Zinc Alloy Drive Gear",
-    "Machine Cut Brass Pinion Gear",
-    "CNC Aluminium Screw Handle With Big Knob",
-    "Instant Anti-Reverse",
-    "Air Thick Bail",
-    "1 Way Clutch Bearing"
-  ],
-  "line_capacity": {
-    "nylon": [
-      "0.28-185",
-      "0.30-160",
-      "0.35-130"
+    "specifications": [
+      {
+        "title": "Bearings",
+        "value": "7+1 Stainless Steel Ball Bearing (Includes 2 Japanese NMB Ball Bearing)"
+      },
+      {
+        "title": "Drag Washer",
+        "value": "2Pcs Carbon Drag Washer"
+      },
+      {
+        "title": "Spool",
+        "value": "Deep Aluminium Spool"
+      },
+      {
+        "title": "Body",
+        "value": "Graphite body and Graphite Side Plates"
+      },
+      {
+        "title": "Handle",
+        "value": "Aluminium Handle With EVA Knobs"
+      },
+      {
+        "title": "Brake System",
+        "value": "Magnetic Brake System"
+      },
+      {
+        "title": "Anti-Reverse",
+        "value": "Instant Anti-Reverse"
+      },
+      {
+        "title": "Main Gear",
+        "value": "Brass Main Gear and Gear Shaft"
+      },
+      {
+        "title": "Pinion Gear",
+        "value": "Brass Pinion Gear"
+      },
+      {
+        "title": "Star Drag",
+        "value": "Graphite Star Drag"
+      },
+      {
+        "title": "Gear Ratio",
+        "value": "8.1:1"
+      },
+      {
+        "title": "Max Drag",
+        "value": "8kgs"
+      },
+      {
+        "title": "Weight",
+        "value": "202g"
+      },
+      {
+        "title": "Line Retrieve",
+        "value": "72cm"
+      },
+      {
+        "title": "Ball/Roller Bearings",
+        "value": "Ball 7 Roller 1"
+      },
+      {
+        "title": "Line Capacity (mm-M)",
+        "value": "0.15-140"
+      }
     ],
-    "braid": null
-  },
-  "tags": [
-    "Komodo K3000",
-    "Lucana"
-  ],
-  "status": "active"
-},
-
-
-{
-  "id": 16,
-  "slug": "lucana-magnum-mg4000",
-  "name": "Magnum",
-  "brand": "Lucana",
-  "category": "reels",
-  "sub_category": "spinning reel",
-  "description": "Lucana Magnum MG4000 spinning reel featuring 1pc precision ball bearing, graphite spool, solid graphite materials, computer balanced rotor, left and right interchange handle, and comfortable knob.",
-  "price": null,
-  "discount_price": null,
-  "stock": null,
-  "sku": null,
-  "images": [
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071745/20260722_170023_yw9kxo.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071731/20260722_170030_hlkztf.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071688/20260722_170046_ug3max.jpg"
-  ],
-  "specifications": [
-    {
-      "title": "Model",
-      "value": "MG4000"
-    },
-    {
-      "title": "Gear Ratio",
-      "value": "5.2:1"
-    },
-    {
-      "title": "Drag Force",
-      "value": "8kgs"
-    },
-    {
-      "title": "Weight",
-      "value": "236g"
-    },
-    {
-      "title": "Ball Bearings",
-      "value": "1pcs"
-    }
-  ],
-  "features": [
-    "1pcs Precision Ball Bearings",
-    "Graphite Spool",
-    "Solid Graphite Materials",
-    "Computer Balanced Rotor",
-    "Left & Right Interchange Handle",
-    "Comfortable knob"
-  ],
-  "line_capacity": {
-    "nylon": [
-      "0.30-140",
-      "0.35-120",
-      "0.40-100"
+    "features": [
+      "7+1 Stainless Steel Ball Bearing (Includes 2 Japanese NMB Ball Bearing)",
+      "2Pcs Carbon Drag Washer",
+      "Deep Aluminium Spool",
+      "Graphite body and Graphite Side Plates",
+      "Aluminium Handle With EVA Knobs",
+      "Magnetic Brake System",
+      "Instant Anti-Reverse",
+      "Brass Main Gear and Gear Shaft",
+      "Brass Pinion Gear",
+      "Graphite Star Drag"
     ],
-    "braid": null
-  },
-  "tags": [
-    "Lucana",
-    "Magnum",
-    "MG4000"
-  ],
-  "status": "active"
-},
-
-
-{
-  "id": 17,
-  "slug": "lucana-navigator-ng2000",
-  "name": "Navigator",
-  "brand": "Lucana",
-  "category": "reels",
-  "sub_category": "spinning reel",
-  "description": "Lucana Navigator NG2000 spinning reel with 3+1 high quality ball bearings, forged aluminium spool, computer designed balanced rotor, strong brass pinion gear, powerful drive gear system, instant anti-reverse system, and aluminium handle with rubber knob.",
-  "price": null,
-  "discount_price": null,
-  "stock": null,
-  "sku": null,
-  "images": [
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071764/20260722_165054_d8afqf.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071773/20260722_165100_w9fovb.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071692/20260722_165105_uoowv1.jpg"
-  ],
-  "specifications": [
-    {
-      "title": "Model",
-      "value": "NG2000"
+    "line_capacity": {
+      "nylon": [
+        "0.15-140"
+      ],
+      "braid": null
     },
-    {
-      "title": "Gear Ratio",
-      "value": "5.2:1"
-    },
-    {
-      "title": "Weight",
-      "value": "210g"
-    },
-    {
-      "title": "Max Drag",
-      "value": "6kgs"
-    },
-    {
-      "title": "Ball Bearings",
-      "value": "3+1"
-    }
-  ],
-  "features": [
-    "3+1 High Quality Ball Bearings",
-    "Forged Aluminium Spool",
-    "Computer Designed Balanced Rotor",
-    "Strong Brass Pinion Gear",
-    "Powerful Drive Gear System",
-    "Instant Anti-Reverse System",
-    "Aluminium Handle With Rubber Knob"
-  ],
-  "line_capacity": {
-    "nylon": [
-      "0.22-180",
-      "0.28-110",
-      "0.30-90"
+    "tags": [
+      "Golden Eagle",
+      "Lucana",
+      "High Performance Reel",
+      "Pink"
     ],
-    "braid": null
+    "status": "active"
   },
-  "tags": [
-    "Lucana",
-    "Navigator",
-    "NG2000"
-  ],
-  "status": "active"
-},
-
-{
-  "id": 18,
-  "slug": "lucana-ninja-nj2000",
-  "name": "Ninja",
-  "brand": "Lucana",
-  "category": "reels",
-  "sub_category": "spinning reel",
-  "description": "Lucana Ninja NJ2000 spinning reel featuring 5+1 sealed high performance ball bearings, CNC cut aluminium spool, computer designed balanced rotor, strong graphite body for increased endurance, strong brass pinion gear, powerful drive gear system, instant anti-reverse system, and left/right interchangeable durable CNC power handle with soft rubber knob.",
-  "price": null,
-  "discount_price": null,
-  "stock": null,
-  "sku": null,
-  "images": [
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071753/20260722_162819_dve9ag.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071749/20260722_162833_ibtmin.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071735/20260722_162840_uy1por.jpg"
-  ],
-  "specifications": [
-    {
-      "title": "Model",
-      "value": "NJ2000"
-    },
-    {
-      "title": "Gear Ratio",
-      "value": "5.2:1"
-    },
-    {
-      "title": "Weight",
-      "value": "224g"
-    },
-    {
-      "title": "Max Drag",
-      "value": "6kgs"
-    },
-    {
-      "title": "Ball Bearings",
-      "value": "5+1"
-    }
-  ],
-  "features": [
-    "5+1 Sealed High Performance Ball Bearing",
-    "Oversize Drag Knob for Quick Drag Setting",
-    "CNC CUT Aluminium Spool",
-    "Computer Designed Balanced Rotor",
-    "Strong Graphite Body for Increased Endurance",
-    "Air Thick Bail with Anti Twist Line Roller",
-    "Strong Brass Pinion Gear",
-    "Powerful Drive Gear System",
-    "Instant Anti-Reverse System",
-    "Left/Right Interchangable Durable CNC Power Handle",
-    "Soft Rubber Knob for comfortable Use"
-  ],
-  "line_capacity": {
-    "nylon": [
-      "0.25-200",
-      "0.30-128",
-      "0.35-105"
+  {
+    "id": 13,
+    "slug": "lucana-jasper-j330-spinning-reel",
+    "name": "Jasper J330",
+    "brand": "Lucana",
+    "category": "reels",
+    "sub_category": "Spin Cast",
+    "description": "The Lucana Jasper J330 is a durable and user-friendly spin-cast reel. Constructed with a tough stainless steel front shell, a dual-pin rotor, and an ergonomic soft-grip aluminum handle, it is built for simple, hassle-free casting.",
+    "price": null,
+    "discount_price": null,
+    "stock": null,
+    "sku": null,
+    "images": [
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1788696931/Jasper_J330_mtphfs.png",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071745/20260722_165426_vp5ybo.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071751/20260722_165435_zzcivp.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071692/20260722_165447_jxg4ak.jpg"
     ],
-    "braid": null
-  },
-  "tags": [
-    "Lucana",
-    "Ninja",
-    "NJ2000"
-  ],
-  "status": "active"
-},
-
-{
-  "id": 19,
-  "slug": "pacific-sw-high-performance-reel",
-  "name": "Pacific SW",
-  "brand": null,
-  "category": "reels",
-  "sub_category": "baitcasting reel",
-  "description": "Pacific SW High Performance Reel featuring 6+1 stainless steel ball bearings, deep aluminium spool, aluminium body and carbon side plates, aluminium handle with EVA knobs, magnetic brake system, instant anti-reverse, brass main gear and gear shaft, brass pinion gear, and aluminium star drag.",
-  "price": null,
-  "discount_price": null,
-  "stock": null,
-  "sku": null,
-  "images": [
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071737/20260722_164100_h5obau.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071759/20260722_164109_txe5wy.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071736/20260722_164128_rmh94b.jpg"
-  ],
-  "specifications": [
-    {
-      "title": "Gear Ratio",
-      "value": "7.1:1"
-    },
-    {
-      "title": "Weight",
-      "value": "256g"
-    },
-    {
-      "title": "Max Drag",
-      "value": "10kgs"
-    },
-    {
-      "title": "Line Retrieve",
-      "value": "74cm"
-    },
-    {
-      "title": "Ball Bearings",
-      "value": "Ball 6 Roller 1"
-    }
-  ],
-  "features": [
-    "6+1 Stainless Steel Ball Bearing",
-    "Deep Aluminium Spool",
-    "Aluminium Body and Carbon Side Plates",
-    "Aluminium Handle With EVA Knobs",
-    "Magnetic Brake System",
-    "Instant Anti-Reverse",
-    "Brass Main Gear and Gear Shaft",
-    "Brass Pinion Gear",
-    "Aluminium Star Drag"
-  ],
-  "line_capacity": {
-    "nylon": [
-      "0.30-250",
-      "0.33-210",
-      "0.40-140"
+    "specifications": [
+      {
+        "title": "Ball Bearings",
+        "value": "2+1 Ball bearings"
+      },
+      {
+        "title": "Front Shell",
+        "value": "Stainless front shell"
+      },
+      {
+        "title": "Rotor",
+        "value": "Stainless rotor with double line pin"
+      },
+      {
+        "title": "Gear Ratio",
+        "value": "3.9:1"
+      },
+      {
+        "title": "Handle",
+        "value": "Aluminum handle with soft knob"
+      },
+      {
+        "title": "Pinion Gear",
+        "value": "Zinc pinion gear"
+      },
+      {
+        "title": "Line Capacity (mm-m)",
+        "value": "0.2-200, 0.25-140, 0.3-100"
+      }
     ],
-    "braid": null
-  },
-  "tags": [
-    "Pacific SW",
-    "High Performance Reel"
-  ],
-  "status": "active"
-},
-
-
-{
-  "id": 20,
-  "slug": "lucana-predator-5000",
-  "name": "Predator 5000",
-  "brand": "Lucana",
-  "category": "reels",
-  "sub_category": "spinning reel",
-  "description": "Lucana Predator 5000 spinning reel featuring 3+1 precision stainless steel ball bearings, two tone aluminium spool, high tensile strength graphite body, aluminium power handle, micro adjusting smooth drag system, power drive gear equipped for high strength, instant anti-reverse, air thick bail, and 1 way clutch bearing.",
-  "price": null,
-  "discount_price": null,
-  "stock": null,
-  "sku": null,
-  "images": [
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071687/20260722_163346_vh6n22.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071757/20260722_163352_upq5o4.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071734/20260722_163400_ncbkst.jpg"
-  ],
-  "specifications": [
-    {
-      "title": "Model",
-      "value": "5000"
-    },
-    {
-      "title": "Gear Ratio",
-      "value": "5.5:1"
-    },
-    {
-      "title": "Ball Bearings",
-      "value": "3+1 Sealed Bearings"
-    }
-  ],
-  "features": [
-    "3+1 Precision Stainless Steel Ball Bearings",
-    "Two Tone Aluminium Spool",
-    "High Tensile Strength Graphite Body",
-    "Aluminium Power Handle",
-    "Micro Adjusting Smooth Drag System",
-    "Power Drive Gear Equipped For High Strength",
-    "Instant Anti-Reverse",
-    "Air Thick Bail",
-    "1 Way Clutch Bearing",
-    "One-Way Clutch Anti-Reverse"
-  ],
-  "line_capacity": {
-    "nylon": [
-      "0.35-190",
-      "0.40-135",
-      "0.45-110"
+    "features": [
+      "2+1 Ball bearings",
+      "Stainless front shell",
+      "Stainless rotor with double line pin",
+      "Aluminum handle with soft knob",
+      "Zinc pinion gear"
     ],
-    "braid": null
-  },
-  "tags": [
-    "Lucana",
-    "Predator",
-    "Predator 5000"
-  ],
-  "status": "active"
-},
-
-
-{
-  "id": 21,
-  "slug": "lucana-reno-ii-4000",
-  "name": "Reno II 4000",
-  "brand": "Lucana",
-  "category": "reels",
-  "sub_category": "spinning reels",
-  "description": "Lucana Reno II 4000 spinning reel featuring 5+1 precision stainless steel ball bearings, two tone aluminium spool, high tensile strength graphite body, aluminium power handle, micro adjusting smooth drag system, power drive gear equipped for high strength, instant anti-reverse, air thick bail, and 1 way clutch bearing with a gear ratio of 5.5:1.",
-  "price": null,
-  "discount_price": null,
-  "stock": null,
-  "sku": null,
-  "images": [
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071748/20260722_163457_g3j2lv.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071764/20260722_163503_fld0tt.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071727/20260722_163511_omtysk.jpg"
-  ],
-  "specifications": [
-    {
-      "title": "Bearings",
-      "value": "5+1 Precision Stainless Steel Ball Bearings"
+    "line_capacity": {
+      "nylon": [
+        "0.2-200",
+        "0.25-140",
+        "0.3-100"
+      ],
+      "braid": null
     },
-    {
-      "title": "Spool",
-      "value": "Two Tone Aluminium Spool"
-    },
-    {
-      "title": "Body",
-      "value": "High Tensile Strength Graphite Body"
-    },
-    {
-      "title": "Handle",
-      "value": "Aluminium Power Handle"
-    },
-    {
-      "title": "Drag System",
-      "value": "Micro Adjusting Smooth Drag System"
-    },
-    {
-      "title": "Gear Ratio",
-      "value": "5.5:1"
-    },
-    {
-      "title": "Anti-Reverse",
-      "value": "Instant Anti-Reverse"
-    },
-    {
-      "title": "Size",
-      "value": "4000"
-    }
-  ],
-  "features": [
-    "5+1 Precision Stainless Steel Ball Bearings",
-    "Two Tone Aluminium Spool",
-    "High Tensile Strength Graphite Body",
-    "Aluminium Power Handle",
-    "Micro Adjusting Smooth Drag System",
-    "Power Drive Gear Equipped For High Strength",
-    "Instant Anti-Reverse",
-    "Air Thick Bail",
-    "1 Way Clutch Bearing"
-  ],
-  "line_capacity": {
-    "nylon": [
-      "0.35-160",
-      "0.40-110",
-      "0.45-95"
+    "tags": [
+      "Jasper J330",
+      "Lucana"
     ],
-    "braid": null
+    "status": "active"
   },
-  "tags": [
-    "Lucana",
-    "Reno II",
-    "Reno II 4000"
-  ],
-  "status": "active"
-},
-
-{
-  "id": 22,
-  "slug": "lucana-skipper-500",
-  "name": "Skipper 500",
-  "brand": "Lucana",
-  "category": "reels",
-  "sub_category": "spinning reels",
-  "description": "Lucana Skipper 500 spinning reel featuring 3+1 precision ball bearings, CNC left/right interchangeable handle with T knob, titanium coated anti-twist line roller, machine cut zinc alloy pinion gear, micro-sensitive multi-drag system, computerised balance system, and a gear ratio of 4.8:1.",
-  "price": null,
-  "discount_price": null,
-  "stock": null,
-  "sku": null,
-  "images": [
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071749/20260722_170634_ranhmz.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071751/20260722_170641_lkczb0.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071693/20260722_170650_mrapea.jpg"
-  ],
-  "specifications": [
-    {
-      "title": "Bearings",
-      "value": "3+1 Precision Ball Bearings"
-    },
-    {
-      "title": "Handle",
-      "value": "CNC Left/Right Interchangeable Handle With T Knob"
-    },
-    {
-      "title": "Line Roller",
-      "value": "Titanium Coated Anti-Twist Line Roller"
-    },
-    {
-      "title": "Pinion Gear",
-      "value": "Machine Cut Zinc Alloy Pinion Gear"
-    },
-    {
-      "title": "Drag System",
-      "value": "Micro-Sensitive Multi-Drag System"
-    },
-    {
-      "title": "Balance System",
-      "value": "Computerised Balance System"
-    },
-    {
-      "title": "Line Capacity (mm-M)",
-      "value": "0.20-130, 0.25-80, 0.30-50"
-    },
-    {
-      "title": "Gear Ratio",
-      "value": "4.8:1"
-    },
-    {
-      "title": "Size",
-      "value": "500"
-    }
-  ],
-  "features": [
-    "3+1 Precision Ball Bearings",
-    "CNC Left/Right Interchangeable Handle With T Knob",
-    "Titanium Coated Anti-Twist Line Roller",
-    "Machine Cut Zinc Alloy Pinion Gear",
-    "Micro-Sensitive Multi-Drag System",
-    "Computerised Balance System"
-  ],
-  "line_capacity": {
-    "nylon": [
-      "0.20-130",
-      "0.25-80",
-      "0.30-50"
+  {
+    "id": 14,
+    "slug": "komodo-k150-baitcasting-reel",
+    "name": "Komodo K150",
+    "brand": null,
+    "category": "reels",
+    "sub_category": "baitcasting reels",
+    "description": "The Komodo K150 is a reliable baitcasting reel engineered for smooth and accurate casting. With a fast 7.3:1 gear ratio, click-drag sound, and a customizable 10-piece magnetic brake system, it delivers great performance and value.",
+    "price": null,
+    "discount_price": null,
+    "stock": null,
+    "sku": "K150",
+    "images": [
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/a_180/v1788696931/Komodo_K150_hhnjtw.png",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071760/20260722_163159_mp4lya.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071734/20260722_163208_ep7dw6.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071730/20260722_163219_tivehy.jpg"
     ],
-    "braid": null
-  },
-  "tags": [
-    "Lucana",
-    "Skipper",
-    "Skipper 500"
-  ],
-  "status": "active"
-},
-
-{
-  "id": 23,
-  "slug": "lucana-spin-60",
-  "name": "Spin 60",
-  "brand": "Lucana",
-  "category": "reels",
-  "sub_category": "spinning reels",
-  "description": "Lucana Spin 60 spinning reel featuring 3+1 ball bearings, two tone aluminium spool, high tensile strength graphite body, aluminium power handle, micro adjusting smooth drag system, power drive gear equipped for high strength, instant anti-reverse, air thick bail, and 1 way clutch bearing with a gear ratio of 4.5:1.",
-  "price": null,
-  "discount_price": null,
-  "stock": null,
-  "sku": null,
-  "images": [
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071741/20260722_163023_cnpi0x.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071746/20260722_163031_h9gslt.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071695/20260722_163040_elbfay.jpg"
-  ],
-  "specifications": [
-    {
-      "title": "Bearings",
-      "value": "3+1 Ball Bearings"
-    },
-    {
-      "title": "Spool",
-      "value": "Two Tone Aluminium Spool"
-    },
-    {
-      "title": "Body",
-      "value": "High Tensile Strength Graphite Body"
-    },
-    {
-      "title": "Handle",
-      "value": "Aluminium Power Handle"
-    },
-    {
-      "title": "Drag System",
-      "value": "Micro Adjusting Smooth Drag System"
-    },
-    {
-      "title": "Gear Ratio",
-      "value": "4.5:1"
-    },
-    {
-      "title": "Anti-Reverse",
-      "value": "Instant Anti-Reverse"
-    },
-    {
-      "title": "Size",
-      "value": "60"
-    }
-  ],
-  "features": [
-    "Two Tone Aluminium Spool",
-    "High Tensile Strength Graphite Body",
-    "Aluminium Power Handle",
-    "Micro Adjusting Smooth Drag System",
-    "Power Drive Gear Equipped For High Strength",
-    "Instant Anti-Reverse",
-    "Air Thick Bail",
-    "1 Way Clutch Bearing",
-    "3+1 Ball Bearings"
-  ],
-  "line_capacity": {
-    "nylon": [
-      "0.35-220",
-      "0.40-165",
-      "0.45-135"
+    "specifications": [
+      {
+        "title": "Bearings",
+        "value": "5+1 Stainless Steel Ball Bearing"
+      },
+      {
+        "title": "Body",
+        "value": "Graphite Body"
+      },
+      {
+        "title": "Spool",
+        "value": "Aluminium Spool"
+      },
+      {
+        "title": "Handle",
+        "value": "Aluminium Handle with EVA Knob"
+      },
+      {
+        "title": "Magnetic Break System",
+        "value": "10PCS Magnetic Break System"
+      },
+      {
+        "title": "Washers",
+        "value": "4PCS Korean Made Washers"
+      },
+      {
+        "title": "Gear Ratio",
+        "value": "7.3:1"
+      },
+      {
+        "title": "Max Drag",
+        "value": "8KGS"
+      },
+      {
+        "title": "Line Capacity (MM/M)",
+        "value": "0.25-190, 0.30-140"
+      },
+      {
+        "title": "Click Drag Sound",
+        "value": "Yes"
+      },
+      {
+        "title": "Weight",
+        "value": "210G"
+      },
+      {
+        "title": "Model",
+        "value": "K150 R / K150 L"
+      }
     ],
-    "braid": null
-  },
-  "tags": [
-    "Lucana",
-    "Spin 60"
-  ],
-  "status": "active"
-},
-
-
-{
-  "id": 24,
-  "slug": "lucana-stone-island-v2-sw-4000",
-  "name": "Stone Island V2 SW 4000",
-  "brand": "Lucana",
-  "category": "reels",
-  "sub_category": "spinning reels",
-  "description": "Lucana Stone Island V2 SW 4000 spinning reel featuring 9+1 precision stainless steel sealed ball bearings, CNC machined aluminium spool, aluminium body, micro adjusting carbon drag system, and instant anti-reverse. Equipped with a stainless steel main shaft, machined cut zinc alloy drive gear, machined cut brass pinion gear, and CNC aluminium screw handle with big knob. Max drag of 18 Kgs and gear ratio of 5.2:1.",
-  "price": null,
-  "discount_price": null,
-  "stock": null,
-  "sku": null,
-  "images": [
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071757/20260722_170400_q4ih2j.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071753/20260722_170412_wrcm2q.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071738/20260722_170428_v5bz7w.jpg"
-  ],
-  "specifications": [
-    {
-      "title": "Bearings",
-      "value": "9+1 Precision Stainless Steel Sealed Ball Bearing"
-    },
-    {
-      "title": "Spool",
-      "value": "CNC Machined Aluminium Spool"
-    },
-    {
-      "title": "Body",
-      "value": "Aluminium Body"
-    },
-    {
-      "title": "Drag System",
-      "value": "Micro Adjusting Carbon Drag System"
-    },
-    {
-      "title": "Main Shaft",
-      "value": "Stainless Steel Main Shaft"
-    },
-    {
-      "title": "Drive Gear",
-      "value": "Machined Cut Zinc Alloy Drive Gear"
-    },
-    {
-      "title": "Pinion Gear",
-      "value": "Machined Cut Brass Pinion Gear"
-    },
-    {
-      "title": "Handle",
-      "value": "CNC Aluminium Screw Handle With Big Knob"
-    },
-    {
-      "title": "Anti-Reverse",
-      "value": "Instant Anti-Reverse"
-    },
-    {
-      "title": "Gear Ratio",
-      "value": "5.2:1"
-    },
-    {
-      "title": "Max Drag",
-      "value": "18 Kgs"
-    }
-  ],
-  "features": [
-    "9+1 Precision Stainless Steel Sealed Ball Bearing",
-    "CNC Machined Aluminium Spool",
-    "Aluminium Body",
-    "Micro Adjusting Carbon Drag System",
-    "Stainless Steel Main Shaft",
-    "Machined Cut Zinc Alloy Drive Gear",
-    "Machined Cut Brass Pinion Gear",
-    "CNC Aluminium Screw Handle With Big Knob",
-    "Instant Anti-Reverse"
-  ],
-  "line_capacity": {
-    "nylon": [
-      "0.30-195",
-      "0.35-145"
+    "features": [
+      "5+1 Stainless Steel Ball Bearing",
+      "Graphite Body",
+      "Aluminium Spool",
+      "Aluminium Handle with EVA Knob",
+      "10PCS Magnetic Break System",
+      "4PCS Korean Made Washers",
+      "Click Drag Sound"
     ],
-    "braid": null
-  },
-  "tags": [
-    "Lucana",
-    "Stone Island V2",
-    "SW 4000"
-  ],
-  "status": "active"
-},
-
-
-{
-  "id": 25,
-  "slug": "lucana-streak",
-  "name": "Streak",
-  "brand": "Lucana",
-  "category": "reels",
-  "sub_category": "spinning reels",
-  "description": "Lucana Streak front drag spinning reel featuring 3 precision ball bearings, CNC left/right interchangeable handle with T knob, titanium coated anti-twist line roller, machine cut zinc alloy pinion gear, micro-sensitive multi-drag system, and computerised balance system. Available in ST3000 and ST4000 sizes with a gear ratio of 5.2:1.",
-  "price": null,
-  "discount_price": null,
-  "stock": null,
-  "sku": null,
-  "images": [
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071762/20260722_165626_jcukdf.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071764/20260722_165635_ymfaos.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071695/20260722_165643_tmu3mu.jpg"
-  ],
-  "specifications": [
-    {
-      "title": "Bearings",
-      "value": "3 Precision Ball Bearings"
+    "line_capacity": {
+      "nylon": [
+        "0.25-190",
+        "0.30-140"
+      ],
+      "braid": null
     },
-    {
-      "title": "Handle",
-      "value": "CNC Left/Right Interchangeable Handle With T Knob"
-    },
-    {
-      "title": "Line Roller",
-      "value": "Titanium Coated Anti-Twist Line Roller"
-    },
-    {
-      "title": "Pinion Gear",
-      "value": "Machine Cut Zinc Alloy Pinion Gear"
-    },
-    {
-      "title": "Drag System",
-      "value": "Micro-Sensitive Multi-Drag System"
-    },
-    {
-      "title": "Balance System",
-      "value": "Computerised Balance System"
-    },
-    {
-      "title": "Gear Ratio",
-      "value": "5.2:1"
-    },
-    {
-      "title": "FD/RD (ST3000)",
-      "value": "FD"
-    },
-    {
-      "title": "Line Capacity ST3000 (mm/m)",
-      "value": "0.25/245 0.30/170 0.35/125"
-    },
-    {
-      "title": "FD/RD (ST4000)",
-      "value": "FD"
-    },
-    {
-      "title": "Line Capacity ST4000 (mm/m)",
-      "value": "0.30/195 0.35/145 0.40/110"
-    }
-  ],
-  "features": [
-    "3 Precision Ball Bearings",
-    "CNC Left/Right Interchangeable Handle With T Knob",
-    "Titanium Coated Anti-Twist Line Roller",
-    "Machine Cut Zinc Alloy Pinion Gear",
-    "Micro-Sensitive Multi-Drag System",
-    "Computerised Balance System",
-    "S-Stroke System",
-    "AVS Anti-Vibration System"
-  ],
-  "line_capacity": {
-    "nylon": [
-      "0.25-245",
-      "0.30-170",
-      "0.35-125",
-      "0.30-195",
-      "0.35-145",
-      "0.40-110"
+    "tags": [
+      "Komodo",
+      "K150"
     ],
-    "braid": null
+    "status": "active"
   },
-  "tags": [
-    "Lucana",
-    "Streak",
-    "ST3000",
-    "ST4000"
-  ],
-  "status": "active"
-},
-
-{
-  "id": 26,
-  "slug": "lucana-surfcaster-sc9000",
-  "name": "Surfcaster SC9000",
-  "brand": "Lucana",
-  "category": "reels",
-  "sub_category": "spinning reels",
-  "description": "Lucana Surfcaster SC9000 spinning reel featuring 6+1 steel ball bearings, aluminium spool, aluminium power handle, zinc alloy drive gear, and brass pinion gear. With a max drag of 18 Kgs, gear ratio of 4.6:1, and a weight of 632G.",
-  "price": null,
-  "discount_price": null,
-  "stock": null,
-  "sku": null,
-  "images": [
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071760/20260722_164641_m9gmca.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071767/20260722_164646_epibne.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071758/20260722_164652_mt5mff.jpg"
-  ],
-  "specifications": [
-    {
-      "title": "Size",
-      "value": "SC9000"
-    },
-    {
-      "title": "Bearings",
-      "value": "6+1 Steel Ball Bearing"
-    },
-    {
-      "title": "Spool",
-      "value": "Aluminium Spool"
-    },
-    {
-      "title": "Handle",
-      "value": "Aluminium Power Handle"
-    },
-    {
-      "title": "Drive Gear",
-      "value": "Zinc Alloy Drive Gear"
-    },
-    {
-      "title": "Pinion Gear",
-      "value": "Brass Pinion Gear"
-    },
-    {
-      "title": "Max Drag",
-      "value": "18 Kgs"
-    },
-    {
-      "title": "Weight",
-      "value": "632G"
-    },
-    {
-      "title": "Gear Ratio",
-      "value": "4.6:1"
-    }
-  ],
-  "features": [
-    "6+1 Steel Ball Bearing",
-    "Aluminium Spool",
-    "Aluminium Power Handle",
-    "Zinc Alloy Drive Gear",
-    "Brass Pinion Gear"
-  ],
-  "line_capacity": {
-    "nylon": [
-      "50-500",
-      "64-375",
-      "80-250"
+  {
+    "id": 15,
+    "slug": "lucana-komodo-k3000-spinning-reel",
+    "name": "Komodo K3000",
+    "brand": "Lucana",
+    "category": "reels",
+    "sub_category": "Spinning Reels",
+    "description": "The Lucana Komodo K3000 is a heavy-duty spinning reel built for tough freshwater and inshore battles. Featuring a massive 15kg carbon drag system, a screw-in power handle, and 8+1 sealed bearings, it offers maximum leverage and durability.",
+    "price": null,
+    "discount_price": null,
+    "stock": null,
+    "sku": "K3000",
+    "images": [
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1788701229/Komodo_K3000_y8nmwn.png",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071764/20260722_171320_ywrjth.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071740/20260722_171328_spiovi.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071697/20260722_171334_tp5yiu.jpg"
     ],
-    "braid": null
-  },
-  "tags": [
-    "Lucana",
-    "Surfcaster",
-    "SC9000"
-  ],
-  "status": "active"
-},
-{
-  "id": 27,
-  "slug": "tacklman-ww6000",
-  "name": "Tacklman WW6000",
-  "brand": "Tacklman",
-  "category": "reels",
-  "sub_category": "spinning reels",
-  "description": "Tacklman WW6000 spinning reel featuring 5+1 ball bearings, super strong drive gear, high intensity graphite material, computer balanced rotor, one-way clutch ball bearing, anti-twist line roller with thick bail wire, aluminum CNC machined power handle, aluminum machined cut spool, and soft rubber knob. Gear ratio 5.1:1 with 10 kgs drag force.",
-  "price": null,
-  "discount_price": null,
-  "stock": null,
-  "sku": null,
-  "images": [
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071674/20260722_162145_audjek.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071683/20260722_162204_gvze95.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071686/20260722_162215_gat6dx.jpg"
-  ],
-  "specifications": [
-    {
-      "title": "Model",
-      "value": "WW6000"
-    },
-    {
-      "title": "Gear Ratio",
-      "value": "5.1:1"
-    },
-    {
-      "title": "Drag Force",
-      "value": "10 kgs"
-    },
-    {
-      "title": "Line Capacity (mm/m)",
-      "value": "0.40-240 0.43-210 0.47-175"
-    }
-  ],
-  "features": [
-    "5+1 Ball Bearings",
-    "Super Strong Drive Gear",
-    "High Intensity Graphite Material",
-    "Computer Balanced Rotor",
-    "One-way Clutch Ball Bearing",
-    "Anti-twist Line Roller With Thick Bail Wire",
-    "Aluminum Cnc Machined Power Handle",
-    "Aluminum Machined Cut Spool",
-    "Soft Rubber Knob"
-  ],
-  "line_capacity": {
-    "nylon": [
-      "0.40-240",
-      "0.43-210",
-      "0.47-175"
+    "specifications": [
+      {
+        "title": "Bearings",
+        "value": "8+1 Stainless Steel Sealed Ball Bearing"
+      },
+      {
+        "title": "Spool",
+        "value": "CNC Machined Aluminium Spool"
+      },
+      {
+        "title": "Body",
+        "value": "Graphite Body and Rotor"
+      },
+      {
+        "title": "Drag System",
+        "value": "Micro Adjusting Carbon Drag System"
+      },
+      {
+        "title": "Main Shaft",
+        "value": "Stainless Steel Main Shaft"
+      },
+      {
+        "title": "Drive Gear",
+        "value": "Machine Cut Zinc Alloy Drive Gear"
+      },
+      {
+        "title": "Pinion Gear",
+        "value": "Machine Cut Brass Pinion Gear"
+      },
+      {
+        "title": "Handle",
+        "value": "CNC Aluminium Screw Handle With Big Knob"
+      },
+      {
+        "title": "Anti-Reverse",
+        "value": "Instant Anti-Reverse"
+      },
+      {
+        "title": "Gear Ratio",
+        "value": "5.2:1"
+      },
+      {
+        "title": "Line Capacity (mm-M)",
+        "value": "0.28-185, 0.30-160, 0.35-130"
+      },
+      {
+        "title": "Max Drag",
+        "value": "15Kgs"
+      }
     ],
-    "braid": null
-  },
-  "tags": [
-    "Tacklman",
-    "WW6000"
-  ],
-  "status": "active"
-},
-
-
-{
-  "id": 28,
-  "slug": "tacklman-feather-f1000",
-  "name": "Feather F 1000",
-  "brand": "Tacklman",
-  "category": "reels",
-  "sub_category": "spinning reels",
-  "description": "Tacklman Feather F 1000 spinning reel featuring 3+1 ball bearings, super strong drive gear, graphite material, computer balanced rotor, thick bail wire, CNC aluminum power handle, and aluminum spool. Drag power of 6 Kgs, speed ratio 5.2:1 and weight of 205g.",
-  "price": null,
-  "discount_price": null,
-  "stock": null,
-  "sku": null,
-  "images": [
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071687/20260722_170153_vrhmu7.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071689/20260722_170202_fpdri2.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071672/20260722_170216_kvgdkj.jpg"
-  ],
-  "specifications": [
-    {
-      "title": "Model",
-      "value": "F 1000"
-    },
-    {
-      "title": "Speed Ratio",
-      "value": "5.2:1"
-    },
-    {
-      "title": "Weight",
-      "value": "205 g"
-    },
-    {
-      "title": "Standard Cup Capacity (mm)",
-      "value": "0.18/235 0.20/195 0.25/120"
-    },
-    {
-      "title": "Standard Cup Capacity (LBS/YDS)",
-      "value": "3/255 4/210 6/130"
-    },
-    {
-      "title": "Bearings",
-      "value": "3+1 Ball Bearings"
-    },
-    {
-      "title": "Drive Gear",
-      "value": "Super Strong Drive Gear"
-    },
-    {
-      "title": "Material",
-      "value": "Graphite Material"
-    },
-    {
-      "title": "Rotor",
-      "value": "Computer Balanced Rotor"
-    },
-    {
-      "title": "Bail Wire",
-      "value": "Thick Bail Wire"
-    },
-    {
-      "title": "Handle",
-      "value": "CNC Aluminum Power Handle"
-    },
-    {
-      "title": "Spool",
-      "value": "Aluminum Spool"
-    },
-    {
-      "title": "Drag Power",
-      "value": "6 Kgs"
-    }
-  ],
-  "features": [
-    "3+1 Ball Bearings",
-    "Super Strong Drive Gear",
-    "Graphite Material",
-    "Computer Balanced Rotor",
-    "Thick Bail Wire",
-    "CNC Aluminum Power Handle",
-    "Aluminum Spool"
-  ],
-  "line_capacity": {
-    "nylon": [
-      "0.18-235",
-      "0.20-195",
-      "0.25-120"
+    "features": [
+      "8+1 Stainless Steel Sealed Ball Bearing",
+      "CNC Machined Aluminium Spool",
+      "Graphite Body and Rotor",
+      "Micro Adjusting Carbon Drag System",
+      "Stainless Steel Main Shaft",
+      "Machine Cut Zinc Alloy Drive Gear",
+      "Machine Cut Brass Pinion Gear",
+      "CNC Aluminium Screw Handle With Big Knob",
+      "Instant Anti-Reverse",
+      "Air Thick Bail",
+      "1 Way Clutch Bearing"
     ],
-    "braid": null
-  },
-  "tags": [
-    "Tacklman",
-    "Feather",
-    "F 1000"
-  ],
-  "status": "active"
-},
-
-{
-  "id": 29,
-  "slug": "takugana-baitcasting-reel-red-right",
-  "name": "TAKUGANA",
-  "brand": "TAKUGANA",
-  "category": "reels",
-  "sub_category": "baitcasting",
-  "description": "TAKUGANA baitcasting reel featuring 7+1 stainless steel ball bearings, aluminium spool, high tensile graphite body, aluminium handle with EVA knob, 10Pcs magnetic brake system, instant anti-reverse, brass main gear and brass shaft, aluminium star drag, brass pinion gear, 4 group carbon fibre brake system, 7.3:1 gear ratio, and max drag of 8 kgs. Right hand retrieve in red color.",
-  "price": null,
-  "discount_price": null,
-  "stock": null,
-  "sku": null,
-  "images": [
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071664/20260722_171532_ggnzmc.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071665/20260722_171545_unleec.jpg"
-  ],
-  "specifications": [
-    {
-      "title": "Gear Ratio",
-      "value": "7.3:1"
+    "line_capacity": {
+      "nylon": [
+        "0.28-185",
+        "0.30-160",
+        "0.35-130"
+      ],
+      "braid": null
     },
-    {
-      "title": "Weight",
-      "value": "203g"
-    },
-    {
-      "title": "Max Drag",
-      "value": "8kg"
-    },
-    {
-      "title": "Line Retrieve",
-      "value": "72cm"
-    },
-    {
-      "title": "Bearings",
-      "value": "Ball 7 Roller 1"
-    },
-    {
-      "title": "Spool",
-      "value": "Aluminium"
-    },
-    {
-      "title": "Body",
-      "value": "High Tensile Graphite"
-    },
-    {
-      "title": "Handle",
-      "value": "Aluminium Handle With EVA Knob"
-    },
-    {
-      "title": "Magnetic Brake System",
-      "value": "10Pcs"
-    },
-    {
-      "title": "Anti-Reverse",
-      "value": "Instant Anti-Reverse"
-    },
-    {
-      "title": "Main Gear",
-      "value": "Brass Main Gear and Brass Shaft"
-    },
-    {
-      "title": "Star Drag",
-      "value": "Aluminium"
-    },
-    {
-      "title": "Pinion Gear",
-      "value": "Brass"
-    },
-    {
-      "title": "Brake System",
-      "value": "4 Group Carbon Fibre Brake system"
-    },
-    {
-      "title": "Color",
-      "value": "Red"
-    },
-    {
-      "title": "Hand Retrieve",
-      "value": "Right"
-    }
-  ],
-  "features": [
-    "7+1 Stainless Steel Ball Bearing",
-    "Aluminium Spool",
-    "High Tensile Graphite Body",
-    "Aluminium Handle With EVA Knob",
-    "10Pcs Magnetic Break System",
-    "Instant Anti-Reverse",
-    "Brass Main Gear and Brass Shaft",
-    "Aluminium Star Drag",
-    "Brass Pinion Gear",
-    "Ratio 7.3:1",
-    "4 Group Carbon Fibre Brake system",
-    "Max Drag 8 kgs"
-  ],
-  "line_capacity": {
-    "nylon": [
-      "0.285-130",
-      "0.310-120",
-      "0.330-100"
+    "tags": [
+      "Komodo K3000",
+      "Lucana"
     ],
-    "braid": [
-      "6lb-110",
-      "8lb-95",
-      "10lb-90"
-    ]
+    "status": "active"
   },
-  "tags": [
-    "TAKUGANA",
-    "Red",
-    "Right"
-  ],
-  "status": "active"
-},
-
-{
-  "id": 30,
-  "slug": "lucana-texanus-tx6000",
-  "name": "TEXANUS TX6000",
-  "brand": "Lucana",
-  "category": "reels",
-  "sub_category": "spinning",
-  "description": "Lucana Texanus TX6000 spinning reel featuring 4+1 steel ball bearings, aluminium spool, aluminium power handle, zinc alloy drive gear, brass pinion gear, max drag of 10KGS, gear ratio 4.7:1, and weighing 405G.",
-  "price": null,
-  "discount_price": null,
-  "stock": null,
-  "sku": null,
-  "images": [
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071666/20260722_164902_gdl5ei.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071670/20260722_164908_uq4vyv.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071667/20260722_164914_ph7k3l.jpg"
-  ],
-  "specifications": [
-    {
-      "title": "Model",
-      "value": "TX 6000"
-    },
-    {
-      "title": "Ball Bearing",
-      "value": "4+1"
-    },
-    {
-      "title": "Gear Ratio",
-      "value": "4.7:1"
-    },
-    {
-      "title": "Max Drag",
-      "value": "10KGS"
-    },
-    {
-      "title": "Weight",
-      "value": "405G"
-    },
-    {
-      "title": "Spool",
-      "value": "Aluminium"
-    },
-    {
-      "title": "Handle",
-      "value": "Aluminium Power Handle"
-    },
-    {
-      "title": "Drive Gear",
-      "value": "Zinc Alloy"
-    },
-    {
-      "title": "Pinion Gear",
-      "value": "Brass"
-    }
-  ],
-  "features": [
-    "4+1 Steel Ball Bearing",
-    "Aluminium Spool",
-    "Aluminium Power Handle",
-    "Zinc Alloy Drive Gear",
-    "Brass Pinion Gear",
-    "Mag Drag 10KGS",
-    "Weight 405G"
-  ],
-  "line_capacity": {
-    "nylon": [
-      "0.40-240",
-      "0.44-200",
-      "0.48-170"
+  {
+    "id": 16,
+    "slug": "lucana-magnum-mg4000",
+    "name": "Magnum",
+    "brand": "Lucana",
+    "category": "reels",
+    "sub_category": "Spinning Reels",
+    "description": "The Lucana Magnum MG4000 is a reliable, budget-friendly spinning reel designed for everyday angling. Built with solid graphite materials and a computer-balanced rotor, it ensures steady, shake-free retrieves.",
+    "price": null,
+    "discount_price": null,
+    "stock": null,
+    "sku": null,
+    "images": [
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1788701356/Magnum_vlfujg.png",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071745/20260722_170023_yw9kxo.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071731/20260722_170030_hlkztf.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071688/20260722_170046_ug3max.jpg"
     ],
-    "braid": null
-  },
-  "tags": [
-    "Lucana",
-    "TEXANUS",
-    "TX6000"
-  ],
-  "status": "active"
-},
-
-{
-  "id": 31,
-  "slug": "lucana-wild-black-8000",
-  "name": "WILD BLACK 8000",
-  "brand": "Lucana",
-  "category": "reels",
-  "sub_category": "spinning",
-  "description": "Lucana Wild Black 8000 spinning reel featuring 3+1 stainless steel ball bearings, two tone aluminium spool, high tensile graphite body, aluminium power handle, front and rear brake conversion system, brass pinion gear, left/right interchangeable handle, dual drag baitfeeder system, instant anti-reverse, gear ratio 5.2:1, and max drag 12Kgs.",
-  "price": null,
-  "discount_price": null,
-  "stock": null,
-  "sku": null,
-  "images": [
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071669/20260722_164752_oec3z4.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071669/20260722_164801_gujav9.jpg",
-    "https://res.cloudinary.com/dz3sbdyps/image/upload/w_500,f_auto,q_auto/v1785071671/20260722_164817_q02sfs.jpg"
-  ],
-  "specifications": [
-    {
-      "title": "Model",
-      "value": "8000"
-    },
-    {
-      "title": "Ball Bearings",
-      "value": "3+1"
-    },
-    {
-      "title": "Gear Ratio",
-      "value": "5.2:1"
-    },
-    {
-      "title": "Max Drag",
-      "value": "12Kgs"
-    },
-    {
-      "title": "Spool",
-      "value": "Two Tone Aluminium"
-    },
-    {
-      "title": "Body",
-      "value": "High Tensile Graphite"
-    },
-    {
-      "title": "Handle",
-      "value": "Aluminium Power Handle"
-    },
-    {
-      "title": "Pinion Gear",
-      "value": "Brass"
-    },
-    {
-      "title": "Handle Position",
-      "value": "Left / Right Interchangeable"
-    },
-    {
-      "title": "Brake System",
-      "value": "Front and Rear Brake Conversion System"
-    },
-    {
-      "title": "Drag System",
-      "value": "Dual Drag Baitfeeder System"
-    },
-    {
-      "title": "Anti-Reverse",
-      "value": "Instant Anti-Reverse"
-    },
-    {
-      "title": "Clutch",
-      "value": "1 Way Clutch Bearing"
-    }
-  ],
-  "features": [
-    "3 + 1 Stainless Steel Ball Bearing",
-    "Two Tone Aluminium Spool",
-    "High Tensile Graphite Body",
-    "Aluminium Power Handle",
-    "Front and Rear Brake Conversion System",
-    "Brass Pinion Gear",
-    "Left / Right Interchangeable Handle",
-    "Dual Drag Baitfeeder System",
-    "Instant Anti-Reverse",
-    "Gear Ratio 5.2:1",
-    "Mag Drag 12Kgs",
-    "1 Way Clutch Bearing"
-  ],
-  "line_capacity": {
-    "nylon": [
-      "0.32-285",
-      "0.35-240",
-      "0.45-145"
+    "specifications": [
+      {
+        "title": "Model",
+        "value": "MG4000"
+      },
+      {
+        "title": "Gear Ratio",
+        "value": "5.2:1"
+      },
+      {
+        "title": "Drag Force",
+        "value": "8kgs"
+      },
+      {
+        "title": "Weight",
+        "value": "236g"
+      },
+      {
+        "title": "Ball Bearings",
+        "value": "1pcs"
+      }
     ],
-    "braid": [
-      "14lb-275",
-      "17lb-235",
-      "20lb-205"
-    ]
+    "features": [
+      "1pcs Precision Ball Bearings",
+      "Graphite Spool",
+      "Solid Graphite Materials",
+      "Computer Balanced Rotor",
+      "Left & Right Interchange Handle",
+      "Comfortable knob"
+    ],
+    "line_capacity": {
+      "nylon": [
+        "0.30-140",
+        "0.35-120",
+        "0.40-100"
+      ],
+      "braid": null
+    },
+    "tags": [
+      "Lucana",
+      "Magnum",
+      "MG4000"
+    ],
+    "status": "active"
   },
-  "tags": [
-    "Lucana",
-    "Wild Black",
-    "8000"
-  ],
-  "status": "active"
-}
-
-
+  {
+    "id": 17,
+    "slug": "lucana-navigator-ng2000",
+    "name": "Navigator",
+    "brand": "Lucana",
+    "category": "reels",
+    "sub_category": "Spinning Reels",
+    "description": "The Lucana Navigator NG2000 is a lightweight spinning reel perfect for everyday freshwater fishing. Built with a durable forged aluminum spool, strong brass gears, and a comfortable rubber knob, it delivers reliable, tangle-free casting.",
+    "price": null,
+    "discount_price": null,
+    "stock": null,
+    "sku": null,
+    "images": [
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1788701584/Navigator_rz6q8e.png",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071764/20260722_165054_d8afqf.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071773/20260722_165100_w9fovb.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071692/20260722_165105_uoowv1.jpg"
+    ],
+    "specifications": [
+      {
+        "title": "Model",
+        "value": "NG2000"
+      },
+      {
+        "title": "Gear Ratio",
+        "value": "5.2:1"
+      },
+      {
+        "title": "Weight",
+        "value": "210g"
+      },
+      {
+        "title": "Max Drag",
+        "value": "6kgs"
+      },
+      {
+        "title": "Ball Bearings",
+        "value": "3+1"
+      }
+    ],
+    "features": [
+      "3+1 High Quality Ball Bearings",
+      "Forged Aluminium Spool",
+      "Computer Designed Balanced Rotor",
+      "Strong Brass Pinion Gear",
+      "Powerful Drive Gear System",
+      "Instant Anti-Reverse System",
+      "Aluminium Handle With Rubber Knob"
+    ],
+    "line_capacity": {
+      "nylon": [
+        "0.22-180",
+        "0.28-110",
+        "0.30-90"
+      ],
+      "braid": null
+    },
+    "tags": [
+      "Lucana",
+      "Navigator",
+      "NG2000"
+    ],
+    "status": "active"
+  },
+  {
+    "id": 18,
+    "slug": "lucana-ninja-nj2000",
+    "name": "Ninja",
+    "brand": "Lucana",
+    "category": "reels",
+    "sub_category": "Spinning Reels",
+    "description": "The Lucana Ninja NJ2000 is a sleek spinning reel designed for agile performance. With a durable graphite body, 5+1 sealed high-performance bearings, and an oversized drag knob, it provides the smooth control needed to handle aggressive fish.",
+    "price": null,
+    "discount_price": null,
+    "stock": null,
+    "sku": null,
+    "images": [
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1788696934/Ninja_kwpwys.png",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071753/20260722_162819_dve9ag.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071749/20260722_162833_ibtmin.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071735/20260722_162840_uy1por.jpg"
+    ],
+    "specifications": [
+      {
+        "title": "Model",
+        "value": "NJ2000"
+      },
+      {
+        "title": "Gear Ratio",
+        "value": "5.2:1"
+      },
+      {
+        "title": "Weight",
+        "value": "224g"
+      },
+      {
+        "title": "Max Drag",
+        "value": "6kgs"
+      },
+      {
+        "title": "Ball Bearings",
+        "value": "5+1"
+      }
+    ],
+    "features": [
+      "5+1 Sealed High Performance Ball Bearing",
+      "Oversize Drag Knob for Quick Drag Setting",
+      "CNC CUT Aluminium Spool",
+      "Computer Designed Balanced Rotor",
+      "Strong Graphite Body for Increased Endurance",
+      "Air Thick Bail with Anti Twist Line Roller",
+      "Strong Brass Pinion Gear",
+      "Powerful Drive Gear System",
+      "Instant Anti-Reverse System",
+      "Left/Right Interchangable Durable CNC Power Handle",
+      "Soft Rubber Knob for comfortable Use"
+    ],
+    "line_capacity": {
+      "nylon": [
+        "0.25-200",
+        "0.30-128",
+        "0.35-105"
+      ],
+      "braid": null
+    },
+    "tags": [
+      "Lucana",
+      "Ninja",
+      "NJ2000"
+    ],
+    "status": "active"
+  },
+  {
+    "id": 19,
+    "slug": "pacific-sw-high-performance-reel",
+    "name": "Pacific SW",
+    "brand": null,
+    "category": "reels",
+    "sub_category": "Baitcasting Reels",
+    "description": "The Pacific SW is a high-performance baitcasting reel built to handle the rigors of coastal saltwater fishing. Combining a rigid aluminum body with lightweight carbon side plates and a micro-adjustable magnetic brake, it delivers high-torque retrieves and exceptional casting control.",
+    "price": null,
+    "discount_price": null,
+    "stock": null,
+    "sku": null,
+    "images": [
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/a_180/v1788696933/Pacific_SW_lw3jgi.png",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071737/20260722_164100_h5obau.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071759/20260722_164109_txe5wy.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071736/20260722_164128_rmh94b.jpg"
+    ],
+    "specifications": [
+      {
+        "title": "Gear Ratio",
+        "value": "7.1:1"
+      },
+      {
+        "title": "Weight",
+        "value": "256g"
+      },
+      {
+        "title": "Max Drag",
+        "value": "10kgs"
+      },
+      {
+        "title": "Line Retrieve",
+        "value": "74cm"
+      },
+      {
+        "title": "Ball Bearings",
+        "value": "Ball 6 Roller 1"
+      }
+    ],
+    "features": [
+      "6+1 Stainless Steel Ball Bearing",
+      "Deep Aluminium Spool",
+      "Aluminium Body and Carbon Side Plates",
+      "Aluminium Handle With EVA Knobs",
+      "Magnetic Brake System",
+      "Instant Anti-Reverse",
+      "Brass Main Gear and Gear Shaft",
+      "Brass Pinion Gear",
+      "Aluminium Star Drag"
+    ],
+    "line_capacity": {
+      "nylon": [
+        "0.30-250",
+        "0.33-210",
+        "0.40-140"
+      ],
+      "braid": null
+    },
+    "tags": [
+      "Pacific SW",
+      "High Performance Reel"
+    ],
+    "status": "active"
+  },
+  {
+    "id": 20,
+    "slug": "lucana-predator-5000",
+    "name": "Predator 5000",
+    "brand": "Lucana",
+    "category": "reels",
+    "sub_category": "Spinning Reels",
+    "description": "The Lucana Predator 5000 is a robust spinning reel engineered for chasing hard-fighting freshwater and inshore species. Built with a high-tensile graphite body, a strong aluminum power handle, and a smooth multi-disc drag, it provides exceptional leverage and control.",
+    "price": null,
+    "discount_price": null,
+    "stock": null,
+    "sku": null,
+    "images": [
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1788696937/Predator_5000_bqk6b4.png",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071687/20260722_163346_vh6n22.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071757/20260722_163352_upq5o4.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071734/20260722_163400_ncbkst.jpg"
+    ],
+    "specifications": [
+      {
+        "title": "Model",
+        "value": "5000"
+      },
+      {
+        "title": "Gear Ratio",
+        "value": "5.5:1"
+      },
+      {
+        "title": "Ball Bearings",
+        "value": "3+1 Sealed Bearings"
+      }
+    ],
+    "features": [
+      "3+1 Precision Stainless Steel Ball Bearings",
+      "Two Tone Aluminium Spool",
+      "High Tensile Strength Graphite Body",
+      "Aluminium Power Handle",
+      "Micro Adjusting Smooth Drag System",
+      "Power Drive Gear Equipped For High Strength",
+      "Instant Anti-Reverse",
+      "Air Thick Bail",
+      "1 Way Clutch Bearing",
+      "One-Way Clutch Anti-Reverse"
+    ],
+    "line_capacity": {
+      "nylon": [
+        "0.35-190",
+        "0.40-135",
+        "0.45-110"
+      ],
+      "braid": null
+    },
+    "tags": [
+      "Lucana",
+      "Predator",
+      "Predator 5000"
+    ],
+    "status": "active"
+  },
+  {
+    "id": 21,
+    "slug": "lucana-reno-ii-4000",
+    "name": "Reno II 4000",
+    "brand": "Lucana",
+    "category": "reels",
+    "sub_category": "Spinning Reels",
+    "description": "The Lucana Reno II 4000 is a versatile spinning reel designed for reliable freshwater performance and comfortable, all-day casting. It features a sturdy high-tensile graphite body, an aluminum power handle, and a smooth 5+1 bearing system.",
+    "price": null,
+    "discount_price": null,
+    "stock": null,
+    "sku": null,
+    "images": [
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1788696935/Reno_II_4000_cp5tzn.png",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071748/20260722_163457_g3j2lv.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071764/20260722_163503_fld0tt.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071727/20260722_163511_omtysk.jpg"
+    ],
+    "specifications": [
+      {
+        "title": "Bearings",
+        "value": "5+1 Precision Stainless Steel Ball Bearings"
+      },
+      {
+        "title": "Spool",
+        "value": "Two Tone Aluminium Spool"
+      },
+      {
+        "title": "Body",
+        "value": "High Tensile Strength Graphite Body"
+      },
+      {
+        "title": "Handle",
+        "value": "Aluminium Power Handle"
+      },
+      {
+        "title": "Drag System",
+        "value": "Micro Adjusting Smooth Drag System"
+      },
+      {
+        "title": "Gear Ratio",
+        "value": "5.5:1"
+      },
+      {
+        "title": "Anti-Reverse",
+        "value": "Instant Anti-Reverse"
+      },
+      {
+        "title": "Size",
+        "value": "4000"
+      }
+    ],
+    "features": [
+      "5+1 Precision Stainless Steel Ball Bearings",
+      "Two Tone Aluminium Spool",
+      "High Tensile Strength Graphite Body",
+      "Aluminium Power Handle",
+      "Micro Adjusting Smooth Drag System",
+      "Power Drive Gear Equipped For High Strength",
+      "Instant Anti-Reverse",
+      "Air Thick Bail",
+      "1 Way Clutch Bearing"
+    ],
+    "line_capacity": {
+      "nylon": [
+        "0.35-160",
+        "0.40-110",
+        "0.45-95"
+      ],
+      "braid": null
+    },
+    "tags": [
+      "Lucana",
+      "Reno II",
+      "Reno II 4000"
+    ],
+    "status": "active"
+  },
+  {
+    "id": 22,
+    "slug": "lucana-skipper-500",
+    "name": "Skipper 500",
+    "brand": "Lucana",
+    "category": "reels",
+    "sub_category": "Spinning Reels",
+    "description": "The Lucana Skipper 500 is an ultra-compact spinning reel optimized for light-tackle freshwater angling. Designed with a highly sensitive multi-drag system, titanium-coated anti-twist line roller, and balanced rotor, it offers incredibly smooth casting for panfish, trout, and light lures.",
+    "price": null,
+    "discount_price": null,
+    "stock": null,
+    "sku": null,
+    "images": [
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1788696937/Skipper_500_uzgluk.png",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071749/20260722_170634_ranhmz.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071751/20260722_170641_lkczb0.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071693/20260722_170650_mrapea.jpg"
+    ],
+    "specifications": [
+      {
+        "title": "Bearings",
+        "value": "3+1 Precision Ball Bearings"
+      },
+      {
+        "title": "Handle",
+        "value": "CNC Left/Right Interchangeable Handle With T Knob"
+      },
+      {
+        "title": "Line Roller",
+        "value": "Titanium Coated Anti-Twist Line Roller"
+      },
+      {
+        "title": "Pinion Gear",
+        "value": "Machine Cut Zinc Alloy Pinion Gear"
+      },
+      {
+        "title": "Drag System",
+        "value": "Micro-Sensitive Multi-Drag System"
+      },
+      {
+        "title": "Balance System",
+        "value": "Computerised Balance System"
+      },
+      {
+        "title": "Line Capacity (mm-M)",
+        "value": "0.20-130, 0.25-80, 0.30-50"
+      },
+      {
+        "title": "Gear Ratio",
+        "value": "4.8:1"
+      },
+      {
+        "title": "Size",
+        "value": "500"
+      }
+    ],
+    "features": [
+      "3+1 Precision Ball Bearings",
+      "CNC Left/Right Interchangeable Handle With T Knob",
+      "Titanium Coated Anti-Twist Line Roller",
+      "Machine Cut Zinc Alloy Pinion Gear",
+      "Micro-Sensitive Multi-Drag System",
+      "Computerised Balance System"
+    ],
+    "line_capacity": {
+      "nylon": [
+        "0.20-130",
+        "0.25-80",
+        "0.30-50"
+      ],
+      "braid": null
+    },
+    "tags": [
+      "Lucana",
+      "Skipper",
+      "Skipper 500"
+    ],
+    "status": "active"
+  },
+  {
+    "id": 23,
+    "slug": "lucana-spin-60",
+    "name": "Spin 60",
+    "brand": "Lucana",
+    "category": "reels",
+    "sub_category": "Spinning Reels",
+    "description": "The Lucana Spin 60 is a dependable, high-capacity spinning reel engineered for heavy freshwater and medium inshore use. Constructed with high-tensile graphite and high-strength gears, it delivers reliable power to pull in larger catches.",
+    "price": null,
+    "discount_price": null,
+    "stock": null,
+    "sku": null,
+    "images": [
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1788702168/Spin_60_l5jcvk.png",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071741/20260722_163023_cnpi0x.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071746/20260722_163031_h9gslt.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071695/20260722_163040_elbfay.jpg"
+    ],
+    "specifications": [
+      {
+        "title": "Bearings",
+        "value": "3+1 Ball Bearings"
+      },
+      {
+        "title": "Spool",
+        "value": "Two Tone Aluminium Spool"
+      },
+      {
+        "title": "Body",
+        "value": "High Tensile Strength Graphite Body"
+      },
+      {
+        "title": "Handle",
+        "value": "Aluminium Power Handle"
+      },
+      {
+        "title": "Drag System",
+        "value": "Micro Adjusting Smooth Drag System"
+      },
+      {
+        "title": "Gear Ratio",
+        "value": "4.5:1"
+      },
+      {
+        "title": "Anti-Reverse",
+        "value": "Instant Anti-Reverse"
+      },
+      {
+        "title": "Size",
+        "value": "60"
+      }
+    ],
+    "features": [
+      "Two Tone Aluminium Spool",
+      "High Tensile Strength Graphite Body",
+      "Aluminium Power Handle",
+      "Micro Adjusting Smooth Drag System",
+      "Power Drive Gear Equipped For High Strength",
+      "Instant Anti-Reverse",
+      "Air Thick Bail",
+      "1 Way Clutch Bearing",
+      "3+1 Ball Bearings"
+    ],
+    "line_capacity": {
+      "nylon": [
+        "0.35-220",
+        "0.40-165",
+        "0.45-135"
+      ],
+      "braid": null
+    },
+    "tags": [
+      "Lucana",
+      "Spin 60"
+    ],
+    "status": "active"
+  },
+  {
+    "id": 24,
+    "slug": "lucana-stone-island-v2-sw-4000",
+    "name": "Stone Island V2 SW 4000",
+    "brand": "Lucana",
+    "category": "reels",
+    "sub_category": "Spinning Reels",
+    "description": "Built for tough saltwater action, the Lucana Stone Island V2 SW 4000 is a rugged, highly sealed spinning reel. Boasting an impressive 18kg carbon drag system, a rigid aluminum body, and 9+1 sealed stainless steel bearings, it delivers unmatched winding power and corrosion resistance.",
+    "price": null,
+    "discount_price": null,
+    "stock": null,
+    "sku": null,
+    "images": [
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1788696937/Stone_Island_V2_SW_4000_qxxdb7.png",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071757/20260722_170400_q4ih2j.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071753/20260722_170412_wrcm2q.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071738/20260722_170428_v5bz7w.jpg"
+    ],
+    "specifications": [
+      {
+        "title": "Bearings",
+        "value": "9+1 Precision Stainless Steel Sealed Ball Bearing"
+      },
+      {
+        "title": "Spool",
+        "value": "CNC Machined Aluminium Spool"
+      },
+      {
+        "title": "Body",
+        "value": "Aluminium Body"
+      },
+      {
+        "title": "Drag System",
+        "value": "Micro Adjusting Carbon Drag System"
+      },
+      {
+        "title": "Main Shaft",
+        "value": "Stainless Steel Main Shaft"
+      },
+      {
+        "title": "Drive Gear",
+        "value": "Machined Cut Zinc Alloy Drive Gear"
+      },
+      {
+        "title": "Pinion Gear",
+        "value": "Machined Cut Brass Pinion Gear"
+      },
+      {
+        "title": "Handle",
+        "value": "CNC Aluminium Screw Handle With Big Knob"
+      },
+      {
+        "title": "Anti-Reverse",
+        "value": "Instant Anti-Reverse"
+      },
+      {
+        "title": "Gear Ratio",
+        "value": "5.2:1"
+      },
+      {
+        "title": "Max Drag",
+        "value": "18 Kgs"
+      }
+    ],
+    "features": [
+      "9+1 Precision Stainless Steel Sealed Ball Bearing",
+      "CNC Machined Aluminium Spool",
+      "Aluminium Body",
+      "Micro Adjusting Carbon Drag System",
+      "Stainless Steel Main Shaft",
+      "Machined Cut Zinc Alloy Drive Gear",
+      "Machined Cut Brass Pinion Gear",
+      "CNC Aluminium Screw Handle With Big Knob",
+      "Instant Anti-Reverse"
+    ],
+    "line_capacity": {
+      "nylon": [
+        "0.30-195",
+        "0.35-145"
+      ],
+      "braid": null
+    },
+    "tags": [
+      "Lucana",
+      "Stone Island V2",
+      "SW 4000"
+    ],
+    "status": "active"
+  },
+  {
+    "id": 25,
+    "slug": "lucana-streak",
+    "name": "Streak",
+    "brand": "Lucana",
+    "category": "reels",
+    "sub_category": "Spinning Reels",
+    "description": "The Lucana Streak is a smooth, modern spinning reel optimized for excellent line management. Featuring an anti-vibration system, titanium-coated line roller, and responsive front drag, it provides reliable casting performance for light to medium setups.",
+    "price": null,
+    "discount_price": null,
+    "stock": null,
+    "sku": null,
+    "images": [
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1788702305/Streak_k5gb85.png",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071762/20260722_165626_jcukdf.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071764/20260722_165635_ymfaos.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071695/20260722_165643_tmu3mu.jpg"
+    ],
+    "specifications": [
+      {
+        "title": "Bearings",
+        "value": "3 Precision Ball Bearings"
+      },
+      {
+        "title": "Handle",
+        "value": "CNC Left/Right Interchangeable Handle With T Knob"
+      },
+      {
+        "title": "Line Roller",
+        "value": "Titanium Coated Anti-Twist Line Roller"
+      },
+      {
+        "title": "Pinion Gear",
+        "value": "Machine Cut Zinc Alloy Pinion Gear"
+      },
+      {
+        "title": "Drag System",
+        "value": "Micro-Sensitive Multi-Drag System"
+      },
+      {
+        "title": "Balance System",
+        "value": "Computerised Balance System"
+      },
+      {
+        "title": "Gear Ratio",
+        "value": "5.2:1"
+      },
+      {
+        "title": "FD/RD (ST3000)",
+        "value": "FD"
+      },
+      {
+        "title": "Line Capacity ST3000 (mm/m)",
+        "value": "0.25/245 0.30/170 0.35/125"
+      },
+      {
+        "title": "FD/RD (ST4000)",
+        "value": "FD"
+      },
+      {
+        "title": "Line Capacity ST4000 (mm/m)",
+        "value": "0.30/195 0.35/145 0.40/110"
+      }
+    ],
+    "features": [
+      "3 Precision Ball Bearings",
+      "CNC Left/Right Interchangeable Handle With T Knob",
+      "Titanium Coated Anti-Twist Line Roller",
+      "Machine Cut Zinc Alloy Pinion Gear",
+      "Micro-Sensitive Multi-Drag System",
+      "Computerised Balance System",
+      "S-Stroke System",
+      "AVS Anti-Vibration System"
+    ],
+    "line_capacity": {
+      "nylon": [
+        "0.25-245",
+        "0.30-170",
+        "0.35-125",
+        "0.30-195",
+        "0.35-145",
+        "0.40-110"
+      ],
+      "braid": null
+    },
+    "tags": [
+      "Lucana",
+      "Streak",
+      "ST3000",
+      "ST4000"
+    ],
+    "status": "active"
+  },
+  {
+    "id": 26,
+    "slug": "lucana-surfcaster-sc9000",
+    "name": "Surfcaster SC9000",
+    "brand": "Lucana",
+    "category": "reels",
+    "sub_category": "Spinning Reels",
+    "description": "Engineered for long-distance beach and jetty casting, the Lucana Surfcaster SC9000 is a dedicated surf-fishing reel. Featuring an oversized deep-cast aluminum spool, high-torque gears, and a powerful 18kg drag system, it is built to haul big species through the heavy surf.",
+    "price": null,
+    "discount_price": null,
+    "stock": null,
+    "sku": null,
+    "images": [
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1788702415/Surfcaster_SC9000_qziakp.png",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071760/20260722_164641_m9gmca.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071767/20260722_164646_epibne.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071758/20260722_164652_mt5mff.jpg"
+    ],
+    "specifications": [
+      {
+        "title": "Size",
+        "value": "SC9000"
+      },
+      {
+        "title": "Bearings",
+        "value": "6+1 Steel Ball Bearing"
+      },
+      {
+        "title": "Spool",
+        "value": "Aluminium Spool"
+      },
+      {
+        "title": "Handle",
+        "value": "Aluminium Power Handle"
+      },
+      {
+        "title": "Drive Gear",
+        "value": "Zinc Alloy Drive Gear"
+      },
+      {
+        "title": "Pinion Gear",
+        "value": "Brass Pinion Gear"
+      },
+      {
+        "title": "Max Drag",
+        "value": "18 Kgs"
+      },
+      {
+        "title": "Weight",
+        "value": "632G"
+      },
+      {
+        "title": "Gear Ratio",
+        "value": "4.6:1"
+      }
+    ],
+    "features": [
+      "6+1 Steel Ball Bearing",
+      "Aluminium Spool",
+      "Aluminium Power Handle",
+      "Zinc Alloy Drive Gear",
+      "Brass Pinion Gear"
+    ],
+    "line_capacity": {
+      "nylon": [
+        "50-500",
+        "64-375",
+        "80-250"
+      ],
+      "braid": null
+    },
+    "tags": [
+      "Lucana",
+      "Surfcaster",
+      "SC9000"
+    ],
+    "status": "active"
+  },
+  {
+    "id": 27,
+    "slug": "tacklman-ww6000",
+    "name": "Tacklman WW6000",
+    "brand": "Tacklman",
+    "category": "reels",
+    "sub_category": "Spinning Reels",
+    "description": "The Tacklman WW6000 is a robust, mid-to-large spinning reel built with high-intensity graphite for maximum durability. Featuring a strong 10kg drag, CNC-machined power handle, and anti-twist line roller, it is perfect for targeting aggressive freshwater and inshore fish.",
+    "price": null,
+    "discount_price": null,
+    "stock": null,
+    "sku": null,
+    "images": [
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1788702470/Tacklman_WW6000_f5sjzi.png",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071674/20260722_162145_audjek.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071683/20260722_162204_gvze95.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071686/20260722_162215_gat6dx.jpg"
+    ],
+    "specifications": [
+      {
+        "title": "Model",
+        "value": "WW6000"
+      },
+      {
+        "title": "Gear Ratio",
+        "value": "5.1:1"
+      },
+      {
+        "title": "Drag Force",
+        "value": "10 kgs"
+      },
+      {
+        "title": "Line Capacity (mm/m)",
+        "value": "0.40-240 0.43-210 0.47-175"
+      }
+    ],
+    "features": [
+      "5+1 Ball Bearings",
+      "Super Strong Drive Gear",
+      "High Intensity Graphite Material",
+      "Computer Balanced Rotor",
+      "One-way Clutch Ball Bearing",
+      "Anti-twist Line Roller With Thick Bail Wire",
+      "Aluminum Cnc Machined Power Handle",
+      "Aluminum Machined Cut Spool",
+      "Soft Rubber Knob"
+    ],
+    "line_capacity": {
+      "nylon": [
+        "0.40-240",
+        "0.43-210",
+        "0.47-175"
+      ],
+      "braid": null
+    },
+    "tags": [
+      "Tacklman",
+      "WW6000"
+    ],
+    "status": "active"
+  },
+  {
+    "id": 28,
+    "slug": "tacklman-feather-f1000",
+    "name": "Feather F 1000",
+    "brand": "Tacklman",
+    "category": "reels",
+    "sub_category": "Spinning Reels",
+    "description": "True to its name, the Tacklman Feather F 1000 is an agile, lightweight spinning reel designed for finesse freshwater tactics. Featuring a computer-balanced rotor, durable graphite body, and a smooth 6kg drag, it offers excellent sensitivity for light lures and all-day casting comfort.",
+    "price": null,
+    "discount_price": null,
+    "stock": null,
+    "sku": null,
+    "images": [
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1788702587/Feather_F_1000_ogffwr.png",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071687/20260722_170153_vrhmu7.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071689/20260722_170202_fpdri2.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071672/20260722_170216_kvgdkj.jpg"
+    ],
+    "specifications": [
+      {
+        "title": "Model",
+        "value": "F 1000"
+      },
+      {
+        "title": "Speed Ratio",
+        "value": "5.2:1"
+      },
+      {
+        "title": "Weight",
+        "value": "205 g"
+      },
+      {
+        "title": "Standard Cup Capacity (mm)",
+        "value": "0.18/235 0.20/195 0.25/120"
+      },
+      {
+        "title": "Standard Cup Capacity (LBS/YDS)",
+        "value": "3/255 4/210 6/130"
+      },
+      {
+        "title": "Bearings",
+        "value": "3+1 Ball Bearings"
+      },
+      {
+        "title": "Drive Gear",
+        "value": "Super Strong Drive Gear"
+      },
+      {
+        "title": "Material",
+        "value": "Graphite Material"
+      },
+      {
+        "title": "Rotor",
+        "value": "Computer Balanced Rotor"
+      },
+      {
+        "title": "Bail Wire",
+        "value": "Thick Bail Wire"
+      },
+      {
+        "title": "Handle",
+        "value": "CNC Aluminum Power Handle"
+      },
+      {
+        "title": "Spool",
+        "value": "Aluminum Spool"
+      },
+      {
+        "title": "Drag Power",
+        "value": "6 Kgs"
+      }
+    ],
+    "features": [
+      "3+1 Ball Bearings",
+      "Super Strong Drive Gear",
+      "Graphite Material",
+      "Computer Balanced Rotor",
+      "Thick Bail Wire",
+      "CNC Aluminum Power Handle",
+      "Aluminum Spool"
+    ],
+    "line_capacity": {
+      "nylon": [
+        "0.18-235",
+        "0.20-195",
+        "0.25-120"
+      ],
+      "braid": null
+    },
+    "tags": [
+      "Tacklman",
+      "Feather",
+      "F 1000"
+    ],
+    "status": "active"
+  },
+  {
+    "id": 29,
+    "slug": "takugana-baitcasting-reel-red-right",
+    "name": "TAKUGANA",
+    "brand": "TAKUGANA",
+    "category": "reels",
+    "sub_category": "Baitcasting Reels",
+    "description": "The TAKUGANA is an eye-catching, high-speed baitcasting reel engineered for pinpoint accuracy. Combining a quick 7.3:1 gear ratio, an advanced carbon fiber drag system, and a 10-piece magnetic brake, it offers exceptional casting control in a striking red finish.",
+    "price": null,
+    "discount_price": null,
+    "stock": null,
+    "sku": null,
+    "images": [
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/a_180/v1788696942/TAKUGANA_f6mysr.png",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071664/20260722_171532_ggnzmc.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071665/20260722_171545_unleec.jpg"
+    ],
+    "specifications": [
+      {
+        "title": "Gear Ratio",
+        "value": "7.3:1"
+      },
+      {
+        "title": "Weight",
+        "value": "203g"
+      },
+      {
+        "title": "Max Drag",
+        "value": "8kg"
+      },
+      {
+        "title": "Line Retrieve",
+        "value": "72cm"
+      },
+      {
+        "title": "Bearings",
+        "value": "Ball 7 Roller 1"
+      },
+      {
+        "title": "Spool",
+        "value": "Aluminium"
+      },
+      {
+        "title": "Body",
+        "value": "High Tensile Graphite"
+      },
+      {
+        "title": "Handle",
+        "value": "Aluminium Handle With EVA Knob"
+      },
+      {
+        "title": "Magnetic Brake System",
+        "value": "10Pcs"
+      },
+      {
+        "title": "Anti-Reverse",
+        "value": "Instant Anti-Reverse"
+      },
+      {
+        "title": "Main Gear",
+        "value": "Brass Main Gear and Brass Shaft"
+      },
+      {
+        "title": "Star Drag",
+        "value": "Aluminium"
+      },
+      {
+        "title": "Pinion Gear",
+        "value": "Brass"
+      },
+      {
+        "title": "Brake System",
+        "value": "4 Group Carbon Fibre Brake system"
+      },
+      {
+        "title": "Color",
+        "value": "Red"
+      },
+      {
+        "title": "Hand Retrieve",
+        "value": "Right"
+      }
+    ],
+    "features": [
+      "7+1 Stainless Steel Ball Bearing",
+      "Aluminium Spool",
+      "High Tensile Graphite Body",
+      "Aluminium Handle With EVA Knob",
+      "10Pcs Magnetic Break System",
+      "Instant Anti-Reverse",
+      "Brass Main Gear and Brass Shaft",
+      "Aluminium Star Drag",
+      "Brass Pinion Gear",
+      "Ratio 7.3:1",
+      "4 Group Carbon Fibre Brake system",
+      "Max Drag 8 kgs"
+    ],
+    "line_capacity": {
+      "nylon": [
+        "0.285-130",
+        "0.310-120",
+        "0.330-100"
+      ],
+      "braid": [
+        "6lb-110",
+        "8lb-95",
+        "10lb-90"
+      ]
+    },
+    "tags": [
+      "TAKUGANA",
+      "Red",
+      "Right"
+    ],
+    "status": "active"
+  },
+  {
+    "id": 30,
+    "slug": "lucana-texanus-tx6000",
+    "name": "TEXANUS TX6000",
+    "brand": "Lucana",
+    "category": "reels",
+    "sub_category": "Spinning Reels",
+    "description": "The Lucana Texanus TX6000 is a sturdy, medium-sized spinning reel built for everyday reliability. Equipped with a strong 10kg drag system, robust gearing, and an aluminum power handle, it provides the cranking power needed to battle stubborn fish.",
+    "price": null,
+    "discount_price": null,
+    "stock": null,
+    "sku": null,
+    "images": [
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1788702710/TEXANUS_TX6000_ixifd4.png",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071666/20260722_164902_gdl5ei.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071670/20260722_164908_uq4vyv.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071667/20260722_164914_ph7k3l.jpg"
+    ],
+    "specifications": [
+      {
+        "title": "Model",
+        "value": "TX 6000"
+      },
+      {
+        "title": "Ball Bearing",
+        "value": "4+1"
+      },
+      {
+        "title": "Gear Ratio",
+        "value": "4.7:1"
+      },
+      {
+        "title": "Max Drag",
+        "value": "10KGS"
+      },
+      {
+        "title": "Weight",
+        "value": "405G"
+      },
+      {
+        "title": "Spool",
+        "value": "Aluminium"
+      },
+      {
+        "title": "Handle",
+        "value": "Aluminium Power Handle"
+      },
+      {
+        "title": "Drive Gear",
+        "value": "Zinc Alloy"
+      },
+      {
+        "title": "Pinion Gear",
+        "value": "Brass"
+      }
+    ],
+    "features": [
+      "4+1 Steel Ball Bearing",
+      "Aluminium Spool",
+      "Aluminium Power Handle",
+      "Zinc Alloy Drive Gear",
+      "Brass Pinion Gear",
+      "Mag Drag 10KGS",
+      "Weight 405G"
+    ],
+    "line_capacity": {
+      "nylon": [
+        "0.40-240",
+        "0.44-200",
+        "0.48-170"
+      ],
+      "braid": null
+    },
+    "tags": [
+      "Lucana",
+      "TEXANUS",
+      "TX6000"
+    ],
+    "status": "active"
+  },
+  {
+    "id": 31,
+    "slug": "lucana-wild-black-8000",
+    "name": "WILD BLACK 8000",
+    "brand": "Lucana",
+    "category": "reels",
+    "sub_category": "Spinning Reels",
+    "description": "The Lucana Wild Black 8000 is a specialized baitfeeder spinning reel featuring a smooth dual-drag system. This unique design allows fish to run with the bait naturally before you engage the main 12kg drag, making it the ultimate tool for live-bait, carp, and catfish angling.",
+    "price": null,
+    "discount_price": null,
+    "stock": null,
+    "sku": null,
+    "images": [
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1788696942/WILD_BLACK_8000_zlosiy.png",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071669/20260722_164752_oec3z4.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071669/20260722_164801_gujav9.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071671/20260722_164817_q02sfs.jpg"
+    ],
+    "specifications": [
+      {
+        "title": "Model",
+        "value": "8000"
+      },
+      {
+        "title": "Ball Bearings",
+        "value": "3+1"
+      },
+      {
+        "title": "Gear Ratio",
+        "value": "5.2:1"
+      },
+      {
+        "title": "Max Drag",
+        "value": "12Kgs"
+      },
+      {
+        "title": "Spool",
+        "value": "Two Tone Aluminium"
+      },
+      {
+        "title": "Body",
+        "value": "High Tensile Graphite"
+      },
+      {
+        "title": "Handle",
+        "value": "Aluminium Power Handle"
+      },
+      {
+        "title": "Pinion Gear",
+        "value": "Brass"
+      },
+      {
+        "title": "Handle Position",
+        "value": "Left / Right Interchangeable"
+      },
+      {
+        "title": "Brake System",
+        "value": "Front and Rear Brake Conversion System"
+      },
+      {
+        "title": "Drag System",
+        "value": "Dual Drag Baitfeeder System"
+      },
+      {
+        "title": "Anti-Reverse",
+        "value": "Instant Anti-Reverse"
+      },
+      {
+        "title": "Clutch",
+        "value": "1 Way Clutch Bearing"
+      }
+    ],
+    "features": [
+      "3 + 1 Stainless Steel Ball Bearing",
+      "Two Tone Aluminium Spool",
+      "High Tensile Graphite Body",
+      "Aluminium Power Handle",
+      "Front and Rear Brake Conversion System",
+      "Brass Pinion Gear",
+      "Left / Right Interchangeable Handle",
+      "Dual Drag Baitfeeder System",
+      "Instant Anti-Reverse",
+      "Gear Ratio 5.2:1",
+      "Mag Drag 12Kgs",
+      "1 Way Clutch Bearing"
+    ],
+    "line_capacity": {
+      "nylon": [
+        "0.32-285",
+        "0.35-240",
+        "0.45-145"
+      ],
+      "braid": [
+        "14lb-275",
+        "17lb-235",
+        "20lb-205"
+      ]
+    },
+    "tags": [
+      "Lucana",
+      "Wild Black",
+      "8000"
+    ],
+    "status": "active"
+  },
+    {
+    "id": 4,
+    "slug": "lucana-battle-shore-bs8000",
+    "name": "BATTLE SHORE BS8000",
+    "brand": "Lucana",
+    "category": "reels",
+    "sub_category": "Spinning Reels",
+    "description": "Built for demanding surf and coastal fishing, the Lucana Battle Shore BS8000 is a powerhouse spinning reel. Featuring a rugged aluminum body, 11+1 sealed bearings, and a massive 20kg carbon drag system, it is engineered to handle harsh saltwater elements and trophy-sized fish.",
+    "price": null,
+    "discount_price": null,
+    "stock": null,
+    "sku": null,
+    "images": [
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071737/20260722_164411_ff1itd.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071747/20260722_164417_arwe4k.jpg",
+      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071692/20260722_164426_fzxd6z.jpg"
+    ],
+    "specifications": [
+      {
+        "title": "Size",
+        "value": "8000"
+      },
+      {
+        "title": "Bearings",
+        "value": "11+1 Stainless Steel Sealed Ball Bearing"
+      },
+      {
+        "title": "Ball Bearings",
+        "value": "11+1"
+      },
+      {
+        "title": "Spool",
+        "value": "CNC Machined Aluminium Spool"
+      },
+      {
+        "title": "Body and Rotor",
+        "value": "Aluminium"
+      },
+      {
+        "title": "Drag System",
+        "value": "Micro Adjusting Carbon Drag System"
+      },
+      {
+        "title": "Main Shaft",
+        "value": "Stainless Steel"
+      },
+      {
+        "title": "Drive Gear",
+        "value": "Machine Cut Brass Alloy"
+      },
+      {
+        "title": "Pinion Gear",
+        "value": "Machine Cut Brass"
+      },
+      {
+        "title": "Handle",
+        "value": "CNC Aluminium Screw Handle With Big Aluminium Knob"
+      },
+      {
+        "title": "Anti-Reverse",
+        "value": "Instant Anti-Reverse"
+      },
+      {
+        "title": "Gear Ratio",
+        "value": "4.9:1"
+      },
+      {
+        "title": "Max Drag",
+        "value": "20Kgs"
+      },
+      {
+        "title": "Available Sizes",
+        "value": "BS6000, BS8000, BS10000"
+      }
+    ],
+    "features": [
+      "11+1 Stainless Steel Sealed Ball Bearing",
+      "CNC Machined Aluminium Spool",
+      "Aluminium Body and Rotor",
+      "Micro Adjusting Carbon Drag System",
+      "Stainless Steel Main Shaft",
+      "Machine Cut Brass Alloy Drive Gear",
+      "Machine Cut Brass Pinion Gear",
+      "CNC AluminiumScrew Handle With Big Aluminium Knob",
+      "Instant Anti-Reverse"
+    ],
+    "line_capacity": {
+      "nylon": [
+        "5-310",
+        "6-290",
+        "8-220"
+      ],
+      "braid": [
+        "4-260",
+        "5-220",
+        "6-180"
+      ]
+    },
+    "tags": [
+      "BATTLE SHORE",
+      "BS8000",
+      "Lucana"
+    ],
+    "status": "active"
+  }
 ]

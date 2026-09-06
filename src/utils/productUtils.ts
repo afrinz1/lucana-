@@ -82,9 +82,9 @@ export function getReviewsCount(product: Pick<Product, 'id'>): number {
   return 12 + (product.id * 7) % 43;
 }
 
-/** Format a number as a USD price string, e.g. 12.5 -> "$12.50". */
+/** Format a number as an INR price string, e.g. 12.5 -> "₹12.50". */
 export function formatPrice(value: number): string {
-  return `$${(value || 0).toFixed(2)}`;
+  return `₹${(value || 0).toFixed(2)}`;
 }
 
 // ---------------------------------------------------------------------------
@@ -99,7 +99,7 @@ export function getShippingCost(subtotal: number): number {
   return subtotal >= FREE_SHIPPING_THRESHOLD ? 0 : FLAT_SHIPPING_FEE;
 }
 
-/** Human-readable shipping line, e.g. "FREE EXPRESS" or "$12.50". */
+/** Human-readable shipping line, e.g. "FREE EXPRESS" or "₹12.50". */
 export function getShippingLabel(subtotal: number): string {
   const cost = getShippingCost(subtotal);
   return cost === 0 ? 'FREE EXPRESS' : formatPrice(cost);

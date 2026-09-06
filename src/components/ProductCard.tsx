@@ -50,7 +50,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, viewMode = 'g
           </Link>
           {discounted && (
             <span className="absolute top-3 left-3 bg-[#C62828] text-white text-[10px] font-extrabold px-2.5 py-1 rounded-none uppercase tracking-wider">
-              Save ${getSavings(product).toFixed(0)}
+              Save ₹{getSavings(product).toFixed(0)}
             </span>
           )}
           {outOfStock && (
