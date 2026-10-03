@@ -1,72 +1,92 @@
 [
   {
-    "id": 11,
-    "slug": "apex-predator-spinning-rod",
-    "name": "Apex Predator Spinning Rod",
-    "brand": "Lucana",
-    "category": "rods",
-    "sub_category": "Spinning Rods",
-    "description": "The Lucana Apex Predator is built on our 40-ton Toray carbon fiber blank. Designed for maximum casting distance and sensory response, it allows you to feel the faintest nibbles and possesses the backbone to pull lunkers out of dense cover.",
-    "price": 199.99,
-    "discount_price": 179.99,
-    "stock": 15,
-    "sku": "RD-APX-11",
-    "images": [
-      "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&q=80&w=800",
-      "https://images.unsplash.com/photo-1508962914676-134849a727f0?auto=format&fit=crop&q=80&w=800"
-    ],
-    "specifications": [
-      {
-        "title": "Length",
-        "value": "7'0\" (2.13m)"
-      },
-      {
-        "title": "Power",
-        "value": "Medium-Heavy"
-      },
-      {
-        "title": "Action",
-        "value": "Fast"
-      },
-      {
-        "title": "Sections",
-        "value": "2-Piece"
-      },
-      {
-        "title": "Material",
-        "value": "40-Ton Toray Carbon Blank"
-      },
-      {
-        "title": "Weight",
-        "value": "125 g / 4.4 oz"
-      },
-      {
-        "title": "Line Rating",
-        "value": "10 - 20 lbs"
-      },
-      {
-        "title": "Lure Rating",
-        "value": "1/4 - 1 oz"
-      }
-    ],
-    "features": [
-      "Built with Japanese Toray 40-Ton high modulus carbon blank",
-      "Fuji Alconite tangle-free guides in stainless steel frames",
-      "Premium split AAA-grade Portuguese cork handles",
-      "Lucana custom lightweight skeleton reel seat"
-    ],
-    "line_capacity": {
-      "nylon": [],
-      "braid": []
+  "id": 11,
+  "slug": "salt-armor-x",
+  "name": "Salt Armor X",
+  "brand": null,
+  "category": "rods",
+  "sub_category": null,
+  "description": "Salt Armor X fishing rod featuring X Carbon Technology and K-GUIDE components. Available in two heavy-duty models designed for lure weights up to 400g and line ratings up to 60LB.",
+  "price": null,
+  "discount_price": null,
+  "stock": null,
+  "sku": null,
+  "images": [],
+  "specifications": [
+    {
+      "title": "Model SA240XHS Length",
+      "value": "2.40m"
     },
-    "tags": [
-      "Rods",
-      "Spinning",
-      "Carbon",
-      "Fuji Guides"
-    ],
-    "status": "active"
+    {
+      "title": "Model SA240XHS Action",
+      "value": "XH"
+    },
+    {
+      "title": "Model SA240XHS Sections",
+      "value": "2Sec"
+    },
+    {
+      "title": "Model SA240XHS Lure",
+      "value": "80-400g"
+    },
+    {
+      "title": "Model SA240XHS Line",
+      "value": "30-60LB"
+    },
+    {
+      "title": "Model SA240XHS Weight",
+      "value": "298g"
+    },
+    {
+      "title": "Model SA270XHS Length",
+      "value": "2.70m"
+    },
+    {
+      "title": "Model SA270XHS Action",
+      "value": "XH"
+    },
+    {
+      "title": "Model SA270XHS Sections",
+      "value": "2Sec"
+    },
+    {
+      "title": "Model SA270XHS Lure",
+      "value": "80-400g"
+    },
+    {
+      "title": "Model SA270XHS Line",
+      "value": "30-60LB"
+    },
+    {
+      "title": "Model SA270XHS Weight",
+      "value": "365g"
+    },
+    {
+      "title": "Technology",
+      "value": "X Carbon Technology"
+    },
+    {
+      "title": "Guides",
+      "value": "K-GUIDE"
+    }
+  ],
+  "features": [
+    "X Carbon Technology",
+    "K-GUIDE"
+  ],
+  "line_capacity": {
+    "nylon": [],
+    "braid": null
   },
+  "tags": [
+    "Salt Armor X",
+    "Carbon Technology",
+    "K-GUIDE",
+    "XH Action",
+    "Heavy Duty Rod"
+  ],
+  "status": "active"
+},
   {
     "id": 12,
     "slug": "carbon-strike-baitcasting-rod",
