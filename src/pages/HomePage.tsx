@@ -37,10 +37,7 @@ export const HomePage: React.FC = () => {
       {/* 1. High-Fashion Premium Bento Hero Section */}
       <section 
         id="aeline-hero" 
-        style={{ 
-          marginTop: 'var(--navbar-height, 80px)',
-          minHeight: 'calc(100vh - var(--navbar-height, 80px))' 
-        }}
+        style={{ minHeight: '100vh' }}
         className="relative w-full flex flex-col justify-center overflow-hidden bg-gradient-to-br from-[#0F0F10] via-[#18181B] to-[#27272A] text-white py-12 md:py-16 lg:py-20 border-b border-white/10"
       >
         {/* Subtle Radial Gradient Overlay for Luxury Lighting */}

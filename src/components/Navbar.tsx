@@ -16,6 +16,7 @@ export const Navbar: React.FC = () => {
   const [isSearchFocused, setIsSearchFocused] = useState(false);
   const navigate = useNavigate();
   const location = useLocation();
+  const isOverHomeHero = location.pathname === '/' && !isScrolled;
   const dropdownTimeoutRef = useRef<NodeJS.Timeout | null>(null);
 
   // Handle header scroll transparency and shadow
@@ -73,13 +74,13 @@ export const Navbar: React.FC = () => {
     <>
       <header
         id="main-nav-header"
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+        className={`fixed top-3 left-1/2 z-50 w-[calc(100%-1.5rem)] max-w-6xl -translate-x-1/2 rounded-2xl md:rounded-full backdrop-blur-xl transition-all duration-300 ${
           isScrolled
-            ? 'bg-white/95 backdrop-blur-md py-3.5 shadow-[0_2px_20px_-4px_rgba(0,0,0,0.05)] border-b border-gray-100'
-            : 'bg-white/90 backdrop-blur-md py-5 border-b border-gray-200/40'
+            ? 'bg-transparent py-3.5 border border-transparent shadow-none'
+            : 'bg-transparent py-5 border border-transparent shadow-none'
         }`}
       >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto px-3 sm:px-5 lg:px-6">
         <div className="grid grid-cols-3 items-center w-full">
           
           {/* Left Column: Hamburger toggle on mobile, Desktop Navigation Links on desktop */}
@@ -91,7 +92,9 @@ export const Navbar: React.FC = () => {
                 setIsMenuOpen(!isMenuOpen);
                 setIsSearchOpen(false);
               }}
-              className="md:hidden p-2 text-gray-800 hover:bg-gray-50 rounded-full transition-all duration-200 cursor-pointer"
+              className={`md:hidden p-2 rounded-full transition-all duration-200 cursor-pointer ${
+                isOverHomeHero ? 'text-white hover:bg-white/15' : 'text-gray-800 hover:bg-gray-50'
+              }`}
               aria-label="Toggle menu"
             >
               {isMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
@@ -102,8 +105,10 @@ export const Navbar: React.FC = () => {
               <Link
                 id="nav-link-home"
                 to="/"
-                className={`relative py-2 text-gray-500 hover:text-gray-950 transition-colors duration-200 ${
-                  location.pathname === '/' ? 'text-gray-950 font-black' : ''
+                className={`relative py-2 transition-colors duration-200 ${
+                  isOverHomeHero
+                    ? `text-white hover:text-white ${location.pathname === '/' ? 'font-black' : ''}`
+                    : `text-gray-500 hover:text-gray-950 ${location.pathname === '/' ? 'text-gray-950 font-black' : ''}`
                 }`}
               >
                 <span>Home</span>
@@ -119,8 +124,10 @@ export const Navbar: React.FC = () => {
               <Link
                 id="nav-link-shop"
                 to="/shop"
-                className={`relative py-2 text-gray-500 hover:text-gray-950 transition-colors duration-200 ${
-                  location.pathname === '/shop' ? 'text-gray-950 font-black' : ''
+                className={`relative py-2 transition-colors duration-200 ${
+                  isOverHomeHero
+                    ? `text-white hover:text-white ${location.pathname === '/shop' ? 'font-black' : ''}`
+                    : `text-gray-500 hover:text-gray-950 ${location.pathname === '/shop' ? 'text-gray-950 font-black' : ''}`
                 }`}
               >
                 <span>Shop All</span>
@@ -141,14 +148,18 @@ export const Navbar: React.FC = () => {
               >
                 <button
                   id="nav-btn-categories"
-                  className={`flex items-center space-x-1 text-gray-500 hover:text-gray-950 transition-colors duration-200 uppercase tracking-wider text-xs font-bold cursor-pointer ${
-                    location.pathname.startsWith('/category/') ? 'text-gray-950 font-black' : ''
+                  className={`flex items-center space-x-1 transition-colors duration-200 uppercase tracking-wider text-xs font-bold cursor-pointer ${
+                    isOverHomeHero
+                      ? `text-white hover:text-white ${location.pathname.startsWith('/category/') ? 'font-black' : ''}`
+                      : `text-gray-500 hover:text-gray-950 ${location.pathname.startsWith('/category/') ? 'text-gray-950 font-black' : ''}`
                   }`}
                 >
                   <span>Categories</span>
                   <ChevronDown
                     className={`w-3.5 h-3.5 transition-transform duration-300 ease-out ${
-                      isCategoriesOpen ? 'rotate-180 text-[#C62828]' : 'text-gray-400'
+                      isCategoriesOpen
+                        ? 'rotate-180 text-[#C62828]'
+                        : isOverHomeHero ? 'text-white' : 'text-gray-400'
                     }`}
                   />
                 </button>
@@ -200,8 +211,10 @@ export const Navbar: React.FC = () => {
               <Link
                 id="nav-link-about"
                 to="/about"
-                className={`relative py-2 text-gray-500 hover:text-gray-950 transition-colors duration-200 ${
-                  location.pathname === '/about' ? 'text-gray-950 font-black' : ''
+                className={`relative py-2 transition-colors duration-200 ${
+                  isOverHomeHero
+                    ? `text-white hover:text-white ${location.pathname === '/about' ? 'font-black' : ''}`
+                    : `text-gray-500 hover:text-gray-950 ${location.pathname === '/about' ? 'text-gray-950 font-black' : ''}`
                 }`}
               >
                 <span>About</span>
@@ -230,7 +243,7 @@ export const Navbar: React.FC = () => {
               <img
                 src={logo}
                 alt="Lucana logo"
-                className="h-8 w-auto sm:h-9 md:h-10 object-contain"
+                className={`h-8 w-auto sm:h-9 md:h-10 object-contain ${isOverHomeHero ? 'brightness-0 invert' : ''}`}
               />
             </Link>
           </div>
@@ -256,19 +269,31 @@ export const Navbar: React.FC = () => {
                     onFocus={() => setIsSearchFocused(true)}
                     onBlur={() => setIsSearchFocused(false)}
                     onChange={e => setLocalSearch(e.target.value)}
-                    className={`w-full border rounded-full py-1.5 pl-9 pr-8 text-[11px] font-semibold text-gray-800 placeholder-gray-400 focus:outline-none transition-all duration-300 ${
-                      isSearchFocused
-                        ? 'bg-white border-gray-900'
-                        : 'bg-gray-50/70 hover:bg-gray-100/70 border-gray-200/80'
+                    className={`w-full border rounded-full py-1.5 pl-9 pr-8 text-[11px] font-semibold focus:outline-none transition-all duration-300 ${
+                      isOverHomeHero
+                        ? `text-white placeholder:text-white/65 ${
+                            isSearchFocused
+                              ? 'bg-black/35 border-white/70'
+                              : 'bg-black/20 hover:bg-black/30 border-white/40'
+                          }`
+                        : `text-gray-800 placeholder-gray-400 ${
+                            isSearchFocused
+                              ? 'bg-white border-gray-900'
+                              : 'bg-gray-50/70 hover:bg-gray-100/70 border-gray-200/80'
+                          }`
                     }`}
                   />
-                  <Search className={`absolute left-3 w-3.5 h-3.5 transition-colors duration-300 ${isSearchFocused ? 'text-gray-900' : 'text-gray-400'}`} />
+                  <Search className={`absolute left-3 w-3.5 h-3.5 transition-colors duration-300 ${
+                    isOverHomeHero ? 'text-white' : isSearchFocused ? 'text-gray-900' : 'text-gray-400'
+                  }`} />
                   
                   {localSearch && (
                     <button
                       type="button"
                       onClick={clearSearch}
-                      className="absolute right-3.5 text-[9px] font-extrabold text-gray-400 hover:text-gray-950 uppercase tracking-wider cursor-pointer"
+                      className={`absolute right-3.5 text-[9px] font-extrabold uppercase tracking-wider cursor-pointer ${
+                        isOverHomeHero ? 'text-white/75 hover:text-white' : 'text-gray-400 hover:text-gray-950'
+                      }`}
                     >
                       Clear
                     </button>
@@ -284,7 +309,11 @@ export const Navbar: React.FC = () => {
                 setIsSearchOpen(!isSearchOpen);
                 setIsMenuOpen(false);
               }}
-              className="md:hidden p-2 text-gray-600 hover:text-gray-950 rounded-full hover:bg-gray-50 transition-colors cursor-pointer"
+              className={`md:hidden p-2 rounded-full transition-colors cursor-pointer ${
+                isOverHomeHero
+                  ? 'text-white hover:text-white hover:bg-white/15'
+                  : 'text-gray-600 hover:text-gray-950 hover:bg-gray-50'
+              }`}
               aria-label="Toggle Mobile Search"
             >
               <Search className="w-4.5 h-4.5" />
@@ -296,7 +325,11 @@ export const Navbar: React.FC = () => {
               onClick={() => setCartOpen(true)}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="relative p-2 text-gray-900 hover:text-[#C62828] hover:bg-gray-50 rounded-full transition-all duration-200 cursor-pointer animate-none"
+              className={`relative p-2 rounded-full transition-all duration-200 cursor-pointer animate-none ${
+                isOverHomeHero
+                  ? 'text-white hover:text-white hover:bg-white/15'
+                  : 'text-gray-900 hover:text-[#C62828] hover:bg-gray-50'
+              }`}
               aria-label="Open Cart"
             >
               <ShoppingBag className="w-5 h-5 stroke-[2]" />
