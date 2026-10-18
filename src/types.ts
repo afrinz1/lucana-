@@ -8,6 +8,14 @@ export interface LineCapacity {
   braid: string[];
 }
 
+export interface ProductColorVariant {
+  name: string;
+  swatch: string;
+  images: string[];
+  sku?: string;
+  stock?: number;
+}
+
 export interface Product {
   id: number;
   slug: string;
@@ -21,6 +29,7 @@ export interface Product {
   stock: number;
   sku: string;
   images: string[];
+  color_variants?: ProductColorVariant[];
   specifications: Specification[];
   features: string[];
   line_capacity: LineCapacity;
@@ -48,6 +57,7 @@ export interface CartItem {
   product: Product;
   quantity: number;
   selectedSpecs?: Record<string, string>;
+  selectedColor?: string;
 }
 
 export interface OrderDetails {

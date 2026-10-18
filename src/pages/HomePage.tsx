@@ -75,30 +75,6 @@ export const HomePage: React.FC = () => {
           
           {/* Left Block: Watch Pill + Massive Heading */}
           <div className="flex-1 space-y-6 md:space-y-8 max-w-2xl">
-            {/* Elegant Watch Demo style Pill */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.1 }}
-              className="inline-flex items-center bg-white/10 backdrop-blur-md hover:bg-white/15 transition-all p-1.5 pr-4 rounded-full border border-white/10 shadow-lg cursor-pointer space-x-3.5 group"
-            >
-              <span className="text-[10px] sm:text-[11px] font-bold text-white/95 pl-3 uppercase tracking-[0.15em]">
-                Watch Casting Lab
-              </span>
-              <div className="relative w-12 h-7 rounded-lg overflow-hidden bg-gray-950 shrink-0 border border-white/20">
-                <img 
-                  src="https://images.unsplash.com/photo-1611095780122-f0b14e0b0213?auto=format&fit=crop&q=80&w=200" 
-                  alt="Lucana reel close-up — casting lab preview" 
-                  className="w-full h-full object-cover opacity-85 group-hover:scale-110 transition-transform duration-300"
-                />
-                <div className="absolute inset-0 flex items-center justify-center bg-black/20">
-                  <span className="w-4 h-4 rounded-full bg-white flex items-center justify-center shadow-md">
-                    <span className="border-y-[3px] border-y-transparent border-l-[5px] border-l-[#C62828] ml-0.5"></span>
-                  </span>
-                </div>
-              </div>
-            </motion.div>
-
             {/* Massive modern Title styled like the image */}
             <motion.h1
               initial={{ opacity: 0, y: 30 }}
@@ -470,21 +446,34 @@ export const HomePage: React.FC = () => {
         viewport={{ once: true }}
         transition={{ duration: 0.8 }}
         id="promo-callout"
-        className="relative py-24 bg-gray-100 overflow-hidden border-t border-gray-200/30"
+        className="relative py-24 bg-gray-950 overflow-hidden border-t border-gray-200/30"
       >
         <motion.div
           initial={{ scale: 1.1 }}
           whileInView={{ scale: 1 }}
           transition={{ duration: 1.5, ease: 'easeOut' }}
-          className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1511556532299-8f662fc26c06?auto=format&fit=crop&q=80&w=1200')] bg-cover bg-center opacity-10"
-        />
+          className="absolute inset-0"
+        >
+          <video
+            autoPlay
+            muted
+            loop
+            playsInline
+            preload="metadata"
+            aria-hidden="true"
+            className="w-full h-full object-cover"
+          >
+            <source src={heroVideo} type="video/webm" />
+          </video>
+        </motion.div>
+        <div className="absolute inset-0 bg-gray-950/60" />
         <div className="relative max-w-5xl mx-auto text-center px-4 sm:px-6 lg:px-8 space-y-6 z-10">
           <motion.h2
             initial={{ opacity: 0, y: 15 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1, duration: 0.5 }}
-            className="font-sans font-extrabold text-3xl sm:text-4xl text-gray-950 tracking-tight uppercase leading-tight"
+            className="font-sans font-extrabold text-3xl sm:text-4xl text-white tracking-tight uppercase leading-tight"
           >
             Gear Up for Your Next Grand Slam Catch
           </motion.h2>
@@ -493,7 +482,7 @@ export const HomePage: React.FC = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.2, duration: 0.5 }}
-            className="text-xs sm:text-sm md:text-base text-gray-600 font-medium max-w-2xl mx-auto leading-relaxed"
+            className="text-xs sm:text-sm md:text-base text-white/80 font-medium max-w-2xl mx-auto leading-relaxed"
           >
             From deep-sea marlin trolling lines to sensitive stream fly-casting reels, Lucana's proprietary catalog provides custom setups for every biome and target species.
           </motion.p>

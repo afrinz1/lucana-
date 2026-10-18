@@ -108,9 +108,13 @@ export const CartDrawer: React.FC = () => {
           ) : (
             cart.map(item => {
               const activePrice = getActivePrice(item.product);
-              const itemImage = getMainImage(item.product);
+              const colorVariant = item.product.color_variants?.find(variant => variant.name === item.selectedColor);
+              const itemImage = getMainImage({
+                images: colorVariant?.images.length ? colorVariant.images : item.product.images,
+              });
+              const itemKey = `${item.product.id}-${(item.selectedColor ?? 'default').toLowerCase().replace(/[^a-z0-9]+/g, '-')}`;
               return (
-                <div key={item.product.id} id={`cart-item-${item.product.id}`} className="py-5 flex space-x-4">
+                <div key={itemKey} id={`cart-item-${itemKey}`} className="py-5 flex space-x-4">
                   {/* Thumbnail */}
                   <div className="w-20 h-20 bg-gray-50 rounded-lg overflow-hidden flex-shrink-0 border border-gray-100">
                     <img
@@ -133,8 +137,8 @@ export const CartDrawer: React.FC = () => {
                           {item.product.name}
                         </Link>
                         <button
-                          id={`remove-cart-item-${item.product.id}`}
-                          onClick={() => removeFromCart(item.product.id)}
+                          id={`remove-cart-item-${itemKey}`}
+                          onClick={() => removeFromCart(item.product.id, item.selectedColor)}
                           className="p-1 text-gray-400 hover:text-[#C62828] rounded-md transition-colors"
                           title="Remove item"
                         >
@@ -142,6 +146,9 @@ export const CartDrawer: React.FC = () => {
                         </button>
                       </div>
                       <p className="text-[10px] text-gray-400 uppercase font-bold mt-0.5">{item.product.brand}</p>
+                      {item.selectedColor && (
+                        <p className="text-[10px] text-gray-500 mt-1">Color: {item.selectedColor}</p>
+                      )}
                       
                       {item.selectedSpecs && Object.keys(item.selectedSpecs).length > 0 && (
                         <div className="flex flex-wrap gap-1.5 mt-1.5">
@@ -158,16 +165,16 @@ export const CartDrawer: React.FC = () => {
                       {/* Quantity Controls */}
                       <div className="flex items-center border border-gray-200 rounded-md bg-gray-50">
                         <button
-                          id={`dec-qty-${item.product.id}`}
-                          onClick={() => updateCartQuantity(item.product.id, item.quantity - 1)}
+                          id={`dec-qty-${itemKey}`}
+                          onClick={() => updateCartQuantity(item.product.id, item.quantity - 1, item.selectedColor)}
                           className="p-1 text-gray-500 hover:text-gray-900 transition-colors"
                         >
                           <Minus className="w-3.5 h-3.5" />
                         </button>
                         <span className="px-2.5 text-xs font-bold text-gray-800">{item.quantity}</span>
                         <button
-                          id={`inc-qty-${item.product.id}`}
-                          onClick={() => updateCartQuantity(item.product.id, item.quantity + 1)}
+                          id={`inc-qty-${itemKey}`}
+                          onClick={() => updateCartQuantity(item.product.id, item.quantity + 1, item.selectedColor)}
                           className="p-1 text-gray-500 hover:text-gray-900 transition-colors"
                         >
                           <Plus className="w-3.5 h-3.5" />

@@ -4,9 +4,9 @@ import { getActivePrice } from '../utils/productUtils';
 
 interface ShopContextProps {
   cart: CartItem[];
-  addToCart: (product: Product, quantity?: number, selectedSpecs?: Record<string, string>) => void;
-  removeFromCart: (productId: number) => void;
-  updateCartQuantity: (productId: number, quantity: number) => void;
+  addToCart: (product: Product, quantity?: number, selectedSpecs?: Record<string, string>, selectedColor?: string) => void;
+  removeFromCart: (productId: number, selectedColor?: string) => void;
+  updateCartQuantity: (productId: number, quantity: number, selectedColor?: string) => void;
   clearCart: () => void;
   cartCount: number;
   cartSubtotal: number;
@@ -39,32 +39,36 @@ export const ShopProvider: React.FC<{ children: React.ReactNode }> = ({ children
     localStorage.setItem('lucana_cart', JSON.stringify(cart));
   }, [cart]);
 
-  const addToCart = (product: Product, quantity = 1, selectedSpecs?: Record<string, string>) => {
+  const addToCart = (product: Product, quantity = 1, selectedSpecs?: Record<string, string>, selectedColor?: string) => {
+    const color = selectedColor ?? product.color_variants?.[0]?.name;
     setCart(prev => {
-      // Check if product is already in cart
-      const existingIndex = prev.findIndex(item => item.product.id === product.id);
+      const existingIndex = prev.findIndex(item =>
+        item.product.id === product.id && item.selectedColor === color
+      );
       if (existingIndex > -1) {
         const newCart = [...prev];
         newCart[existingIndex].quantity += quantity;
         return newCart;
       }
-      return [...prev, { product, quantity, selectedSpecs }];
+      return [...prev, { product, quantity, selectedSpecs, selectedColor: color }];
     });
     setCartOpen(true); // Automatically open the cart drawer when adding an item
   };
 
-  const removeFromCart = (productId: number) => {
-    setCart(prev => prev.filter(item => item.product.id !== productId));
+  const removeFromCart = (productId: number, selectedColor?: string) => {
+    setCart(prev => prev.filter(item =>
+      item.product.id !== productId || item.selectedColor !== selectedColor
+    ));
   };
 
-  const updateCartQuantity = (productId: number, quantity: number) => {
+  const updateCartQuantity = (productId: number, quantity: number, selectedColor?: string) => {
     if (quantity <= 0) {
-      removeFromCart(productId);
+      removeFromCart(productId, selectedColor);
       return;
     }
     setCart(prev =>
       prev.map(item =>
-        item.product.id === productId ? { ...item, quantity } : item
+        item.product.id === productId && item.selectedColor === selectedColor ? { ...item, quantity } : item
       )
     );
   };

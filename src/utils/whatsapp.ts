@@ -49,6 +49,9 @@ export function generateOrderMessage({ orderId, details, cart, subtotal, shippin
     const price = getActivePrice(item.product);
     message += `- *${item.quantity}x ${item.product.name}*\n`;
     message += `  Brand: ${item.product.brand}\n`;
+    if (item.selectedColor) {
+      message += `  Color: ${item.selectedColor}\n`;
+    }
     if (item.selectedSpecs && Object.keys(item.selectedSpecs).length > 0) {
       const specsStr = Object.entries(item.selectedSpecs)
         .map(([k, v]) => `${k}: ${v}`)

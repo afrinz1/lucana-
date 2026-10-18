@@ -27,7 +27,7 @@ export const Footer: React.FC = () => {
           {/* Brand Column */}
           <div className="lg:col-span-4 space-y-5">
             <Link to="/" className="inline-flex items-center" aria-label="Lucana home">
-              <img src={logo} alt="Lucana logo" className="h-8 w-auto object-contain" />
+              <img src={logo} alt="Lucana logo" className="h-8 w-auto object-contain brightness-0 invert" />
             </Link>
             <p className="text-xs leading-relaxed text-gray-400 max-w-sm">
               Elite casting systems and tournament gear. Reels, rods, braided lines, hooks, lures and

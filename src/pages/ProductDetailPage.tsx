@@ -39,6 +39,7 @@ export const ProductDetailPage: React.FC = () => {
   const [activeImage, setActiveImage] = useState<string>('');
   const [quantity, setQuantity] = useState<number>(1);
   const [selectedSpecs, setSelectedSpecs] = useState<Record<string, string>>({});
+  const [selectedColor, setSelectedColor] = useState<string>('');
   const [isWishlisted, setIsWishlisted] = useState(false);
   const [isZoomOpen, setIsZoomOpen] = useState(false);
   const [imageZoom, setImageZoom] = useState(1);
@@ -47,7 +48,11 @@ export const ProductDetailPage: React.FC = () => {
   // Synchronize first image and reset states when slug changes
   useEffect(() => {
     if (product) {
-      setActiveImage(getMainImage(product));
+      const firstColor = product.color_variants?.[0];
+      setSelectedColor(firstColor?.name ?? '');
+      setActiveImage(getMainImage({
+        images: firstColor?.images.length ? firstColor.images : product.images,
+      }));
       setQuantity(1);
       setIsZoomOpen(false);
       setImageZoom(1);
@@ -83,7 +88,11 @@ export const ProductDetailPage: React.FC = () => {
   const basePrice = getBasePrice(product);
   const activePrice = getActivePrice(product);
   const discounted = hasDiscount(product);
-  const outOfStock = isOutOfStock(product);
+  const colorVariants = product.color_variants ?? [];
+  const activeColorVariant = colorVariants.find(variant => variant.name === selectedColor) ?? colorVariants[0];
+  const availableStock = activeColorVariant?.stock ?? product.stock;
+  const outOfStock = isOutOfStock({ stock: availableStock });
+  const productImages = activeColorVariant?.images.length ? activeColorVariant.images : product.images;
   const related = getRelatedProducts(product, 4);
   const rating = getSimulatedRating(product);
   const reviewsCount = getReviewsCount(product);
@@ -92,7 +101,16 @@ export const ProductDetailPage: React.FC = () => {
   const brandSlug = getBrandSlugForProduct(product);
 
   const handleAddToCart = () => {
-    addToCart(product, quantity, selectedSpecs);
+    addToCart(product, quantity, selectedSpecs, activeColorVariant?.name);
+  };
+
+  const handleColorSelect = (color: string) => {
+    const variant = colorVariants.find(option => option.name === color);
+    setSelectedColor(color);
+    setActiveImage(getMainImage({
+      images: variant?.images.length ? variant.images : product.images,
+    }));
+    setIsZoomOpen(false);
   };
 
   const handleSpecSelect = (title: string, value: string) => {
@@ -104,7 +122,7 @@ export const ProductDetailPage: React.FC = () => {
     '@context': 'https://schema.org',
     '@type': 'Product',
     name: product.name,
-    image: product.images && product.images.length > 0 ? product.images : [getMainImage(product)],
+    image: productImages.length > 0 ? productImages : [getMainImage(product)],
     description: product.description,
     sku: product.sku,
     url: `${SITE_URL}/product/${product.slug}`,
@@ -128,7 +146,7 @@ export const ProductDetailPage: React.FC = () => {
         title={`${product.name} | Premium Fishing Gear | Lucana`}
         description={product.description}
         keywords={`${product.name}, ${product.category}, ${product.brand || 'lucana'}, saltwater fishing`}
-        ogImage={activeImage || (product.images && product.images[0])}
+        ogImage={activeImage || productImages[0]}
         structuredData={[productSchema]}
       />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -244,7 +262,7 @@ export const ProductDetailPage: React.FC = () => {
 
             {/* Alternating Thumbnail selector */}
             <div className="flex gap-3 overflow-x-auto pb-1">
-              {product.images.map((img, i) => (
+              {productImages.map((img, i) => (
                 <button
                   key={i}
                   onClick={() => setActiveImage(img)}
@@ -329,9 +347,9 @@ export const ProductDetailPage: React.FC = () => {
                   <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-red-50 text-red-600">
                     Sold Out
                   </span>
-                ) : product.stock <= 5 ? (
+                ) : typeof availableStock === 'number' && availableStock <= 5 ? (
                   <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-amber-50 text-amber-600 animate-pulse">
-                    Critical Stock ({product.stock} left)
+                    Critical Stock ({availableStock} left)
                   </span>
                 ) : (
                   <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-green-50 text-green-600">
@@ -345,6 +363,37 @@ export const ProductDetailPage: React.FC = () => {
             <p className="text-sm text-gray-500 leading-relaxed font-medium">
               {product.description}
             </p>
+
+            {colorVariants.length > 0 && (
+              <div className="space-y-3 pt-2">
+                <h4 className="text-xs font-bold text-gray-800 uppercase tracking-widest">
+                  Color: <span className="text-gray-500">{activeColorVariant?.name}</span>
+                </h4>
+                <div className="flex flex-wrap gap-3">
+                  {colorVariants.map(variant => (
+                    <button
+                      key={variant.name}
+                      type="button"
+                      onClick={() => handleColorSelect(variant.name)}
+                      aria-label={`Select ${variant.name} color`}
+                      aria-pressed={activeColorVariant?.name === variant.name}
+                      className={`flex items-center gap-2.5 rounded-xl border px-3 py-2 text-xs font-bold transition-all ${
+                        activeColorVariant?.name === variant.name
+                          ? 'border-gray-900 bg-gray-50 text-gray-950 shadow-sm'
+                          : 'border-gray-200 text-gray-600 hover:border-gray-400'
+                      }`}
+                    >
+                      <span
+                        aria-hidden="true"
+                        className="h-5 w-5 rounded-full border border-black/10"
+                        style={{ background: `linear-gradient(135deg, #111 50%, ${variant.swatch} 50%)` }}
+                      />
+                      {variant.name}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
 
             {/* Custom specification choices */}
             {configurableSpecs.length > 0 && (
@@ -389,7 +438,11 @@ export const ProductDetailPage: React.FC = () => {
                     </button>
                     <span className="w-12 text-center text-sm font-bold text-gray-800">{quantity}</span>
                     <button
-                      onClick={() => setQuantity(prev => Math.min(product.stock, prev + 1))}
+                      onClick={() => setQuantity(prev =>
+                        typeof availableStock === 'number'
+                          ? Math.min(availableStock, prev + 1)
+                          : prev + 1
+                      )}
                       className="w-10 h-10 flex items-center justify-center text-gray-500 hover:text-gray-900 transition-colors"
                     >
                       +

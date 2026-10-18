@@ -1,358 +1,983 @@
 [
   {
-  "id": 11,
-  "slug": "salt-armor-x",
-  "name": "Salt Armor X",
-  "brand": null,
-  "category": "rods",
-  "sub_category": null,
-  "description": "Salt Armor X fishing rod featuring X Carbon Technology and K-GUIDE components. Available in two heavy-duty models designed for lure weights up to 400g and line ratings up to 60LB.",
-  "price": null,
-  "discount_price": null,
-  "stock": null,
-  "sku": null,
-  "images": [],
-  "specifications": [
-    {
-      "title": "Model SA240XHS Length",
-      "value": "2.40m"
-    },
-    {
-      "title": "Model SA240XHS Action",
-      "value": "XH"
-    },
-    {
-      "title": "Model SA240XHS Sections",
-      "value": "2Sec"
-    },
-    {
-      "title": "Model SA240XHS Lure",
-      "value": "80-400g"
-    },
-    {
-      "title": "Model SA240XHS Line",
-      "value": "30-60LB"
-    },
-    {
-      "title": "Model SA240XHS Weight",
-      "value": "298g"
-    },
-    {
-      "title": "Model SA270XHS Length",
-      "value": "2.70m"
-    },
-    {
-      "title": "Model SA270XHS Action",
-      "value": "XH"
-    },
-    {
-      "title": "Model SA270XHS Sections",
-      "value": "2Sec"
-    },
-    {
-      "title": "Model SA270XHS Lure",
-      "value": "80-400g"
-    },
-    {
-      "title": "Model SA270XHS Line",
-      "value": "30-60LB"
-    },
-    {
-      "title": "Model SA270XHS Weight",
-      "value": "365g"
-    },
-    {
-      "title": "Technology",
-      "value": "X Carbon Technology"
-    },
-    {
-      "title": "Guides",
-      "value": "K-GUIDE"
-    }
-  ],
-  "features": [
-    "X Carbon Technology",
-    "K-GUIDE"
-  ],
-  "line_capacity": {
-    "nylon": [],
-    "braid": null
-  },
-  "tags": [
-    "Salt Armor X",
-    "Carbon Technology",
-    "K-GUIDE",
-    "XH Action",
-    "Heavy Duty Rod"
-  ],
-  "status": "active"
-},
-  {
-    "id": 12,
-    "slug": "carbon-strike-baitcasting-rod",
-    "name": "Carbon Strike Baitcasting Rod",
-    "brand": "Phantom Tackle",
+    "id": 1,
+    "slug": "lucana-abud-max-casting-rod",
+    "name": "Abud Max",
+    "brand": "Lucana",
     "category": "rods",
-    "sub_category": "Casting Rods",
-    "description": "Tailored for heavy bass jigging and frog pitching. The Carbon Strike Casting Rod features a stiff backbone with a fast, sensitive tip. Its micro-guide system lines the line perfectly along the blank for maximum casting accuracy.",
-    "price": 169.99,
-    "discount_price": 149.99,
-    "stock": 20,
-    "sku": "RD-CS-12",
+    "sub_category": "casting rods",
+    "description": "The Lucana Abud Max is a heavy baitcasting rod series designed for lure fishing. Available in 1.98m (AM662HBC) and 2.10m (AM702HBC) model variants, both feature 2-piece construction, a lure rating of 30-60g, line rating of 15-40lbs, and an ergonomic trigger reel seat for comfortable handling.",
+    "price": null,
+    "discount_price": null,
+    "stock": null,
+    "sku": null,
     "images": [
-      "https://images.unsplash.com/photo-1508962914676-134849a727f0?auto=format&fit=crop&q=80&w=800"
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792291567/1_3.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792291764/1_4.png",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257523/1_2.png",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792291625/1_1.png"
     ],
     "specifications": [
+      { "title": "Series", "value": "Abud Max" },
+      { "title": "AM662HBC - Length", "value": "1.98m" },
+      { "title": "AM662HBC - Sections", "value": "2" },
+      { "title": "AM662HBC - Lure Weight", "value": "30-60g" },
+      { "title": "AM662HBC - Line Weight", "value": "15-40lbs" },
+      { "title": "AM662HBC - Weight", "value": "160g" },
+      { "title": "AM702HBC - Length", "value": "2.10m" },
+      { "title": "AM702HBC - Sections", "value": "2" },
+      { "title": "AM702HBC - Lure Weight", "value": "30-60g" },
+      { "title": "AM702HBC - Line Weight", "value": "15-40lbs" },
+      { "title": "AM702HBC - Weight", "value": "163g" },
+      { "title": "Reel Seat", "value": "Trigger Casting Reel Seat" }
+    ],
+    "features": [
+      "Ergonomic trigger reel seat designed for baitcasting reels",
+      "2-piece construction for easy transport and storage",
+      "Capable of handling lures from 30g up to 60g",
+      "Strong backbone rated for 15-40lbs line weight",
+      "Comfortable grip handle for extended fishing sessions"
+    ],
+    "tags": ["fishing rod", "casting rod", "baitcasting rod", "lucana", "abud max", "am662hbc", "am702hbc", "lure fishing", "heavy action"],
+    "status": "active"
+  },
+  {
+    "id": 2,
+    "slug": "lucana-aqua-blade-casting-rod",
+    "name": "Aqua Blade",
+    "brand": "Lucana",
+    "category": "rods",
+    "sub_category": "baitcasting rods",
+    "description": "The Lucana Aqua Blade is a high-performance casting rod constructed with a high-modulus 24T Carbon Fiber core and reinforced with 3K Woven Carbon for superior hoop strength and sensitivity. Designed to handle powerful strikes while detecting subtle vibrations, it features tangle-free Silver K-Series guides, ergonomic high-density black EVA foam grips, and a 10kg max drag rating.",
+    "price": null,
+    "discount_price": null,
+    "stock": null,
+    "sku": null,
+    "images": [
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257672/2_3.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257597/2_2.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257460/2_1.jpg"
+    ],
+    "specifications": [
+      { "title": "Brand", "value": "Lucana" },
+      { "title": "Series", "value": "Aqua Blade" },
+      { "title": "Blank Material", "value": "High-Modulus 24T Carbon Fiber core reinforced with 3K Woven Carbon" },
+      { "title": "Guides", "value": "Silver K-Series Tangle-Free Guides" },
+      { "title": "Handle", "value": "High-Density Black EVA Foam with Ergonomic Contour" },
+      { "title": "Max Drag", "value": "10kgs" },
+      { "title": "AB662MHBC - Length", "value": "1.98m" },
+      { "title": "AB662MHBC - Sections", "value": "2" },
+      { "title": "AB662MHBC - Lure Weight", "value": "10-35g" },
+      { "title": "AB662MHBC - Line Weight", "value": "8-17lbs" },
+      { "title": "AB662MHBC - Rod Weight", "value": "165g" },
+      { "title": "AB702MHBC - Length", "value": "2.13m" },
+      { "title": "AB702MHBC - Sections", "value": "2" },
+      { "title": "AB702MHBC - Lure Weight", "value": "10-35g" },
+      { "title": "AB702MHBC - Line Weight", "value": "8-17lbs" },
+      { "title": "AB702MHBC - Rod Weight", "value": "177g" },
+      { "title": "AB802MHBC - Length", "value": "2.43m" },
+      { "title": "AB802MHBC - Sections", "value": "2" },
+      { "title": "AB802MHBC - Lure Weight", "value": "10-35g" },
+      { "title": "AB802MHBC - Line Weight", "value": "8-17lbs" },
+      { "title": "AB802MHBC - Rod Weight", "value": "201g" }
+    ],
+    "features": [
+      "High-modulus 24T Carbon Fiber core reinforced with 3K Woven Carbon for superior hoop strength and sensitivity",
+      "Silver K-Series tangle-free guides for smooth line flow and prevention of wind knots",
+      "High-density Black EVA foam grip with ergonomic contour for non-slip comfort",
+      "Max Drag rating of 10kg to control powerful fish"
+    ],
+    "tags": ["lucana", "aqua blade", "fishing rod", "casting rod", "baitcasting rod", "carbon rod", "24t carbon", "3k woven carbon", "k-series guides", "lure fishing"],
+    "status": "active"
+  },
+  {
+    "id": 3,
+    "slug": "lucana-blue-max-carbon-fiber-casting-rod",
+    "name": "Blue Max",
+    "brand": "Lucana",
+    "category": "rods",
+    "sub_category": "baitcasting rods",
+    "description": "The Lucana Blue Max is a high-performance carbon fiber casting rod engineered with a Nano Resin 24T Carbon Fiber blank for strength, lightness, and durability. Built to tackle tough fights, it boasts an impressive 8kg max drag capability and a comfortable PTE Fiber textured anti-slip grip for total control even in wet conditions.",
+    "price": null,
+    "discount_price": null,
+    "stock": null,
+    "sku": null,
+    "images": [
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257669/3_3.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257534/3_1.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257567/3_2.jpg"
+    ],
+    "specifications": [
+      { "title": "Brand", "value": "Lucana" },
+      { "title": "Series", "value": "Blue Max" },
+      { "title": "Blank Material", "value": "Nano Resin 24T Carbon Fiber" },
+      { "title": "Handle", "value": "PTE Fiber textured anti-slip grip" },
+      { "title": "Max Drag", "value": "8 kg" },
+      { "title": "BM662MHBC - Length", "value": "1.98 m" },
+      { "title": "BM662MHBC - Sections", "value": "2" },
+      { "title": "BM662MHBC - Lure Weight", "value": "10-45g" },
+      { "title": "BM662MHBC - Line Weight", "value": "8-17lbs" },
+      { "title": "BM662MHBC - Rod Weight", "value": "159g" },
+      { "title": "BM702MHBC - Length", "value": "2.13 m" },
+      { "title": "BM702MHBC - Sections", "value": "2" },
+      { "title": "BM702MHBC - Lure Weight", "value": "10-45g" },
+      { "title": "BM702MHBC - Line Weight", "value": "8-17lbs" },
+      { "title": "BM702MHBC - Rod Weight", "value": "165g" }
+    ],
+    "features": [
+      "Nano Resin 24T Carbon Fiber blank ensures maximum durability without adding extra weight",
+      "8kg Max Drag capacity built to stop powerful runs and pull fish from heavy cover",
+      "PTE Fiber textured handle provides an anti-slip grip even when wet",
+      "Available in 2-piece medium-heavy baitcasting models"
+    ],
+    "tags": ["lucana", "blue max", "fishing rod", "casting rod", "baitcasting rod", "carbon fiber rod", "lure fishing", "medium heavy rod", "2 section rod"],
+    "status": "active"
+  },
+  {
+    "id": 4,
+    "slug": "lucana-tackleman-feather-ultralight-rod",
+    "name": "Feather",
+    "brand": "Lucana",
+    "category": "rods",
+    "sub_category": "ultralight rods",
+    "description": "The Lucana Tackleman Feather is an ultralight carbon fishing rod featuring a solid carbon tip for exceptional sensitivity and feedback. Equipped with an ergonomic PVC handle and Precision Click-Lock Reel Seat, it offers secure reel mounting and comfortable handling. Available in both spinning and baitcasting ultralight models.",
+    "price": null,
+    "discount_price": null,
+    "stock": null,
+    "sku": null,
+    "images": [
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257675/4_4.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257561/4_1.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257531/4_3.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257487/4_2.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257463/4_5.jpg"
+    ],
+    "specifications": [
+      { "title": "Brand", "value": "Lucana / Tackleman" },
+      { "title": "Series", "value": "Feather" },
+      { "title": "Blank Material", "value": "Carbon Rod with Solid Carbon Tip" },
+      { "title": "Handle Material", "value": "PVC Handle" },
+      { "title": "Reel Seat", "value": "Precision Click-Lock Reel Seat" },
+      { "title": "F552ULS - Type", "value": "Spinning" },
+      { "title": "F552ULS - Action / Power", "value": "UL" },
+      { "title": "F552ULS - Length", "value": "1.68m" },
+      { "title": "F552ULS - Lure Weight", "value": "2-10g" },
+      { "title": "F552ULS - Line Rating", "value": "2-8lbs" },
+      { "title": "F552ULS - Weight", "value": "80g" },
+      { "title": "F602ULS - Type", "value": "Spinning" },
+      { "title": "F602ULS - Action / Power", "value": "UL" },
+      { "title": "F602ULS - Length", "value": "1.80m" },
+      { "title": "F602ULS - Lure Weight", "value": "2-10g" },
+      { "title": "F602ULS - Line Rating", "value": "2-8lbs" },
+      { "title": "F602ULS - Weight", "value": "82g" },
+      { "title": "F552ULBC - Type", "value": "Baitcasting" },
+      { "title": "F552ULBC - Action / Power", "value": "UL" },
+      { "title": "F552ULBC - Length", "value": "1.68m" },
+      { "title": "F552ULBC - Lure Weight", "value": "2-10g" },
+      { "title": "F552ULBC - Line Rating", "value": "2-8lbs" },
+      { "title": "F552ULBC - Weight", "value": "82g" },
+      { "title": "F602ULBC - Type", "value": "Baitcasting" },
+      { "title": "F602ULBC - Action / Power", "value": "UL" },
+      { "title": "F602ULBC - Length", "value": "1.80m" },
+      { "title": "F602ULBC - Lure Weight", "value": "2-10g" },
+      { "title": "F602ULBC - Line Rating", "value": "2-8lbs" },
+      { "title": "F602ULBC - Weight", "value": "83g" }
+    ],
+    "features": [
+      "Precision Click-Lock Reel Seat ensures a secure reel fit with positive click feedback for maximum confidence",
+      "Carbon blank construction with solid carbon tip",
+      "PVC handle for comfortable and non-slip control",
+      "Extremely lightweight design (80g - 83g)",
+      "Available in both Ultralight Spinning (ULS) and Baitcasting (ULBC) variants"
+    ],
+    "tags": ["lucana", "tackleman", "feather", "ultralight rod", "ul rod", "carbon rod", "solid carbon tip", "spinning rod", "casting rod", "baitcasting rod", "finesse fishing", "lure fishing"],
+    "status": "active"
+  },
+  {
+    "id": 5,
+    "slug": "lucana-flicker-carbon-rod",
+    "name": "Flicker",
+    "brand": "Lucana",
+    "category": "rods",
+    "sub_category": "casting rods",
+    "description": "The Lucana Flicker Carbon Rod is built with a High Performance Carbon Blank and comfortable Soft EVA grip designed for better control and reduced fatigue. Available in 1.98m (FL662MHBC) and 2.13m (FL702MHBC) variants, both models feature 2-piece construction, a lure rating of 12-60g, and line rating of 8-17lbs.",
+    "price": null,
+    "discount_price": null,
+    "stock": null,
+    "sku": null,
+    "images": [
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257472/5_3.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257469/5_2.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257466/5_1.jpg"
+    ],
+    "specifications": [
+      { "title": "Series", "value": "FLICKER" },
+      { "title": "Material", "value": "High Performance Carbon Blank" },
+      { "title": "Grip", "value": "Soft EVA Grip" },
+      { "title": "Reel Seat", "value": "Trigger Casting Reel Seat" },
+      { "title": "FL662MHBC - Length", "value": "1.98m" },
+      { "title": "FL662MHBC - Sections", "value": "2" },
+      { "title": "FL662MHBC - Lure Weight", "value": "12-60g" },
+      { "title": "FL662MHBC - Line Weight", "value": "8-17lbs" },
+      { "title": "FL662MHBC - Weight", "value": "131g" },
+      { "title": "FL702MHBC - Length", "value": "2.13m" },
+      { "title": "FL702MHBC - Sections", "value": "2" },
+      { "title": "FL702MHBC - Lure Weight", "value": "12-60g" },
+      { "title": "FL702MHBC - Line Weight", "value": "8-17lbs" },
+      { "title": "FL702MHBC - Weight", "value": "140g" }
+    ],
+    "features": [
+      "High Performance Carbon Blank construction",
+      "Soft EVA grip for comfortable long-time fishing and better control",
+      "Perfect balance for smooth casting and reduced fatigue",
+      "Supports wide range of lures (12-60g) suitable for multiple fishing styles",
+      "2-piece design for convenience and easy transport"
+    ],
+    "tags": ["fishing rod", "casting rod", "baitcasting rod", "lucana", "flicker", "fl662mhbc", "fl702mhbc", "carbon rod", "lure fishing"],
+    "status": "active"
+  },
+  {
+    "id": 6,
+    "slug": "lucana-ghost-blade-2tips-carbon-rod",
+    "name": "Ghost Blade",
+    "brand": "Lucana",
+    "category": "rods",
+    "sub_category": "spinning & casting rods",
+    "description": "The Lucana Ghost Blade is a carbon fishing rod featuring 2 interchangeable tips with Medium Heavy (MH) and Heavy (H) powers. Available in both spinning and baitcasting models across 2.1m, 2.4m, and 2.7m lengths, this series handles lure weights from 10-40g and 20-60g and line ratings from 12-22lb and 16-30lb.",
+    "price": null,
+    "discount_price": null,
+    "stock": null,
+    "sku": null,
+    "images": [
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257494/6a_2.jpg"
+    ],
+    "specifications": [
+      { "title": "Material", "value": "Carbon" },
+      { "title": "Tip Options", "value": "2 Tips (MH / H)" },
+      { "title": "Power", "value": "Medium Heavy (MH) / Heavy (H)" },
+      { "title": "Lure Weight", "value": "10-40g / 20-60g" },
+      { "title": "Line Weight", "value": "12-22lb / 16-30lb" },
+      { "title": "Model 210 BC", "value": "Length: 2.1m | Type: Baitcasting | Rod Weight: 194g | Power: MH/H" },
+      { "title": "Model 210 SPIN", "value": "Length: 2.1m | Type: Spinning | Rod Weight: 206g | Power: MH/H" },
+      { "title": "Model 240 SPIN", "value": "Length: 2.4m | Type: Spinning | Rod Weight: 260g | Power: MH/H" },
+      { "title": "Model 240 BC", "value": "Length: 2.4m | Type: Baitcasting | Rod Weight: 227g | Power: MH/H" },
+      { "title": "Model 270 SPIN", "value": "Length: 2.7m | Type: Spinning | Rod Weight: 308g | Power: MH/H" }
+    ],
+    "color_variants": [
       {
-        "title": "Length",
-        "value": "7'3\" (2.21m)"
+        "name": "Black & Blue",
+        "swatch": "#2563eb",
+        "images": [
+          "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257494/6a_2.jpg",
+          "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257517/6a_1.jpg",
+          "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257500/6a_4.jpg",
+          "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257497/6a_3.jpg"
+        ]
       },
       {
-        "title": "Power",
-        "value": "Heavy"
-      },
-      {
-        "title": "Action",
-        "value": "Extra-Fast"
-      },
-      {
-        "title": "Sections",
-        "value": "1-Piece"
-      },
-      {
-        "title": "Material",
-        "value": "30-Ton Graphite Carbon Matrix"
-      },
-      {
-        "title": "Weight",
-        "value": "135 g / 4.7 oz"
-      },
-      {
-        "title": "Line Rating",
-        "value": "12 - 25 lbs"
-      },
-      {
-        "title": "Lure Rating",
-        "value": "3/8 - 1.5 oz"
+        "name": "Black & Red",
+        "swatch": "#c62828",
+        "images": [
+          "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257508/6b_4.jpg",
+          "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257576/6b_1.jpg",
+          "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257505/6b_3.jpg",
+          "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257503/6b_2.jpg"
+        ]
       }
     ],
     "features": [
-      "1-piece solid layout ensures uninterrupted parabolic load distribution",
-      "Premium micro-guides allow 15% farther line travel and zero slap",
-      "Nonslip tactical EVA handles resist slime and odor",
-      "Reel locking trigger seat customized for baitcasting setups"
+      "Includes 2 interchangeable tips with Medium Heavy (MH) and Heavy (H) powers",
+      "Carbon blank construction for strength and sensitivity",
+      "Available in both Spinning (SPIN) and Baitcasting (BC) configurations",
+      "Color options available in Black & Red and Black & Blue",
+      "Lure weight capability covering 10-40g and 20-60g"
     ],
-    "line_capacity": {
-      "nylon": [],
-      "braid": []
-    },
-    "tags": [
-      "Rods",
-      "Casting",
-      "Baitcast",
-      "Bass"
+    "tags": ["fishing rod", "spinning rod", "casting rod", "baitcasting rod", "carbon rod", "lucana", "ghost blade", "2 tips rod", "lure fishing"],
+    "status": "active"
+  },
+  {
+    "id": 7,
+    "slug": "lucana-green-wave-rod",
+    "name": "Green Wave",
+    "brand": "Lucana",
+    "category": "rods",
+    "sub_category": "light rods",
+    "description": "The Lucana Green Wave is a light-action carbon fishing rod equipped with a solid carbon tip and an ergonomic PVC handle. Featuring a Precision Click-Lock reel seat that ensures a secure reel fit with positive click feedback, it is available in both baitcasting and spinning models designed for light lure fishing with lures ranging from 2-10g and 2-8lbs line.",
+    "price": null,
+    "discount_price": null,
+    "stock": null,
+    "sku": null,
+    "images": [
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257636/7_4.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257626/7_3.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257600/7_1.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257528/7_2.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257547/7_5.jpg"
     ],
+    "specifications": [
+      { "title": "Brand", "value": "Lucana" },
+      { "title": "Series", "value": "Green Wave" },
+      { "title": "Blank Material", "value": "Carbon Rod with Solid Carbon Tip" },
+      { "title": "Handle Material", "value": "PVC Handle" },
+      { "title": "Reel Seat", "value": "Precision Click-Lock Reel Seat" },
+      { "title": "GW602LBC - Type", "value": "Baitcasting" },
+      { "title": "GW602LBC - Length", "value": "1.80m" },
+      { "title": "GW602LBC - Action / Power", "value": "L" },
+      { "title": "GW602LBC - Lure Weight", "value": "2-10g" },
+      { "title": "GW602LBC - Line Rating", "value": "2-8lbs" },
+      { "title": "GW602LBC - Weight", "value": "116g" },
+      { "title": "GW662LBC - Type", "value": "Baitcasting" },
+      { "title": "GW662LBC - Length", "value": "1.98m" },
+      { "title": "GW662LBC - Action / Power", "value": "L" },
+      { "title": "GW662LBC - Lure Weight", "value": "2-10g" },
+      { "title": "GW662LBC - Line Rating", "value": "2-8lbs" },
+      { "title": "GW662LBC - Weight", "value": "120g" },
+      { "title": "GW702LBC - Type", "value": "Baitcasting" },
+      { "title": "GW702LBC - Length", "value": "2.10m" },
+      { "title": "GW702LBC - Action / Power", "value": "L" },
+      { "title": "GW702LBC - Lure Weight", "value": "2-10g" },
+      { "title": "GW702LBC - Line Rating", "value": "2-8lbs" },
+      { "title": "GW702LBC - Weight", "value": "122g" },
+      { "title": "GW702LS - Type", "value": "Spinning" },
+      { "title": "GW702LS - Length", "value": "2.10m" },
+      { "title": "GW702LS - Action / Power", "value": "L" },
+      { "title": "GW702LS - Lure Weight", "value": "2-10g" },
+      { "title": "GW702LS - Line Rating", "value": "2-8lbs" },
+      { "title": "GW702LS - Weight", "value": "118g" }
+    ],
+    "features": [
+      "Precision Click-Lock Reel Seat ensures a secure reel fit with positive click feedback for maximum confidence",
+      "Carbon blank construction with solid carbon tip for enhanced sensitivity",
+      "Durable PVC handle design",
+      "Light action performance designed for 2-10g lures and 2-8lbs line",
+      "Available in both Baitcasting (LBC) and Spinning (LS) variants"
+    ],
+    "tags": ["lucana", "green wave", "fishing rod", "carbon rod", "solid carbon tip", "spinning rod", "casting rod", "baitcasting rod", "light action", "lure fishing", "finesse fishing"],
+    "status": "active"
+  },
+  {
+    "id": 8,
+    "slug": "lucana-kokari-spinning-rod",
+    "name": "Kokari",
+    "brand": "Lucana",
+    "category": "rods",
+    "sub_category": "spinning rods",
+    "description": "The Lucana Kokari is a lightweight and strong carbon spinning rod ideal for long casting and lure fishing. Built with an anti-twist X45 cross carbon design and Nano Resin Tech (NRT), it features a comfortable honeycomb PU handle, smooth casting K-Series guides, and an 8kg max drag capacity.",
+    "price": null,
+    "discount_price": null,
+    "stock": null,
+    "sku": null,
+    "images": [
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257681/8_3.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257617/8_2.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257613/8_1.jpg"
+    ],
+    "specifications": [
+      { "title": "Brand", "value": "Lucana" },
+      { "title": "Series", "value": "Kokari" },
+      { "title": "Technology", "value": "Nano Resin Tech (NRT)" },
+      { "title": "Blank Material", "value": "Lightweight & Strong Carbon Blank (Anti-Twist X45 Cross Carbon Design)" },
+      { "title": "Handle", "value": "Honeycomb PU Handle" },
+      { "title": "Guides", "value": "K-Series Guides" },
+      { "title": "KK802MHS - Length", "value": "2.43m" },
+      { "title": "KK802MHS - Sections", "value": "2" },
+      { "title": "KK802MHS - Lure Weight", "value": "12-40g" },
+      { "title": "KK802MHS - Line Weight", "value": "10-20lbs" },
+      { "title": "KK802MHS - Max Drag", "value": "8Kgs" },
+      { "title": "KK802MHS - Weight", "value": "215g" },
+      { "title": "KK902MHS - Length", "value": "2.74m" },
+      { "title": "KK902MHS - Sections", "value": "2" },
+      { "title": "KK902MHS - Lure Weight", "value": "12-40g" },
+      { "title": "KK902MHS - Line Weight", "value": "10-20lbs" },
+      { "title": "KK902MHS - Max Drag", "value": "8Kgs" },
+      { "title": "KK902MHS - Weight", "value": "237g" }
+    ],
+    "features": [
+      "Lightweight & Strong Carbon Blank",
+      "Ideal for Long Casting & Lure Fishing",
+      "Anti-Twist X45 Cross Carbon Design",
+      "Comfortable Honeycomb PU Handle",
+      "Smooth Casting K-Series Guides"
+    ],
+    "tags": ["lucana", "kokari", "fishing rod", "spinning rod", "carbon rod", "long casting", "lure fishing", "k-series guides", "nrt"],
+    "status": "active"
+  },
+  {
+    "id": 9,
+    "slug": "lucana-salt-water-komodo-spinning-rod",
+    "name": "Komodo",
+    "brand": "Lucana",
+    "category": "rods",
+    "sub_category": "spinning rods",
+    "description": "The Lucana Salt Water Komodo is a medium heavy saltwater spinning rod series equipped with K-Guides. Built for heavy lure applications, available in KSW240MHS (298g) and KSW270MHS (323g) variants, featuring a 2-section design, line rating of PE 3-6# (20-45LBS), and lure capacity of 30-200G.",
+    "price": null,
+    "discount_price": null,
+    "stock": null,
+    "sku": null,
+    "images": [
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257654/9_3.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257491/9_1.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257544/9_2.jpg"
+    ],
+    "specifications": [
+      { "title": "Series", "value": "Salt Water Komodo" },
+      { "title": "Guides", "value": "K-Guide" },
+      { "title": "Power", "value": "Medium Heavy" },
+      { "title": "KSW240MHS - Sections", "value": "2" },
+      { "title": "KSW240MHS - Line Weight", "value": "PE 3-6# 20-45LBS" },
+      { "title": "KSW240MHS - Lure Weight", "value": "30-200G" },
+      { "title": "KSW240MHS - Weight", "value": "298G" },
+      { "title": "KSW270MHS - Sections", "value": "2" },
+      { "title": "KSW270MHS - Line Weight", "value": "PE 3-6# 20-45LBS" },
+      { "title": "KSW270MHS - Lure Weight", "value": "30-200G" },
+      { "title": "KSW270MHS - Weight", "value": "323G" }
+    ],
+    "features": [
+      "Equipped with anti-tangle K-Guides for smooth line flow",
+      "Designed specifically for saltwater applications",
+      "Medium Heavy power rating for handling heavy lures and powerful fish",
+      "Supports wide lure range from 30g up to 200g",
+      "2-piece construction for easy transport and storage",
+      "Comfortable black EVA grip handle"
+    ],
+    "tags": ["fishing rod", "spinning rod", "saltwater rod", "lucana", "salt water komodo", "ksw240mhs", "ksw270mhs", "k-guide", "medium heavy", "saltwater", "lure fishing"],
+    "status": "active"
+  },
+  {
+    "id": 10,
+    "slug": "lucana-matrix-x-nano-casting-rod",
+    "name": "Matrix",
+    "brand": "Lucana",
+    "category": "rods",
+    "sub_category": "casting rods",
+    "description": "The Lucana Matrix X Nano is a medium-heavy baitcasting rod series engineered with X Nano technology. Available in 1.98m (MX662MHBC) and 2.10m (MX702MHBC) variants, both models feature 2-piece construction, a lure rating of 50-120g, line rating of 15-30lbs, and an ergonomic trigger reel seat with carbon-finished handle.",
+    "price": null,
+    "discount_price": null,
+    "stock": null,
+    "sku": null,
+    "images": [
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257677/10_3.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257603/10_2.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257610/10_1.jpg"
+    ],
+    "specifications": [
+      { "title": "Series", "value": "Matrix X Nano" },
+      { "title": "Technology", "value": "X Nano" },
+      { "title": "Reel Seat", "value": "Trigger Casting Reel Seat" },
+      { "title": "MX662MHBC - Length", "value": "1.98m" },
+      { "title": "MX662MHBC - Sections", "value": "2" },
+      { "title": "MX662MHBC - Lure Weight", "value": "50-120g" },
+      { "title": "MX662MHBC - Line Weight", "value": "15-30lbs" },
+      { "title": "MX662MHBC - Weight", "value": "154g" },
+      { "title": "MX702MHBC - Length", "value": "2.10m" },
+      { "title": "MX702MHBC - Sections", "value": "2" },
+      { "title": "MX702MHBC - Lure Weight", "value": "50-120g" },
+      { "title": "MX702MHBC - Line Weight", "value": "15-30lbs" },
+      { "title": "MX702MHBC - Weight", "value": "162g" }
+    ],
+    "features": [
+      "Built with X Nano technology for enhanced strength and blank response",
+      "Ergonomic trigger reel seat designed for baitcasting reels",
+      "Carbon-patterned rear grip for secure handling",
+      "2-piece sectioned design for convenient transport",
+      "Rated for medium-heavy lures from 50g to 120g"
+    ],
+    "tags": ["fishing rod", "casting rod", "baitcasting rod", "lucana", "matrix x nano", "mx662mhbc", "mx702mhbc", "carbon rod", "lure fishing"],
+    "status": "active"
+  },
+  {
+    "id": 11,
+    "slug": "lucana-pacific-sw-casting-rod",
+    "name": "Pacific",
+    "brand": "Lucana",
+    "category": "rods",
+    "sub_category": "baitcasting rods",
+    "description": "The Lucana Pacific SW is a high-performance baitcasting rod built with a 24T Carbon core and advanced X45 Cross Carbon wrapping with a Four-Axis carbon finish to eliminate blank twist and boost lifting power. Equipped with professional stealth-black K-Series tangle-free guides and high-density Black EVA ergonomic foam handles, it delivers exceptional casting accuracy, comfort, and up to 12kg max drag for heavy cover and saltwater fishing.",
+    "price": null,
+    "discount_price": null,
+    "stock": null,
+    "sku": null,
+    "images": [
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257666/11_3.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257607/11_2.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257554/11_1.jpg"
+    ],
+    "specifications": [
+      { "title": "Brand", "value": "Lucana" },
+      { "title": "Series", "value": "Pacific SW" },
+      { "title": "Blank Material", "value": "24T Carbon Core with X45 Cross Carbon Wrapping & Four-Axis Carbon Finish" },
+      { "title": "Guides", "value": "Black K-Series Tangle-Free Guides" },
+      { "title": "Handle Material", "value": "High-Density Black EVA Foam" },
+      { "title": "PW662MHBC - Length", "value": "1.98m" },
+      { "title": "PW662MHBC - Sections", "value": "2" },
+      { "title": "PW662MHBC - Lure Weight", "value": "15-55g" },
+      { "title": "PW662MHBC - Line Weight", "value": "10-20lbs" },
+      { "title": "PW662MHBC - Max Drag", "value": "12kgs" },
+      { "title": "PW662MHBC - Weight", "value": "115g" },
+      { "title": "PW702MHBC - Length", "value": "2.13m" },
+      { "title": "PW702MHBC - Sections", "value": "2" },
+      { "title": "PW702MHBC - Lure Weight", "value": "15-55g" },
+      { "title": "PW702MHBC - Line Weight", "value": "10-20lbs" },
+      { "title": "PW702MHBC - Max Drag", "value": "12kgs" },
+      { "title": "PW702MHBC - Weight", "value": "150g" }
+    ],
+    "features": [
+      "Constructed with a 24T Carbon core and advanced X45 Cross Carbon wrapping with a Four-Axis carbon fiber finish to eliminate blank twist",
+      "Professional Black K-Series tangle-free guides designed for smooth line release and knot prevention",
+      "High-density Black EVA foam grip with ergonomic contour for maximum comfort and reduced fatigue",
+      "Powerful 12kg Max Drag capability designed for heavy cover and saltwater environments"
+    ],
+    "tags": ["lucana", "pacific sw", "fishing rod", "casting rod", "baitcasting rod", "saltwater rod", "carbon rod", "k-series guides", "lure fishing", "heavy cover"],
+    "status": "active"
+  },
+  {
+    "id": 12,
+    "slug": "lucana-reno-ii-x-rx240xhs",
+    "name": "Reno",
+    "brand": "Lucana",
+    "category": "rods",
+    "sub_category": "spinning rods",
+    "description": "The Lucana Reno II X RX240XHS is a 2-section heavy-duty fishing rod built with X Carbon Technology and equipped with K-Guides. Designed for demanding lure fishing applications, it supports lure weights from 80g to 180g and line ratings of 30-50 lbs with an overall rod weight of 290g.",
+    "price": null,
+    "discount_price": null,
+    "stock": null,
+    "sku": "RX240XHS",
+    "images": [
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257659/12_1.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257585/12_3.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257514/12_2.jpg"
+    ],
+    "specifications": [
+      { "title": "Model", "value": "RX240XHS" },
+      { "title": "Series", "value": "Reno II X" },
+      { "title": "Sections", "value": "2" },
+      { "title": "Lure Weight", "value": "80-180g" },
+      { "title": "Line Weight", "value": "30-50lbs" },
+      { "title": "Weight", "value": "290g" },
+      { "title": "Guides", "value": "K-Guide" },
+      { "title": "Technology", "value": "X Carbon Technology" }
+    ],
+    "features": [
+      "Constructed with X Carbon Technology for increased strength and durability",
+      "Fitted with K-Guides for optimized casting and line control",
+      "2-piece design for convenient transport and storage",
+      "Heavy-duty power rating suitable for heavy lure applications",
+      "Textured non-slip grip handle for secure handling"
+    ],
+    "tags": ["fishing rod", "lucana", "reno ii x", "rx240xhs", "spinning rod", "carbon rod", "k-guide", "lure fishing", "heavy action"],
     "status": "active"
   },
   {
     "id": 13,
-    "slug": "blue-ocean-offshore-casting-rod",
-    "name": "Blue Ocean Offshore Casting Rod",
-    "brand": "Ocean Master",
+    "slug": "lucana-rodzilla-fiberglass-rod",
+    "name": "Rodzilla",
+    "brand": "Lucana",
     "category": "rods",
-    "sub_category": "Casting Rods",
-    "description": "Constructed to battle massive ocean sportfish. The Blue Ocean casting rod boasts heavy composite construction mixing fiberglass and carbon. It is virtually unbreakable and features heavy-duty roller-tip and guide wheels.",
-    "price": 249.99,
-    "discount_price": 229.99,
-    "stock": 8,
-    "sku": "RD-BO-13",
+    "sub_category": "boat & predator rods",
+    "description": "The Lucana Rodzilla is a heavy-action fiberglass rod designed specifically for predator fishing. Built for strength and powerful hook sets, it features a premium EVA grip handle, a reinforced reel seat for secure locking, and smooth line flow guides. Available in heavy-power baitcasting and spinning models.",
+    "price": null,
+    "discount_price": null,
+    "stock": null,
+    "sku": null,
     "images": [
-      "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&q=80&w=800"
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257645/13_4.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257484/13_3.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257475/13_1.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257588/13_2.jpg"
     ],
     "specifications": [
-      {
-        "title": "Length",
-        "value": "6'6\" (1.98m)"
-      },
-      {
-        "title": "Power",
-        "value": "Extra-Heavy"
-      },
-      {
-        "title": "Action",
-        "value": "Moderate"
-      },
-      {
-        "title": "Sections",
-        "value": "1-Piece"
-      },
-      {
-        "title": "Material",
-        "value": "Carbon-Fiberglass Hybrid"
-      },
-      {
-        "title": "Weight",
-        "value": "390 g / 13.7 oz"
-      },
-      {
-        "title": "Line Rating",
-        "value": "30 - 80 lbs"
-      },
-      {
-        "title": "Lure Rating",
-        "value": "2 - 8 oz"
-      }
+      { "title": "Brand", "value": "Lucana" },
+      { "title": "Series", "value": "Rodzilla" },
+      { "title": "Material", "value": "Fiberglass Rod" },
+      { "title": "Handle", "value": "Premium EVA Grip Handle" },
+      { "title": "Reel Seat", "value": "Reinforced Reel Seat for Secure Locking" },
+      { "title": "Target Application", "value": "Designed for Predator Fishing" },
+      { "title": "RZ662HBC - Type", "value": "Baitcasting" },
+      { "title": "RZ662HBC - Length", "value": "1.98M" },
+      { "title": "RZ662HBC - Action / Power", "value": "H" },
+      { "title": "RZ662HBC - Lure Weight", "value": "8-85G" },
+      { "title": "RZ662HBC - Line Rating", "value": "20-50LBS" },
+      { "title": "RZ662HBC - Weight", "value": "189G" },
+      { "title": "RZ702HBC - Type", "value": "Baitcasting" },
+      { "title": "RZ702HBC - Length", "value": "2.10M" },
+      { "title": "RZ702HBC - Action / Power", "value": "H" },
+      { "title": "RZ702HBC - Lure Weight", "value": "8-85G" },
+      { "title": "RZ702HBC - Line Rating", "value": "20-50LBS" },
+      { "title": "RZ702HBC - Weight", "value": "194G" },
+      { "title": "RZ662HS - Type", "value": "Spinning" },
+      { "title": "RZ662HS - Length", "value": "1.98M" },
+      { "title": "RZ662HS - Action / Power", "value": "H" },
+      { "title": "RZ662HS - Lure Weight", "value": "7-70G" },
+      { "title": "RZ662HS - Line Rating", "value": "20-45LBS" },
+      { "title": "RZ662HS - Weight", "value": "194G" },
+      { "title": "RZ702HS - Type", "value": "Spinning" },
+      { "title": "RZ702HS - Length", "value": "2.10M" },
+      { "title": "RZ702HS - Action / Power", "value": "H" },
+      { "title": "RZ702HS - Lure Weight", "value": "7-70G" },
+      { "title": "RZ702HS - Line Rating", "value": "20-45LBS" },
+      { "title": "RZ702HS - Weight", "value": "200G" }
     ],
     "features": [
-      "Composite glass-carbon architecture delivers massive lifting torque",
-      "Heavy Duty PacBay roller guides survive crushing deep-water fights",
-      "Anodized aluminum gimbal butt for fighting-chair slots",
-      "Comfortable long EVA grip handles for double-hand pulling"
+      "Fiberglass rod construction built for strength and resilience",
+      "Premium EVA Grip Handle",
+      "Reinforced Reel Seat for Secure Locking",
+      "Smooth Line Flow Guides",
+      "Excellent Hook Setting Power",
+      "Designed for Predator Fishing",
+      "Available in Heavy Action Baitcasting (HBC) and Spinning (HS) variants"
     ],
-    "line_capacity": {
-      "nylon": [],
-      "braid": []
-    },
-    "tags": [
-      "Rods",
-      "Offshore",
-      "Saltwater",
-      "Roller-Guides"
-    ],
+    "tags": ["lucana", "rodzilla", "fiberglass rod", "fishing rod", "heavy action", "predator fishing", "spinning rod", "casting rod", "baitcasting rod", "heavy lure fishing"],
     "status": "active"
   },
   {
     "id": 14,
-    "slug": "phantom-spin-finesse-rod",
-    "name": "Phantom Spin Finesse Rod",
-    "brand": "Phantom Tackle",
+    "slug": "lucana-skipper-168-ul-l-rod",
+    "name": "Skipper",
+    "brand": "Lucana",
     "category": "rods",
-    "sub_category": "Spinning Rods",
-    "description": "An ultra-light sensitive spinning rod for mountain stream trout and crappie fishing. Built using a solid carbon tip, this rod acts like an antenna transmitting any gentle brush on your lure straight to your hand.",
-    "price": 149.99,
-    "discount_price": 129.99,
-    "stock": 14,
-    "sku": "RD-PS-14",
+    "sub_category": "ultralight rods",
+    "description": "The Lucana Skipper 168 UL/L is designed purely for ultralite fishing, featuring a 2 tip solid carbon rod construction for maximum versatility. Available in both baitcasting (S168BC) and spinning (S168S) models, it offers fast action, dual tip power ratings (UL/L), and comfortable EVA handles.",
+    "price": null,
+    "discount_price": null,
+    "stock": null,
+    "sku": null,
     "images": [
-      "https://images.unsplash.com/photo-1508962914676-134849a727f0?auto=format&fit=crop&q=80&w=800"
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792256932/14_4.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792256928/14_1.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792256930/14_3.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257478/14_2.jpg"
     ],
     "specifications": [
-      {
-        "title": "Length",
-        "value": "6'0\" (1.83m)"
-      },
-      {
-        "title": "Power",
-        "value": "Ultra-Light"
-      },
-      {
-        "title": "Action",
-        "value": "Fast"
-      },
-      {
-        "title": "Sections",
-        "value": "2-Piece"
-      },
-      {
-        "title": "Material",
-        "value": "24-Ton Carbon with Solid Carbon Tip"
-      },
-      {
-        "title": "Weight",
-        "value": "82 g / 2.9 oz"
-      },
-      {
-        "title": "Line Rating",
-        "value": "2 - 6 lbs"
-      },
-      {
-        "title": "Lure Rating",
-        "value": "1/32 - 3/16 oz"
-      }
+      { "title": "Brand", "value": "Lucana" },
+      { "title": "Series", "value": "Skipper" },
+      { "title": "Material / Construction", "value": "2 Tip Solid Carbon Rod" },
+      { "title": "Handle", "value": "EVA Handle" },
+      { "title": "Target Application", "value": "Purely for Ultralite Fishing" },
+      { "title": "S168BC (Baitcasting) - Size", "value": "1.68m" },
+      { "title": "S168BC (Baitcasting) - Lure Weight", "value": "2-8g / 2-10g" },
+      { "title": "S168BC (Baitcasting) - Line Rating", "value": "4-10lbs" },
+      { "title": "S168BC (Baitcasting) - Action", "value": "Fast" },
+      { "title": "S168BC (Baitcasting) - Power", "value": "UL/L" },
+      { "title": "S168BC (Baitcasting) - Weight", "value": "107g" },
+      { "title": "S168S (Spinning) - Size", "value": "1.68m" },
+      { "title": "S168S (Spinning) - Lure Weight", "value": "2-8g / 2-10g" },
+      { "title": "S168S (Spinning) - Line Rating", "value": "4-10lbs" },
+      { "title": "S168S (Spinning) - Action", "value": "Fast" },
+      { "title": "S168S (Spinning) - Power", "value": "UL/L" },
+      { "title": "S168S (Spinning) - Weight", "value": "110g" }
     ],
     "features": [
-      "Ultra lightweight 82g layout perfect for fatigue-free all-day throwing",
-      "Solid carbon tipped front yields extreme bend flexibility without breaking",
-      "Fuji O-Ring micro-guides matched for thin braided or nylon line",
-      "Exquisite natural burl maple wood reel insert detailing"
+      "2 Tip Solid Carbon Rod construction",
+      "Purely engineered for ultralite fishing",
+      "Includes dual power tips (UL / Light)",
+      "Fast action for delicate lure presentations and quick hook sets",
+      "Ergonomic EVA handle",
+      "Available in both Casting (S168BC) and Spinning (S168S) options"
     ],
-    "line_capacity": {
-      "nylon": [],
-      "braid": []
-    },
-    "tags": [
-      "Rods",
-      "Finesse",
-      "Ultra-Light",
-      "Trout"
-    ],
+    "tags": ["lucana", "skipper", "ultralight rod", "ul rod", "solid carbon", "2 tip rod", "spinning rod", "casting rod", "baitcasting rod", "lure fishing", "finesse fishing"],
     "status": "active"
   },
   {
     "id": 15,
-    "slug": "titan-trolling-sport-rod",
-    "name": "Titan Trolling Sport Rod",
-    "brand": "Titan Pro",
+    "slug": "lucana-strike-lite-rod",
+    "name": "Strike Lite",
+    "brand": "Lucana",
     "category": "rods",
-    "sub_category": "Trolling Rods",
-    "description": "Specifically designed to handle the heavy strain of high-speed trolling. Built using solid glass cores wrapped with carbon reinforcing tape, it features robust double-foot guides and a premium aluminum locking reel seat.",
-    "price": 229.99,
-    "discount_price": 199.99,
-    "stock": 10,
-    "sku": "RD-TT-15",
+    "sub_category": "light rods",
+    "description": "The Lucana Strike Lite is a carbon fishing rod featuring a solid carbon tip and PVC handle for optimal control and sensitivity. Designed with a precision click-lock reel seat that ensures a secure reel fit with positive click feedback, it is available in both light-action spinning and baitcasting models.",
+    "price": null,
+    "discount_price": null,
+    "stock": null,
+    "sku": null,
     "images": [
-      "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&q=80&w=800"
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257651/15_4.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257564/15_3.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257525/15_1.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257481/15_2.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257538/15_5.jpg"
     ],
     "specifications": [
+      { "title": "Brand", "value": "Lucana" },
+      { "title": "Series", "value": "Strike Lite" },
+      { "title": "Blank Material", "value": "Carbon Rod with Solid Carbon Tip" },
+      { "title": "Handle Material", "value": "PVC Handle" },
+      { "title": "Reel Seat", "value": "Precision Click-Lock Reel Seat" },
+      { "title": "SL602LBC - Type", "value": "Baitcasting" },
+      { "title": "SL602LBC - Action / Power", "value": "L" },
+      { "title": "SL602LBC - Length", "value": "1.80m" },
+      { "title": "SL602LBC - Lure Weight", "value": "7-20g" },
+      { "title": "SL602LBC - Line Rating", "value": "5-12lbs" },
+      { "title": "SL602LBC - Weight", "value": "110g" },
+      { "title": "SL662LBC - Type", "value": "Baitcasting" },
+      { "title": "SL662LBC - Action / Power", "value": "L" },
+      { "title": "SL662LBC - Length", "value": "1.98m" },
+      { "title": "SL662LBC - Lure Weight", "value": "7-20g" },
+      { "title": "SL662LBC - Line Rating", "value": "5-12lbs" },
+      { "title": "SL662LBC - Weight", "value": "114g" },
+      { "title": "SL602LS - Type", "value": "Spinning" },
+      { "title": "SL602LS - Action / Power", "value": "L" },
+      { "title": "SL602LS - Length", "value": "1.80m" },
+      { "title": "SL602LS - Lure Weight", "value": "7-20g" },
+      { "title": "SL602LS - Line Rating", "value": "5-12lbs" },
+      { "title": "SL602LS - Weight", "value": "106g" },
+      { "title": "SL662LS - Type", "value": "Spinning" },
+      { "title": "SL662LS - Action / Power", "value": "L" },
+      { "title": "SL662LS - Length", "value": "1.98m" },
+      { "title": "SL662LS - Lure Weight", "value": "7-20g" },
+      { "title": "SL662LS - Line Rating", "value": "5-12lbs" },
+      { "title": "SL662LS - Weight", "value": "110g" }
+    ],
+    "features": [
+      "Precision Click-Lock Reel Seat ensures a secure reel fit with positive click feedback",
+      "Carbon blank construction with solid carbon tip",
+      "PVC handle for durable and comfortable grip",
+      "Light power design for delicate lure control",
+      "Available in both Baitcasting (LBC) and Spinning (LS) configurations"
+    ],
+    "tags": ["lucana", "strike lite", "fishing rod", "carbon rod", "solid carbon tip", "spinning rod", "casting rod", "baitcasting rod", "light action", "lure fishing"],
+    "status": "active"
+  },
+  {
+    "id": 16,
+    "slug": "lucana-super-surf-ss-1403-hs",
+    "name": "Super Surf",
+    "brand": "Lucana",
+    "category": "rods",
+    "sub_category": "surf rods",
+    "description": "The Lucana Super Surf SS-1403 HS is a 4.2m, 3-section surf casting rod built with 24T Nano Carbon technology. Featuring a fast action response, high-visibility solid tip, and durable HW guides, this rod handles lure weights ranging from 150g to 300g with an overall rod weight of 680g.",
+    "price": null,
+    "discount_price": null,
+    "stock": null,
+    "sku": "SS-1403 HS",
+    "images": [
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257658/16_4.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257582/16_3.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257594/16_1.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257579/16_2.jpg"
+    ],
+    "specifications": [
+      { "title": "Model", "value": "SS-1403 HS" },
+      { "title": "Series", "value": "SUPER SURF" },
+      { "title": "Length", "value": "4.2m" },
+      { "title": "Sections", "value": "3" },
+      { "title": "Action", "value": "Fast Action" },
+      { "title": "Lure Weight", "value": "150-300g" },
+      { "title": "Weight", "value": "680g" },
+      { "title": "Material", "value": "24T Nano Carbon" },
+      { "title": "Tip", "value": "Solid Tip" },
+      { "title": "Guides", "value": "HW Guides" }
+    ],
+    "features": [
+      "Constructed from 24T Nano Carbon for strength and casting performance",
+      "Sensitive Solid Tip for high visibility and bite detection",
+      "Fitted with heavy-duty HW Guides",
+      "Fast Action design optimized for surf casting",
+      "3-piece sectioned design for convenient transport",
+      "Textured non-slip handle grip for firm handling"
+    ],
+    "tags": ["fishing rod", "surf rod", "lucana", "super surf", "ss-1403 hs", "surf casting", "carbon rod", "fast action", "saltwater"],
+    "status": "active"
+  },
+  {
+    "id": 17,
+    "slug": "lucana-takugana-blue-fishing-rod",
+    "name": "Takugana",
+    "brand": "Lucana",
+    "category": "rods",
+    "sub_category": "spinning & casting rods",
+    "description": "The Lucana Takugana Blue fishing rod series features X-Carbon Technology construction paired with a distinctive blue camo EVA handle grip. Offered in Medium Heavy power in both spinning (MHS) and baitcasting (MHBC) configurations, these 2-piece rods are rated for 50-120g lures and 15-30lb lines.",
+    "price": null,
+    "discount_price": null,
+    "stock": null,
+    "sku": null,
+    "images": [
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257683/17_3.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257642/17_1.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257639/17_4.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257634/17_2.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257628/17_5.jpg"
+    ],
+    "specifications": [
+      { "title": "Technology", "value": "X-Carbon Technology" },
+      { "title": "Power", "value": "Medium Heavy (MH)" },
+      { "title": "Sections", "value": "2" },
+      { "title": "Handle", "value": "Blue Camo EVA Grip" },
+      { "title": "Model TGB210MHS", "value": "Type: Spinning | Sections: 2 | Lure Weight: 50-120G | Line Weight: 15-30LBS | Rod Weight: 173G" },
+      { "title": "Model TGB240MHS", "value": "Type: Spinning | Sections: 2 | Lure Weight: 50-120G | Line Weight: 15-30LBS | Rod Weight: 213G" },
+      { "title": "Model TGB210MHBC", "value": "Type: Baitcasting | Sections: 2 | Lure Weight: 50-120G | Line Weight: 15-30LBS | Rod Weight: 165G" }
+    ],
+    "features": [
+      "X-Carbon technology blank construction",
+      "Available in both Spinning (MHS) and Baitcasting (MHBC) versions",
+      "2-section design for easy transport",
+      "Stylish blue camo pattern EVA handle",
+      "Lure weight rating of 50-120g and line rating of 15-30lbs"
+    ],
+    "tags": ["fishing rod", "spinning rod", "casting rod", "baitcasting rod", "carbon rod", "lucana", "takugana blue", "lure fishing"],
+    "status": "active"
+  },
+  {
+    "id": 18,
+    "slug": "lucana-tackleman-thunder-line-spinning-rod",
+    "name": "Thunder Line",
+    "brand": "Lucana",
+    "category": "rods",
+    "sub_category": "spinning rods",
+    "description": "The Lucana Tackleman Thunder Line is a versatile spinning rod built with a premium 24T carbon fiber composite blank. Designed for both saltwater and freshwater applications, shore casting, and lure fishing, it features durable K-Series guides, an ergonomic EVA comfort handle, high sensitivity, and an impressive 10kg max drag capability.",
+    "price": null,
+    "discount_price": null,
+    "stock": null,
+    "sku": null,
+    "images": [
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257686/18_4.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257570/18_2.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257623/18_3.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257550/18_1.jpg"
+    ],
+    "specifications": [
+      { "title": "Brand", "value": "Lucana / Tackleman" },
+      { "title": "Series", "value": "Thunder Line" },
+      { "title": "Blank Material", "value": "24T Carbon Fiber Composite Blank" },
+      { "title": "Guides", "value": "Durable K-Series Guides" },
+      { "title": "Handle", "value": "Ergonomic EVA Comfort Handle" },
+      { "title": "Applications", "value": "Saltwater & Freshwater / Shore Casting / Lure Fishing" },
+      { "title": "TL702MHS - Length", "value": "2.13m" },
+      { "title": "TL702MHS - Sections", "value": "2" },
+      { "title": "TL702MHS - Lure Weight", "value": "10-40g" },
+      { "title": "TL702MHS - Line Weight", "value": "8-17lbs" },
+      { "title": "TL702MHS - Max Drag", "value": "10kgs" },
+      { "title": "TL702MHS - Weight", "value": "208g" },
+      { "title": "TL802MHS - Length", "value": "2.43m" },
+      { "title": "TL802MHS - Sections", "value": "2" },
+      { "title": "TL802MHS - Lure Weight", "value": "10-40g" },
+      { "title": "TL802MHS - Line Weight", "value": "8-17lbs" },
+      { "title": "TL802MHS - Max Drag", "value": "10kgs" },
+      { "title": "TL802MHS - Weight", "value": "239g" },
+      { "title": "TL902MHS - Length", "value": "2.74m" },
+      { "title": "TL902MHS - Sections", "value": "2" },
+      { "title": "TL902MHS - Lure Weight", "value": "10-40g" },
+      { "title": "TL902MHS - Line Weight", "value": "8-17lbs" },
+      { "title": "TL902MHS - Max Drag", "value": "10kgs" },
+      { "title": "TL902MHS - Weight", "value": "250g" }
+    ],
+    "features": [
+      "Premium 24T Carbon Fiber Composite Construction",
+      "Lightweight & High Strength Blank Design",
+      "Smooth & Long Distance Casting Performance",
+      "Durable K-Series Guides",
+      "High Sensitivity & Balanced Action",
+      "Ergonomic EVA Comfort Handle",
+      "Suitable for Saltwater & Freshwater Applications"
+    ],
+    "tags": ["lucana", "tackleman", "thunder line", "fishing rod", "spinning rod", "carbon rod", "shore casting", "lure fishing", "saltwater fishing", "k-series guides"],
+    "status": "active"
+  },
+  {
+    "id": 19,
+    "slug": "lucana-tiny-sp1652-spinning-rod",
+    "name": "Tiny",
+    "brand": "Lucana",
+    "category": "rods",
+    "sub_category": "spinning rods",
+    "description": "The Lucana Tiny SP1652 is a 1.65m light power spinning rod engineered with an exclusive HVF low-resin solid-glass blank for exceptional sensitivity. It features a high-quality DPS reel seat, an ergonomic EVA handle, and a 2-piece SCP joint design for convenient transport.",
+    "price": null,
+    "discount_price": null,
+    "stock": null,
+    "sku": null,
+    "images": [
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257591/19a_1.jpg"
+    ],
+    "specifications": [
+      { "title": "Model", "value": "SP1652" },
+      { "title": "Length", "value": "1.65M" },
+      { "title": "Sections", "value": "2" },
+      { "title": "Type", "value": "SPIN" },
+      { "title": "Lure Weight", "value": "7-28G" },
+      { "title": "Line Weight", "value": "4-8LBS" },
+      { "title": "Power", "value": "L" },
+      { "title": "Guides", "value": "4+1" },
+      { "title": "Max Drag", "value": "4KG" },
+      { "title": "Travel Length", "value": "830CM" },
+      { "title": "Material", "value": "HVF Low-Resin Solid-Glass" },
+      { "title": "Reel Seat", "value": "High Quality DPS Reel Seat" },
+      { "title": "Handle", "value": "Ergonomic EVA" }
+    ],
+    "color_variants": [
       {
-        "title": "Length",
-        "value": "6'0\" (1.83m)"
+        "name": "Blue",
+        "swatch": "#1e3a8a",
+        "images": [
+          "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257591/19a_1.jpg",
+          "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257232/19a_3.jpg",
+          "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257235/19a_4.jpg",
+          "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257229/19a_2.jpg"
+        ]
       },
       {
-        "title": "Power",
-        "value": "Heavy-Duty"
+        "name": "Orange",
+        "swatch": "#f97316",
+        "images": [
+          "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257520/19b_1.jpg",
+          "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257238/19b_2.jpg",
+          "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257240/19b_3.jpg"
+        ]
       },
       {
-        "title": "Action",
-        "value": "Moderate-Fast"
-      },
-      {
-        "title": "Sections",
-        "value": "2-Piece (Butt Joint)"
-      },
-      {
-        "title": "Material",
-        "value": "Solid Fiberglass E-Glass Blank"
-      },
-      {
-        "title": "Weight",
-        "value": "450 g / 15.8 oz"
-      },
-      {
-        "title": "Line Rating",
-        "value": "50 - 100 lbs"
-      },
-      {
-        "title": "Lure Rating",
-        "value": "Trolling Baits and Teasers"
+        "name": "Yellow",
+        "swatch": "#eab308",
+        "images": [
+          "https://res.cloudinary.com/xchvhbbn/image/upload/v1792290217/19c_1.jpg",
+          "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257242/19c_2.jpg",
+          "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257245/19c_3.jpg"
+        ]
       }
     ],
     "features": [
-      "Indestructible solid E-glass blank construction absorbs massive initial strikes",
-      "Heavy duty double-foot stainless guides with silicon carbide (SiC) inserts",
-      "Heavy anodized marine aluminum reel clamp mounts",
-      "Nonslip rubberized shrink-tube grip wraps"
+      "Exclusive HVF (high volume fiber) low-resin SOLID-GLASS offer unbelievable sensitivity",
+      "Navy blue fire red attractive design",
+      "SCP joint easy to carry around",
+      "High quality DPS reelseat",
+      "Ergonomic EVA handle fit your palm perfectly"
     ],
-    "line_capacity": {
-      "nylon": [],
-      "braid": []
-    },
-    "tags": [
-      "Rods",
-      "Trolling",
-      "Heavy-Duty",
-      "Deep Sea"
+    "tags": ["fishing rod", "spinning rod", "lucana", "lucana tiny", "sp1652", "solid glass rod", "light power", "lure fishing"],
+    "status": "active"
+  },
+  {
+    "id": 20,
+    "slug": "lucana-wild-black-carp-fishing-rod",
+    "name": "Wild Black",
+    "brand": "Lucana",
+    "category": "rods",
+    "sub_category": "carp rods",
+    "description": "The Lucana Wild Black Carp Fishing Rod features exclusive HVF low-resin Nano Carbon material with X-Carbon technology for exceptional power and blank strength. Designed specifically for carp fishing, it features a tangle-free K-guiding system with gold rings, an ultra-light DPS reel seat, and a durable heat-shrink handle.",
+    "price": null,
+    "discount_price": null,
+    "stock": null,
+    "sku": null,
+    "images": [
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257648/20_1.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257558/20_2.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257620/20_4.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257541/20_3.jpg"
     ],
+    "specifications": [
+      { "title": "Blank Material", "value": "Exclusive HVF Low-Resin Carbon / Nano Carbon & X-Carbon Technology" },
+      { "title": "Guide System", "value": "Tangle-Free Frame K-Guiding System with Gold Ring Technology" },
+      { "title": "Reel Seat", "value": "Ultra Light DPS Reel Seat" },
+      { "title": "Handle", "value": "Ultra Stable Heat Shrink Handle" },
+      { "title": "Model WB802", "value": "Length: 2.4M | Sections: 2 | Type: SPIN | Lure Weight: 50-150g | Line Weight: 2.5lb | Rod Weight: 285g | Guides: 5+1 | Travel Length: 127cm" },
+      { "title": "Model WB1003", "value": "Length: 3.0M | Sections: 3 | Type: SPIN | Lure Weight: 100-250g | Line Weight: 3.5lb | Rod Weight: 362g | Guides: 5+1 | Travel Length: 109cm" },
+      { "title": "Model WB1203", "value": "Length: 3.6M | Sections: 3 | Type: SPIN | Lure Weight: 100-300g | Line Weight: 3.5lb | Rod Weight: 428g | Guides: 5+1 | Travel Length: 129cm" }
+    ],
+    "features": [
+      "Exclusive HVF (high volume fiber) low-resin material",
+      "X-Carbon technology bestows unbelievable power on blank",
+      "Tangle-free frame K-guiding system coupled with gold ring technology releases line more smoothly",
+      "Ultra-light DPS reel seat offers more support on your reel leg",
+      "Equipped with ultra-stable heat shrink handle for carp fishing experience",
+      "Nano Carbon Technology"
+    ],
+    "tags": ["fishing rod", "carp fishing", "carp rod", "spinning rod", "lucana", "wild black", "carbon rod", "k-guides"],
     "status": "active"
   }
 ]

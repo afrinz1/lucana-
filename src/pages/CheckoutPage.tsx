@@ -396,9 +396,12 @@ export const CheckoutPage: React.FC = () => {
             <div className="divide-y divide-gray-100 overflow-y-auto max-h-[300px] pr-2">
               {cart.map(item => {
                 const price = getActivePrice(item.product);
-                const itemImage = getMainImage(item.product);
+                const colorVariant = item.product.color_variants?.find(variant => variant.name === item.selectedColor);
+                const itemImage = getMainImage({
+                  images: colorVariant?.images.length ? colorVariant.images : item.product.images,
+                });
                 return (
-                  <div key={item.product.id} className="py-3 flex items-center justify-between gap-4">
+                  <div key={`${item.product.id}-${item.selectedColor ?? ''}`} className="py-3 flex items-center justify-between gap-4">
                     <div className="flex items-center space-x-3">
                       <div className="w-12 h-12 bg-gray-50 border border-gray-100 rounded-md overflow-hidden shrink-0">
                         <img src={itemImage} alt={item.product.name} className="w-full h-full object-cover" referrerPolicy="no-referrer" />
@@ -408,6 +411,9 @@ export const CheckoutPage: React.FC = () => {
                         <p className="text-[10px] text-gray-400 font-bold uppercase mt-0.5">
                           {item.product.brand} &bull; Qty {item.quantity}
                         </p>
+                        {item.selectedColor && (
+                          <p className="text-[10px] text-gray-500 mt-1">Color: {item.selectedColor}</p>
+                        )}
                       </div>
                     </div>
                     <span className="text-xs font-extrabold text-gray-900 shrink-0">
