@@ -779,44 +779,6 @@
     "status": "active"
   },
   {
-    "id": 17,
-    "slug": "lucana-takugana-blue-fishing-rod",
-    "name": "Takugana",
-    "brand": "Lucana",
-    "category": "rods",
-    "sub_category": "spinning & casting rods",
-    "description": "The Lucana Takugana Blue fishing rod series features X-Carbon Technology construction paired with a distinctive blue camo EVA handle grip. Offered in Medium Heavy power in both spinning (MHS) and baitcasting (MHBC) configurations, these 2-piece rods are rated for 50-120g lures and 15-30lb lines.",
-    "price": null,
-    "discount_price": null,
-    "stock": null,
-    "sku": null,
-    "images": [
-      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257683/17_3.jpg",
-      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257642/17_1.jpg",
-      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257639/17_4.jpg",
-      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257634/17_2.jpg",
-      "https://res.cloudinary.com/xchvhbbn/image/upload/v1792257628/17_5.jpg"
-    ],
-    "specifications": [
-      { "title": "Technology", "value": "X-Carbon Technology" },
-      { "title": "Power", "value": "Medium Heavy (MH)" },
-      { "title": "Sections", "value": "2" },
-      { "title": "Handle", "value": "Blue Camo EVA Grip" },
-      { "title": "Model TGB210MHS", "value": "Type: Spinning | Sections: 2 | Lure Weight: 50-120G | Line Weight: 15-30LBS | Rod Weight: 173G" },
-      { "title": "Model TGB240MHS", "value": "Type: Spinning | Sections: 2 | Lure Weight: 50-120G | Line Weight: 15-30LBS | Rod Weight: 213G" },
-      { "title": "Model TGB210MHBC", "value": "Type: Baitcasting | Sections: 2 | Lure Weight: 50-120G | Line Weight: 15-30LBS | Rod Weight: 165G" }
-    ],
-    "features": [
-      "X-Carbon technology blank construction",
-      "Available in both Spinning (MHS) and Baitcasting (MHBC) versions",
-      "2-section design for easy transport",
-      "Stylish blue camo pattern EVA handle",
-      "Lure weight rating of 50-120g and line rating of 15-30lbs"
-    ],
-    "tags": ["fishing rod", "spinning rod", "casting rod", "baitcasting rod", "carbon rod", "lucana", "takugana blue", "lure fishing"],
-    "status": "active"
-  },
-  {
     "id": 18,
     "slug": "lucana-tackleman-thunder-line-spinning-rod",
     "name": "Thunder Line",

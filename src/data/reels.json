@@ -3,7 +3,7 @@
   {
     "id": 1,
     "slug": "predator-200-all-rounder-reel",
-    "name": "Predator 200 All-Rounder Reel",
+    "name": "Predator 200",
     "brand": "Predator",
     "category": "reels",
     "sub_category": "baitcasting reels",
@@ -13,10 +13,10 @@
     "stock": 24,
     "sku": "RL-PR200-01",
     "images": [
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/a_180/v1788696936/Predator_200_uvtn2q.png",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1784650690/20260704_112336.jpg_nkcxog.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1784650691/20260704_112248.jpg_yf87ga.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1784650689/20260704_112325_2.jpg_jkbju4.jpg"
+      "https://res.cloudinary.com/xchvhbbn/image/upload/a_180/v1793282125/21L_1.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282076/21L_3.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282070/21L_2.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282070/21L_4.jpg"
     ],
     "specifications": [
       {
@@ -84,10 +84,11 @@
     "stock": null,
     "sku": null,
     "images": [
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1788696927/AR250_kc7e7c.png",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071671/20260722_161957_l6pium.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071672/20260722_162037_ct9mzn.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071671/20260722_162023_pzji8k.jpg"
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282079/1L_1.png",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282122/1L_5.png",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282122/1L_3.png",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282123/1L_4.png",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282125/1L_2.png"
     ],
     "specifications": [
       {
@@ -127,10 +128,10 @@
     "stock": null,
     "sku": null,
     "images": [
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/a_180/v1788696927/AUBA_14_kuemqi.png",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071728/20260722_163947_qfu8gz.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071730/20260722_163952_nevxjz.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071691/20260722_164000_t6nskr.jpg"
+      "https://res.cloudinary.com/xchvhbbn/image/upload/a_180/v1793282188/2L_4.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282934/2L_3.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282087/2L_2.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282078/2L_1.jpg"
     ],
     "specifications": [
       {
@@ -227,17 +228,17 @@
     "name": "BATTLE SHORE",
     "brand": "Lucana",
     "category": "reels",
-    "sub_category": "Baitcasting Reels",
+    "sub_category": "baitcasting reels",
     "description": "The Lucana Battle Shore baitcasting reel combines striking gold-anodized accents with extreme saltwater durability. Built with a rigid, corrosion-proof aluminum frame and a robust 12.5kg carbon drag, it provides the torque and control needed for chasing saltwater game.",
     "price": null,
     "discount_price": null,
     "stock": null,
     "sku": null,
     "images": [
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/a_180/v1788696926/BATTLE_SHORE_wagcxe.png",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071743/20260722_165754_cpdowm.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071735/20260722_165800_b4ym8j.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071732/20260722_165804_w9qlnd.jpg"
+      "https://res.cloudinary.com/xchvhbbn/image/upload/a_180/v1793282121/3L_6.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282940/3L_4.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793281112/3L_1.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282087/3L_2.jpg"
     ],
     "specifications": [
       {
@@ -348,10 +349,10 @@
     "stock": null,
     "sku": null,
     "images": [
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1788697911/Blacktail_BT5000_jcmzqv.png",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071753/20260722_162347_yho0kk.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071754/20260722_162356_opf6ms.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071689/20260722_162420_yokdpe.jpg"
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793281113/5L_4.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282089/5L_2.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282928/5L_3.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793281112/5L_1.jpg"
     ],
     "specifications": [
       {
@@ -441,10 +442,10 @@
     "stock": null,
     "sku": null,
     "images": [
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1788698024/BLANCO_B330_hkde4e.png",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071690/20260722_161304_nwkwdh.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071693/20260722_161318_qasmkf.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071692/20260722_161332_ijtmm5.jpg"
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282124/7L_4.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793281114/7L_1.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282121/7L_2.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282927/7L_3.jpg"
     ],
     "specifications": [
       {
@@ -506,10 +507,10 @@
     "stock": null,
     "sku": null,
     "images": [
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1788698246/Fantasy_4000_ajel0h.png",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071751/20260722_165911_b8lx9s.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071741/20260722_165916_qqjgwk.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071728/20260722_165920_nr3tnd.jpg"
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793281156/8L_4.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282940/8L_3.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282088/8L_1.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793281113/8L_2.jpg"
     ],
     "specifications": [
       {
@@ -596,10 +597,9 @@
     "stock": null,
     "sku": null,
     "images": [
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/a_180/v1788698439/flicker_skd0ln.png",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071689/20260722_161720_svrhgt.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071693/20260722_161731_yifvvx.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071686/20260722_161742_vm4jzo.jpg"
+      "https://res.cloudinary.com/xchvhbbn/image/upload/a_180/v1793282071/10L_4.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282155/10L_1.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282941/10L_3.jpg"
     ],
     "specifications": [
       {
@@ -681,10 +681,9 @@
     "stock": null,
     "sku": null,
     "images": [
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1788696946/FOX_6000_hyjat0.png",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071741/20260722_165315_mspzxx.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071751/20260722_165323_tec2j3.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071727/20260722_165332_e0vgrk.jpg"
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282924/11L_4.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282938/11L_3.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282077/11L_1.jpg"
     ],
     "specifications": [
       {
@@ -766,10 +765,10 @@
     "stock": null,
     "sku": null,
     "images": [
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1788700912/Glitter_tbmqj9.png",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071748/20260722_170931_ee2unb.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071760/20260722_170938_f1lzsd.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071692/20260722_170944_plelys.jpg"
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793291293/12L_4.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282933/12L_3.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282088/12L_2.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282070/12L_1.jpg"
     ],
     "specifications": [
       {
@@ -819,10 +818,10 @@
     "stock": null,
     "sku": null,
     "images": [
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/a_180/v1788696930/Golden_Eagle_vasfsq.png",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071753/20260722_171432_yfauli.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071747/20260722_171438_pxdvgf.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071689/20260722_171444_d5jvab.jpg"
+      "https://res.cloudinary.com/xchvhbbn/image/upload/a_180/v1793282925/13L_4.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282124/13L_3.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282071/13L_2.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282071/13L_1.jpg"
     ],
     "specifications": [
       {
@@ -929,10 +928,10 @@
     "stock": null,
     "sku": null,
     "images": [
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1788696931/Jasper_J330_mtphfs.png",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071745/20260722_165426_vp5ybo.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071751/20260722_165435_zzcivp.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071692/20260722_165447_jxg4ak.jpg"
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282122/14L_4.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282931/14L_3.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282089/14L_2.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282071/14L_1.jpg"
     ],
     "specifications": [
       {
@@ -998,10 +997,10 @@
     "stock": null,
     "sku": "K150",
     "images": [
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/a_180/v1788696931/Komodo_K150_hhnjtw.png",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071760/20260722_163159_mp4lya.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071734/20260722_163208_ep7dw6.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071730/20260722_163219_tivehy.jpg"
+      "https://res.cloudinary.com/xchvhbbn/image/upload/a_180/v1793282925/15L_4.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282936/15L_3.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282089/15L_1.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282072/15L_2.jpg"
     ],
     "specifications": [
       {
@@ -1088,10 +1087,10 @@
     "stock": null,
     "sku": "K3000",
     "images": [
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1788701229/Komodo_K3000_y8nmwn.png",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071764/20260722_171320_ywrjth.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071740/20260722_171328_spiovi.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071697/20260722_171334_tp5yiu.jpg"
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282071/16L_4.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282087/16L_1.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282122/16L_2.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282942/16L_3.jpg"
     ],
     "specifications": [
       {
@@ -1183,10 +1182,10 @@
     "stock": null,
     "sku": null,
     "images": [
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1788701356/Magnum_vlfujg.png",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071745/20260722_170023_yw9kxo.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071731/20260722_170030_hlkztf.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071688/20260722_170046_ug3max.jpg"
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282070/17L_4.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282942/17L_3.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282070/17L_1.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282070/17L_2.jpg"
     ],
     "specifications": [
       {
@@ -1246,10 +1245,10 @@
     "stock": null,
     "sku": null,
     "images": [
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1788701584/Navigator_rz6q8e.png",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071764/20260722_165054_d8afqf.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071773/20260722_165100_w9fovb.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071692/20260722_165105_uoowv1.jpg"
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282072/18L_4.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282933/18L_3.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282088/18L_1.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282076/18L_2.jpg"
     ],
     "specifications": [
       {
@@ -1310,10 +1309,10 @@
     "stock": null,
     "sku": null,
     "images": [
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1788696934/Ninja_kwpwys.png",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071753/20260722_162819_dve9ag.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071749/20260722_162833_ibtmin.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071735/20260722_162840_uy1por.jpg"
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793281112/l19_1.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282077/l19_3.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282946/l19_4.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282086/l19_2.jpg"
     ],
     "specifications": [
       {
@@ -1371,17 +1370,17 @@
     "name": "Pacific SW",
     "brand": null,
     "category": "reels",
-    "sub_category": "Baitcasting Reels",
+    "sub_category": "baitcasting reels",
     "description": "The Pacific SW is a high-performance baitcasting reel built to handle the rigors of coastal saltwater fishing. Combining a rigid aluminum body with lightweight carbon side plates and a micro-adjustable magnetic brake, it delivers high-torque retrieves and exceptional casting control.",
     "price": null,
     "discount_price": null,
     "stock": null,
     "sku": null,
     "images": [
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/a_180/v1788696933/Pacific_SW_lw3jgi.png",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071737/20260722_164100_h5obau.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071759/20260722_164109_txe5wy.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071736/20260722_164128_rmh94b.jpg"
+      "https://res.cloudinary.com/xchvhbbn/image/upload/a_180/v1793281111/20L_4.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282929/20L_3.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793281111/20L_2.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793281111/20L_1.jpg"
     ],
     "specifications": [
       {
@@ -1443,10 +1442,10 @@
     "stock": null,
     "sku": null,
     "images": [
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1788696937/Predator_5000_bqk6b4.png",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071687/20260722_163346_vh6n22.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071757/20260722_163352_upq5o4.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071734/20260722_163400_ncbkst.jpg"
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282124/22L_4.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282947/22L_3.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282123/22L_1.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282106/22L_2.jpg"
     ],
     "specifications": [
       {
@@ -1502,10 +1501,10 @@
     "stock": null,
     "sku": null,
     "images": [
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1788696935/Reno_II_4000_cp5tzn.png",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071748/20260722_163457_g3j2lv.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071764/20260722_163503_fld0tt.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071727/20260722_163511_omtysk.jpg"
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282072/23L_4.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282086/23L_1.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282120/23L_2.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282940/23L_3.jpg"
     ],
     "specifications": [
       {
@@ -1580,10 +1579,10 @@
     "stock": null,
     "sku": null,
     "images": [
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1788696937/Skipper_500_uzgluk.png",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071749/20260722_170634_ranhmz.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071751/20260722_170641_lkczb0.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071693/20260722_170650_mrapea.jpg"
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282073/25L_4.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282936/25L_3.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282078/25L_1.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282072/25L_2.jpg"
     ],
     "specifications": [
       {
@@ -1659,10 +1658,10 @@
     "stock": null,
     "sku": null,
     "images": [
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1788702168/Spin_60_l5jcvk.png",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071741/20260722_163023_cnpi0x.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071746/20260722_163031_h9gslt.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071695/20260722_163040_elbfay.jpg"
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793281107/26L_4.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282935/26L_3.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282086/26L_1.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793281109/26L_2.jpg"
     ],
     "specifications": [
       {
@@ -1736,10 +1735,10 @@
     "stock": null,
     "sku": null,
     "images": [
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1788696937/Stone_Island_V2_SW_4000_qxxdb7.png",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071757/20260722_170400_q4ih2j.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071753/20260722_170412_wrcm2q.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071738/20260722_170428_v5bz7w.jpg"
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793281107/27L_4.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282931/27L_3.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793281109/27L_2.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793281108/27L_1.jpg"
     ],
     "specifications": [
       {
@@ -1825,10 +1824,10 @@
     "stock": null,
     "sku": null,
     "images": [
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1788702305/Streak_k5gb85.png",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071762/20260722_165626_jcukdf.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071764/20260722_165635_ymfaos.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071695/20260722_165643_tmu3mu.jpg"
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793281109/28L_4.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282933/28L_3.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793281109/28L_1.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793281109/28L_2.jpg"
     ],
     "specifications": [
       {
@@ -1918,10 +1917,10 @@
     "stock": null,
     "sku": null,
     "images": [
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1788702415/Surfcaster_SC9000_qziakp.png",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071760/20260722_164641_m9gmca.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071767/20260722_164646_epibne.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071758/20260722_164652_mt5mff.jpg"
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793281108/29L_4.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282943/29L_3.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282087/29L_2.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282086/29L_1.jpg"
     ],
     "specifications": [
       {
@@ -1996,10 +1995,10 @@
     "stock": null,
     "sku": null,
     "images": [
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1788702470/Tacklman_WW6000_f5sjzi.png",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071674/20260722_162145_audjek.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071683/20260722_162204_gvze95.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071686/20260722_162215_gat6dx.jpg"
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793281109/30L_4.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282949/30L_3.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282088/30L_1.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793281109/30L_2.jpg"
     ],
     "specifications": [
       {
@@ -2057,10 +2056,10 @@
     "stock": null,
     "sku": null,
     "images": [
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1788702587/Feather_F_1000_ogffwr.png",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071687/20260722_170153_vrhmu7.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071689/20260722_170202_fpdri2.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071672/20260722_170216_kvgdkj.jpg"
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282069/9L_5.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282936/9L_4.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282078/9L_1.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282088/9L_2.jpg"
     ],
     "specifications": [
       {
@@ -2146,16 +2145,17 @@
     "name": "TAKUGANA",
     "brand": "TAKUGANA",
     "category": "reels",
-    "sub_category": "Baitcasting Reels",
+    "sub_category": "baitcasting reels",
     "description": "The TAKUGANA is an eye-catching, high-speed baitcasting reel engineered for pinpoint accuracy. Combining a quick 7.3:1 gear ratio, an advanced carbon fiber drag system, and a 10-piece magnetic brake, it offers exceptional casting control in a striking red finish.",
     "price": null,
     "discount_price": null,
     "stock": null,
     "sku": null,
     "images": [
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/a_180/v1788696942/TAKUGANA_f6mysr.png",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071664/20260722_171532_ggnzmc.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071665/20260722_171545_unleec.jpg"
+      "https://res.cloudinary.com/xchvhbbn/image/upload/av1793282925/31L_4.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282929/31L_3.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793281110/31L_2.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793281110/31L_1.jpg"
     ],
     "specifications": [
       {
@@ -2269,10 +2269,10 @@
     "stock": null,
     "sku": null,
     "images": [
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1788702710/TEXANUS_TX6000_ixifd4.png",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071666/20260722_164902_gdl5ei.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071670/20260722_164908_uq4vyv.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071667/20260722_164914_ph7k3l.jpg"
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793281110/33L_4.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282936/33L_3.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282077/33L_1.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793281111/33L_2.jpg"
     ],
     "specifications": [
       {
@@ -2349,10 +2349,9 @@
     "stock": null,
     "sku": null,
     "images": [
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1788696942/WILD_BLACK_8000_zlosiy.png",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071669/20260722_164752_oec3z4.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071669/20260722_164801_gujav9.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071671/20260722_164817_q02sfs.jpg"
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282082/34L_5.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282930/34L_3.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793281111/34L_2.jpg"
     ],
     "specifications": [
       {
@@ -2454,9 +2453,10 @@
     "stock": null,
     "sku": null,
     "images": [
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071737/20260722_164411_ff1itd.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071747/20260722_164417_arwe4k.jpg",
-      "https://res.cloudinary.com/dz3sbdyps/image/upload/v1785071692/20260722_164426_fzxd6z.jpg"
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793281112/4L_1.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282951/4L_3.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793281112/4L_4.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282927/4L_2.jpg"
     ],
     "specifications": [
       {
@@ -2545,5 +2545,207 @@
       "Lucana"
     ],
     "status": "active"
-  }
+  },
+  {
+    "id": 32,
+    "slug": "lucana-reno-ii-6000",
+    "name": "RENO II 6000",
+    "brand": "Lucana",
+    "category": "reels",
+    "sub_category": "Spinning Reels",
+    "description": "The Lucana RENO II 6000 is a high-performance fishing reel featuring 5+1 precision stainless steel ball bearings, a two-tone aluminium spool, and a high tensile strength graphite body. It is equipped with an aluminium power handle, a micro-adjusting smooth drag system, and a power drive gear designed for high strength. The reel also features an instant anti-reverse system, an air thick bail, and a 1-way clutch bearing.",
+    "price": null,
+    "discount_price": null,
+    "stock": null,
+    "sku": null,
+    "images": [
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282072/24L_3.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282072/24L_4.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282926/24L_1.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282925/24L_2.jpg"
+    ],
+    "specifications": [
+      {
+        "title": "Bearings",
+        "value": "5+1 Precision Stainless Steel Ball Bearings"
+      },
+      {
+        "title": "Gear Ratio",
+        "value": "4.5:1"
+      },
+      {
+        "title": "Spool",
+        "value": "Two Tone Aluminium Spool"
+      },
+      {
+        "title": "Body Material",
+        "value": "High Tensile Strength Graphite Body"
+      },
+      {
+        "title": "Handle",
+        "value": "Aluminium Power Handle"
+      },
+      {
+        "title": "Drag System",
+        "value": "Micro Adjusting Smooth Drag System"
+      }
+    ],
+    "features": [
+      "5+1 Precision Stainless Steel Ball Bearings",
+      "Two Tone Aluminium Spool",
+      "High Tensile Strength Graphite Body",
+      "Aluminium Power Handle",
+      "Micro Adjusting Smooth Drag System",
+      "Power Drive Gear Equipped For High Strength",
+      "Instant Anti-Reverse",
+      "Air Thick Bail",
+      "1 Way Clutch Bearing",
+      "5+1 Sealed Bearings"
+    ],
+    "line_capacity": {
+      "nylon": [
+        "0.35-220",
+        "0.40-165",
+        "0.45-135",
+        "12-241",
+        "15-180",
+        "18-148"
+      ],
+      "braid": null
+    },
+    "tags": [
+      "lucana",
+      "reno ii",
+      "6000",
+      "fishing reel",
+      "spinning reel"
+    ],
+    "status": "active"
+  },
+  {
+    "id": 33,
+    "slug": "lucana-blacktail-bt-5000",
+    "name": "BLACKTAIL BT 5000",
+    "brand": "Lucana",
+    "category": "reels",
+    "sub_category": "Spinning Reels",
+    "description": "The Lucana BLACKTAIL BT 5000 is a high-performance fishing reel featuring a 5.2:1 gear ratio and a powerful 15kg drag system. It is constructed with high intensity graphite material and equipped with an aluminum machined cut spool, a CNC machined power handle, and a soft EVA knob for comfort and durability.",
+    "price": null,
+    "discount_price": null,
+    "stock": null,
+    "sku": null,
+    "images": [
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793281113/6L_4.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282946/6L_2.jpg",
+      "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282121/6L_3.jpg"
+    ],
+    "specifications": [
+      {
+        "title": "Ball Bearings",
+        "value": "5+1"
+      },
+      {
+        "title": "Gear Ratio",
+        "value": "5.2:1"
+      },
+      {
+        "title": "Drag Power",
+        "value": "15 Kgs"
+      }
+    ],
+    "features": [
+      "5+1 Ball bearings",
+      "Super strong drive gear",
+      "High intensity graphite material",
+      "Computer balanced rotor",
+      "One way clutch ball bearing",
+      "Anti-Twist line roller with thick bailwire",
+      "Aluminium CNC machined power handle",
+      "Aluminum machined cut spool",
+      "Soft EVA knob"
+    ],
+    "line_capacity": {
+      "nylon": [
+        "0.35-260",
+        "0.40-200",
+        "0.45-170",
+        "10-280",
+        "12-240",
+        "15-180"
+      ],
+      "braid": null
+    },
+    "tags": [
+      "Lucana",
+      "Blacktail",
+      "BT 5000",
+      "Fishing Reel"
+    ],
+    "status": "active"
+  },
+  {
+  "id": 34,
+  "slug": "lucana-takugana-blue-fishing-rod",
+  "name": "Takugana TG 5000",
+  "brand": "Lucana",
+  "category": "reels",
+  "sub_category": "Spinning Reels",
+  "description": "The Lucana Takugana Blue fishing rod series features X-Carbon Technology construction paired with a distinctive blue camo EVA handle grip. Offered in Medium Heavy power in both spinning (MHS) and baitcasting (MHBC) configurations, these 2-piece rods are rated for 50-120g lures and 15-30lb lines.",
+  "price": null,
+  "discount_price": null,
+  "stock": null,
+  "sku": null,
+  "images": ["https://res.cloudinary.com/xchvhbbn/image/upload/v1793281112/32L_4.jpg",
+              "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282943/32L_1.jpg",
+            "https://res.cloudinary.com/xchvhbbn/image/upload/v1793282944/32L_3.jpg",
+          "https://res.cloudinary.com/xchvhbbn/image/upload/v1793281110/32L_2.jpg"],
+  "specifications": [
+    {
+      "title": "Technology",
+      "value": "X-Carbon Technology"
+    },
+    {
+      "title": "Power",
+      "value": "Medium Heavy (MH)"
+    },
+    {
+      "title": "Sections",
+      "value": "2"
+    },
+    {
+      "title": "Handle",
+      "value": "Blue Camo EVA Grip"
+    },
+    {
+      "title": "Model TGB210MHS",
+      "value": "Type: Spinning | Sections: 2 | Lure Weight: 50-120G | Line Weight: 15-30LBS | Rod Weight: 173G"
+    },
+    {
+      "title": "Model TGB240MHS",
+      "value": "Type: Spinning | Sections: 2 | Lure Weight: 50-120G | Line Weight: 15-30LBS | Rod Weight: 213G"
+    },
+    {
+      "title": "Model TGB210MHBC",
+      "value": "Type: Baitcasting | Sections: 2 | Lure Weight: 50-120G | Line Weight: 15-30LBS | Rod Weight: 165G"
+    }
+  ],
+  "features": [
+    "X-Carbon technology blank construction",
+    "Available in both Spinning (MHS) and Baitcasting (MHBC) versions",
+    "2-section design for easy transport",
+    "Stylish blue camo pattern EVA handle",
+    "Lure weight rating of 50-120g and line rating of 15-30lbs"
+  ],
+  "tags": [
+    "fishing rod",
+    "spinning rod",
+    "casting rod",
+    "baitcasting rod",
+    "carbon rod",
+    "lucana",
+    "takugana blue",
+    "lure fishing"
+  ],
+  "status": "active"
+}
 ]
